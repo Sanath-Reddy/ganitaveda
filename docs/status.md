@@ -73,7 +73,7 @@ so the API 35 image was used. Run the same test with `flutter test integration_t
 |---|---|
 | Sanskrit review of every lesson verse and the analytic-text decision (ADR 3) | Sanskrit reviewer |
 | Proofreading the OCR segments (all `ocr-draft`; some pages "to confirm") | Page images, a person |
-| Taylor 1816: 12 of 251 Līlāvatī verses (lesson verses 4 of 5, plus the opening operations). The 5th lesson verse (digit arrangements) is not in Taylor's OCR. The rest needs OCR clean-up | A person with the page images |
+| Taylor 1816: 12 of 251 Līlāvatī verses (lesson verses 4 of 5, plus the opening operations). Taylor's 1816 book has no pulveriser chapter and no digit-arrangement chapter (its contents end with ponds, bricks and timber), so Līlāvatī 261 (lesson 10) cannot be covered by Taylor; Colebrooke covers it. The rest needs OCR clean-up | A person with the page images |
 | Kannada review of all Kannada text (my drafts) | Kannada reviewer |
 | Maths teacher review of lessons and NCERT chapter numbers | Maths teacher |
 | Videos: 6 sources listed as `pending`; none ship until someone pins IDs and minutes | Watching the lectures |
