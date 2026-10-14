@@ -3,7 +3,8 @@
 Automated (CI) | Manual (milestone)
 ---|---
 - [x] Content validates; `--release` requires all reviews approved and 100% Kannada | - [ ] Airplane mode: onboarding, a full lesson and review on the reference phone
-- [x] Pack N → N+1 update and corrupted-pack rollback (`pack_update_test.dart`) | - [ ] Same, over the air from the real CDN, on a phone
+- [x] Pack N → N+1 update and corrupted-pack rollback (`pack_update_test.dart`) | - [x] Update and rollback on an Android 15 emulator against a local signed server (`ota_test.dart`)
+- [ ] Same, over the air from the real CDN, on a phone
 - [x] Every lesson card lays out at 130% and 200% text in English and Kannada | - [ ] Performance budgets (§8.6) on the reference phone, profile build
 - [x] Text colours meet WCAG AA | - [ ] TalkBack walkthrough of every lesson
 - [x] Kannada interface strings complete (gen-l10n untranslated check) | - [ ] No truncation at 200% on three phone brands

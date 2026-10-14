@@ -58,6 +58,8 @@ Android 15 (API 35) x86_64 **16 KB page size** image, software GPU. Not a phone,
 | Integration test: first launch, full lesson, kill-and-resume, review queue | passes |
 | Integration test: every lesson's cards, no exceptions | passes |
 | Integration test: practice answers typed on the app's number pad, all four problems | passes |
+| Over-the-air update: signed pack fetched over HTTP, verified, activated, survives restart | passes (`integration_test/ota_test.dart`) |
+| Corrupted active pack on disk → app rolls back to the bundled baseline | passes |
 | Memory (release, `dumpsys meminfo`) | 77 MB PSS at launch, 86 MB after onboarding; budget 250 MB |
 | Frame timings | **not meaningful**: measured in a debug build on a software-rendered emulator (p95 build 43 ms, 65% of frames over 16.7 ms). The 60 fps budget needs a profile build on the reference phone |
 
