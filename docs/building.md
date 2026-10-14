@@ -25,6 +25,18 @@ Generate the real key with `python -m tools.pack keygen <path outside the repo>`
 offline copy with both team members, and put the public key (and the next one) into
 `AppConfig._releaseKeys` in `apps/mobile/lib/app/config.dart`.
 
+## Aligning a translation (plan §5.2)
+
+```bash
+python -m tools.ingest.align > build/align-colebrooke.csv   # candidate verses per Colebrooke paragraph
+python -m tools.ingest.align evaluate                        # leave-one-out check on confirmed segments
+```
+
+The helper reads numbers (Hayashi marks numerals with `%`) and uses confirmed segments as anchors
+to estimate where each paragraph falls. On the 7 evaluable confirmed pairs it puts the right verse
+inside its window 7 times and in the top three 5 times. It parses about 150 of 247 paragraphs from
+the rough OCR. A person confirms every suggestion.
+
 ## App build flags (`--dart-define`)
 
 | Name | Meaning |

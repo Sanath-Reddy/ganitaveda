@@ -52,6 +52,10 @@ emulator, real CDN).
 | Performance on the reference phone, TalkBack walkthrough, usability rounds | Devices and students |
 | Review of the 38 concept pages (all have sources; Kannada is draft) | Maths teacher, Kannada reviewer |
 
+## Tools added after the first pass
+
+- `tools/ingest/align.py`: suggests verse alignments for translation paragraphs (see docs/building.md).
+
 ## Content notes
 
 - Āryabhaṭa 2.6 (pyramid volume) and 2.7 (sphere volume) are wrong by modern standards; their concept pages say so.
