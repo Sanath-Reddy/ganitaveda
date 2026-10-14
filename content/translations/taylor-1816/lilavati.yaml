@@ -87,3 +87,28 @@ segments:
     page: "to confirm"
     status: ocr-draft
     text: "Example. What are the cubes of 9, 27, and 125? The cubes of these numbers in succession are 729, 19683, 1953125."
+  # Chapter II, fractions. Numerals are garbled in the OCR, so only examples written out in words are used.
+  - id: seg.taylor-1816.lilavati.fractions-equivalent
+    label: "Of fractions, equivalent fractions, example"
+    verses: [verse.lilavati.35]
+    page: 26
+    status: ocr-draft
+    text: "Example. What are the equivalent fractions of two plus one fourth? Also of three minus one fourth?"
+  - id: seg.taylor-1816.lilavati.fractions-of-remainder
+    label: "Of fractions, fractions of a result, example"
+    verses: [verse.lilavati.36]
+    page: 26
+    status: ocr-draft
+    text: "Example. What is one fourth plus one third of itself, plus one half of the result? What are two thirds minus one eighth of itself, minus three sevenths of the remainder? What is one half minus one eighth of itself, plus nine sevenths of the remainder?"
+  - id: seg.taylor-1816.lilavati.fractions-sum
+    label: "Of fractions, addition, example"
+    verses: [verse.lilavati.38]
+    page: "to confirm"
+    status: ocr-draft
+    text: "Example. What is the sum of one fifth, one fourth, one third, one half, and one sixth added together? And their sum being subtracted from three, what is the remainder?"
+  - id: seg.taylor-1816.lilavati.inversion
+    label: "Of inversion, example"
+    verses: [verse.lilavati.50]
+    page: "to confirm"
+    status: ocr-draft
+    text: "Example. A quantity is multiplied by three; to the product there is added the fourth of itself multiplied by three; and this last product is divided by seven; the quotient minus one third of itself is squared, and fifty-two being subtracted from the square, to the square root of the remainder eight is added; the sum is then divided by ten, and there is obtained the quotient two. What is the quantity?"

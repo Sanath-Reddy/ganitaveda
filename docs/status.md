@@ -10,7 +10,7 @@ emulator, real CDN).
 |---|---|---|
 | §5.1 sources | GRETIL Līlāvatī (251 verse units), Brāhmasphuṭasiddhānta ch. 12 and 18 (168), Āryabhaṭīya Gaṇitapāda (all 33 root verses); Colebrooke 1817 and Clark 1930 OCR | `tools/ingest/fetch_sources.sh` (SHA-256 pinned) |
 | §5.3 scripts | Devanagari generated from source IAST; Kannada and IAST at build time | round-trip check on all 450 verses |
-| §5.2 translations | Colebrooke: 13 Līlāvatī + 6 BSS segments; Clark: all 33 Gaṇitapāda verses (OCR drafts); Taylor: 7 segments covering 4 of the 5 Līlāvatī lesson verses (OCR drafts) | coverage report; every lesson verse with a translation has one |
+| §5.2 translations | Colebrooke: 13 Līlāvatī + 6 BSS segments; Clark: all 33 Gaṇitapāda verses (OCR drafts); Taylor: 16 segments covering 4 of the 5 Līlāvatī lesson verses and the opening chapters (OCR drafts) | coverage report; every lesson verse with a translation has one |
 | §5.4 Kannada | All interface strings (185) and all content strings in English and Kannada (draft) | validator: 100% coverage; gen-l10n: no untranslated |
 | §5.5 curriculum | NCERT Classes 6–12 mapping (draft; chapter numbers 0 = to confirm) | repository tests |
 | §5.7 citations | Every work, person, concept and event cites sources | validator fails on a missing citation |
@@ -73,7 +73,7 @@ so the API 35 image was used. Run the same test with `flutter test integration_t
 |---|---|
 | Sanskrit review of every lesson verse and the analytic-text decision (ADR 3) | Sanskrit reviewer |
 | Proofreading the OCR segments (all `ocr-draft`; some pages "to confirm") | Page images, a person |
-| Taylor 1816: 12 of 251 Līlāvatī verses (lesson verses 4 of 5, plus the opening operations). Taylor's 1816 book has no pulveriser chapter and no digit-arrangement chapter (its contents end with ponds, bricks and timber), so Līlāvatī 261 (lesson 10) cannot be covered by Taylor; Colebrooke covers it. The rest needs OCR clean-up | A person with the page images |
+| Taylor 1816: 16 of 251 Līlāvatī verses (lesson verses 4 of 5, plus the opening operations and fractions). Taylor's 1816 book has no pulveriser chapter and no digit-arrangement chapter (its contents end with ponds, bricks and timber), so Līlāvatī 261 (lesson 10) cannot be covered by Taylor; Colebrooke covers it. The rest needs OCR clean-up | A person with the page images |
 | Kannada review of all Kannada text (my drafts) | Kannada reviewer |
 | Maths teacher review of lessons and NCERT chapter numbers | Maths teacher |
 | Videos: 6 sources listed as `pending`; none ship until someone pins IDs and minutes | Watching the lectures |
