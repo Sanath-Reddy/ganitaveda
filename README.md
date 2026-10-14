@@ -35,4 +35,4 @@ fvm flutter pub get            # or put ~/fvm/versions/3.47.7/bin first on PATH
 cd apps/mobile && flutter gen-l10n && flutter test && flutter run
 ```
 
-Full build, signing and release steps: [docs/building.md](docs/building.md).
+Full build, signing and release steps: [docs/building.md](docs/building.md). Review hand-off for the Sanskrit, Kannada and maths reviewers: [docs/reviewing.md](docs/reviewing.md).

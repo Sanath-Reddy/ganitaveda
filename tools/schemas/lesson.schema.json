@@ -3,48 +3,412 @@
   "$id": "lesson.schema.json",
   "type": "object",
   "properties": {
-    "id": {"$ref": "common.schema.json#/$defs/id"},
-    "version": {"type": "integer", "minimum": 1},
-    "title": {"$ref": "common.schema.json#/$defs/ltext"},
-    "subtitle": {"$ref": "common.schema.json#/$defs/ltext"},
-    "concepts": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/id"}, "minItems": 1},
-    "curriculum": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/id"}},
-    "area": {"$ref": "common.schema.json#/$defs/id"},
-    "minutes": {"type": "integer", "minimum": 1, "maximum": 30},
-    "author": {"enum": ["A", "B"]},
+    "id": {
+      "$ref": "common.schema.json#/$defs/id"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "title": {
+      "$ref": "common.schema.json#/$defs/ltext"
+    },
+    "subtitle": {
+      "$ref": "common.schema.json#/$defs/ltext"
+    },
+    "concepts": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/id"
+      },
+      "minItems": 1
+    },
+    "curriculum": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/id"
+      }
+    },
+    "area": {
+      "$ref": "common.schema.json#/$defs/id"
+    },
+    "minutes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 30
+    },
+    "author": {
+      "enum": [
+        "A",
+        "B"
+      ]
+    },
     "review": {
       "type": "object",
       "properties": {
-        "maths": {"$ref": "common.schema.json#/$defs/review"},
-        "sanskrit": {"$ref": "common.schema.json#/$defs/review"},
-        "kannada": {"$ref": "common.schema.json#/$defs/review"}
+        "maths": {
+          "$ref": "common.schema.json#/$defs/review"
+        },
+        "sanskrit": {
+          "$ref": "common.schema.json#/$defs/review"
+        },
+        "kannada": {
+          "$ref": "common.schema.json#/$defs/review"
+        }
       },
-      "required": ["maths", "sanskrit", "kannada"],
+      "required": [
+        "maths",
+        "sanskrit",
+        "kannada"
+      ],
       "additionalProperties": false
     },
-    "claims": {"$ref": "common.schema.json#/$defs/claims"},
-    "cards": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/card"}}
+    "claims": {
+      "$ref": "common.schema.json#/$defs/claims"
+    },
+    "cards": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/card"
+      }
+    },
+    "signoff": {
+      "type": "object",
+      "properties": {
+        "maths": {
+          "type": "object",
+          "properties": {
+            "by": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "by",
+            "date"
+          ],
+          "additionalProperties": false
+        },
+        "sanskrit": {
+          "type": "object",
+          "properties": {
+            "by": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "by",
+            "date"
+          ],
+          "additionalProperties": false
+        },
+        "kannada": {
+          "type": "object",
+          "properties": {
+            "by": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "by",
+            "date"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
   },
-  "required": ["id", "version", "title", "concepts", "area", "minutes", "author", "review", "cards"],
+  "required": [
+    "id",
+    "version",
+    "title",
+    "concepts",
+    "area",
+    "minutes",
+    "author",
+    "review",
+    "cards"
+  ],
   "additionalProperties": false,
   "$defs": {
     "card": {
       "type": "object",
       "properties": {
-        "type": {"type": "string"},
-        "min_engine": {"type": "integer", "minimum": 1},
-        "id": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"}
+        "type": {
+          "type": "string"
+        },
+        "min_engine": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        }
       },
-      "required": ["type", "id"],
+      "required": [
+        "type",
+        "id"
+      ],
       "allOf": [
-        {"if": {"properties": {"type": {"const": "scene"}}}, "then": {"properties": {"art": {"type": "string"}, "text": {"$ref": "common.schema.json#/$defs/ltext"}, "audio": {"type": "string"}}, "required": ["art", "text"]}},
-        {"if": {"properties": {"type": {"const": "explore"}}}, "then": {"properties": {"widget": {"type": "string"}, "params": {"type": "object"}, "prompt": {"$ref": "common.schema.json#/$defs/ltext"}, "goal": {"$ref": "common.schema.json#/$defs/ltext"}}, "required": ["widget", "params", "prompt"]}},
-        {"if": {"properties": {"type": {"const": "verse"}}}, "then": {"properties": {"verse": {"$ref": "common.schema.json#/$defs/id"}, "highlight": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/id"}}, "show_compare": {"type": "boolean"}, "intro": {"$ref": "common.schema.json#/$defs/ltext"}}, "required": ["verse"]}},
-        {"if": {"properties": {"type": {"const": "method"}}}, "then": {"properties": {"algorithm": {"type": "string"}, "inputs": {"type": "object"}, "inputs_from": {"type": "string"}, "intro": {"$ref": "common.schema.json#/$defs/ltext"}, "modern": {"$ref": "common.schema.json#/$defs/ltext"}}, "required": ["algorithm", "inputs", "intro"]}},
-        {"if": {"properties": {"type": {"const": "watch"}}}, "then": {"properties": {"segment": {"$ref": "common.schema.json#/$defs/id"}, "optional": {"type": "boolean"}}, "required": ["segment"]}},
-        {"if": {"properties": {"type": {"const": "practice"}}}, "then": {"properties": {"generator": {"type": "string"}, "count": {"type": "integer", "minimum": 1, "maximum": 8}, "difficulty": {"type": "array", "items": {"type": "integer", "minimum": 1, "maximum": 3}}}, "required": ["generator", "count"]}},
-        {"if": {"properties": {"type": {"const": "quiz"}}}, "then": {"properties": {"questions": {"type": "array", "minItems": 1, "items": {"type": "object", "properties": {"prompt": {"$ref": "common.schema.json#/$defs/ltext"}, "choices": {"type": "array", "minItems": 2, "items": {"$ref": "common.schema.json#/$defs/ltext"}}, "answer": {"type": "integer", "minimum": 0}, "why": {"$ref": "common.schema.json#/$defs/ltext"}}, "required": ["prompt", "choices", "answer"], "additionalProperties": false}}}, "required": ["questions"]}},
-        {"if": {"properties": {"type": {"const": "summary"}}}, "then": {"properties": {"key_idea": {"$ref": "common.schema.json#/$defs/ltext"}, "textbook": {"$ref": "common.schema.json#/$defs/ltext"}, "next": {"$ref": "common.schema.json#/$defs/id"}}, "required": ["key_idea"]}}
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "scene"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "art": {
+                "type": "string"
+              },
+              "text": {
+                "$ref": "common.schema.json#/$defs/ltext"
+              },
+              "audio": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "art",
+              "text"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "explore"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "widget": {
+                "type": "string"
+              },
+              "params": {
+                "type": "object"
+              },
+              "prompt": {
+                "$ref": "common.schema.json#/$defs/ltext"
+              },
+              "goal": {
+                "$ref": "common.schema.json#/$defs/ltext"
+              }
+            },
+            "required": [
+              "widget",
+              "params",
+              "prompt"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "verse"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "verse": {
+                "$ref": "common.schema.json#/$defs/id"
+              },
+              "highlight": {
+                "type": "array",
+                "items": {
+                  "$ref": "common.schema.json#/$defs/id"
+                }
+              },
+              "show_compare": {
+                "type": "boolean"
+              },
+              "intro": {
+                "$ref": "common.schema.json#/$defs/ltext"
+              }
+            },
+            "required": [
+              "verse"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "method"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "algorithm": {
+                "type": "string"
+              },
+              "inputs": {
+                "type": "object"
+              },
+              "inputs_from": {
+                "type": "string"
+              },
+              "intro": {
+                "$ref": "common.schema.json#/$defs/ltext"
+              },
+              "modern": {
+                "$ref": "common.schema.json#/$defs/ltext"
+              }
+            },
+            "required": [
+              "algorithm",
+              "inputs",
+              "intro"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "watch"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "segment": {
+                "$ref": "common.schema.json#/$defs/id"
+              },
+              "optional": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "segment"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "practice"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "generator": {
+                "type": "string"
+              },
+              "count": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 8
+              },
+              "difficulty": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 3
+                }
+              }
+            },
+            "required": [
+              "generator",
+              "count"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "quiz"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "questions": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "prompt": {
+                      "$ref": "common.schema.json#/$defs/ltext"
+                    },
+                    "choices": {
+                      "type": "array",
+                      "minItems": 2,
+                      "items": {
+                        "$ref": "common.schema.json#/$defs/ltext"
+                      }
+                    },
+                    "answer": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "why": {
+                      "$ref": "common.schema.json#/$defs/ltext"
+                    }
+                  },
+                  "required": [
+                    "prompt",
+                    "choices",
+                    "answer"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "questions"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "summary"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "key_idea": {
+                "$ref": "common.schema.json#/$defs/ltext"
+              },
+              "textbook": {
+                "$ref": "common.schema.json#/$defs/ltext"
+              },
+              "next": {
+                "$ref": "common.schema.json#/$defs/id"
+              }
+            },
+            "required": [
+              "key_idea"
+            ]
+          }
+        }
       ]
     }
   }

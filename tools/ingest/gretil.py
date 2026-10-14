@@ -237,6 +237,9 @@ def write(work: str, source: str, verses: list[Verse]) -> None:
             prev = kept.get(v.id)
             if prev and prev.get("source_text") == v.source_text:
                 row["review"] = prev.get("review", "unreviewed")
+                for key in ("reviewed_by", "reviewed_on"):
+                    if prev.get(key):
+                        row[key] = prev[key]
                 if prev.get("terms"):
                     row["terms"] = prev["terms"]
             rows.append(row)

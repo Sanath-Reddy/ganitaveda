@@ -5,18 +5,61 @@
   "items": {
     "type": "object",
     "properties": {
-      "id": {"$ref": "common.schema.json#/$defs/id"},
-      "section": {"$ref": "common.schema.json#/$defs/id"},
-      "ordinal": {"type": "integer", "minimum": 0},
-      "ref_label": {"type": "string"},
-      "devanagari": {"type": "string", "minLength": 1},
-      "source_text": {"type": "string"},
-      "source": {"$ref": "common.schema.json#/$defs/id"},
-      "review": {"$ref": "common.schema.json#/$defs/review"},
-      "terms": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/id"}},
-      "notes": {"type": "array", "items": {"type": "string"}}
+      "id": {
+        "$ref": "common.schema.json#/$defs/id"
+      },
+      "section": {
+        "$ref": "common.schema.json#/$defs/id"
+      },
+      "ordinal": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "ref_label": {
+        "type": "string"
+      },
+      "devanagari": {
+        "type": "string",
+        "minLength": 1
+      },
+      "source_text": {
+        "type": "string"
+      },
+      "source": {
+        "$ref": "common.schema.json#/$defs/id"
+      },
+      "review": {
+        "$ref": "common.schema.json#/$defs/review"
+      },
+      "terms": {
+        "type": "array",
+        "items": {
+          "$ref": "common.schema.json#/$defs/id"
+        }
+      },
+      "notes": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "reviewed_by": {
+        "type": "string"
+      },
+      "reviewed_on": {
+        "type": "string",
+        "format": "date"
+      }
     },
-    "required": ["id", "section", "ordinal", "ref_label", "devanagari", "source", "review"],
+    "required": [
+      "id",
+      "section",
+      "ordinal",
+      "ref_label",
+      "devanagari",
+      "source",
+      "review"
+    ],
     "additionalProperties": false
   }
 }
