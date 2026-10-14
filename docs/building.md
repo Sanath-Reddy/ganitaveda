@@ -33,8 +33,8 @@ python -m tools.ingest.align evaluate                        # leave-one-out che
 ```
 
 The helper reads numbers (Hayashi marks numerals with `%`) and uses confirmed segments as anchors
-to estimate where each paragraph falls. On the 7 evaluable confirmed pairs it puts the right verse
-inside its window 7 times and in the top three 5 times. It parses about 150 of 247 paragraphs from
+to estimate where each paragraph falls. On the 11 evaluable confirmed pairs it puts the right verse
+inside its window 11 times and in the top three 9 times. It parses 196 numbered paragraphs from
 the rough OCR. A person confirms every suggestion.
 
 ## App build flags (`--dart-define`)

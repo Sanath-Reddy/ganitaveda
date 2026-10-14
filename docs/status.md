@@ -31,9 +31,9 @@ emulator, real CDN).
 - Debug APK and release AAB build with Flutter 3.47.7 and JDK 21. `targetSdk` 36, `minSdk` 24,
   permissions limited to INTERNET and ACCESS_NETWORK_STATE, no AD_ID.
 - Every native library in the APK and AAB is 16 KB aligned (`tools/check_16kb.sh`).
-- Size: the AAB is 66.7 MB because it holds three ABIs. One arm64 install is about 28 MB
-  (native 21 MB, assets 5.7 MB incl. a 1.4 MB pack, code 1.6 MB), just inside the 30 MB budget;
-  `libapp.so` (8 MB) and the six font files (4.2 MB) are the places to trim if needed.
+- Size: the three-ABI AAB is 66.7 MB, but a phone downloads one ABI. Per-ABI release APKs
+  (`--split-per-abi --split-debug-info`) are 21.3 MB (armv7), 23.9 MB (arm64), 25.4 MB (x86_64),
+  inside the 30 MB budget.
 - Release builds are signed with the debug key until `android/key.properties` exists.
 
 ## Not done, and why
@@ -42,7 +42,7 @@ emulator, real CDN).
 |---|---|
 | Sanskrit review of every lesson verse and the analytic-text decision (ADR 3) | Sanskrit reviewer |
 | Proofreading the OCR segments (all `ocr-draft`; some pages "to confirm") | Page images, a person |
-| Taylor 1816: the remaining ~97% of the Līlāvatī; the digit-permutation passage (lesson 10) | Clean-up of the Internet Archive OCR, which is rough |
+| Taylor 1816: 12 of 251 Līlāvatī verses (lesson verses 4 of 5, plus the opening operations). The 5th lesson verse (digit arrangements) is not in Taylor's OCR. The rest needs OCR clean-up | A person with the page images |
 | Kannada review of all Kannada text (my drafts) | Kannada reviewer |
 | Maths teacher review of lessons and NCERT chapter numbers | Maths teacher |
 | Videos: 6 sources listed as `pending`; none ship until someone pins IDs and minutes | Watching the lectures |
@@ -50,7 +50,7 @@ emulator, real CDN).
 | Final illustrations (code-drawn placeholders now, ADR 4) | Designer |
 | Release signing key, CDN host, application ID, Play account | Team decisions (plan §14) |
 | Performance on the reference phone, TalkBack walkthrough, usability rounds | Devices and students |
-| Review of the 38 concept pages (all have sources; Kannada is draft) | Maths teacher, Kannada reviewer |
+| Review of the 40 concept pages (all have sources; Kannada is draft) | Maths teacher, Kannada reviewer |
 
 ## Tools added after the first pass
 

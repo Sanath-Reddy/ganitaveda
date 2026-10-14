@@ -4,9 +4,9 @@ from tools.ingest import align
 def test_parses_most_colebrooke_paragraphs_in_order():
     paras = align.colebrooke_paragraphs()
     nums = [n for n, _ in paras]
-    assert len(paras) > 120, len(paras)
+    assert len(paras) > 180, len(paras)
     assert nums == sorted(nums)
-    assert nums[0] <= 14 and nums[-1] > 200
+    assert nums[0] <= 14 and nums[-1] > 260
 
 
 def test_number_extraction_matches_across_languages():

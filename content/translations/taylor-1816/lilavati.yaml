@@ -56,3 +56,34 @@ segments:
     status: ocr-draft
     glossary: [gloss.hypothenuse]
     text: "Example. The side is four, and the base three; required the hypothenuse; the [base] and hypothenuse being given, required the side; and the side and hypothenuse given, required the base?"
+  # Chapter I, the opening operations (OCR clean enough here; square-root results are garbled and left out).
+  - id: seg.taylor-1816.lilavati.addition
+    label: "Section I, addition and subtraction"
+    verses: [verse.lilavati.13]
+    page: 6
+    status: ocr-draft
+    text: "Figures are added from right to left, or from left to right; and also are subtracted from right to left, or from left to right, according to their places. Example. Tell me the sum of two, five, thirty-two, one hundred and ninety-three, eighteen, ten, and one hundred? Also what is the result if this sum be subtracted from ten thousand? The sum is 360, and the remainder is 9640."
+  - id: seg.taylor-1816.lilavati.multiplication
+    label: "Section II, multiplication, example"
+    verses: [verse.lilavati.17]
+    page: "to confirm"
+    status: ocr-draft
+    text: "Example. If thou art acquainted with the method of multiplying by the multiplier itself, or by component parts of the multiplier, or by submultiples of the multiplier, or by the places of the multiplier, then tell me, my young girl whose tremulous eyes resemble those of a young fawn, what is the product of one hundred and thirty-five multiplied by twelve?"
+  - id: seg.taylor-1816.lilavati.square-rule
+    label: "Of squares, rule"
+    verses: [verse.lilavati.20]
+    page: "to confirm"
+    status: ocr-draft
+    text: "Having diminished the quantity and also increased it by any number you choose, multiply the results together, and to the product add the square of the number chosen. The sum is the square of the quantity."
+  - id: seg.taylor-1816.lilavati.square-example
+    label: "Of squares, example"
+    verses: [verse.lilavati.21]
+    page: "to confirm"
+    status: ocr-draft
+    text: "Example. What are the squares of 9, 14, 297, 10005?"
+  - id: seg.taylor-1816.lilavati.cubes
+    label: "Of cubes, example"
+    verses: [verse.lilavati.27]
+    page: "to confirm"
+    status: ocr-draft
+    text: "Example. What are the cubes of 9, 27, and 125? The cubes of these numbers in succession are 729, 19683, 1953125."

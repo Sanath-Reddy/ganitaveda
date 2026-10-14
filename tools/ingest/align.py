@@ -79,7 +79,8 @@ def colebrooke_paragraphs() -> list[tuple[int, str]]:
     stop = next(i for i, ln in enumerate(lines) if "ELEMENTAL" in ln and "ALGEBRA" in ln)
     # Paragraph heads vary in the OCR ("Rule", "Example", "Reduction of…", "Statement"), so
     # accept any capitalised word and rely on the numbers rising in step.
-    para_re = r"^\s*(\d{1,3})\s*[.:]\s+[A-Z][a-z]"
+    # Multi-stanza rules are headed with a range ("14 — 15.  Rule of multiplication").
+    para_re = r"^\s*(\d{1,3})(?:\s*[—–-]+\s*\d{1,3})?\s*[.:]\s+[A-Z][a-z]"
     start = next(i for i, ln in enumerate(lines) if i > 4000 and (m := re.match(para_re, ln)) and int(m.group(1)) <= 14)
     paras: list[tuple[int, str]] = []
     cur: list[str] = []

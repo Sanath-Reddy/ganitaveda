@@ -392,3 +392,41 @@ concepts:
     people: [person.aryabhata]
     claims:
       verses: [{source: source.clark-1930, note: "Gaṇitapāda 31"}]
+
+  - id: concept.sum-from-remainders
+    area: area.algebra
+    name: {en: "Finding a total from what is left", kn: "ಉಳಿದ ಮೊತ್ತಗಳಿಂದ ಒಟ್ಟು ಕಂಡುಹಿಡಿಯುವುದು"}
+    classical_iast: śeṣa-yoga
+    modern_name: {en: "Simultaneous equations in one sum", kn: "ಒಂದೇ ಮೊತ್ತದ ಏಕಕಾಲಿಕ ಸಮೀಕರಣಗಳು"}
+    aliases: [total from remainders, sum of quantities, successive subtraction, sheshayoga]
+    summary: {en: "If you know total − x for each quantity x, add those results and divide by (number of quantities − 1) to get the total.", kn: "ಪ್ರತಿ ರಾಶಿ x ಗೆ ಒಟ್ಟು − x ಗೊತ್ತಿದ್ದರೆ, ಆ ಫಲಗಳನ್ನು ಕೂಡಿಸಿ (ರಾಶಿಗಳ ಸಂಖ್ಯೆ − 1) ರಿಂದ ಭಾಗಿಸಿದರೆ ಒಟ್ಟು ಸಿಗುತ್ತದೆ."}
+    body:
+      en: "Suppose several quantities have a known total T, but you are told only the results of taking each one away from T. Add those results: each quantity has been taken away from T once and so is missing from the sum of results exactly once, giving (n − 1)T. Dividing by n − 1 gives T, and subtracting each result from T gives each quantity. Āryabhaṭa states exactly this."
+      kn: "ಹಲವು ರಾಶಿಗಳ ಒಟ್ಟು T ಅಜ್ಞಾತ, ಆದರೆ ಪ್ರತಿಯೊಂದನ್ನೂ T ಯಿಂದ ಕಳೆದ ಫಲಗಳು ಮಾತ್ರ ಗೊತ್ತಿವೆ ಎನ್ನಿ. ಆ ಫಲಗಳನ್ನು ಕೂಡಿಸಿದರೆ ಪ್ರತಿ ರಾಶಿಯೂ ಒಮ್ಮೆ ಮಾತ್ರ ಕಡಿಮೆ ಇರುತ್ತದೆ; ಮೊತ್ತ (n − 1)T ಆಗುತ್ತದೆ. n − 1 ರಿಂದ ಭಾಗಿಸಿದರೆ T; ಪ್ರತಿ ಫಲವನ್ನು T ಯಿಂದ ಕಳೆದರೆ ಪ್ರತಿ ರಾಶಿ. ಆರ್ಯಭಟ ಇದನ್ನೇ ಹೇಳುತ್ತಾನೆ."
+    verses:
+      - {verse: verse.aryabhatiya.2.29, role: rule}
+    related:
+      - {to: concept.equal-wealth, type: related}
+    people: [person.aryabhata]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 29"}]
+
+  - id: concept.surd-addition
+    area: area.algebra
+    name: {en: "Adding square roots", kn: "ಕರಣಿಗಳನ್ನು ಕೂಡಿಸುವುದು"}
+    classical_iast: karaṇī-yoga
+    modern_name: {en: "Adding and subtracting surds", kn: "ಕರಣಿ (ಅಭಾಗಲಬ್ಧ ಮೂಲ) ಗಳ ಕೂಡುವುದು, ಕಳೆಯುವುದು"}
+    aliases: [surds, karani, irrational numbers, add square roots, sum of roots]
+    summary: {en: "To add √a and √b, divide both by a chosen number, take roots, add, square, and multiply back.", kn: "√a ಮತ್ತು √b ಕೂಡಿಸಲು, ಆರಿಸಿದ ಸಂಖ್ಯೆಯಿಂದ ಎರಡನ್ನೂ ಭಾಗಿಸಿ, ಮೂಲ ತೆಗೆದು, ಕೂಡಿಸಿ, ವರ್ಗಿಸಿ, ಮತ್ತೆ ಗುಣಿಸಿ."}
+    body:
+      en: "A karaṇī is a number whose square root is not whole, kept as the number under the root. Brahmagupta's rule: divide the surds by a number you pick so that the quotients are perfect squares, take their roots, and square the sum of the roots (or their difference); multiply back by the picked number. For example √8 + √18: pick 2, the quotients are 4 and 9, roots 2 and 3, (2 + 3)² × 2 = 50, which is the number whose root is √8 + √18 = 5√2 = √50."
+      kn: "ಕರಣಿ ಎಂದರೆ ವರ್ಗಮೂಲ ಪೂರ್ಣಾಂಕವಲ್ಲದ ಸಂಖ್ಯೆ; ಮೂಲದ ಒಳಗಿನ ಸಂಖ್ಯೆಯಾಗಿ ಇಡುತ್ತಾರೆ. ಬ್ರಹ್ಮಗುಪ್ತನ ನಿಯಮ: ಭಾಗಲಬ್ಧಗಳು ಪೂರ್ಣವರ್ಗಗಳಾಗುವಂತೆ ನೀವು ಆರಿಸಿದ ಸಂಖ್ಯೆಯಿಂದ ಕರಣಿಗಳನ್ನು ಭಾಗಿಸಿ, ಅವುಗಳ ಮೂಲಗಳನ್ನು ತೆಗೆದು, ಮೂಲಗಳ ಮೊತ್ತದ (ಅಥವಾ ವ್ಯತ್ಯಾಸದ) ವರ್ಗ ಮಾಡಿ, ಆರಿಸಿದ ಸಂಖ್ಯೆಯಿಂದ ಮತ್ತೆ ಗುಣಿಸಿ. ಉದಾಹರಣೆಗೆ √8 + √18: 2 ಆರಿಸಿ, ಭಾಗಲಬ್ಧ 4 ಮತ್ತು 9, ಮೂಲ 2 ಮತ್ತು 3, (2 + 3)² × 2 = 50; ಅಂದರೆ √8 + √18 = 5√2 = √50."
+    verses:
+      - {verse: verse.bss.18.38, role: rule}
+    related:
+      - {to: concept.square-root, type: builds_on}
+      - {to: concept.negative-numbers, type: related}
+    people: [person.brahmagupta]
+    claims:
+      verses: [{source: source.colebrooke-1817, note: "Brahmagupta ch. 18 §39 (surds)"}]
+      history: [{source: source.plofker-2009}]

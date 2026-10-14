@@ -96,7 +96,7 @@ def test_two_line_verses_have_both_halves(content):
 
 def test_concept_pages_have_sources_and_both_languages(content):
     c, _ = content
-    assert len(c.concepts) >= 38
+    assert len(c.concepts) >= 40
     for k in c.concepts.values():
         assert k["claims"], k["id"]
         assert k["name"]["kn"] and k["body"]["kn"], k["id"]
