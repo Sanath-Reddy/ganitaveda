@@ -1,7 +1,5 @@
-note: Root verses of the Gaṇitapāda (Shukla 1976 numbering), picked out of Bhāskara I's commentary. Each line is copied exactly from the e-text and must occur exactly once in it. Verse 16 has no closing line in the e-text and verse 21 is numbered 20 there; both still need locating. The Sanskrit reviewer confirms every pick.
-todo:
-- 16
-- 21
+note: Root verses of the Gaṇitapāda (Shukla 1976 numbering), picked out of Bhāskara I's commentary. Each line is copied exactly from the e-text and must occur exactly once in it unless allow_repeat is set. All 33 verses are now located; the Sanskrit reviewer confirms every pick.
+todo: []
 ganitapada:
   1:
     lines:
@@ -31,20 +29,20 @@ ganitapada:
     - śodhyaḥ prathamāt ghanaḥ ca ghanāt || 5 ||
   6:
     lines:
+    - tribhujasya phalaśarīram samadalakoṭībhujārdhasaṃvargaḥ |
     - ūrdhvabhujātatsaṃvargārdham sa ghanaḥ ṣaḍaśriḥ iti || 6 ||
-    incomplete: Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
   7:
     lines:
+    - samapariṇāhasya ardham viṣkambhārdhahatam eva vṛttaphalam |
     - tat nijamūlena hatam ghanagolaphalam niravaśeṣam || 7 ||
-    incomplete: Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
   8:
     lines:
     - āyāmaguṇe pārśve tadyogahṛte svapātelekhe te |
     - vistarayogārdhaguṇe jñeyam kṣetraphalam āyāme || 8 ||
   9:
     lines:
+    - sarveṣām kṣetrāṇām prasādhya pārśve phalam tadabhyāsaḥ |
     - paridheḥ ṣaḍbhāgajyā viṣkambhārdhena sā tulyā || 9 ||
-    incomplete: Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
   10:
     lines:
     - caturadhikam śatam aṣṭaguṇam dvāṣaṣṭiḥ tathā sahasrāṇām |
@@ -69,10 +67,17 @@ ganitapada:
     lines:
     - śaṅkuguṇam śaṅkubhujāvivaram śaṅkubhujayoḥ viśeṣahṛtam |
     - yat labdham tā chāyā jñeyā śaṅkoḥ svamūlāt hi || 15 ||
+  16:
+    lines:
+    - chāyāguṇitam chāyāgravivaram ūnena bhājitam koṭī |
+    - śaṅkuguṇā koṭī sāJchāyābhaktā bhujā bhavati || 13 ||
+    note: The e-text's '|| 13 ||' is Bhāskara I's own count; this is Shukla's verse 16 (Clark 16).
+    corrections:
+      sāJchāyābhaktā: sā chāyābhaktā
   17:
     lines:
+    - yaḥ ca eva bhujāvargaḥ koṭīvargaḥ ca karṇavargaḥ saḥ |
     - vṛtte śarasaṃvargaḥ ardhajyāvargaḥ sa khalu dhanuṣoḥ || 17 ||
-    incomplete: Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
   18:
     lines:
     - grāsone dve vṛtte grāsaguṇe bhājayet pṛthaktvena |
@@ -85,6 +90,11 @@ ganitapada:
     lines:
     - gacchaḥ aṣṭottaraguṇitāt dviguṇādyuttaraviśeṣavargayutāt |
     - mūlam dviguṇādyūnam svottarabhajitam sarūpārdham || 20 ||
+  21:
+    lines:
+    - ekottarādyupaciteḥ gacchādyekottaratrisaṃvargaḥ |
+    - ṣaḍbhaktaḥ sa citighanaḥ saikapadaghanaḥ vimūlaḥ vā || 20 ||
+    note: 'Numbered 20 in the e-text; Shukla''s 21 (Clark 21: ''In the case of an upacitī…'').'
   22:
     lines:
     - saikasagacchapadānām kramāt trisamvargatasya ṣaṣṭhaḥ aṃśaḥ |
@@ -107,8 +117,9 @@ ganitapada:
     - labdham pramāṇabhajitam tasmāt icchāphalam idam syāt || 26 ||
   27:
     lines:
+    - chedāḥ parasparahatāḥ bhavanti guṇakārabhāgahārāṇām |
     - chedaguṇam sacchedam parasparam tat savarṇatvam || 27 ||
-    incomplete: Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
+    allow_repeat: true
   28:
     lines:
     - guṇakārāḥ bhāgaharāḥ bhāgaharāḥ te bhavanti guṇakārāḥ |

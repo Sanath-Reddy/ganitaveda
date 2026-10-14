@@ -1,0 +1,188 @@
+# Remaining Gaṇitapāda verses from the Internet Archive OCR of Clark (1930), with split hyphens and
+# footnote marks removed and obvious OCR slips fixed (upaeiii→upacitī, puna→pūrva, citigkana→citighana).
+# Clark's own spellings (no diacritics) are kept. Everything stays ocr-draft until proofread.
+translation: translation.clark-1930
+work: work.aryabhatiya
+segments:
+- id: seg.clark-1930.2.1
+  label: II.1
+  verses:
+  - verse.aryabhatiya.2.1
+  page: to confirm
+  status: ocr-draft
+  text: Having paid reverence to Brahman, the Earth, the Moon, Mercury, Venus, the Sun, Mars, Jupiter, Saturn, and the asterisms, Aryabhata sets forth here [in this work] the science which is honored at Kusumapura.
+- id: seg.clark-1930.2.2
+  label: II.2
+  verses:
+  - verse.aryabhatiya.2.2
+  page: to confirm
+  status: ocr-draft
+  text: The numbers eka [one], dasa [ten], sata [hundred], sahasra [thousand], ayuta [ten thousand], niyuta [hundred thousand], prayuta [million], koti [ten million], arbuda [hundred million], and vrnda [thousand million] are from place to place each ten times the preceding.
+- id: seg.clark-1930.2.3
+  label: II.3
+  verses:
+  - verse.aryabhatiya.2.3
+  page: to confirm
+  status: ocr-draft
+  text: A square, the area of a square, and the product of two equal quantities are called varga. The product of three equal quantities, and a solid which has twelve edges are called ghana.
+- id: seg.clark-1930.2.4
+  label: II.4
+  verses:
+  - verse.aryabhatiya.2.4
+  page: to confirm
+  status: ocr-draft
+  text: One should always divide the avarga by twice the (square) root of the (preceding) varga. After subtracting the square (of the quotient) from the varga the quotient will be the square root to the next place.
+- id: seg.clark-1930.2.5
+  label: II.5
+  verses:
+  - verse.aryabhatiya.2.5
+  page: to confirm
+  status: ocr-draft
+  text: One should divide the second aghana by three times the square of the (cube) root of the (preceding) ghana. The square (of the quotient) multiplied by three times the pūrva (that part of the cube root already found) is to be subtracted from the first aghana, and the cube (of the quotient of the above division) is to be subtracted from the ghana.
+- id: seg.clark-1930.2.6
+  label: II.6
+  verses:
+  - verse.aryabhatiya.2.6
+  page: to confirm
+  status: ocr-draft
+  text: The area of a triangle is the product of the perpendicular and half the base. Half the product of this area and the height is the volume of a solid which has six edges (pyramid).
+- id: seg.clark-1930.2.7
+  label: II.7
+  verses:
+  - verse.aryabhatiya.2.7
+  page: to confirm
+  status: ocr-draft
+  text: Half of the circumference multiplied by half the diameter is the area of a circle. This area multiplied by its own square root is the exact volume of a sphere.
+- id: seg.clark-1930.2.8
+  label: II.8
+  verses:
+  - verse.aryabhatiya.2.8
+  page: to confirm
+  status: ocr-draft
+  text: The two sides (separately) multiplied by the perpendicular and divided by their sum will give the perpendiculars (from the point where the two diagonals intersect) to the parallel sides.
+- id: seg.clark-1930.2.9
+  label: II.9
+  verses:
+  - verse.aryabhatiya.2.9
+  page: to confirm
+  status: ocr-draft
+  text: The area of any plane figure is found by determining two sides and then multiplying them together. The chord of the sixth part of the circumference is equal to the radius.
+- id: seg.clark-1930.2.13
+  label: II.13
+  verses:
+  - verse.aryabhatiya.2.13
+  page: to confirm
+  status: ocr-draft
+  text: The circle is made by turning, and the triangle and the quadrilateral by means of a karna; the horizontal is determined by water, and the perpendicular by the plumb-line.
+- id: seg.clark-1930.2.14
+  label: II.14
+  verses:
+  - verse.aryabhatiya.2.14
+  page: to confirm
+  status: ocr-draft
+  text: Add the square of the height of the gnomon to the square of its shadow. The square root of this sum is the radius of the khavrtta.
+- id: seg.clark-1930.2.15
+  label: II.15
+  verses:
+  - verse.aryabhatiya.2.15
+  page: to confirm
+  status: ocr-draft
+  text: Multiply the length of the gnomon by the distance between the gnomon and the bhuja and divide by the difference between the length of the gnomon and the length of the bhuja. The quotient will be the length of the shadow measured from the base of the gnomon.
+- id: seg.clark-1930.2.16
+  label: II.16
+  verses:
+  - verse.aryabhatiya.2.16
+  page: to confirm
+  status: ocr-draft
+  text: The distance between the ends of the two shadows multiplied by the length of the shadow and divided by the difference in length of the two shadows gives the koti. The koti multiplied by the length of the gnomon and divided by the length of the shadow gives the length of the bhuja.
+- id: seg.clark-1930.2.17
+  label: II.17
+  verses:
+  - verse.aryabhatiya.2.17
+  page: to confirm
+  status: ocr-draft
+  text: The square of the bhuja plus the square of the koti is the square of the karna.
+- id: seg.clark-1930.2.18
+  label: II.18
+  verses:
+  - verse.aryabhatiya.2.18
+  page: to confirm
+  status: ocr-draft
+  text: (The diameters of) two circles (separately) minus the grasa, multiplied by the grasa, and divided separately by the sum of (the diameters of) the two circles after the grasa has been subtracted from each, will give respectively the sampatasaras of the two circles.
+- id: seg.clark-1930.2.20
+  label: II.20
+  verses:
+  - verse.aryabhatiya.2.20
+  page: to confirm
+  status: ocr-draft
+  text: Multiply the sum of the progression by eight times the common difference, add the square of the difference between twice the first term and the common difference, take the square root of this, subtract twice the first term, divide by the common difference, add one, divide by two. The result will be the number of terms.
+- id: seg.clark-1930.2.21
+  label: II.21
+  verses:
+  - verse.aryabhatiya.2.21
+  page: to confirm
+  status: ocr-draft
+  text: In the case of an upacitī which has one for the first term and one for the common difference between the terms the product of three terms having the number of terms for the first term and one as the common difference, divided by six, is the citighana. Or the cube of the number of terms plus one, minus the cube root of this cube, divided by six.
+- id: seg.clark-1930.2.22
+  label: II.22
+  verses:
+  - verse.aryabhatiya.2.22
+  page: to confirm
+  status: ocr-draft
+  text: The sixth part of the product of three quantities consisting of the number of terms, the number of terms plus one, and twice the number of terms plus one is the sum of the squares. The square of the sum of the (original) series is the sum of the cubes.
+- id: seg.clark-1930.2.23
+  label: II.23
+  verses:
+  - verse.aryabhatiya.2.23
+  page: to confirm
+  status: ocr-draft
+  text: One should subtract the sum of the squares of two factors from the square of their sum. Half the result is the product of the two factors.
+- id: seg.clark-1930.2.24
+  label: II.24
+  verses:
+  - verse.aryabhatiya.2.24
+  page: to confirm
+  status: ocr-draft
+  text: Multiply the product (of two factors) by the square of two (4), add the square of the difference between the two factors, take the square root, add and subtract the difference between the two factors, and divide the result by two. The results will be the two factors.
+- id: seg.clark-1930.2.25
+  label: II.25
+  verses:
+  - verse.aryabhatiya.2.25
+  page: to confirm
+  status: ocr-draft
+  text: Multiply the sum of the interest on the principal and the interest on this interest by the time and by the principal. Add to this result the square of half the principal. Take the square root of this. Subtract half the principal and divide the remainder by the time. The result will be the interest on the principal.
+- id: seg.clark-1930.2.27
+  label: II.27
+  verses:
+  - verse.aryabhatiya.2.27
+  page: to confirm
+  status: ocr-draft
+  text: The denominators of multipliers and divisors are multiplied together. Multiply numerators and denominators by the other denominators in order to reduce fractions to a common denominator.
+- id: seg.clark-1930.2.28
+  label: II.28
+  verses:
+  - verse.aryabhatiya.2.28
+  page: to confirm
+  status: ocr-draft
+  text: Multipliers become divisors and divisors become multipliers, addition becomes subtraction and subtraction becomes addition in the inverse method.
+- id: seg.clark-1930.2.29
+  label: II.29
+  verses:
+  - verse.aryabhatiya.2.29
+  page: to confirm
+  status: ocr-draft
+  text: If you know the results obtained by subtracting successively from a sum of quantities each one of these quantities set these results down separately. Add them all together and divide by the number of terms less one. The result will be the sum of all the quantities.
+- id: seg.clark-1930.2.30
+  label: II.30
+  verses:
+  - verse.aryabhatiya.2.30
+  page: to confirm
+  status: ocr-draft
+  text: One should divide the difference between the pieces of money possessed by two men by the difference between the objects possessed by them. The quotient will be the value of one of the objects if the wealth of the two men is equal.
+- id: seg.clark-1930.2.31
+  label: II.31
+  verses:
+  - verse.aryabhatiya.2.31
+  page: to confirm
+  status: ocr-draft
+  text: The two distances between two planets moving in opposite directions is divided by the sum of their daily motions. The two distances between two planets moving in the same direction is divided by the difference of their daily motions. The two results (in each case) will give the time of meeting of the two in the past and in the future.

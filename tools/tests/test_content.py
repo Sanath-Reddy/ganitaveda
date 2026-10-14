@@ -75,3 +75,28 @@ def test_lesson_verses_have_a_translation(content):
         if row["translation"] == "translation.taylor-1816":
             continue  # OCR not done yet (plan §5.2)
         assert row["lesson_verses_covered"] == row["lesson_verses"], row
+
+
+def test_all_33_ganitapada_root_verses_and_clark_covers_them(content):
+    c, _ = content
+    verses = {v["ref_label"] for v in c.verses.values() if v["work"] == "work.aryabhatiya"}
+    assert verses == {f"2.{n}" for n in range(1, 34)}
+    covered = {v for s in c.segments.values() if s["translation"] == "translation.clark-1930" for v in s["verses"]}
+    assert {f"verse.aryabhatiya.2.{n}" for n in range(1, 34)} <= covered
+
+
+def test_two_line_verses_have_both_halves(content):
+    """Verses the e-text splits across commentary must carry both halves (2 lines)."""
+    c, _ = content
+    for n in (6, 7, 9, 16, 17, 21, 27):
+        v = c.verses[f"verse.aryabhatiya.2.{n}"]
+        assert v["devanagari"].count("\n") >= 1, v["id"]
+        assert "J" not in v["source_text"].replace("sāJchāyābhaktā", ""), v["id"]
+
+
+def test_concept_pages_have_sources_and_both_languages(content):
+    c, _ = content
+    assert len(c.concepts) >= 38
+    for k in c.concepts.values():
+        assert k["claims"], k["id"]
+        assert k["name"]["kn"] and k["body"]["kn"], k["id"]

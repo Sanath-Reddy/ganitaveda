@@ -1,0 +1,58 @@
+# From the Internet Archive OCR of the 1816 Bombay edition (Google Books scan,
+# bub_gb_tsTSzyC7WbIC). The OCR is rough: obvious letter errors are fixed
+# (fljing, diflbrence...), and [square brackets] mark words restored where the
+# scan is unreadable. Everything stays `ocr-draft` until proofread against the
+# page images. Passages with unreadable numbers are left out rather than guessed
+# (the alms example's total is printed 583 in the OCR; the sum is 585).
+translation: translation.taylor-1816
+work: work.lilavati
+segments:
+  - id: seg.taylor-1816.lilavati.supposition-bees
+    label: "Section V, where there is the difference"
+    verses: [verse.lilavati.55]
+    page: 34
+    status: ocr-draft
+    glossary: [gloss.arbour]
+    text: "Example. One fifth of a hive of bees flew to the Kadamba flower; one third flew to the Silandhara; three times the difference of these two numbers flew to an arbour; and one bee continued flying about, attracted on each side by the fragrant Ketaki and the Malati. What was the number of bees? The number of bees is 15."
+  - id: seg.taylor-1816.lilavati.three-rule
+    label: "Section VI, rule of three quantities"
+    verses: [verse.lilavati.73]
+    page: 41
+    status: ocr-draft
+    glossary: [gloss.quantities]
+    text: "The quantity whose product is given, and the quantity whose product is demanded, must be of the same denomination, and the first and last terms; the given product is of a different denomination and the middle term. Multiply the middle term by the quantity whose product is demanded, and divide the product thus obtained by the first term; the quotient will be the required product. In inversion operate according to the rule of inversion."
+  - id: seg.taylor-1816.lilavati.three-saffron
+    label: "Section VI, first example"
+    verses: [verse.lilavati.74]
+    page: 41
+    status: ocr-draft
+    glossary: [gloss.pala, gloss.nishca]
+    text: "Example. Two palas and a half of saffron are purchased for three sevenths of a Niska: how many will be purchased for nine Niskas?"
+  - id: seg.taylor-1816.lilavati.progression-rule
+    label: "Of progressions, rule"
+    verses: [verse.lilavati.121]
+    page: 61
+    status: ocr-draft
+    glossary: [gloss.mean-term]
+    text: "Rule. Multiply the difference by the number of terms minus one, and to the product add the first term; the result is the last term. To the last term add the first term, and halve the result; this gives the mean term. Multiply the mean term by the number of terms; this gives the sum."
+  - id: seg.taylor-1816.lilavati.progression-alms
+    label: "Of progressions, first example"
+    verses: [verse.lilavati.122]
+    page: 61
+    status: ocr-draft
+    glossary: [gloss.dramma]
+    text: "Example. The first day four drammas were given to a brahman, and this sum was increased by five each day. How many drammas were given in fifteen days?"
+  - id: seg.taylor-1816.lilavati.geometry-hypotenuse
+    label: "Part II, of geometrical operations, rule"
+    verses: [verse.lilavati.136]
+    page: "to confirm"
+    status: ocr-draft
+    glossary: [gloss.hypothenuse]
+    text: "The root of the sum of the squares of the base and side is equal to the hypothenuse. The root of the difference of the squares of the base and hypothenuse is equal to the side. [The root of] the difference of the squares of the side and hypothenuse [is] equal [to the base]."
+  - id: seg.taylor-1816.lilavati.geometry-example
+    label: "Part II, of geometrical operations, example"
+    verses: [verse.lilavati.137]
+    page: "to confirm"
+    status: ocr-draft
+    glossary: [gloss.hypothenuse]
+    text: "Example. The side is four, and the base three; required the hypothenuse; the [base] and hypothenuse being given, required the side; and the side and hypothenuse given, required the base?"

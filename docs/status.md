@@ -8,9 +8,9 @@ emulator, real CDN).
 
 | Plan | What exists | Verified by |
 |---|---|---|
-| §5.1 sources | GRETIL Līlāvatī (251 verse units), Brāhmasphuṭasiddhānta ch. 12 and 18 (168), Āryabhaṭīya Gaṇitapāda (31 of 33 root verses); Colebrooke 1817 and Clark 1930 OCR | `tools/ingest/fetch_sources.sh` (SHA-256 pinned) |
+| §5.1 sources | GRETIL Līlāvatī (251 verse units), Brāhmasphuṭasiddhānta ch. 12 and 18 (168), Āryabhaṭīya Gaṇitapāda (all 33 root verses); Colebrooke 1817 and Clark 1930 OCR | `tools/ingest/fetch_sources.sh` (SHA-256 pinned) |
 | §5.3 scripts | Devanagari generated from source IAST; Kannada and IAST at build time | round-trip check on all 450 verses |
-| §5.2 translations | Colebrooke: 13 Līlāvatī + 6 BSS segments; Clark: 6 Āryabhaṭīya segments; Taylor: listed, 0 segments | coverage report; every lesson verse with a translation has one |
+| §5.2 translations | Colebrooke: 13 Līlāvatī + 6 BSS segments; Clark: all 33 Gaṇitapāda verses (OCR drafts); Taylor: 7 segments covering 4 of the 5 Līlāvatī lesson verses (OCR drafts) | coverage report; every lesson verse with a translation has one |
 | §5.4 Kannada | All interface strings (185) and all content strings in English and Kannada (draft) | validator: 100% coverage; gen-l10n: no untranslated |
 | §5.5 curriculum | NCERT Classes 6–12 mapping (draft; chapter numbers 0 = to confirm) | repository tests |
 | §5.7 citations | Every work, person, concept and event cites sources | validator fails on a missing citation |
@@ -41,9 +41,8 @@ emulator, real CDN).
 | Item | Needs |
 |---|---|
 | Sanskrit review of every lesson verse and the analytic-text decision (ADR 3) | Sanskrit reviewer |
-| Āryabhaṭīya 2.16, 2.21 and the first halves of 2.6, 2.7, 2.9, 2.17, 2.27 | Locating in the commentary e-text |
 | Proofreading the OCR segments (all `ocr-draft`; some pages "to confirm") | Page images, a person |
-| Taylor 1816 translation | OCR of the Google Books scan |
+| Taylor 1816: the remaining ~97% of the Līlāvatī; the digit-permutation passage (lesson 10) | Clean-up of the Internet Archive OCR, which is rough |
 | Kannada review of all Kannada text (my drafts) | Kannada reviewer |
 | Maths teacher review of lessons and NCERT chapter numbers | Maths teacher |
 | Videos: 6 sources listed as `pending`; none ship until someone pins IDs and minutes | Watching the lectures |
@@ -51,7 +50,13 @@ emulator, real CDN).
 | Final illustrations (code-drawn placeholders now, ADR 4) | Designer |
 | Release signing key, CDN host, application ID, Play account | Team decisions (plan §14) |
 | Performance on the reference phone, TalkBack walkthrough, usability rounds | Devices and students |
-| ~40 concept pages (18 now) | Writing and sources |
+| Review of the 38 concept pages (all have sources; Kannada is draft) | Maths teacher, Kannada reviewer |
+
+## Content notes
+
+- Āryabhaṭa 2.6 (pyramid volume) and 2.7 (sphere volume) are wrong by modern standards; their concept pages say so.
+- Verse 16 and 21 carry the e-text's own local numbers (13, 20) in the source line; notes record why they are Shukla's 16 and 21.
+- Verse 16 has an e-text typo ("sāJchāyā"); the reading text is corrected and the verse note says so.
 
 ## Deviations from the plan
 

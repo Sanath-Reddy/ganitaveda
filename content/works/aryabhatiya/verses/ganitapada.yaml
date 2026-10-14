@@ -86,22 +86,26 @@
   section: section.aryabhatiya.ganitapada
   ordinal: 6
   ref_label: '2.6'
-  devanagari: ऊर्ध्वभुजातत्संवर्गार्धम् स घनः षडश्रिः इति ॥
-  source_text: ūrdhvabhujātatsaṃvargārdham sa ghanaḥ ṣaḍaśriḥ iti || 6 ||
+  devanagari: 'त्रिभुजस्य फलशरीरम् समदलकोटीभुजार्धसंवर्गः ।
+
+    ऊर्ध्वभुजातत्संवर्गार्धम् स घनः षडश्रिः इति ॥'
+  source_text: 'tribhujasya phalaśarīram samadalakoṭībhujārdhasaṃvargaḥ |
+
+    ūrdhvabhujātatsaṃvargārdham sa ghanaḥ ṣaḍaśriḥ iti || 6 ||'
   source: source.gretil-aryabhatiya
   review: unreviewed
-  notes:
-  - Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
 - id: verse.aryabhatiya.2.7
   section: section.aryabhatiya.ganitapada
   ordinal: 7
   ref_label: '2.7'
-  devanagari: तत् निजमूलेन हतम् घनगोलफलम् निरवशेषम् ॥
-  source_text: tat nijamūlena hatam ghanagolaphalam niravaśeṣam || 7 ||
+  devanagari: 'समपरिणाहस्य अर्धम् विष्कम्भार्धहतम् एव वृत्तफलम् ।
+
+    तत् निजमूलेन हतम् घनगोलफलम् निरवशेषम् ॥'
+  source_text: 'samapariṇāhasya ardham viṣkambhārdhahatam eva vṛttaphalam |
+
+    tat nijamūlena hatam ghanagolaphalam niravaśeṣam || 7 ||'
   source: source.gretil-aryabhatiya
   review: unreviewed
-  notes:
-  - Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
 - id: verse.aryabhatiya.2.8
   section: section.aryabhatiya.ganitapada
   ordinal: 8
@@ -118,12 +122,14 @@
   section: section.aryabhatiya.ganitapada
   ordinal: 9
   ref_label: '2.9'
-  devanagari: परिधेः षड्भागज्या विष्कम्भार्धेन सा तुल्या ॥
-  source_text: paridheḥ ṣaḍbhāgajyā viṣkambhārdhena sā tulyā || 9 ||
+  devanagari: 'सर्वेषाम् क्षेत्राणाम् प्रसाध्य पार्श्वे फलम् तदभ्यासः ।
+
+    परिधेः षड्भागज्या विष्कम्भार्धेन सा तुल्या ॥'
+  source_text: 'sarveṣām kṣetrāṇām prasādhya pārśve phalam tadabhyāsaḥ |
+
+    paridheḥ ṣaḍbhāgajyā viṣkambhārdhena sā tulyā || 9 ||'
   source: source.gretil-aryabhatiya
   review: unreviewed
-  notes:
-  - Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
 - id: verse.aryabhatiya.2.10
   section: section.aryabhatiya.ganitapada
   ordinal: 10
@@ -196,16 +202,33 @@
     yat labdham tā chāyā jñeyā śaṅkoḥ svamūlāt hi || 15 ||'
   source: source.gretil-aryabhatiya
   review: unreviewed
+- id: verse.aryabhatiya.2.16
+  section: section.aryabhatiya.ganitapada
+  ordinal: 16
+  ref_label: '2.16'
+  devanagari: 'छायागुणितम् छायाग्रविवरम् ऊनेन भाजितम् कोटी ।
+
+    शङ्कुगुणा कोटी सा छायाभक्ता भुजा भवति ॥'
+  source_text: 'chāyāguṇitam chāyāgravivaram ūnena bhājitam koṭī |
+
+    śaṅkuguṇā koṭī sāJchāyābhaktā bhujā bhavati || 13 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+  notes:
+  - The e-text's '|| 13 ||' is Bhāskara I's own count; this is Shukla's verse 16 (Clark 16).
+  - e-text reads 'sāJchāyābhaktā'; corrected to 'sā chāyābhaktā'
 - id: verse.aryabhatiya.2.17
   section: section.aryabhatiya.ganitapada
   ordinal: 17
   ref_label: '2.17'
-  devanagari: वृत्ते शरसंवर्गः अर्धज्यावर्गः स खलु धनुषोः ॥
-  source_text: vṛtte śarasaṃvargaḥ ardhajyāvargaḥ sa khalu dhanuṣoḥ || 17 ||
+  devanagari: 'यः च एव भुजावर्गः कोटीवर्गः च कर्णवर्गः सः ।
+
+    वृत्ते शरसंवर्गः अर्धज्यावर्गः स खलु धनुषोः ॥'
+  source_text: 'yaḥ ca eva bhujāvargaḥ koṭīvargaḥ ca karṇavargaḥ saḥ |
+
+    vṛtte śarasaṃvargaḥ ardhajyāvargaḥ sa khalu dhanuṣoḥ || 17 ||'
   source: source.gretil-aryabhatiya
   review: unreviewed
-  notes:
-  - Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
 - id: verse.aryabhatiya.2.18
   section: section.aryabhatiya.ganitapada
   ordinal: 18
@@ -242,6 +265,20 @@
     mūlam dviguṇādyūnam svottarabhajitam sarūpārdham || 20 ||'
   source: source.gretil-aryabhatiya
   review: unreviewed
+- id: verse.aryabhatiya.2.21
+  section: section.aryabhatiya.ganitapada
+  ordinal: 21
+  ref_label: '2.21'
+  devanagari: 'एकोत्तराद्युपचितेः गच्छाद्येकोत्तरत्रिसंवर्गः ।
+
+    षड्भक्तः स चितिघनः सैकपदघनः विमूलः वा ॥'
+  source_text: 'ekottarādyupaciteḥ gacchādyekottaratrisaṃvargaḥ |
+
+    ṣaḍbhaktaḥ sa citighanaḥ saikapadaghanaḥ vimūlaḥ vā || 20 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+  notes:
+  - 'Numbered 20 in the e-text; Shukla''s 21 (Clark 21: ''In the case of an upacitī…'').'
 - id: verse.aryabhatiya.2.22
   section: section.aryabhatiya.ganitapada
   ordinal: 22
@@ -306,12 +343,14 @@
   section: section.aryabhatiya.ganitapada
   ordinal: 27
   ref_label: '2.27'
-  devanagari: छेदगुणम् सच्छेदम् परस्परम् तत् सवर्णत्वम् ॥
-  source_text: chedaguṇam sacchedam parasparam tat savarṇatvam || 27 ||
+  devanagari: 'छेदाः परस्परहताः भवन्ति गुणकारभागहाराणाम् ।
+
+    छेदगुणम् सच्छेदम् परस्परम् तत् सवर्णत्वम् ॥'
+  source_text: 'chedāḥ parasparahatāḥ bhavanti guṇakārabhāgahārāṇām |
+
+    chedaguṇam sacchedam parasparam tat savarṇatvam || 27 ||'
   source: source.gretil-aryabhatiya
   review: unreviewed
-  notes:
-  - Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
 - id: verse.aryabhatiya.2.28
   section: section.aryabhatiya.ganitapada
   ordinal: 28

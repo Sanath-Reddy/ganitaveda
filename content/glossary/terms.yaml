@@ -207,6 +207,18 @@ glossary:
   - id: gloss.sine-clark
     headword: sine
     note: {en: "In Clark, the half-chord (ardhajyā) in a circle of a given radius: radius × the modern sine.", kn: "ಕ್ಲಾರ್ಕ್‌ನಲ್ಲಿ, ನಿರ್ದಿಷ್ಟ ತ್ರಿಜ್ಯದ ವೃತ್ತದ ಅರ್ಧಜ್ಯಾ: ತ್ರಿಜ್ಯ × ಇಂದಿನ ಸೈನ್."}
+  - id: gloss.arbour
+    headword: arbour
+    note: {en: "Taylor's word for the kuṭaja bush: a shady bower of trees or climbing plants.", kn: "ಕುಟಜದ ಪೊದೆಗೆ ಟೇಲರ್ ಬಳಸಿದ ಪದ: ಮರ ಅಥವಾ ಬಳ್ಳಿಗಳ ನೆರಳಿನ ಚಪ್ಪರ."}
+  - id: gloss.quantities
+    headword: quantities
+    note: {en: "Taylor writes 'rule of three quantities' (tri-rāśika): the rule of three, with the three quantities measure, fruit and desire.", kn: "ಟೇಲರ್ 'ಮೂರು ರಾಶಿಗಳ ನಿಯಮ' (ತ್ರೈರಾಶಿಕ) ಎಂದು ಬರೆಯುತ್ತಾರೆ: ಪ್ರಮಾಣ, ಫಲ, ಇಚ್ಛಾ ಎಂಬ ಮೂರು ರಾಶಿಗಳ ನಿಯಮ."}
+  - id: gloss.mean-term
+    headword: mean term
+    note: {en: "The middle term of a progression: the first and last terms halved together (madhya).", kn: "ಶ್ರೇಢಿಯ ಮಧ್ಯ ಪದ: ಮೊದಲ ಮತ್ತು ಕೊನೆಯ ಪದಗಳ ಮೊತ್ತದ ಅರ್ಧ."}
+  - id: gloss.hypothenuse
+    headword: hypothenuse
+    note: {en: "Taylor's spelling of hypotenuse. He calls the horizontal leg the 'base' and the upright the 'side', the other way round from Colebrooke.", kn: "ಟೇಲರ್ 'ಹೈಪೊಟೆನ್ಯೂಸ್' ಅನ್ನು ಹೀಗೆ ಬರೆಯುತ್ತಾರೆ. ಅವರು ಅಡ್ಡ ಬಾಹುವನ್ನು 'base', ಲಂಬ ಬಾಹುವನ್ನು 'side' ಎನ್ನುತ್ತಾರೆ; ಕೋಲ್‌ಬ್ರೂಕ್‌ಗೆ ವಿರುದ್ಧ."}
   - id: gloss.agra
     headword: agra
     note: {en: "A remainder left after dividing.", kn: "ಭಾಗಿಸಿದ ನಂತರ ಉಳಿಯುವ ಶೇಷ."}

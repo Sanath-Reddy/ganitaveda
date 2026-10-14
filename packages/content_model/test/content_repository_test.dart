@@ -33,19 +33,22 @@ void main() {
     }
   });
 
-  test('the bee verse in three scripts with Colebrooke beside it', () {
+  test('the bee verse in three scripts with both translations beside it', () {
     final v = repo.verse('verse.lilavati.55')!;
     expect(v.text(VerseScript.devanagari), startsWith('पञ्च'));
     expect(v.text(VerseScript.kannada), startsWith('ಪಞ್ಚ'));
     expect(v.text(VerseScript.iast), startsWith('pañca'));
     final segs = repo.segmentsFor(v.id);
-    expect(segs.single.translator, 'H. T. Colebrooke');
-    expect(segs.single.glossary.map((g) => g.headword), contains('Cadamba'));
+    // Ordered by year: Taylor (1816), then Colebrooke (1817).
+    expect(segs.map((s) => s.translator), ['John Taylor', 'H. T. Colebrooke']);
+    expect(segs.last.glossary.map((g) => g.headword), contains('Cadamba'));
   });
 
   test('translation coverage is reported honestly', () {
     final t = {for (final x in repo.translations()) x.id: x};
-    expect(t['translation.taylor-1816']!.covered, 0);
+    expect(t['translation.clark-1930']!.covered, t['translation.clark-1930']!.total, reason: 'all 33 Gaṇitapāda verses');
+    expect(t['translation.taylor-1816']!.covered, greaterThan(0));
+    expect(t['translation.taylor-1816']!.covered, lessThan(t['translation.taylor-1816']!.total));
     expect(t['translation.colebrooke-1817']!.covered, greaterThan(0));
   });
 

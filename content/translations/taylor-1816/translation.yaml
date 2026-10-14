@@ -1,5 +1,4 @@
-# No segments yet: the 1816 Bombay edition exists only as a Google Books scan
-# and still needs OCR (plan §5.2). The picker shows its coverage as 0.
+# Segments are in lilavati.yaml: OCR drafts of the passages the lessons use. The rest is still to do.
 id: translation.taylor-1816
 translator: John Taylor
 year: 1816

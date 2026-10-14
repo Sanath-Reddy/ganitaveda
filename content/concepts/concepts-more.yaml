@@ -1,0 +1,394 @@
+# More concept pages (plan §4.4). Each links verses in the version 1 texts and cites
+# its sources; Kannada is draft for the Kannada reviewer. Where a classical rule is
+# wrong by modern standards the page says so.
+concepts:
+  - id: concept.parikarma
+    area: area.arithmetic
+    name: {en: "The eight operations", kn: "ಎಂಟು ಮೂಲ ಕ್ರಿಯೆಗಳು"}
+    classical_iast: parikarma-aṣṭaka
+    modern_name: {en: "Basic arithmetic", kn: "ಮೂಲ ಅಂಕಗಣಿತ"}
+    aliases: [parikarma, eight operations, addition, multiplication, division, basic arithmetic]
+    summary: {en: "Addition, subtraction, multiplication, division, square, square root, cube and cube root.", kn: "ಕೂಡುವುದು, ಕಳೆಯುವುದು, ಗುಣಿಸುವುದು, ಭಾಗಿಸುವುದು, ವರ್ಗ, ವರ್ಗಮೂಲ, ಘನ ಮತ್ತು ಘನಮೂಲ."}
+    body:
+      en: "Bhāskara opens the Līlāvatī with eight working operations on whole numbers. He first names the places up to a parārdha, ten to the power seventeen, and then gives each rule, most of them working digit by digit from the left or right. The same eight come again for fractions."
+      kn: "ಭಾಸ್ಕರ ಲೀಲಾವತಿಯನ್ನು ಪೂರ್ಣಾಂಕಗಳ ಮೇಲಿನ ಎಂಟು ಕ್ರಿಯೆಗಳಿಂದ ಆರಂಭಿಸುತ್ತಾನೆ. ಮೊದಲು ಪರಾರ್ಧ (ಹತ್ತರ ಹದಿನೇಳನೇ ಘಾತ) ವರೆಗಿನ ಸ್ಥಾನಗಳಿಗೆ ಹೆಸರು ಕೊಟ್ಟು, ನಂತರ ಪ್ರತಿ ನಿಯಮವನ್ನು ಕೊಡುತ್ತಾನೆ; ಹೆಚ್ಚಿನವು ಅಂಕಿ ಅಂಕಿಯಾಗಿ ನಡೆಯುತ್ತವೆ. ಭಿನ್ನರಾಶಿಗಳಿಗೂ ಇದೇ ಎಂಟು ಮತ್ತೆ ಬರುತ್ತವೆ."
+    verses:
+      - {verse: verse.lilavati.10, role: rule}
+      - {verse: verse.lilavati.14, role: rule}
+      - {verse: verse.lilavati.18, role: rule}
+    related:
+      - {to: concept.squaring, type: related}
+      - {to: concept.cube-root, type: related}
+      - {to: concept.place-value, type: builds_on}
+    people: [person.bhaskara-ii]
+    claims:
+      verses: [{source: source.colebrooke-1817, note: "Līlāvatī, chapter 2"}]
+
+  - id: concept.squaring
+    area: area.arithmetic
+    name: {en: "Squaring", kn: "ವರ್ಗ ಮಾಡುವುದು"}
+    classical_iast: varga
+    modern_name: {en: "Squares and (a + b)²", kn: "ವರ್ಗ ಮತ್ತು (a + b)²"}
+    aliases: [square, varga, squaring, expand square]
+    summary: {en: "A square is a number multiplied by itself; split the number in two and (a + b)² = a² + b² + 2ab.", kn: "ವರ್ಗ ಎಂದರೆ ಸಂಖ್ಯೆಯನ್ನು ಅದರಿಂದಲೇ ಗುಣಿಸಿದ್ದು; ಸಂಖ್ಯೆಯನ್ನು ಎರಡು ಭಾಗ ಮಾಡಿದರೆ (a + b)² = a² + b² + 2ab."}
+    body:
+      en: "Bhāskara defines the square as the product of two equal numbers, and gives two ways to find it: a digit-by-digit scheme, and splitting the number into two parts, whose product doubled, added to the squares of the parts, is the square. His examples include 9, 14, 297 and 10,005."
+      kn: "ಭಾಸ್ಕರ ವರ್ಗವನ್ನು ಎರಡು ಸಮ ಸಂಖ್ಯೆಗಳ ಗುಣಲಬ್ಧ ಎಂದು ವ್ಯಾಖ್ಯಾನಿಸುತ್ತಾನೆ; ಕಂಡುಹಿಡಿಯಲು ಎರಡು ದಾರಿ ಕೊಡುತ್ತಾನೆ: ಅಂಕಿ ಅಂಕಿಯ ಕ್ರಮ, ಮತ್ತು ಸಂಖ್ಯೆಯನ್ನು ಎರಡು ಭಾಗ ಮಾಡಿ, ಭಾಗಗಳ ಗುಣಲಬ್ಧದ ಎರಡರಷ್ಟನ್ನು ಭಾಗಗಳ ವರ್ಗಗಳಿಗೆ ಕೂಡಿಸುವುದು. ಅವನ ಉದಾಹರಣೆಗಳಲ್ಲಿ 9, 14, 297, 10,005 ಇವೆ."
+    verses:
+      - {verse: verse.lilavati.19, role: rule}
+      - {verse: verse.lilavati.20, role: rule}
+      - {verse: verse.aryabhatiya.2.3, role: rule}
+    related:
+      - {to: concept.square-root, type: related}
+    people: [person.bhaskara-ii, person.aryabhata]
+    claims:
+      verses: [{source: source.colebrooke-1817, note: "Līlāvatī §§ on squares"}, {source: source.clark-1930, note: "Gaṇitapāda 3"}]
+
+  - id: concept.cube-root
+    area: area.arithmetic
+    name: {en: "Cubes and cube roots", kn: "ಘನ ಮತ್ತು ಘನಮೂಲ"}
+    classical_iast: ghana, ghana-mūla
+    modern_name: {en: "Cube and cube root", kn: "ಘನ ಮತ್ತು ಘನಮೂಲ"}
+    aliases: [cube, cube root, ghana, ghanamula]
+    summary: {en: "A cube is a number multiplied by itself twice; the cube root is found one place at a time.", kn: "ಘನ ಎಂದರೆ ಸಂಖ್ಯೆಯನ್ನು ಅದರಿಂದಲೇ ಎರಡು ಬಾರಿ ಗುಣಿಸಿದ್ದು; ಘನಮೂಲವನ್ನು ಒಂದೊಂದೇ ಸ್ಥಾನವಾಗಿ ಕಂಡುಹಿಡಿಯುತ್ತಾರೆ."}
+    body:
+      en: "Āryabhaṭa defines ghana as both the product of three equal numbers and a solid with twelve edges, the cube. His cube-root rule divides by three times the square of the root found so far, then takes away the cube of the new digit. Bhāskara gives the same scheme, and the splitting rule (a + b)³ for cubing."
+      kn: "ಆರ್ಯಭಟ 'ಘನ'ವನ್ನು ಮೂರು ಸಮ ಸಂಖ್ಯೆಗಳ ಗುಣಲಬ್ಧ ಮತ್ತು ಹನ್ನೆರಡು ಅಂಚುಗಳ ಘನವಸ್ತು ಎರಡೂ ಎಂದು ವ್ಯಾಖ್ಯಾನಿಸುತ್ತಾನೆ. ಅವನ ಘನಮೂಲ ನಿಯಮ, ಇದುವರೆಗಿನ ಮೂಲದ ವರ್ಗದ ಮೂರರಷ್ಟರಿಂದ ಭಾಗಿಸಿ, ನಂತರ ಹೊಸ ಅಂಕಿಯ ಘನವನ್ನು ಕಳೆಯುತ್ತದೆ. ಭಾಸ್ಕರ ಇದೇ ಕ್ರಮವನ್ನೂ, ಘನ ಮಾಡಲು (a + b)³ ವಿಭಜನೆಯ ನಿಯಮವನ್ನೂ ಕೊಡುತ್ತಾನೆ."
+    verses:
+      - {verse: verse.aryabhatiya.2.3, role: rule}
+      - {verse: verse.aryabhatiya.2.5, role: rule}
+      - {verse: verse.lilavati.24, role: rule}
+      - {verse: verse.lilavati.28, role: rule}
+    related:
+      - {to: concept.square-root, type: related}
+    people: [person.aryabhata, person.bhaskara-ii]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 3, 5"}, {source: source.colebrooke-1817, note: "Līlāvatī on cubes"}]
+
+  - id: concept.common-denominator
+    area: area.arithmetic
+    name: {en: "Common denominators", kn: "ಸಮಚ್ಛೇದ"}
+    classical_iast: sa-cheda, savarṇana
+    modern_name: {en: "Reducing to a common denominator", kn: "ಸಮಾನ ಛೇದಕ್ಕೆ ತರುವುದು"}
+    aliases: [common denominator, same denominator, savarnana, lcm denominators]
+    summary: {en: "Multiply each numerator and denominator by the other denominators so every fraction shares one denominator.", kn: "ಪ್ರತಿ ಅಂಶ ಮತ್ತು ಛೇದವನ್ನು ಉಳಿದ ಛೇದಗಳಿಂದ ಗುಣಿಸಿ, ಎಲ್ಲ ಭಿನ್ನರಾಶಿಗಳು ಒಂದೇ ಛೇದ ಹೊಂದುವಂತೆ ಮಾಡಿ."}
+    body:
+      en: "Āryabhaṭa says to multiply the denominators of multipliers and divisors together, and to multiply numerators and denominators by the other denominators to reduce fractions to a common one. Bhāskara adds that you may first cancel common factors, which keeps the numbers small."
+      kn: "ಆರ್ಯಭಟ: ಗುಣಕ ಮತ್ತು ಭಾಜಕಗಳ ಛೇದಗಳನ್ನು ಒಟ್ಟಾಗಿ ಗುಣಿಸಿ; ಅಂಶ ಮತ್ತು ಛೇದಗಳನ್ನು ಉಳಿದ ಛೇದಗಳಿಂದ ಗುಣಿಸಿ ಸಮಾನ ಛೇದಕ್ಕೆ ತನ್ನಿ. ಭಾಸ್ಕರ ಮೊದಲು ಸಾಮಾನ್ಯ ಅಪವರ್ತನಗಳನ್ನು ಕಳೆದರೆ ಸಂಖ್ಯೆಗಳು ಚಿಕ್ಕದಾಗಿರುತ್ತವೆ ಎಂದು ಸೇರಿಸುತ್ತಾನೆ."
+    verses:
+      - {verse: verse.aryabhatiya.2.27, role: rule}
+      - {verse: verse.lilavati.30, role: rule}
+    related:
+      - {to: concept.fractions, type: builds_on}
+    people: [person.aryabhata, person.bhaskara-ii]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 27"}, {source: source.colebrooke-1817}]
+
+  - id: concept.inverse-method
+    area: area.arithmetic
+    name: {en: "Working backwards", kn: "ಹಿಂದಿನಿಂದ ಲೆಕ್ಕ"}
+    classical_iast: viloma-vidhi
+    modern_name: {en: "Inverse operations", kn: "ವಿಲೋಮ ಕ್ರಿಯೆಗಳು"}
+    aliases: [inversion, viloma, reverse method, undo steps, inverse]
+    summary: {en: "Undo the steps from the end: multipliers become divisors, additions become subtractions.", kn: "ಕೊನೆಯಿಂದ ಹೆಜ್ಜೆಗಳನ್ನು ರದ್ದು ಮಾಡಿ: ಗುಣಕ ಭಾಜಕವಾಗುತ್ತದೆ, ಕೂಡುವುದು ಕಳೆಯುವುದಾಗುತ್ತದೆ."}
+    body:
+      en: "When a number has been through a chain of operations and you know the result, start from the result and reverse each step in turn. Āryabhaṭa states the swap exactly; Bhāskara's puzzle is 'tell me the number which, doubled, multiplied, and so on …' and he says the clever calculator solves it with the inverse rule."
+      kn: "ಸಂಖ್ಯೆ ಹಲವು ಕ್ರಿಯೆಗಳ ಮೂಲಕ ಹೋಗಿ ಫಲ ಗೊತ್ತಿದ್ದರೆ, ಫಲದಿಂದ ಆರಂಭಿಸಿ ಪ್ರತಿ ಹೆಜ್ಜೆಯನ್ನು ಹಿಮ್ಮುಖವಾಗಿ ರದ್ದು ಮಾಡಿ. ಆರ್ಯಭಟ ಈ ಅದಲುಬದಲನ್ನು ನಿಖರವಾಗಿ ಹೇಳುತ್ತಾನೆ; ಭಾಸ್ಕರನ ಒಗಟು 'ಇಷ್ಟನ್ನು ಗುಣಿಸಿ, ಕೂಡಿಸಿ… ಬಂದ ಸಂಖ್ಯೆ ಹೇಳು', ಅದನ್ನು ವಿಲೋಮ ನಿಯಮದಿಂದ ಬಿಡಿಸುತ್ತಾನೆ."
+    verses:
+      - {verse: verse.aryabhatiya.2.28, role: rule}
+      - {verse: verse.lilavati.50, role: example}
+    related:
+      - {to: concept.ishta-karma, type: related}
+    people: [person.aryabhata, person.bhaskara-ii]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 28"}, {source: source.colebrooke-1817, note: "Līlāvatī, the rule of inversion (§47)"}]
+
+  - id: concept.interest
+    area: area.arithmetic
+    name: {en: "Interest", kn: "ಬಡ್ಡಿ"}
+    classical_iast: vṛddhi
+    modern_name: {en: "Simple interest and its inverse", kn: "ಸರಳ ಬಡ್ಡಿ ಮತ್ತು ಅದರ ವಿಲೋಮ"}
+    aliases: [interest, simple interest, vriddhi, money lending, principal]
+    summary: {en: "Find the interest on a principal over a time, and work backwards to the rate.", kn: "ಅಸಲಿನ ಮೇಲೆ ನಿರ್ದಿಷ್ಟ ಕಾಲದ ಬಡ್ಡಿ ಕಂಡುಹಿಡಿಯಿರಿ, ಮತ್ತು ಹಿಂದಿನಿಂದ ದರ ಕಂಡುಹಿಡಿಯಿರಿ."}
+    body:
+      en: "Āryabhaṭa treats a loan where interest itself earns interest, and asks for the interest on the principal alone. His rule needs a square root, so it is a quadratic worked in words. Bhāskara's chapter on mixtures also asks 'five kalā per month on a hundred: what after a year?'"
+      kn: "ಆರ್ಯಭಟ ಬಡ್ಡಿಗೂ ಬಡ್ಡಿ ಬರುವ ಸಾಲವನ್ನು ಪರಿಗಣಿಸಿ, ಅಸಲಿನ ಮೇಲಿನ ಬಡ್ಡಿಯನ್ನು ಕೇಳುತ್ತಾನೆ. ಅವನ ನಿಯಮಕ್ಕೆ ವರ್ಗಮೂಲ ಬೇಕು; ಅಂದರೆ ಮಾತಿನಲ್ಲಿ ಬಿಡಿಸಿದ ವರ್ಗ ಸಮೀಕರಣ. ಭಾಸ್ಕರನ ಮಿಶ್ರಕ ವ್ಯವಹಾರದಲ್ಲಿ 'ತಿಂಗಳಿಗೆ ನೂರಕ್ಕೆ ಐದು ಕಲಾ: ಒಂದು ವರ್ಷದ ನಂತರ?' ಎಂಬಂತಹ ಲೆಕ್ಕಗಳಿವೆ."
+    verses:
+      - {verse: verse.aryabhatiya.2.25, role: rule}
+      - {verse: verse.lilavati.83, role: example}
+    related:
+      - {to: concept.square-root, type: requires}
+      - {to: concept.trairashika, type: builds_on}
+    people: [person.aryabhata, person.bhaskara-ii]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 25"}, {source: source.colebrooke-1817, note: "Līlāvatī, chapter on mixtures"}]
+
+  - id: concept.equal-wealth
+    area: area.algebra
+    name: {en: "Two merchants of equal wealth", kn: "ಸಮ ಸಂಪತ್ತಿನ ಇಬ್ಬರು ವ್ಯಾಪಾರಿಗಳು"}
+    classical_iast: tulya-dhana
+    modern_name: {en: "A linear equation in one unknown", kn: "ಒಂದು ಅಜ್ಞಾತದ ರೇಖೀಯ ಸಮೀಕರಣ"}
+    aliases: [linear equation, equal wealth, price of one, two men, balance]
+    summary: {en: "Divide the difference in money by the difference in goods to get the price of one item.", kn: "ಹಣದ ವ್ಯತ್ಯಾಸವನ್ನು ವಸ್ತುಗಳ ವ್ಯತ್ಯಾಸದಿಂದ ಭಾಗಿಸಿದರೆ ಒಂದು ವಸ್ತುವಿನ ಬೆಲೆ ಸಿಗುತ್ತದೆ."}
+    body:
+      en: "Two men own different amounts of money and different numbers of the same article, yet they are equally rich. If one has m coins and a articles and the other n coins and b articles, then a·x + m = b·x + n, and Āryabhaṭa's rule gives x = (n − m) ÷ (a − b). This is an early linear equation solved without any letters."
+      kn: "ಇಬ್ಬರ ಬಳಿ ಬೇರೆಬೇರೆ ಹಣ ಮತ್ತು ಒಂದೇ ವಸ್ತುವಿನ ಬೇರೆಬೇರೆ ಸಂಖ್ಯೆ ಇದೆ, ಆದರೂ ಅವರ ಸಂಪತ್ತು ಸಮ. ಒಬ್ಬನ ಬಳಿ m ನಾಣ್ಯ ಮತ್ತು a ವಸ್ತು, ಇನ್ನೊಬ್ಬನ ಬಳಿ n ನಾಣ್ಯ ಮತ್ತು b ವಸ್ತು ಇದ್ದರೆ a·x + m = b·x + n; ಆರ್ಯಭಟನ ನಿಯಮ x = (n − m) ÷ (a − b) ಕೊಡುತ್ತದೆ. ಇದು ಅಕ್ಷರಗಳಿಲ್ಲದೆ ಬಿಡಿಸಿದ ಆರಂಭಿಕ ರೇಖೀಯ ಸಮೀಕರಣ."
+    verses:
+      - {verse: verse.aryabhatiya.2.30, role: rule}
+    related:
+      - {to: concept.negative-numbers, type: related}
+    people: [person.aryabhata]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 30"}]
+
+  - id: concept.sankramana
+    area: area.algebra
+    name: {en: "Sum and difference", kn: "ಮೊತ್ತ ಮತ್ತು ವ್ಯತ್ಯಾಸ"}
+    classical_iast: saṅkramaṇa
+    modern_name: {en: "Two numbers from their sum and difference", kn: "ಮೊತ್ತ ಮತ್ತು ವ್ಯತ್ಯಾಸದಿಂದ ಎರಡು ಸಂಖ್ಯೆಗಳು"}
+    aliases: [sankramana, concurrence, sum and difference, two numbers]
+    summary: {en: "Half the sum plus half the difference is the larger number; half the sum minus half the difference is the smaller.", kn: "ಮೊತ್ತದ ಅರ್ಧ + ವ್ಯತ್ಯಾಸದ ಅರ್ಧ = ದೊಡ್ಡ ಸಂಖ್ಯೆ; ಮೊತ್ತದ ಅರ್ಧ − ವ್ಯತ್ಯಾಸದ ಅರ್ಧ = ಚಿಕ್ಕ ಸಂಖ್ಯೆ."}
+    body:
+      en: "Add the difference to the sum and halve it for the larger number, take it from the sum and halve it for the smaller: that is saṅkramaṇa, 'transfer'. Brahmagupta and Bhāskara both give it. Bhāskara's example: two numbers add to 101 and differ by 25; find them."
+      kn: "ವ್ಯತ್ಯಾಸವನ್ನು ಮೊತ್ತಕ್ಕೆ ಕೂಡಿಸಿ ಅರ್ಧ ಮಾಡಿದರೆ ದೊಡ್ಡ ಸಂಖ್ಯೆ; ಮೊತ್ತದಿಂದ ಕಳೆದು ಅರ್ಧ ಮಾಡಿದರೆ ಚಿಕ್ಕ ಸಂಖ್ಯೆ: ಇದೇ ಸಂಕ್ರಮಣ. ಬ್ರಹ್ಮಗುಪ್ತ ಮತ್ತು ಭಾಸ್ಕರ ಇಬ್ಬರೂ ಇದನ್ನು ಕೊಡುತ್ತಾರೆ. ಭಾಸ್ಕರನ ಉದಾಹರಣೆ: ಎರಡು ಸಂಖ್ಯೆಗಳ ಮೊತ್ತ 101, ವ್ಯತ್ಯಾಸ 25; ಅವುಗಳನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ."
+    verses:
+      - {verse: verse.bss.18.36, role: rule}
+      - {verse: verse.lilavati.57, role: example}
+    related:
+      - {to: concept.equal-wealth, type: related}
+    people: [person.brahmagupta, person.bhaskara-ii]
+    claims:
+      verses: [{source: source.colebrooke-1817, note: "Brahmagupta ch. 18 §37; Līlāvatī, concurrence"}]
+
+  - id: concept.sum-and-product
+    area: area.algebra
+    name: {en: "Factors from sum and product", kn: "ಮೊತ್ತ ಮತ್ತು ಗುಣಲಬ್ಧದಿಂದ ಸಂಖ್ಯೆಗಳು"}
+    classical_iast: guṇakāra-saṃvarga
+    modern_name: {en: "Quadratic relations", kn: "ವರ್ಗ ಸಂಬಂಧಗಳು"}
+    aliases: [quadratic, product of two numbers, sum of squares, factors]
+    summary: {en: "From the sum and the sum of squares you get the product; from the product and the difference you get the two numbers.", kn: "ಮೊತ್ತ ಮತ್ತು ವರ್ಗಗಳ ಮೊತ್ತದಿಂದ ಗುಣಲಬ್ಧ ಸಿಗುತ್ತದೆ; ಗುಣಲಬ್ಧ ಮತ್ತು ವ್ಯತ್ಯಾಸದಿಂದ ಎರಡು ಸಂಖ್ಯೆಗಳು ಸಿಗುತ್ತವೆ."}
+    body:
+      en: "Āryabhaṭa gives two companion rules. Subtract the sum of the squares from the square of the sum and halve it, and you have the product ab. Given ab and the difference d, the numbers are (√(4ab + d²) ± d) ÷ 2. Both come from (a + b)² = a² + b² + 2ab."
+      kn: "ಆರ್ಯಭಟ ಎರಡು ಜೋಡಿ ನಿಯಮಗಳನ್ನು ಕೊಡುತ್ತಾನೆ. ಮೊತ್ತದ ವರ್ಗದಿಂದ ವರ್ಗಗಳ ಮೊತ್ತವನ್ನು ಕಳೆದು ಅರ್ಧ ಮಾಡಿದರೆ ಗುಣಲಬ್ಧ ab. ab ಮತ್ತು ವ್ಯತ್ಯಾಸ d ಗೊತ್ತಿದ್ದರೆ ಸಂಖ್ಯೆಗಳು (√(4ab + d²) ± d) ÷ 2. ಎರಡೂ (a + b)² = a² + b² + 2ab ನಿಂದ ಬರುತ್ತವೆ."
+    verses:
+      - {verse: verse.aryabhatiya.2.23, role: rule}
+      - {verse: verse.aryabhatiya.2.24, role: rule}
+    related:
+      - {to: concept.squaring, type: builds_on}
+      - {to: concept.sankramana, type: related}
+    people: [person.aryabhata]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 23, 24"}]
+
+  - id: concept.number-of-terms
+    area: area.series
+    name: {en: "How many terms?", kn: "ಎಷ್ಟು ಪದಗಳು?"}
+    classical_iast: gaccha-ānayana
+    modern_name: {en: "Solving for n in an arithmetic progression", kn: "ಸಮಾಂತರ ಶ್ರೇಢಿಯಲ್ಲಿ n ಕಂಡುಹಿಡಿಯುವುದು"}
+    aliases: [number of terms, find n, quadratic in progression, gaccha]
+    summary: {en: "Given the sum, first term and difference, find how many terms there are, with a square root.", kn: "ಮೊತ್ತ, ಮೊದಲ ಪದ ಮತ್ತು ವ್ಯತ್ಯಾಸ ಗೊತ್ತಿದ್ದರೆ ಪದಗಳ ಸಂಖ್ಯೆಯನ್ನು ವರ್ಗಮೂಲದೊಂದಿಗೆ ಕಂಡುಹಿಡಿಯಿರಿ."}
+    body:
+      en: "The sum of n terms is S = n(2a + (n − 1)d) ÷ 2, a quadratic in n. Āryabhaṭa solves it in words: multiply S by 8d, add (2a − d)², take the square root, subtract 2a, divide by d, add 1 and halve. That is n = (√(8dS + (2a − d)²) − 2a) ÷ d + 1) ÷ 2, the quadratic formula for this case."
+      kn: "n ಪದಗಳ ಮೊತ್ತ S = n(2a + (n − 1)d) ÷ 2, ಇದು n ನಲ್ಲಿ ವರ್ಗ ಸಮೀಕರಣ. ಆರ್ಯಭಟ ಇದನ್ನು ಮಾತಿನಲ್ಲಿ ಬಿಡಿಸುತ್ತಾನೆ: S ಅನ್ನು 8d ಯಿಂದ ಗುಣಿಸಿ, (2a − d)² ಕೂಡಿಸಿ, ವರ್ಗಮೂಲ ತೆಗೆದು, 2a ಕಳೆದು, d ಯಿಂದ ಭಾಗಿಸಿ, 1 ಕೂಡಿಸಿ, ಅರ್ಧ ಮಾಡಿ. ಅಂದರೆ n = (√(8dS + (2a − d)²) − 2a) ÷ d + 1) ÷ 2; ಈ ಸಂದರ್ಭಕ್ಕೆ ವರ್ಗ ಸೂತ್ರ."
+    verses:
+      - {verse: verse.aryabhatiya.2.20, role: rule}
+    related:
+      - {to: concept.sredhi, type: builds_on}
+      - {to: concept.square-root, type: requires}
+    people: [person.aryabhata]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 20"}]
+
+  - id: concept.pile-sums
+    area: area.series
+    name: {en: "Piles of bricks", kn: "ಇಟ್ಟಿಗೆಗಳ ರಾಶಿ"}
+    classical_iast: citi
+    modern_name: {en: "Sums of triangular numbers", kn: "ತ್ರಿಕೋನ ಸಂಖ್ಯೆಗಳ ಮೊತ್ತ"}
+    aliases: [citi, pile, triangular numbers, tetrahedral numbers, stack of bricks]
+    summary: {en: "1 + 3 + 6 + 10 + … for n terms is n(n + 1)(n + 2) ÷ 6.", kn: "n ಪದಗಳ 1 + 3 + 6 + 10 + … = n(n + 1)(n + 2) ÷ 6."}
+    body:
+      en: "Stack bricks in layers of 1, 3, 6, 10, … and the whole pile is a citi. Āryabhaṭa gives the number in the pile as the product of three consecutive numbers divided by six, or the cube of (n + 1) less its cube root, divided by six (a cube root of a cube is the number itself). His rule for the sum of the squares comes next."
+      kn: "1, 3, 6, 10, … ಇಟ್ಟಿಗೆಗಳ ಪದರಗಳನ್ನು ಪೇರಿಸಿದರೆ ಇಡೀ ರಾಶಿ ಒಂದು 'ಚಿತಿ'. ಆರ್ಯಭಟ ರಾಶಿಯಲ್ಲಿನ ಸಂಖ್ಯೆಯನ್ನು ಮೂರು ಕ್ರಮಾಗತ ಸಂಖ್ಯೆಗಳ ಗುಣಲಬ್ಧವನ್ನು ಆರರಿಂದ ಭಾಗಿಸಿದುದು ಎಂದು, ಅಥವಾ (n + 1) ರ ಘನದಿಂದ ಅದರ ಘನಮೂಲವನ್ನು ಕಳೆದು ಆರರಿಂದ ಭಾಗಿಸಿದುದು ಎಂದು ಕೊಡುತ್ತಾನೆ. ವರ್ಗಗಳ ಮೊತ್ತದ ನಿಯಮ ಮುಂದೆ ಬರುತ್ತದೆ."
+    verses:
+      - {verse: verse.aryabhatiya.2.21, role: rule}
+      - {verse: verse.aryabhatiya.2.22, role: rule}
+    related:
+      - {to: concept.sums-of-powers, type: builds_on}
+    people: [person.aryabhata]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 21, 22"}]
+
+  - id: concept.triangle-area
+    area: area.geometry
+    name: {en: "Area of a triangle, and a pyramid", kn: "ತ್ರಿಭುಜದ ವಿಸ್ತೀರ್ಣ, ಮತ್ತು ಪಿರಮಿಡ್"}
+    classical_iast: tribhuja-phala
+    modern_name: {en: "Half base times height", kn: "½ × ಪಾದ × ಎತ್ತರ"}
+    aliases: [triangle, area of triangle, pyramid, tetrahedron, volume of pyramid]
+    summary: {en: "The area is the altitude times half the base. The volume rule for the six-edged solid is not right.", kn: "ವಿಸ್ತೀರ್ಣ = ಲಂಬ × ಪಾದದ ಅರ್ಧ. ಆರು ಅಂಚುಗಳ ಘನವಸ್ತುವಿನ ಘನಫಲದ ನಿಯಮ ಸರಿಯಲ್ಲ."}
+    body:
+      en: "Āryabhaṭa: the area of a triangle is the altitude times half the base, which is correct. He then says half the product of that area and the height is the volume of a solid with six edges. Read as a pyramid on a triangular base (a tetrahedron) the true volume is one third, not one half, so this verse contains a well-known error."
+      kn: "ಆರ್ಯಭಟ: ತ್ರಿಭುಜದ ವಿಸ್ತೀರ್ಣ = ಲಂಬ × ಪಾದದ ಅರ್ಧ; ಇದು ಸರಿ. ನಂತರ ಆ ವಿಸ್ತೀರ್ಣ ಮತ್ತು ಎತ್ತರದ ಗುಣಲಬ್ಧದ ಅರ್ಧ ಆರು ಅಂಚುಗಳ ಘನವಸ್ತುವಿನ ಘನಫಲ ಎನ್ನುತ್ತಾನೆ. ತ್ರಿಭುಜ ತಳದ ಪಿರಮಿಡ್ (ಚತುಷ್ಫಲಕ) ಎಂದು ಓದಿದರೆ ನಿಜವಾದ ಘನಫಲ ಮೂರನೇ ಒಂದು ಭಾಗ, ಅರ್ಧವಲ್ಲ; ಆದ್ದರಿಂದ ಈ ಪದ್ಯದಲ್ಲಿ ಪ್ರಸಿದ್ಧವಾದ ದೋಷವಿದೆ."
+    verses:
+      - {verse: verse.aryabhatiya.2.6, role: rule}
+    related:
+      - {to: concept.cyclic-quadrilateral, type: related}
+    people: [person.aryabhata]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 6"}]
+      history: [{source: source.plofker-2009, note: "on the Āryabhaṭīya's volume rules; page to pin"}]
+
+  - id: concept.circle-area-sphere
+    area: area.geometry
+    name: {en: "Circle and sphere", kn: "ವೃತ್ತ ಮತ್ತು ಗೋಳ"}
+    classical_iast: vṛtta-phala, ghana-gola-phala
+    modern_name: {en: "Area of a circle and volume of a sphere", kn: "ವೃತ್ತದ ವಿಸ್ತೀರ್ಣ ಮತ್ತು ಗೋಳದ ಘನಫಲ"}
+    aliases: [area of circle, volume of sphere, sphere, circle area, half circumference times half diameter]
+    summary: {en: "Half the circumference times half the diameter is the area. The sphere rule given beside it is only approximate.", kn: "ಪರಿಧಿಯ ಅರ್ಧ × ವ್ಯಾಸದ ಅರ್ಧ = ವಿಸ್ತೀರ್ಣ. ಅದರ ಜೊತೆಗಿರುವ ಗೋಳದ ನಿಯಮ ಸುಮಾರಿನದು ಮಾತ್ರ."}
+    body:
+      en: "Half the circumference times half the diameter is the area of a circle, πr², which is exactly right. Āryabhaṭa adds that this area times its own square root is the volume of a sphere. That gives about 5.57 r³, but the true volume is about 4.19 r³, so the verse's word for 'exact' should not be taken at face value."
+      kn: "ಪರಿಧಿಯ ಅರ್ಧ × ವ್ಯಾಸದ ಅರ್ಧ = ವೃತ್ತದ ವಿಸ್ತೀರ್ಣ πr²; ಇದು ಸರಿಯಾಗಿದೆ. ಈ ವಿಸ್ತೀರ್ಣವನ್ನು ಅದರ ವರ್ಗಮೂಲದಿಂದ ಗುಣಿಸಿದರೆ ಗೋಳದ ಘನಫಲ ಎಂದು ಆರ್ಯಭಟ ಸೇರಿಸುತ್ತಾನೆ. ಅದು ಸುಮಾರು 5.57 r³ ಕೊಡುತ್ತದೆ, ಆದರೆ ನಿಜವಾದ ಘನಫಲ ಸುಮಾರು 4.19 r³; ಆದ್ದರಿಂದ ಪದ್ಯದ 'ನಿಖರ' ಎಂಬ ಪದವನ್ನು ಅಕ್ಷರಶಃ ತೆಗೆದುಕೊಳ್ಳಬಾರದು."
+    verses:
+      - {verse: verse.aryabhatiya.2.7, role: rule}
+      - {verse: verse.aryabhatiya.2.10, role: rule}
+    related:
+      - {to: concept.circle-circumference, type: builds_on}
+    people: [person.aryabhata]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 7"}]
+      history: [{source: source.plofker-2009, note: "on the sphere rule; page to pin"}]
+
+  - id: concept.plane-figures
+    area: area.geometry
+    name: {en: "Areas of plane figures", kn: "ಸಮತಲ ಆಕೃತಿಗಳ ವಿಸ್ತೀರ್ಣ"}
+    classical_iast: samatala-kṣetra-phala
+    modern_name: {en: "Mean length times mean breadth", kn: "ಸರಾಸರಿ ಉದ್ದ × ಸರಾಸರಿ ಅಗಲ"}
+    aliases: [plane figure, area of any figure, parallel sides, perpendicular from diagonals, trapezium area]
+    summary: {en: "Find two sides that stand for the average length and breadth and multiply them.", kn: "ಸರಾಸರಿ ಉದ್ದ ಮತ್ತು ಅಗಲವನ್ನು ಪ್ರತಿನಿಧಿಸುವ ಎರಡು ಬಾಹುಗಳನ್ನು ಕಂಡು ಗುಣಿಸಿ."}
+    body:
+      en: "Āryabhaṭa gives a general rule for the area of any plane figure: determine two sides and multiply them, which is exact for a rectangle and a good rule of thumb for others. He also gives the heights from the point where the diagonals of a trapezium cross, found by multiplying a side by the height and dividing by the sum of the sides."
+      kn: "ಯಾವುದೇ ಸಮತಲ ಆಕೃತಿಯ ವಿಸ್ತೀರ್ಣಕ್ಕೆ ಆರ್ಯಭಟ ಸಾಮಾನ್ಯ ನಿಯಮ ಕೊಡುತ್ತಾನೆ: ಎರಡು ಬಾಹುಗಳನ್ನು ನಿರ್ಧರಿಸಿ ಗುಣಿಸಿ; ಇದು ಆಯತಕ್ಕೆ ನಿಖರ, ಇತರಕ್ಕೆ ಒಳ್ಳೆಯ ಅಂದಾಜು. ಸಮಾಂತರ ಬಾಹುಗಳ ಚತುರ್ಭುಜದ ಕರ್ಣಗಳು ಸೇರುವ ಬಿಂದುವಿನಿಂದ ಎತ್ತರಗಳನ್ನೂ ಕೊಡುತ್ತಾನೆ: ಬಾಹುವನ್ನು ಎತ್ತರದಿಂದ ಗುಣಿಸಿ ಬಾಹುಗಳ ಮೊತ್ತದಿಂದ ಭಾಗಿಸಿ."
+    verses:
+      - {verse: verse.aryabhatiya.2.8, role: rule}
+      - {verse: verse.aryabhatiya.2.9, role: rule}
+    related:
+      - {to: concept.triangle-area, type: related}
+      - {to: concept.cyclic-quadrilateral, type: generalises}
+    people: [person.aryabhata]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 8, 9"}]
+
+  - id: concept.gnomon-shadow
+    area: area.geometry
+    name: {en: "The gnomon and its shadow", kn: "ಶಂಕು ಮತ್ತು ಅದರ ನೆರಳು"}
+    classical_iast: śaṅku-chāyā
+    modern_name: {en: "Similar triangles with shadows", kn: "ನೆರಳುಗಳೊಂದಿಗೆ ಸರೂಪ ತ್ರಿಭುಜಗಳು"}
+    aliases: [gnomon, shadow, chaya, similar triangles, height of lamp, sanku]
+    summary: {en: "From a stick and its shadows, find the height of a lamp or how far away it stands.", kn: "ಕೋಲು ಮತ್ತು ಅದರ ನೆರಳುಗಳಿಂದ ದೀಪದ ಎತ್ತರ ಅಥವಾ ದೂರ ಕಂಡುಹಿಡಿಯಿರಿ."}
+    body:
+      en: "A vertical stick (śaṅku) casts a shadow from a lamp. Āryabhaṭa gives the length of the shadow from the stick, the distance to the lamp's foot and the lamp's height; and, from two shadows of the same stick, the distance and the height. All rest on similar triangles, which he states as the rule of three."
+      kn: "ನೇರ ಕೋಲು (ಶಂಕು) ದೀಪದಿಂದ ನೆರಳು ಬೀಳಿಸುತ್ತದೆ. ಕೋಲು, ದೀಪದ ಬುಡದ ದೂರ ಮತ್ತು ದೀಪದ ಎತ್ತರದಿಂದ ನೆರಳಿನ ಉದ್ದವನ್ನು ಆರ್ಯಭಟ ಕೊಡುತ್ತಾನೆ; ಅದೇ ಕೋಲಿನ ಎರಡು ನೆರಳುಗಳಿಂದ ದೂರ ಮತ್ತು ಎತ್ತರವನ್ನೂ ಕೊಡುತ್ತಾನೆ. ಎಲ್ಲವೂ ಸರೂಪ ತ್ರಿಭುಜಗಳ ಮೇಲೆ ನಿಂತಿದೆ; ಅವನು ಅದನ್ನು ತ್ರೈರಾಶಿಕವಾಗಿ ಹೇಳುತ್ತಾನೆ."
+    verses:
+      - {verse: verse.aryabhatiya.2.14, role: rule}
+      - {verse: verse.aryabhatiya.2.15, role: rule}
+      - {verse: verse.aryabhatiya.2.16, role: rule}
+    related:
+      - {to: concept.trairashika, type: builds_on}
+      - {to: concept.bhuja-koti-karna, type: requires}
+    people: [person.aryabhata]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 14–16"}]
+
+  - id: concept.circle-construction
+    area: area.geometry
+    name: {en: "Drawing with cord, water and plumb-line", kn: "ಹಗ್ಗ, ನೀರು ಮತ್ತು ಲಂಬದ ದಾರದಿಂದ ರಚನೆ"}
+    classical_iast: vṛtta-sādhana
+    modern_name: {en: "Constructing figures and levels", kn: "ಆಕೃತಿ ಮತ್ತು ಮಟ್ಟ ರಚನೆ"}
+    aliases: [construction, plumb line, water level, drawing circle, compass]
+    summary: {en: "A circle by turning a cord, a triangle or quadrilateral by a diagonal, level by water, upright by plumb-line.", kn: "ಹಗ್ಗವನ್ನು ತಿರುಗಿಸಿ ವೃತ್ತ, ಕರ್ಣದಿಂದ ತ್ರಿಭುಜ ಅಥವಾ ಚತುರ್ಭುಜ, ನೀರಿನಿಂದ ಮಟ್ಟ, ಲಂಬದ ದಾರದಿಂದ ಲಂಬ."}
+    body:
+      en: "Before drawing instruments, builders and astronomers made figures on the ground. Āryabhaṭa lists the tools: turn a cord about a peg for a circle, fix a diagonal to hold a triangle or quadrilateral, use water to find a horizontal and a plumb-line for the vertical. The Śulbasūtra altar-builders worked the same way."
+      kn: "ಉಪಕರಣಗಳಿಲ್ಲದ ಕಾಲದಲ್ಲಿ ಕಟ್ಟುವವರು ಮತ್ತು ಖಗೋಳಶಾಸ್ತ್ರಜ್ಞರು ನೆಲದ ಮೇಲೆ ಆಕೃತಿ ಬಿಡಿಸುತ್ತಿದ್ದರು. ಆರ್ಯಭಟ ಸಾಧನಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡುತ್ತಾನೆ: ಗೂಟದ ಸುತ್ತ ಹಗ್ಗ ತಿರುಗಿಸಿ ವೃತ್ತ, ಕರ್ಣವನ್ನು ಬಿಗಿದು ತ್ರಿಭುಜ ಅಥವಾ ಚತುರ್ಭುಜ, ನೀರಿನಿಂದ ಅಡ್ಡ ಮಟ್ಟ, ಲಂಬದ ದಾರದಿಂದ ಲಂಬ. ಶುಲ್ಬಸೂತ್ರದ ವೇದಿ ಕಟ್ಟುವವರೂ ಹೀಗೇ ಮಾಡುತ್ತಿದ್ದರು."
+    verses:
+      - {verse: verse.aryabhatiya.2.13, role: rule}
+    related:
+      - {to: concept.bhuja-koti-karna, type: related}
+    people: [person.aryabhata, person.baudhayana]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 13"}]
+      history: [{source: source.plofker-2009, note: "ch. 2"}]
+
+  - id: concept.sixth-chord
+    area: area.trigonometry
+    name: {en: "The chord of a sixth", kn: "ಆರನೇ ಒಂದು ಭಾಗದ ಜ್ಯಾ"}
+    classical_iast: ṣaḍbhāga-jyā
+    modern_name: {en: "sin 30° = ½", kn: "sin 30° = ½"}
+    aliases: [chord of sixth, hexagon, sin 30, radius equals chord, six parts]
+    summary: {en: "The chord of a sixth of the circumference equals the radius, so its half is half the radius.", kn: "ಪರಿಧಿಯ ಆರನೇ ಒಂದು ಭಾಗದ ಜ್ಯಾ ತ್ರಿಜ್ಯಕ್ಕೆ ಸಮ; ಆದ್ದರಿಂದ ಅದರ ಅರ್ಧ ತ್ರಿಜ್ಯದ ಅರ್ಧ."}
+    body:
+      en: "Six equal chords fit round a circle, each equal to the radius, because a regular hexagon splits into six equilateral triangles. So the half-chord of 30° (a twelfth of the circle) is half the radius, in modern words sin 30° = 1/2. This is the one value Āryabhaṭa can state without any calculation, and it starts his table."
+      kn: "ವೃತ್ತದ ಸುತ್ತ ಆರು ಸಮ ಜ್ಯಾಗಳು ಹೊಂದುತ್ತವೆ, ಪ್ರತಿಯೊಂದೂ ತ್ರಿಜ್ಯಕ್ಕೆ ಸಮ, ಏಕೆಂದರೆ ಸಮ ಷಟ್ಕೋನ ಆರು ಸಮಬಾಹು ತ್ರಿಭುಜಗಳಾಗಿ ಒಡೆಯುತ್ತದೆ. ಆದ್ದರಿಂದ 30° (ವೃತ್ತದ ಹನ್ನೆರಡನೇ ಒಂದು ಭಾಗ) ರ ಅರ್ಧಜ್ಯಾ ತ್ರಿಜ್ಯದ ಅರ್ಧ; ಇಂದಿನ ಭಾಷೆಯಲ್ಲಿ sin 30° = 1/2. ಲೆಕ್ಕವಿಲ್ಲದೆ ಆರ್ಯಭಟ ಹೇಳಬಲ್ಲ ಏಕೈಕ ಬೆಲೆ ಇದು; ಅವನ ಕೋಷ್ಟಕದ ಆರಂಭ."
+    verses:
+      - {verse: verse.aryabhatiya.2.9, role: rule}
+    related:
+      - {to: concept.jya, type: builds_on}
+    people: [person.aryabhata]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 9"}]
+
+  - id: concept.chord-arrow
+    area: area.trigonometry
+    name: {en: "Half-chord and arrow", kn: "ಅರ್ಧಜ್ಯಾ ಮತ್ತು ಬಾಣ"}
+    classical_iast: śara-saṃvarga
+    modern_name: {en: "Intersecting chords and the versed sine", kn: "ಛೇದಿಸುವ ಜ್ಯಾಗಳು ಮತ್ತು ಉತ್ಕ್ರಮಜ್ಯಾ"}
+    aliases: [arrow, sara, versine, intersecting chords, half chord squared, ardhajya varga]
+    summary: {en: "In a circle the square of the half-chord is the product of the two arrows (the pieces of the diameter).", kn: "ವೃತ್ತದಲ್ಲಿ ಅರ್ಧಜ್ಯಾದ ವರ್ಗ ಎರಡು ಬಾಣಗಳ (ವ್ಯಾಸದ ಎರಡು ತುಂಡುಗಳ) ಗುಣಲಬ್ಧ."}
+    body:
+      en: "Draw a chord and its perpendicular diameter. The 'arrow' (śara) is the part of the diameter from the chord to the arc, and the other piece is the rest. Āryabhaṭa says the product of the two arrows is the square of the half-chord, which is the theorem of intersecting chords. He uses it with the bhuja–koṭi–karṇa rule to find chords."
+      kn: "ಒಂದು ಜ್ಯಾ ಮತ್ತು ಅದಕ್ಕೆ ಲಂಬವಾದ ವ್ಯಾಸ ಬಿಡಿಸಿ. 'ಬಾಣ' (ಶರ) ಎಂದರೆ ಜ್ಯಾದಿಂದ ಚಾಪದವರೆಗಿನ ವ್ಯಾಸದ ಭಾಗ; ಉಳಿದದ್ದು ಇನ್ನೊಂದು ತುಂಡು. ಎರಡು ಬಾಣಗಳ ಗುಣಲಬ್ಧ ಅರ್ಧಜ್ಯಾದ ವರ್ಗ ಎಂದು ಆರ್ಯಭಟ ಹೇಳುತ್ತಾನೆ; ಇದೇ ಛೇದಿಸುವ ಜ್ಯಾಗಳ ಪ್ರಮೇಯ. ಜ್ಯಾಗಳನ್ನು ಕಂಡುಹಿಡಿಯಲು ಅವನು ಇದನ್ನು ಭುಜ–ಕೋಟಿ–ಕರ್ಣ ನಿಯಮದೊಂದಿಗೆ ಬಳಸುತ್ತಾನೆ."
+    verses:
+      - {verse: verse.aryabhatiya.2.17, role: rule}
+      - {verse: verse.aryabhatiya.2.18, role: rule}
+    related:
+      - {to: concept.jya, type: builds_on}
+      - {to: concept.bhuja-koti-karna, type: requires}
+    people: [person.aryabhata]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 17, 18"}]
+
+  - id: concept.compound-proportion
+    area: area.arithmetic
+    name: {en: "Rule of five, seven and nine", kn: "ಪಂಚ, ಸಪ್ತ, ನವರಾಶಿಕ"}
+    classical_iast: pañca-rāśika
+    modern_name: {en: "Compound proportion", kn: "ಸಂಯುಕ್ತ ಅನುಪಾತ"}
+    aliases: [rule of five, compound proportion, panca rasika, sapta rasika, five quantities]
+    summary: {en: "With five, seven or nine quantities, move the matching ones across and divide the products.", kn: "ಐದು, ಏಳು ಅಥವಾ ಒಂಬತ್ತು ರಾಶಿಗಳಿದ್ದರೆ, ಹೊಂದುವವನ್ನು ಅತ್ತ ಸರಿಸಿ ಗುಣಲಬ್ಧಗಳನ್ನು ಭಾಗಿಸಿ."}
+    body:
+      en: "The rule of three has one measure and one desire. When there are more pairs, for example workers, days and wages, Bhāskara says to move the fractions of the matching pair across the line, so that the product of the larger side is divided by the product of the smaller. He calls the general rule of five, seven or nine quantities."
+      kn: "ತ್ರೈರಾಶಿಕದಲ್ಲಿ ಒಂದು ಪ್ರಮಾಣ ಮತ್ತು ಒಂದು ಇಚ್ಛಾ ಇರುತ್ತದೆ. ಹೆಚ್ಚು ಜೋಡಿಗಳಿದ್ದರೆ, ಉದಾಹರಣೆಗೆ ಕೆಲಸಗಾರರು, ದಿನಗಳು, ಕೂಲಿ, ಹೊಂದುವ ಜೋಡಿಯ ಭಿನ್ನರಾಶಿಗಳನ್ನು ಗೆರೆಯ ಆಚೆಗೆ ಸರಿಸಿ, ದೊಡ್ಡ ಬದಿಯ ಗುಣಲಬ್ಧವನ್ನು ಚಿಕ್ಕ ಬದಿಯ ಗುಣಲಬ್ಧದಿಂದ ಭಾಗಿಸಿ ಎಂದು ಭಾಸ್ಕರ ಹೇಳುತ್ತಾನೆ. ಇದನ್ನು ಐದು, ಏಳು, ಒಂಬತ್ತು ರಾಶಿಗಳ ಸಾಮಾನ್ಯ ನಿಯಮ ಎನ್ನುತ್ತಾನೆ."
+    verses:
+      - {verse: verse.lilavati.82, role: rule}
+      - {verse: verse.lilavati.83, role: example}
+    related:
+      - {to: concept.trairashika, type: generalises}
+      - {to: concept.vyasta-trairashika, type: related}
+    people: [person.bhaskara-ii]
+    claims:
+      verses: [{source: source.colebrooke-1817, note: "Līlāvatī, rules of five and more terms (§79 and following)"}]
+
+  - id: concept.relative-motion
+    area: area.arithmetic
+    name: {en: "When two travellers meet", kn: "ಇಬ್ಬರು ಪ್ರಯಾಣಿಕರು ಭೇಟಿಯಾದಾಗ"}
+    classical_iast: gati-yoga
+    modern_name: {en: "Relative speed", kn: "ಸಾಪೇಕ್ಷ ವೇಗ"}
+    aliases: [relative speed, meeting, travellers, planets meeting, distance speed time]
+    summary: {en: "Divide the distance by the sum of the speeds if they approach, or by the difference if they follow.", kn: "ಎದುರುಬದುರಾಗಿ ಸಾಗಿದರೆ ದೂರವನ್ನು ವೇಗಗಳ ಮೊತ್ತದಿಂದ, ಒಂದರ ಹಿಂದೊಂದು ಸಾಗಿದರೆ ವ್ಯತ್ಯಾಸದಿಂದ ಭಾಗಿಸಿ."}
+    body:
+      en: "Āryabhaṭa states it for two planets: if they move in opposite directions, divide the distance between them by the sum of their daily motions; if in the same direction, by the difference. The answer is the time until they meet, or how long ago they met. It is the same rule as for two cyclists on a road."
+      kn: "ಆರ್ಯಭಟ ಇದನ್ನು ಎರಡು ಗ್ರಹಗಳಿಗೆ ಹೇಳುತ್ತಾನೆ: ವಿರುದ್ಧ ದಿಕ್ಕಿನಲ್ಲಿ ಚಲಿಸಿದರೆ ಅವುಗಳ ನಡುವಿನ ದೂರವನ್ನು ದೈನಿಕ ಗತಿಗಳ ಮೊತ್ತದಿಂದ; ಒಂದೇ ದಿಕ್ಕಿನಲ್ಲಾದರೆ ವ್ಯತ್ಯಾಸದಿಂದ ಭಾಗಿಸಿ. ಉತ್ತರ ಅವು ಭೇಟಿಯಾಗುವ ಅಥವಾ ಭೇಟಿಯಾಗಿದ್ದ ಕಾಲ. ಇಬ್ಬರು ಸೈಕಲ್ ಸವಾರರ ಲೆಕ್ಕಕ್ಕೂ ಇದೇ ನಿಯಮ."
+    verses:
+      - {verse: verse.aryabhatiya.2.31, role: rule}
+    related:
+      - {to: concept.trairashika, type: related}
+    people: [person.aryabhata]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 31"}]

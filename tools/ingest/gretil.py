@@ -180,7 +180,7 @@ def parse_aryabhatiya() -> list[Verse]:
     for n, a in sorted(anchors["ganitapada"].items()):
         for line in a["lines"]:
             count = elements.count(line)
-            if count != 1:
+            if count < 1 or (count > 1 and not a.get("allow_repeat")):
                 raise SystemExit(f"Āryabhaṭīya 2.{n}: line found {count} times: {line!r}")
         src = "\n".join(a["lines"])
         iast = re.sub(r"\s*\|\|\s*\d+\s*\|\|\s*$", " ||", src)
@@ -188,6 +188,12 @@ def parse_aryabhatiya() -> list[Verse]:
                   ordinal=int(n), ref_label=f"2.{n}", source_text=nfc(src), iast=nfc(iast))
         if a.get("incomplete"):
             v.notes.append(a["incomplete"])
+        if a.get("note"):
+            v.notes.append(a["note"])
+        for wrong, right in (a.get("corrections") or {}).items():
+            # The source line stays verbatim; only the reading text is corrected, and it says so.
+            v.iast = v.iast.replace(wrong, right)
+            v.notes.append(f"e-text reads {wrong!r}; corrected to {right!r}")
         out.append(v)
     return out
 
