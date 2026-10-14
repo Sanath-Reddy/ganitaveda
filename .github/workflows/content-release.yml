@@ -2,8 +2,16 @@ name: content-release
 on:
   workflow_dispatch:
     inputs:
-      channel: {description: "beta or stable", required: true, default: beta, type: choice, options: [beta, stable]}
-      version: {description: "YYYY.MM.DD[.n] (blank for today)", required: false}
+      channel:
+        description: "beta or stable"
+        required: true
+        default: beta
+        type: choice
+        options: [beta, stable]
+      version:
+        description: "YYYY.MM.DD or YYYY.MM.DD.n (blank for today)"
+        required: false
+        type: string
 jobs:
   release:
     runs-on: ubuntu-24.04
@@ -11,14 +19,28 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: {python-version: "3.13"}
+        with:
+          python-version: "3.13"
       - run: pip install -r tools/requirements.txt
-      # Stable releases need every review approved and 100% Kannada.
-      - run: python -m tools.pack build ${{ inputs.channel == 'stable' && '--release' || '' }} ${{ inputs.version && format('--version {0}', inputs.version) || '' }} --base-url "${{ vars.CONTENT_BASE_URL }}"
+      # Stable releases need every review approved and 100% Kannada (build --release).
+      - name: Build and sign the pack
         env:
+          CHANNEL: ${{ inputs.channel }}
+          VERSION: ${{ inputs.version }}
+          BASE_URL: ${{ vars.CONTENT_BASE_URL }}
           PACK_SIGNING_KEY: ${{ secrets.PACK_SIGNING_KEY }}
           PACK_KEY_ID: ${{ vars.PACK_KEY_ID }}
-      - run: python -m tools.pack publish --channel ${{ inputs.channel }} --cdn build/cdn
+        run: |
+          args=()
+          if [ "$CHANNEL" = "stable" ]; then args+=(--release); fi
+          if [ -n "$VERSION" ]; then args+=(--version "$VERSION"); fi
+          python -m tools.pack build "${args[@]}" --base-url "$BASE_URL"
+      - name: Lay out the CDN tree
+        env:
+          CHANNEL: ${{ inputs.channel }}
+        run: python -m tools.pack publish --channel "$CHANNEL" --cdn build/cdn
       # Upload build/cdn to the host chosen in Week 8 (Cloudflare R2 or GitHub Releases, plan §14).
       - uses: actions/upload-artifact@v4
-        with: {name: cdn-${{ inputs.channel }}, path: build/cdn}
+        with:
+          name: cdn-${{ inputs.channel }}
+          path: build/cdn
