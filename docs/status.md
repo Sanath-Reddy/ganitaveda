@@ -36,6 +36,17 @@ emulator, real CDN).
   inside the 30 MB budget.
 - Release builds are signed with the debug key until `android/key.properties` exists.
 
+## Accessibility and layout checks (automated, `accessibility_layout_test.dart`)
+
+- Android tap-target size (48 dp) and labelled-tap-target guidelines on 8 screens in English and Kannada,
+  and on every card of every lesson.
+- No overflow or exception on 800×1280, 1280×800, 915×412 (phone landscape) and 320×568 (small phone) in both
+  languages, on all main screens and on cards of three lessons; navigation rail at 600 dp and wider.
+- Every text colour is an AA-checked design token, in light and dark.
+- Bugs these found and fixed: a provider written during a rebuild when leaving a lesson with `go()`;
+  Explore area cards overflowing on small screens and large text; `turmeric` (about 2.7:1) used for text.
+- Not covered: TalkBack reading order and announcements, which need a person with a screen reader.
+
 ## Emulator run (this machine, KVM, headless)
 
 Android 15 (API 35) x86_64 **16 KB page size** image, software GPU. Not a phone, but a real Android runtime:

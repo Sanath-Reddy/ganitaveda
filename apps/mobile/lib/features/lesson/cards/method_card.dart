@@ -31,7 +31,7 @@ class MethodCardView extends StatelessWidget {
     final classical = Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(l.classicalMethod, style: t.labelLarge?.copyWith(color: GVColors.of(context).turmeric)),
+        Text(l.classicalMethod, style: t.labelLarge?.copyWith(color: GVColors.of(context).indigo)),
         for (var i = 0; i < steps.length; i++)
           if (i < shown || wide)
             MethodStepTile(index: i + 1, text: context.lt(steps[i].text), working: steps[i].working, active: i < shown),

@@ -172,7 +172,7 @@ class SummaryCardView extends ConsumerWidget {
 
     return _CardScroll(
       children: [
-        Text(l.keyIdea, style: t.labelLarge?.copyWith(color: GVColors.of(context).turmeric)),
+        Text(l.keyIdea, style: t.labelLarge?.copyWith(color: GVColors.of(context).indigo)),
         const SizedBox(height: GVSpace.s),
         Text(context.lt(card.keyIdea), style: t.titleMedium?.copyWith(height: 1.5)),
         if (card.textbook != null) ...[

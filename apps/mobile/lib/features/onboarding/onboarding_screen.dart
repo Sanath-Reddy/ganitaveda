@@ -114,7 +114,7 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
             padding: const EdgeInsets.all(GVSpace.xl),
             children: [
               const SizedBox(height: GVSpace.xl),
-              Text(l.appTitle, style: t.labelLarge?.copyWith(color: GVColors.of(context).turmeric)),
+              Text(l.appTitle, style: t.labelLarge?.copyWith(color: GVColors.of(context).indigo)),
               const SizedBox(height: GVSpace.s),
               Semantics(header: true, child: Text(title, style: t.headlineSmall)),
               if (note != null)

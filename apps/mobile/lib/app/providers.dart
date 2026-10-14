@@ -114,6 +114,9 @@ class FlagNotifier extends Notifier<bool> {
   @override
   bool build() => false;
 
+  /// False once the provider container has been disposed.
+  bool get mounted => ref.mounted;
+
   // A method, not a setter, so call sites read as an action.
   // ignore: use_setters_to_change_properties
   void set({required bool value}) => state = value;

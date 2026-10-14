@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:content_model/content_model.dart';
 import 'package:design_system/design_system.dart';
 import 'package:flutter/material.dart';
@@ -21,6 +23,7 @@ class LessonPlayer extends ConsumerStatefulWidget {
 class _LessonPlayerState extends ConsumerState<LessonPlayer> {
   LessonDoc? doc;
   late PageController controller;
+  late FlagNotifier _lessonOpen;
   int index = 0;
   final Map<String, Map<String, Object?>> cardState = {};
 
@@ -39,12 +42,21 @@ class _LessonPlayerState extends ConsumerState<LessonPlayer> {
       }
     }
     controller = PageController(initialPage: index);
-    WidgetsBinding.instance.addPostFrameCallback((_) => ref.read(lessonOpenProvider.notifier).set(value: true));
+    _lessonOpen = ref.read(lessonOpenProvider.notifier);
+    WidgetsBinding.instance.addPostFrameCallback((_) => _lessonOpen.set(value: true));
   }
 
   @override
   void dispose() {
     controller.dispose();
+    // Never write a provider while the tree is being torn down; every way out of
+    // a lesson (close button, back, go(), next lesson) passes through here.
+    unawaited(
+      Future.microtask(() {
+        // The whole app may be gone too (tests, hot restart): then there is nothing to reset.
+        if (_lessonOpen.mounted) _lessonOpen.set(value: false);
+      }),
+    );
     super.dispose();
   }
 
@@ -67,7 +79,6 @@ class _LessonPlayerState extends ConsumerState<LessonPlayer> {
   }
 
   void _close() {
-    ref.read(lessonOpenProvider.notifier).set(value: false);
     if (context.canPop()) {
       context.pop();
     } else {
@@ -82,100 +93,95 @@ class _LessonPlayerState extends ConsumerState<LessonPlayer> {
     final l = context.l10n;
     final n = d.cards.length;
     final compact = MediaQuery.textScalerOf(context).scale(16) > 24 || MediaQuery.sizeOf(context).width < 360;
-    return PopScope(
-      onPopInvokedWithResult: (didPop, _) {
-        if (didPop) ref.read(lessonOpenProvider.notifier).set(value: false);
-      },
-      child: Scaffold(
-        appBar: AppBar(
-          leading: IconButton(tooltip: l.closeLesson, icon: const Icon(Icons.close), onPressed: _close),
-          title: Text(context.lt(d.title)),
-          bottom: PreferredSize(
-            preferredSize: const Size.fromHeight(4),
-            child: Semantics(
-              label: l.cardOf(index + 1, n),
-              child: LinearProgressIndicator(value: (index + 1) / n, minHeight: 3),
-            ),
+    return Scaffold(
+      appBar: AppBar(
+        leading: IconButton(tooltip: l.closeLesson, icon: const Icon(Icons.close), onPressed: _close),
+        title: Text(context.lt(d.title)),
+        bottom: PreferredSize(
+          preferredSize: const Size.fromHeight(4),
+          child: Semantics(
+            label: l.cardOf(index + 1, n),
+            child: LinearProgressIndicator(value: (index + 1) / n, minHeight: 3),
           ),
         ),
-        body: SafeArea(
-          top: false,
-          child: Column(
-            children: [
-              Expanded(
-                child: PageView.builder(
-                  controller: controller,
-                  itemCount: n,
-                  onPageChanged: (i) {
-                    setState(() => index = i);
-                    _save();
-                  },
-                  itemBuilder: (context, i) {
-                    final card = d.cards[i];
-                    return Readable(
-                      maxWidth: card is VerseCard || card is MethodCard ? 1000 : GVSpace.lessonMaxWidth,
-                      child: buildCard(
-                        context,
-                        CardContext(
-                          lesson: d,
-                          card: card,
-                          state: cardState[card.id] ?? const {},
-                          setState: (s) {
-                            setState(() => cardState[card.id] = s);
-                            _save();
-                          },
-                          next: i < n - 1 ? () => _goTo(i + 1) : null,
-                          close: _close,
-                        ),
-                      ),
-                    );
-                  },
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.fromLTRB(GVSpace.gutter, GVSpace.s, GVSpace.gutter, GVSpace.m),
-                child: Row(
-                  children: [
-                    // Large text sizes and Kannada labels: buttons drop their words
-                    // (tooltips keep them for TalkBack) and the counter shrinks.
-                    if (compact)
-                      IconButton.outlined(
-                        tooltip: l.back,
-                        onPressed: index > 0 ? () => _goTo(index - 1) : null,
-                        icon: const Icon(Icons.arrow_back),
-                      )
-                    else
-                      TextButton.icon(
-                        onPressed: index > 0 ? () => _goTo(index - 1) : null,
-                        icon: const Icon(Icons.arrow_back),
-                        label: Text(l.back),
-                      ),
-                    Expanded(
-                      child: Text(
-                        l.cardOf(index + 1, n),
-                        style: Theme.of(context).textTheme.labelMedium,
-                        textAlign: TextAlign.center,
-                        maxLines: 2,
-                        overflow: TextOverflow.ellipsis,
+      ),
+      body: SafeArea(
+        top: false,
+        child: Column(
+          children: [
+            Expanded(
+              child: PageView.builder(
+                controller: controller,
+                itemCount: n,
+                onPageChanged: (i) {
+                  setState(() => index = i);
+                  _save();
+                },
+                itemBuilder: (context, i) {
+                  final card = d.cards[i];
+                  return Readable(
+                    maxWidth: card is VerseCard || card is MethodCard ? 1000 : GVSpace.lessonMaxWidth,
+                    child: buildCard(
+                      context,
+                      CardContext(
+                        lesson: d,
+                        card: card,
+                        state: cardState[card.id] ?? const {},
+                        setState: (s) {
+                          setState(() => cardState[card.id] = s);
+                          _save();
+                        },
+                        next: i < n - 1 ? () => _goTo(i + 1) : null,
+                        close: _close,
                       ),
                     ),
-                    if (compact)
-                      IconButton.filled(
-                        tooltip: l.next,
-                        onPressed: index < n - 1 ? () => _goTo(index + 1) : null,
-                        icon: const Icon(Icons.arrow_forward),
-                      )
-                    else
-                      FilledButton.icon(
-                        onPressed: index < n - 1 ? () => _goTo(index + 1) : null,
-                        icon: const Icon(Icons.arrow_forward),
-                        label: Text(l.next),
-                      ),
-                  ],
-                ),
+                  );
+                },
               ),
-            ],
-          ),
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(GVSpace.gutter, GVSpace.s, GVSpace.gutter, GVSpace.m),
+              child: Row(
+                children: [
+                  // Large text sizes and Kannada labels: buttons drop their words
+                  // (tooltips keep them for TalkBack) and the counter shrinks.
+                  if (compact)
+                    IconButton.outlined(
+                      tooltip: l.back,
+                      onPressed: index > 0 ? () => _goTo(index - 1) : null,
+                      icon: const Icon(Icons.arrow_back),
+                    )
+                  else
+                    TextButton.icon(
+                      onPressed: index > 0 ? () => _goTo(index - 1) : null,
+                      icon: const Icon(Icons.arrow_back),
+                      label: Text(l.back),
+                    ),
+                  Expanded(
+                    child: Text(
+                      l.cardOf(index + 1, n),
+                      style: Theme.of(context).textTheme.labelMedium,
+                      textAlign: TextAlign.center,
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ),
+                  if (compact)
+                    IconButton.filled(
+                      tooltip: l.next,
+                      onPressed: index < n - 1 ? () => _goTo(index + 1) : null,
+                      icon: const Icon(Icons.arrow_forward),
+                    )
+                  else
+                    FilledButton.icon(
+                      onPressed: index < n - 1 ? () => _goTo(index + 1) : null,
+                      icon: const Icon(Icons.arrow_forward),
+                      label: Text(l.next),
+                    ),
+                ],
+              ),
+            ),
+          ],
         ),
       ),
     );

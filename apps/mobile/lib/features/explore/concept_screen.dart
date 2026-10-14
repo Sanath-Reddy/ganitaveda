@@ -33,7 +33,7 @@ class ConceptScreen extends ConsumerWidget {
         child: ListView(
           padding: const EdgeInsets.fromLTRB(GVSpace.gutter, 0, GVSpace.gutter, GVSpace.xxl),
           children: [
-            Text(page.concept.classicalIast, style: verseStyle(VerseFont.iast, c.turmeric, size: 24)),
+            Text(page.concept.classicalIast, style: verseStyle(VerseFont.iast, c.indigo, size: 24)),
             const SizedBox(height: GVSpace.s),
             Text('${l.modernName}: ${context.lt(page.modernName)}', style: t.labelLarge),
             const SizedBox(height: GVSpace.m),

@@ -35,13 +35,17 @@ class ExploreScreen extends ConsumerWidget {
             SectionHeader(l.areas),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: GVSpace.gutter),
-              child: GridView.count(
-                crossAxisCount: width >= 900 ? 4 : (width >= GVSpace.twoPaneBreakpoint ? 3 : 2),
+              child: GridView(
+                gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+                  maxCrossAxisExtent: width >= 900 ? 250 : (width >= GVSpace.twoPaneBreakpoint ? 280 : 190),
+                  mainAxisSpacing: GVSpace.s,
+                  crossAxisSpacing: GVSpace.s,
+                  // Title, Sanskrit name, three blurb lines and padding, in text-scaled pixels
+                  // (Kannada has taller lines), so no text size can overflow the card.
+                  mainAxisExtent: (context.isKannada ? 172 : 158) * MediaQuery.textScalerOf(context).scale(1),
+                ),
                 shrinkWrap: true,
                 physics: const NeverScrollableScrollPhysics(),
-                mainAxisSpacing: GVSpace.s,
-                crossAxisSpacing: GVSpace.s,
-                childAspectRatio: 1.25,
                 children: [
                   for (final a in content.areas())
                     Card(
@@ -54,7 +58,7 @@ class ExploreScreen extends ConsumerWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(context.lt(a.name), style: t.titleSmall),
-                              Text(a.sanskritIast, style: verseStyle(VerseFont.iast, c.turmeric, size: 17)),
+                              Text(a.sanskritIast, style: verseStyle(VerseFont.iast, c.indigo, size: 17)),
                               const Spacer(),
                               Text(
                                 context.lt(a.blurb),
