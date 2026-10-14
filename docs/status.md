@@ -26,6 +26,16 @@ emulator, real CDN).
 | §4 screens | Onboarding, School, chapter, lesson player, verse view, Explore (areas, concepts, texts, reading room, people, lineage, timeline, search), Progress (kolam, review, bookmarks), Settings (all §4.8 items), sources and licences, privacy, debug tools | widget tests open every screen |
 | §8.4 CI | content-check, app-check, content-release, app-release, link-check | workflows run the same commands verified locally |
 
+## Android build (verified on this machine, not on a device)
+
+- Debug APK and release AAB build with Flutter 3.47.7 and JDK 21. `targetSdk` 36, `minSdk` 24,
+  permissions limited to INTERNET and ACCESS_NETWORK_STATE, no AD_ID.
+- Every native library in the APK and AAB is 16 KB aligned (`tools/check_16kb.sh`).
+- Size: the AAB is 66.7 MB because it holds three ABIs. One arm64 install is about 28 MB
+  (native 21 MB, assets 5.7 MB incl. a 1.4 MB pack, code 1.6 MB), just inside the 30 MB budget;
+  `libapp.so` (8 MB) and the six font files (4.2 MB) are the places to trim if needed.
+- Release builds are signed with the debug key until `android/key.properties` exists.
+
 ## Not done, and why
 
 | Item | Needs |
