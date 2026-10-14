@@ -26,6 +26,27 @@ Future<void> settle(WidgetTester t, [int ms = 2000]) async {
   }
 }
 
+/// Pumps until [f] appears (real time passes on a device; fixed waits are flaky on slow emulators).
+Future<void> waitFor(WidgetTester t, Finder f, {int seconds = 15}) async {
+  for (var i = 0; i < seconds * 10 && f.evaluate().isEmpty; i++) {
+    await t.pump(const Duration(milliseconds: 100));
+  }
+}
+
+/// Types on the app's own number pad, as a student does (also covers the pad on a device).
+Future<void> typeOnPad(WidgetTester t, String text) async {
+  for (final ch in text.split('')) {
+    final label = switch (ch) {
+      ' ' => 'a b/c',
+      '-' => '−',
+      _ => ch,
+    };
+    await t.tap(find.widgetWithText(OutlinedButton, label));
+    await t.pump(const Duration(milliseconds: 150));
+  }
+  await settle(t, 300);
+}
+
 Future<void> tapOn(WidgetTester t, Finder f) async {
   await t.ensureVisible(f);
   await settle(t, 300);
@@ -62,6 +83,7 @@ void main() {
     // Open the bee-swarm lesson and walk its cards.
     await tapOn(t, find.text('Fractions'));
     await tapOn(t, find.text('The swarm of bees'));
+    await waitFor(t, find.textContaining('A swarm of bees flies over a garden'));
     expect(find.textContaining('A swarm of bees flies over a garden'), findsOneWidget);
     await tapOn(t, find.text('Next').last);
 
@@ -76,10 +98,12 @@ void main() {
     expect(find.text('Choose your language'), findsNothing, reason: 'settings survived the restart');
     await tapOn(t, find.text('Fractions'));
     await tapOn(t, find.text('The swarm of bees').first);
+    await waitFor(t, find.textContaining('Exactly 1 left'));
     expect(find.textContaining('Exactly 1 left'), findsOneWidget);
 
     // Verse, method, practice.
     await tapOn(t, find.text('Next').last);
+    await waitFor(t, find.text('H. T. Colebrooke (1817)'));
     expect(find.text('H. T. Colebrooke (1817)'), findsOneWidget);
     await tapOn(t, find.text('Next').last);
     await tapOn(t, find.text('Show all steps'));
@@ -89,12 +113,19 @@ void main() {
     final store = c.read(userStoreProvider);
     final seed = ((store.progress('lesson.bee-swarm')!.state['practice']! as Map)['seed']) as int;
     final problems = generateSession('fractions.remainder.v1', seed, 4, difficulties: [1, 2, 2, 3]);
-    for (final p in problems) {
-      await t.enterText(find.byType(TextField), p.answer.canonical);
-      await tapOn(t, find.bySemanticsLabel('Check').last);
+    for (final (index, p) in problems.indexed) {
+      // Each problem's header proves the previous "Next problem" tap has been processed.
+      await waitFor(t, find.text('Problem ${index + 1} of 4'));
+      await typeOnPad(t, p.answer.canonical);
+      // By icon: on a real Android runtime the semantics-label finder resolves to a
+      // different render object and the tap misses the button.
+      await tapOn(t, find.widgetWithIcon(FilledButton, Icons.check));
+      await waitFor(t, find.text('Correct!'));
       expect(find.text('Correct!'), findsOneWidget);
       await tapOn(t, find.text('Next problem'));
     }
+    await waitFor(t, find.textContaining('4 of 4 right first time'));
+    expect(find.textContaining('4 of 4 right first time'), findsOneWidget);
     await tapOn(t, find.text('Next').last);
     await tapOn(t, find.text('Finish lesson'));
     expect(store.completedLessons(), ['lesson.bee-swarm']);

@@ -57,6 +57,8 @@ Android 15 (API 35) x86_64 **16 KB page size** image, software GPU. Not a phone,
 | Cold start (`am start -W`, 5 runs) | 1.17, 0.96, 0.98, 0.96, 1.01 s; budget 2.0 s |
 | Integration test: first launch, full lesson, kill-and-resume, review queue | passes |
 | Integration test: every lesson's cards, no exceptions | passes |
+| Integration test: practice answers typed on the app's number pad, all four problems | passes |
+| Memory (release, `dumpsys meminfo`) | 77 MB PSS at launch, 86 MB after onboarding; budget 250 MB |
 | Frame timings | **not meaningful**: measured in a debug build on a software-rendered emulator (p95 build 43 ms, 65% of frames over 16.7 ms). The 60 fps budget needs a profile build on the reference phone |
 
 The Android 16.1 (API 36.1) 16 KB image crash-loops surfaceflinger in headless mode here
@@ -95,3 +97,11 @@ so the API 35 image was used. Run the same test with `flutter test integration_t
 - `flutter_math_fork`, `vector_graphics` and `alchemist` are not used yet: working lines are
   plain text, art is code-drawn (ADR 4), and goldens use `matchesGoldenFile`.
 - Two colour tokens tuned for AA (ADR 5).
+
+## Test notes from the device run
+
+The integration test needed three changes that were about the test, not the app, and one real lesson:
+waiting for conditions instead of fixed times (the emulator renders in software), finding buttons by icon
+rather than semantics label, and typing on the number pad instead of `enterText` (which races the field's
+input connection when it leaves read-only mode). The screenshots taken while it ran showed the app was
+correct throughout.
