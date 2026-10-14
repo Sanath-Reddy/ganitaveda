@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "curriculum.schema.json",
+  "type": "object",
+  "properties": {
+    "board": {"$ref": "common.schema.json#/$defs/id"},
+    "name": {"$ref": "common.schema.json#/$defs/ltext"},
+    "review": {"$ref": "common.schema.json#/$defs/review"},
+    "classes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "class": {"type": "integer", "minimum": 1, "maximum": 12},
+          "books": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {"$ref": "common.schema.json#/$defs/id"},
+                "title": {"$ref": "common.schema.json#/$defs/ltext"},
+                "chapters": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {"$ref": "common.schema.json#/$defs/id"},
+                      "number": {"type": "integer", "minimum": 0},
+                      "title": {"$ref": "common.schema.json#/$defs/ltext"},
+                      "links": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {"to": {"$ref": "common.schema.json#/$defs/id"}, "relevance": {"enum": ["core", "related", "watch", "recommended"]}},
+                          "required": ["to", "relevance"],
+                          "additionalProperties": false
+                        }
+                      }
+                    },
+                    "required": ["id", "number", "title"],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": ["id", "title", "chapters"],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": ["class", "books"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["board", "name", "review", "classes"],
+  "additionalProperties": false
+}

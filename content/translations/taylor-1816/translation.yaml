@@ -1,0 +1,16 @@
+# No segments yet: the 1816 Bombay edition exists only as a Google Books scan
+# and still needs OCR (plan §5.2). The picker shows its coverage as 0.
+id: translation.taylor-1816
+translator: John Taylor
+year: 1816
+language: en
+kind: historical
+licence: licence.public-domain
+source: source.taylor-1816
+works: [work.lilavati]
+about:
+  en: "John Taylor (died 1821), a doctor in Bombay, published his English Lilawati in 1816, a year before Colebrooke. His notes follow the Sanskrit commentaries closely."
+  kn: "ಮುಂಬಯಿಯಲ್ಲಿ ವೈದ್ಯರಾಗಿದ್ದ ಜಾನ್ ಟೇಲರ್ (ಮರಣ 1821) ತಮ್ಮ ಇಂಗ್ಲಿಷ್ ಲೀಲಾವತಿಯನ್ನು 1816ರಲ್ಲಿ, ಕೋಲ್‌ಬ್ರೂಕ್‌ಗಿಂತ ಒಂದು ವರ್ಷ ಮೊದಲು ಪ್ರಕಟಿಸಿದರು. ಅವರ ಟಿಪ್ಪಣಿಗಳು ಸಂಸ್ಕೃತ ವ್ಯಾಖ್ಯಾನಗಳನ್ನು ಹತ್ತಿರದಿಂದ ಅನುಸರಿಸುತ್ತವೆ."
+style_note:
+  en: "Formal 19th-century English."
+  kn: "19ನೇ ಶತಮಾನದ ಔಪಚಾರಿಕ ಇಂಗ್ಲಿಷ್."

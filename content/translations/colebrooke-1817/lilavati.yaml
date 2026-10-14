@@ -1,0 +1,93 @@
+# Copied from the Internet Archive OCR of the 1817 edition and cleaned by hand.
+# Every segment stays `ocr-draft` until it is proofread against the page images.
+# Colebrooke's paragraph numbers (label) differ from Hayashi's verse numbers.
+translation: translation.colebrooke-1817
+work: work.lilavati
+segments:
+  - id: seg.colebrooke-1817.lilavati.50
+    label: "§50"
+    verses: [verse.lilavati.51]
+    page: 23
+    status: ocr-draft
+    text: "Rule of supposition: one stanza. Or any number, assumed at pleasure, is treated as specified in the particular question; being multiplied and divided, raised or diminished by fractions: then the given quantity, being multiplied by the assumed number and divided by that [which has been found,] yields the number sought. This is called the process of supposition."
+  - id: seg.colebrooke-1817.lilavati.54
+    label: "§54"
+    verses: [verse.lilavati.55]
+    page: "24–25"
+    status: ocr-draft
+    glossary: [gloss.cadamba, gloss.silindhri, gloss.cutaja, gloss.pandanus]
+    text: "Example of reduction of differences. Out of a swarm of bees, one-fifth part settled on a blossom of Cadamba; and one-third on a flower of Silind'hri: three times the difference of those numbers flew to the bloom of a Cut'aja. One bee, which remained, hovered and flew about in the air, allured at the same moment by the pleasing fragrance of a jasmin and pandanus. Tell me, charming woman, the number of bees."
+  - id: seg.colebrooke-1817.lilavati.70
+    label: "§70"
+    verses: [verse.lilavati.73]
+    page: "to confirm"
+    status: ocr-draft
+    glossary: [gloss.argument, gloss.requisition]
+    text: "Rule of three terms. The first and last terms, which are the argument and requisition, must be of like denomination; the fruit, which is of a different species, stands between them: and that, being multiplied by the demand and divided by the first term, gives the fruit of the demand. In the inverse method, the operation is reversed."
+  - id: seg.colebrooke-1817.lilavati.71
+    label: "§71"
+    verses: [verse.lilavati.74]
+    page: "to confirm"
+    status: ocr-draft
+    glossary: [gloss.pala, gloss.nishca]
+    text: "Example. If two and a half palas of saffron be obtained for three-sevenths of a nishca; say instantly, best of merchants, how much is got for nine nishcas?"
+  - id: seg.colebrooke-1817.lilavati.119
+    label: "§119"
+    verses: [verse.lilavati.121]
+    page: "54–55"
+    status: ocr-draft
+    glossary: [gloss.period]
+    text: "Rule. The increase multiplied by the period less one, and added to the first quantity, is the amount of the last. That, added to the first, and halved, is the amount of the mean: which, multiplied by the period, is the amount of the whole, and is denominated the computed sum."
+  - id: seg.colebrooke-1817.lilavati.120
+    label: "§120"
+    verses: [verse.lilavati.122]
+    page: 55
+    status: ocr-draft
+    glossary: [gloss.dramma]
+    text: "Example: A person, having given four drammas to priests on the first day, proceeded, my friend, to distribute daily alms at a rate increasing by five a day. Say quickly how many were given by him in half a month?"
+  - id: seg.colebrooke-1817.lilavati.134
+    label: "§134"
+    verses: [verse.lilavati.136]
+    page: 59
+    status: ocr-draft
+    glossary: [gloss.upright, gloss.diagonal]
+    text: "The square-root of the sum of the squares of those legs is the diagonal. The square-root, extracted from the difference of the squares of the diagonal and side, is the upright: and that, extracted from the difference of the squares of the diagonal and upright, is the side."
+  - id: seg.colebrooke-1817.lilavati.136
+    label: "§136"
+    verses: [verse.lilavati.137]
+    page: 59
+    status: ocr-draft
+    glossary: [gloss.upright]
+    text: "Example. Where the upright is four and the side three, what is the hypotenuse? Tell me also the upright from the hypotenuse and side; and the side from the upright and hypotenuse."
+  - id: seg.colebrooke-1817.lilavati.248
+    label: "§248–252"
+    verses: [verse.lilavati.242]
+    page: "to confirm"
+    status: ocr-draft
+    glossary: [gloss.pulverizer, gloss.additive]
+    text: "Rule. In the first place, as preparatory to the investigation of a pulverizer, the dividend, divisor and additive quantity are, if practicable, to be reduced by some number. If the number, by which the dividend and divisor are both measured, do not also measure the additive quantity, the question is an ill put [or impossible] one."
+  # The Līlāvatī OCR loses the text after "Divide mutually the" at a page break.
+  # The rest is taken from Colebrooke's identical wording in his Vīja-gaṇita
+  # (OCR line 11896, which he says this chapter copies "nearly word for word").
+  # Check against the page image before proofread.
+  - id: seg.colebrooke-1817.lilavati.249
+    label: "§249–251"
+    verses: [verse.lilavati.243, verse.lilavati.244]
+    page: "to confirm"
+    status: ocr-draft
+    glossary: [gloss.pulverizer]
+    text: "The last remainder, when the dividend and divisor are mutually divided, is their common measure. Being divided by that common measure, they are termed reduced quantities. Divide mutually the reduced dividend and divisor, until unity be the remainder in the dividend. Place the quotients one under the other; and the additive quantity beneath them, and cipher at the bottom."
+  - id: seg.colebrooke-1817.lilavati.267
+    label: "§267"
+    verses: [verse.lilavati.261]
+    page: "to confirm"
+    status: ocr-draft
+    glossary: [gloss.variations]
+    text: "Rule. The product of multiplication of the arithmetical series beginning and increasing by unity and continued to the number of places, will be the variations of number with specific figures: that, divided by the number of digits and multiplied by the sum of the figures, being repeated in the places of figures and added together, will be the sum of the permutations."
+  - id: seg.colebrooke-1817.lilavati.268
+    label: "§268"
+    verses: [verse.lilavati.262]
+    page: "to confirm"
+    status: ocr-draft
+    glossary: [gloss.variations]
+    text: "Example. How many variations of number can there be with two and eight? or with three, nine and eight? or with the continued series from two to nine? and tell promptly the several sums of their numbers."

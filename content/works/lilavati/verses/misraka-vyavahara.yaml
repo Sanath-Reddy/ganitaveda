@@ -1,0 +1,312 @@
+- id: verse.lilavati.90
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 80
+  ref_label: '90'
+  devanagari: 'प्रमाण-कालेन हतम् प्रमाणम् विमिश्र-कालेन हतम् फलम् च ।
+
+    स्व-योग-भक्ते च पृथक्-स्थिते ते मिश्र-आहते मूल-कला-अन्तरे स्तस् ।
+
+    यत् वा इष्ट-कर्म-आख्य-विधेस् तु मूलम् मिश्रात् च्युतम् तत् च कला-अन्तरम् स्यात् ॥'
+  source_text: 'pramāṇa-kālena hatam pramāṇam vimiśra-kālena hatam phalam ca/
+
+    sva-yoga-bhakte ca pṛthak-sthite te miśra-āhate mūla-kalā-antare @stas/ [āpaṭe: prathak- < pṛthak-]
+
+    yat vā iṣṭa-karma-ākhya-vidhes tu mūlam miśrāt cyutam tat ca kalā-antaram @syāt// Lil_90'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - 'āpaṭe: prathak- < pṛthak-'
+- id: verse.lilavati.91
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 81
+  ref_label: '91'
+  devanagari: 'पञ्चकेन शतेन अब्दे मूलम् स्वम् सकल-अन्तरम् ।
+
+    सहस्रम् चेद् पृथक् तत्र वद मूल-कला-अन्तरे ॥'
+  source_text: '%pañcakena %śatena abde mūlam svam sakala-antaram/
+
+    sahasram ced pṛthak tatra @vada mūla-kalā-antare// Lil_91'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.92
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 82
+  ref_label: '92'
+  devanagari: स्व-योग-भक्तास् च विमिश्र-निघ्नास् प्रयुक्त-खण्डानि पृथक् भवन्ति ॥
+  source_text: sva-yoga-bhaktās ca vimiśra-nighnās prayukta-khaṇḍāni pṛthak @bhavanti// Lil_92
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.93
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 83
+  ref_label: '93'
+  devanagari: 'यत् पञ्चक-त्रिक-चतुष्क-शतेन दत्तम् खण्डैस् त्रिभिस् गणक निष्क-शतम् षष्-ऊनम् ।
+
+    मासेषु सप्त-दश-पञ्चसु तुल्यम् आप्तम् खण्ड-त्रये अपि हि फलम् वद खण्ड-संख्याम् ॥'
+  source_text: 'yat %pañcaka-%trika-%catuṣka-%śatena dattam khaṇḍais %tribhis gaṇaka niṣka-%śatam %ṣaṣ-ūnam/
+
+    māseṣu %sapta-%daśa-%pañcasu tulyam āptam khaṇḍa-%traye api hi phalam @vada khaṇḍa-saṃkhyām// Lil_93'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.94
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 84
+  ref_label: '94'
+  devanagari: प्रक्षेपकास् मिश्र-हतास् विभक्तास् प्रक्षेप-योगेण पृथक् फलानि ॥
+  source_text: prakṣepakās miśra-hatās vibhaktās prakṣepa-yogeṇa pṛthak phalāni// Lil_94
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.95
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 85
+  ref_label: '95'
+  devanagari: 'पञ्चाशत् एक-सहिता गणक अष्टषष्टिस् पञ्च-ऊनिता नवतिस् आदि-धनानि येषाम् ।
+
+    प्राप्ता विमिश्रित-धनैस् त्रिशती त्रिभिस् तैस् वाणिज्यतस् वद विभज्य धनानि तेषाम् ॥'
+  source_text: '%pañcāśat %eka-sahitā gaṇaka %aṣṭaṣaṣṭis %pañca-ūnitā %navatis ādi-dhanāni yeṣām/
+
+    prāptā vimiśrita-dhanais %triśatī %tribhis tais vāṇijyatas @vada @vibhajya dhanāni teṣām// Lil_95'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.97
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 86
+  ref_label: '97'
+  devanagari: 'ये निर्झरास् दिन-दिन-अर्ध-तृतीय-षष्ठैस् संपूरयन्ति हि पृथक् पृथक् एव मुक्तास् ।
+
+    वापीम् यदा युगपद् एव सखे विमुक्तास् ते केन वासर-लवेन तदा वद आशु ॥'
+  source_text: 'ye nirjharās dina-dina-%ardha-%tṛtīya-%ṣaṣṭhais @saṃpūrayanti hi pṛthak pṛthak eva muktās/
+
+    vāpīm yadā yugapad eva sakhe vimuktās te kena vāsara-lavena tadā @vada āśu// Lil_97'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.98
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 87
+  ref_label: '98'
+  devanagari: 'पण्यैस् स्व-मूल्यानि भजेत् स्व-भागैस् हत्वा तद्-ऐक्येन भजेत् च तानि ।
+
+    भागान् च मिश्रेण धनेन हत्वा मूल्यानि पण्यानि यथा-क्रमम् स्युस् ॥'
+  source_text: 'paṇyais sva-mūlyāni @bhajet sva-bhāgais @hatvā tad-aikyena @bhajet ca tāni/
+
+    bhāgān ca miśreṇa dhanena @hatvā mūlyāni paṇyāni yathā-kramam @syus// [āpaṭe: krama < kramam] Lil_98'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - 'āpaṭe: krama < kramam'
+- id: verse.lilavati.99
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 88
+  ref_label: '99'
+  devanagari: 'स-अर्धम् तण्डुल-मानक-त्रयम् अहो द्रम्मेण मान-अष्टकम् मुद्गानाम् च यदि त्रयोदश-मितास् एतास् वणिक् काकिणीस् ।
+
+    आदाय अर्पय तण्डुल-अंश-युगलम् मुद्ग-एक-भाग-अन्वितम् क्षिप्रम् क्षिप्र-भुजस् व्रजेम हि यतस् स-अर्थस् अग्रतस् यास्यति ॥'
+  source_text: 'sa-%ardham taṇḍula-mānaka-%trayam aho drammeṇa māna-%aṣṭakam mudgānām ca yadi %trayodaśa-mitās etās vaṇik kākiṇīs/
+
+    @ādāya @arpaya taṇḍula-aṃśa-#yugalam mudga-%eka-bhāga-anvitam kṣipram kṣipra-bhujas @vrajema hi yatas sa-arthas agratas @yāsyati// Lil_99'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.100
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 89
+  ref_label: '100'
+  devanagari: 'कर्पूरस्य वरस्य निष्क-युगलेन एकम् पलम् प्राप्यते वैश्या-नन्दन चन्दनस्य च पलम् द्रम्म-अष्ट-भागेन चेद् ।
+
+    अष्ट-अंशेन तथा अगरोस् पल-दलम् निष्केण मे देहि तान् भागैस् एकक-षोडश-अष्टक-मितैस् धूपम् चिकीर्षामि अहम् ॥'
+  source_text: 'karpūrasya varasya niṣka-#yugalena %ekam palam @prāpyate vaiśyā-nandana candanasya ca palam dramma-%aṣṭa-bhāgena ced/
+
+    %aṣṭa-aṃśena tathā agaros pala-#dalam niṣkeṇa me @dehi tān bhāgais %ekaka-%ṣoḍaśa-%aṣṭaka-mitais dhūpam @cikīrṣāmi aham// Lil_100'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.101
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 90
+  ref_label: '101'
+  devanagari: 'नर-घ्न-दान-ऊनित-रत्न-शेषैस् इष्टे हृते स्युस् खलु मूल्य-संख्यास् ।
+
+    शेषैस् हृते शेष-वधे पृथक्-स्थैस् अभिन्न-मूल्यानि अथ वा भवन्ति ॥'
+  source_text: 'nara-ghna-dāna-ūnita-ratna-śeṣais iṣṭe hṛte @syus khalu mūlya-saṃkhyās/
+
+    śeṣais hṛte śeṣa-vadhe pṛthak-sthais abhinna-mūlyāni atha vā @bhavanti// Lil_101'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.102
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 91
+  ref_label: '102'
+  devanagari: 'माणिक्य-अष्टकम् इन्द्रनील-दशकम् मुक्ताफलानाम् शतम् सद्-वज्राणि च पञ्च रत्न-वणिजाम् येषाम् चतुर्णाम् धनम् ।
+
+    सङ्ग-स्नेह-वशेन ते निज-धनात् दत्त्वा एकम् एकम् मिथस् जातास् तुल्य-धनास् पृथक् वद सखे तद्-रत्न-मूल्यानि मे ॥'
+  source_text: 'māṇikya-%aṣṭakam indranīla-%daśakam muktāphalānām %śatam sad-vajrāṇi ca %pañca ratna-vaṇijām yeṣām %caturṇām dhanam/
+
+    saṅga-sneha-vaśena te nija-dhanāt @dattvā %ekam %ekam mithas jātās tulya-dhanās pṛthak @vada sakhe tad-ratna-mūlyāni me// Lil_102'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.103
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 92
+  ref_label: '103'
+  devanagari: 'सुवर्ण-वर्ण-आहति-योग-राशौ स्वर्ण-ऐक्य-भक्ते कनक-ऐक्य-वर्णस् ।
+
+    वर्णस् भवेत् शोधित-हेम-भक्ते वर्ण-उद्धृते शोधित-हेम-संख्या ॥'
+  source_text: 'suvarṇa-varṇa-āhati-yoga-rāśau svarṇa-aikya-bhakte kanaka-aikya-varṇas/
+
+    varṇas @bhavet śodhita-hema-bhakte varṇa-uddhṛte śodhita-hema-saṃkhyā// Lil_103'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.104
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 93
+  ref_label: '104'
+  devanagari: 'विश्व-अर्क-रुद्र-दश-वर्ण-सुवर्ण-माषास् दिश्-वेद-लोचन-युग-प्रमितास् क्रमेण ।
+
+    आवर्तितेषु वद तेषु सुवर्ण-वर्णस् तूर्णम् सुवर्ण-गणित-ज्ञ वणिक् भवेत् कस् ॥'
+  source_text: '#viśva-#arka-#rudra-%daśa-varṇa-suvarṇa-māṣās #diś-#veda-#locana-#yuga-pramitās krameṇa/
+
+    āvartiteṣu @vada teṣu suvarṇa-varṇas tūrṇam suvarṇa-gaṇita-jña vaṇik @bhavet kas// Lil_104'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.105
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 94
+  ref_label: '105'
+  devanagari: 'ते शोधने यदि च विंशतिस् उक्त-माषास् स्युस् षोडश आशु वद वर्ण-मितिस् तदा का ।
+
+    चेद् शोधितम् भवति षोडश-वर्ण-हेम ते विंशतिस् कति भवन्ति तदा तु माषास् ॥'
+  source_text: 'te śodhane yadi ca %viṃśatis ukta-māṣās @syus %ṣoḍaśa āśu @vada varṇa-mitis tadā kā/
+
+    ced śodhitam @bhavati %ṣoḍaśa-varṇa-hema te %viṃśatis kati @bhavanti tadā tu māṣās// Lil_105'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.106
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 95
+  ref_label: '106'
+  devanagari: 'स्वर्ण-ऐक्य-निघ्नात् युति-जात-वर्णात् सुवर्ण-तद्-वर्ण-वध-ऐक्य-हीनात् ।
+
+    अज्ञात-वर्ण-अग्नि-ज-संख्यया आप्तम् अज्ञात-वर्णस्य भवेत् प्रमाणम् ॥'
+  source_text: 'svarṇa-aikya-nighnāt yuti-jāta-varṇāt suvarṇa-tad-varṇa-vadha-aikya-hīnāt/
+
+    ajñāta-varṇa-agni-ja-saṃkhyayā āptam ajñāta-varṇasya @bhavet pramāṇam// Lil_106'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.107
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 96
+  ref_label: '107'
+  devanagari: 'दश-ईश-वर्णास् वसु-नेत्र-माषास् अज्ञात-वर्णस्य षट् एतद्-ऐक्ये ।
+
+    जातम् सखे द्वादशकम् सुवर्णम् अज्ञात-वर्णस्य वद प्रमाणम् ॥'
+  source_text: '%daśa-#īśa-varṇās #vasu-#netra-māṣās ajñāta-varṇasya ṣaṭ etad-aikye/
+
+    jātam sakhe %dvādaśakam suvarṇam ajñāta-varṇasya @vada pramāṇam// Lil_107'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.108
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 97
+  ref_label: '108'
+  devanagari: 'स्वर्ण-ऐक्य-निघ्नस् युति-जात-वर्णस् स्वर्ण-घ्न-वर्ण-ऐक्य-वियोजितस् च ।
+
+    अहेम-वर्ण-अग्नि-ज-योग-वर्ण-विश्लेष-भक्तस् अविदित-अग्नि-जम् स्यात् ॥'
+  source_text: 'svarṇa-aikya-nighnas yuti-jāta-varṇas svarṇa-ghna-varṇa-aikya-viyojitas ca/
+
+    ahema-varṇa-agni-ja-yoga-varṇa-viśleṣa-bhaktas avidita-agni-jam @syāt// Lil_108'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.109
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 98
+  ref_label: '109'
+  devanagari: 'दश-इन्द्र-वर्णास् गुण-चन्द्र-माषास् किंचित् तथा षोडशकस्य तेषाम् ।
+
+    जातम् युतौ द्वादशकम् सुवर्णम् कति इह ते षोडश-वर्ण-माषास् ॥'
+  source_text: '%daśa-#indra-varṇās #guṇa-#candra-māṣās kiṃcit tathā %ṣoḍaśakasya teṣām/
+
+    jātam yutau %dvādaśakam suvarṇam kati iha te %ṣoḍaśa-varṇa-māṣās// Lil_109'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.110
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 99
+  ref_label: '110'
+  devanagari: 'साध्येन ऊनस् अनल्प-वर्णस् विधेयस् साध्यस् वर्णस् स्वल्प-वर्ण-ऊनितस् च ।
+
+    इष्ट-क्षुण्णे शेषके स्वर्ण-माने स्याताम् स्वल्प-अनल्पयोस् वर्णयोस् ते ॥'
+  source_text: 'sādhyena ūnas analpa-varṇas vidheyas sādhyas varṇas svalpa-varṇa-ūnitas ca/
+
+    iṣṭa-kṣuṇṇe śeṣake svarṇa-māne @syātām svalpa-analpayos varṇayos te// Lil_110'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.111
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 100
+  ref_label: '111'
+  devanagari: 'हाटक-गुटिके षोडश-दश-वर्णे तद्-युतौ सखे जातम् ।
+
+    द्वादश-वर्ण-सुवर्णम् ब्रूहि तयोस् स्वर्ण-माने मे ॥'
+  source_text: 'hāṭaka-guṭike %ṣoḍaśa-%daśa-varṇe tad-yutau sakhe jātam/
+
+    %dvādaśa-varṇa-suvarṇam @brūhi tayos svarṇa-māne me// Lil_111'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.112
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 101
+  ref_label: '112'
+  devanagari: 'एक-आदि-एक-उत्तरास् अङ्कास् व्यस्तास् भाज्यास् क्रम-स्थितैस् ।
+
+    परस् पूर्वेण संगुण्यस् तद्-परस् तेन तेन च ॥'
+  source_text: '%eka-ādi-eka-uttarās aṅkās vyastās bhājyās krama-sthitais/
+
+    paras pūrveṇa saṃguṇyas tad-paras tena tena ca// Lil_112'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.113
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 102
+  ref_label: '113'
+  devanagari: 'एक-द्वि-त्रि-आदि-भेदास् स्युस् इदम् साधारणम् स्मृतम् ।
+
+    छन्दस्-चिति-उत्तरे छन्दसि उपयोगस् अस्य तद्-विदाम् ॥'
+  source_text: '%eka-%dvi-%tri-ādi-bhedās @syus idam sādhāraṇam smṛtam/
+
+    chandas-citi-uttare chandasi upayogas asya tad-vidām// Lil_113'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.114
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 103
+  ref_label: '114'
+  devanagari: 'मूषा-वहन-भेद-आदौ खण्ड-मेरौ च शिल्पके ।
+
+    वैद्यके रस-भेदीये तत् न उक्तम् विस्तृतेस् भयात् ॥'
+  source_text: 'mūṣā-vahana-bheda-ādau khaṇḍa-merau ca śilpake/
+
+    vaidyake rasa-bhedīye tat na uktam vistṛtes bhayāt// Lil_114'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.115
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 104
+  ref_label: '115'
+  devanagari: 'प्रस्तारे मित्र गायत्र्यास् स्युस् पादे व्यक्तयस् कति ।
+
+    एक-आदि-गुरवस् च आशु कति कति उच्यताम् पृथक् ॥'
+  source_text: 'prastāre mitra gāyatryās @syus pāde vyaktayas kati/
+
+    %eka-ādi-guravas ca āśu kati kati @ucyatām pṛthak// Lil_115'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.116
+  section: section.lilavati.misraka-vyavahara
+  ordinal: 105
+  ref_label: '116'
+  devanagari: 'एक-द्वि-त्रि-आदि-मूषा-वहन-मितिम् अहो ब्रूहि मे भूमि-भर्तुस् हर्म्ये रम्ये अष्ट-मूषे चतुर-विरचिते श्लक्ष्ण-शाला-विशाले ।
+
+    एक-द्वि-त्रि-आदि-युक्तास् मधुर-कटु-कषाय-आम्लक-क्षार-तिक्तैस् एकस्मिन् षष्-रसैस् स्युस् गणक कति वद व्यञ्जने व्यक्ति-भेदास् ॥'
+  source_text: '%eka-%dvi-%tri-ādi-mūṣā-vahana-mitim aho @brūhi me bhūmi-bhartus harmye ramye %aṣṭa-mūṣe catura-viracite ślakṣṇa-śālā-viśāle/
+
+    %eka-%dvi-%tri-ādi-yuktās madhura-kaṭu-kaṣāya-āmlaka-kṣāra-tiktais ekasmin %ṣaṣ-rasais @syus gaṇaka kati @vada vyañjane vyakti-bhedās// Lil_116'
+  source: source.gretil-lilavati
+  review: unreviewed

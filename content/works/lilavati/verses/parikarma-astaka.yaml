@@ -1,0 +1,270 @@
+- id: verse.lilavati.9
+  section: section.lilavati.parikarma-astaka
+  ordinal: 9
+  ref_label: '9'
+  devanagari: 'लीला-गल-लुलत्-लोल-काल-व्याल-विलासिने ।
+
+    गणेशाय नमस् नील-कमल-अमल-कान्तये ॥'
+  source_text: 'līlā-gala-lulat-lola-kāla-vyāla-vilāsine/
+
+    gaṇeśāya namas nīla-kamala-amala-kāntaye//[śloka] Lil_9'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - śloka
+- id: verse.lilavati.10
+  section: section.lilavati.parikarma-astaka
+  ordinal: 10
+  ref_label: '10'
+  devanagari: 'एक-दश-शत-सहस्र-अयुत-लक्ष-प्रयुत-कोटयस् क्रमशस् ।
+
+    अर्बुदम् अब्जम् खर्व-निखर्व-महापद्म-शङ्कवस् तस्मात् ॥'
+  source_text: '%eka-%daśa-%śata-%sahasra-%ayuta-%lakṣa-%prayuta-%koṭayas kramaśas/
+
+    %arbudam %abjam %kharva-%nikharva-%mahāpadma-%śaṅkavas tasmāt//[gīti] Lil_10'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - gīti
+- id: verse.lilavati.11
+  section: section.lilavati.parikarma-astaka
+  ordinal: 11
+  ref_label: '11'
+  devanagari: 'जलधिस् च अन्त्यम् मध्यम् परार्धम् इति दश-गुण-उत्तरास् संज्ञास् ।
+
+    संख्यायास् स्थानानाम् व्यवहार-अर्थम् कृतास् पूर्वैस् ॥'
+  source_text: '%jaladhis ca %antyam %madhyam %parārdham iti %daśa-guṇa-uttarās saṃjñās/
+
+    saṃkhyāyās sthānānām vyavahāra-artham kṛtās pūrvais//[āryā] Lil_11'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - āryā
+- id: verse.lilavati.13
+  section: section.lilavati.parikarma-astaka
+  ordinal: 12
+  ref_label: '13'
+  devanagari: 'अये बाले लीलावति मति-मति ब्रूहि सहितान् द्वि-पञ्च-द्वात्रिंशत्-त्रिनवति-शत-अष्टादश दश ।
+
+    शत-उपेतान् एतान् अयुत-वियुतान् च अपि वद मे यदि व्यक्ते युक्ति-व्यवकलन-मार्गे असि कुशला ॥'
+  source_text: 'aye bāle līlāvati mati-mati @brūhi sahitān %dvi-%pañca-%dvātriṃśat-%trinavati-%śata-%aṣṭādaśa %daśa/
+
+    %śata-upetān etān %ayuta-viyutān ca api @vada me yadi vyakte yukti-vyavakalana-mārge @asi kuśalā//[śikhariṇī] Lil_13'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - śikhariṇī
+- id: verse.lilavati.14
+  section: section.lilavati.parikarma-astaka
+  ordinal: 13
+  ref_label: '14'
+  devanagari: 'गुण्य-अन्त्यम् अङ्कम् गुणकेन हन्यात् उत्सारितेन एवम् उपान्तिम-आदीन् ॥
+
+    गुण्यस् तु अधस् अधस् गुण-खण्ड-तुल्यस् तैस् खण्डकैस् संगुणितस् युतस् वा ।'
+  source_text: 'guṇya-antyam aṅkam guṇakena @hanyāt utsāritena evam upāntima-ādīn//[indravajrā-cd; ab=12]
+
+    guṇyas tu adhas adhas guṇa-khaṇḍa-tulyas tais khaṇḍakais saṃguṇitas yutas vā/ Lil_14'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - indravajrā-cd; ab=12
+- id: verse.lilavati.15
+  section: section.lilavati.parikarma-astaka
+  ordinal: 14
+  ref_label: '15'
+  devanagari: 'भक्तस् गुणस् शुध्यति येन तेन लब्ध्या च गुण्यस् गुणितस् फलम् वा ॥
+
+    द्विधा भवेत् रूप-विभागस् एवम् स्थानैस् पृथक् वा गुणितस् समेतस् ।'
+  source_text: 'bhaktas guṇas @śudhyati yena tena labdhyā ca guṇyas guṇitas phalam vā//[indravajrā]
+
+    dvidhā @bhavet rūpa-vibhāgas evam sthānais pṛthak vā guṇitas sametas/ Lil_15'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - indravajrā
+- id: verse.lilavati.17
+  section: section.lilavati.parikarma-astaka
+  ordinal: 15
+  ref_label: '17'
+  devanagari: 'बाले बाल-कुरङ्ग-लोल-नयने लीलावति प्रोच्यताम् पञ्च-त्रि-एक-मितास् दिवाकर-गुणास् अङ्कास् कति स्युस् यदि ।
+
+    रूप-स्थान-विभाग-खण्ड-गुणने कल्पा असि कल्याणिनि छिन्नास् तेन गुणेन ते च गुणितास् जातास् कति स्युस् वद ॥'
+  source_text: 'bāle bāla-kuraṅga-lola-nayane līlāvati @procyatām %pañca-%tri-%eka-mitās #divākara-guṇās aṅkās kati @syus yadi/
+
+    rūpa-sthāna-vibhāga-khaṇḍa-guṇane kalpā @asi kalyāṇini chinnās tena guṇena te ca guṇitās jātās kati @syus @vada//[śārdūlavikrīḍita] Lil_17'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - śārdūlavikrīḍita
+- id: verse.lilavati.18
+  section: section.lilavati.parikarma-astaka
+  ordinal: 16
+  ref_label: '18'
+  devanagari: 'भाज्यात् हरस् शुध्यति यद्-गुणस् स्यात् अन्त्यात् फलम् तत् खलु भाग-हारे ।
+
+    समेन केन अपि अपवर्त्य हार-भाज्यौ भजेत् वा सति संभवे तु ॥'
+  source_text: 'bhājyāt haras @śudhyati yad-guṇas @syāt antyāt phalam tat khalu bhāga-hāre/
+
+    samena kena api @apavartya hāra-bhājyau @bhajet vā sati saṃbhave tu//[upajāti] Lil_18'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - upajāti
+- id: verse.lilavati.19
+  section: section.lilavati.parikarma-astaka
+  ordinal: 17
+  ref_label: '19'
+  devanagari: 'सम-द्वि-घातस् कृतिस् उच्यते अथ स्थाप्यस् अन्त्य-वर्गस् द्वि-गुण-अन्त्य-निघ्नस् ।
+
+    स्व-स्व-उपरिष्टात् च तथा अपरे अङ्कास् त्यक्त्वा अन्त्यम् उत्सार्य पुनर् च राशिम् ॥'
+  source_text: 'sama-%dvi-ghātas kṛtis @ucyate atha sthāpyas antya-vargas %dvi-guṇa-antya-nighnas/
+
+    sva-sva-upariṣṭāt ca tathā apare aṅkās @tyaktvā antyam @utsārya punar ca rāśim//[upajāti] Lil_19'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - upajāti
+- id: verse.lilavati.20
+  section: section.lilavati.parikarma-astaka
+  ordinal: 18
+  ref_label: '20'
+  devanagari: 'खण्ड-द्वयस्य अभिहतिस् द्वि-निघ्नी तद्-खण्ड-वर्ग-ऐक्य-युता कृतिस् वा ।
+
+    इष्ट-ऊन-युज्-राशि-वधस् कृतिस् स्यात् इष्टस्य वर्गेण समन्वितस् वा ॥'
+  source_text: 'khaṇḍa-%dvayasya abhihatis 5dvi-nighnī tad-khaṇḍa-varga-aikya-yutā kṛtis vā/
+
+    iṣṭa-ūna-yuj-rāśi-vadhas kṛtis @syāt iṣṭasya vargeṇa samanvitas vā//[indravajrā] Lil_20'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - indravajrā
+- id: verse.lilavati.21
+  section: section.lilavati.parikarma-astaka
+  ordinal: 19
+  ref_label: '21'
+  devanagari: 'सखे नवानाम् च चतुर्दशानाम् ब्रूहि त्रि-हीनस्य शत-त्रयस्य ।
+
+    पञ्च-उत्तरस्य अपि अयुतस्य वर्गम् जानासि चेद् वर्ग-विधान-मार्गम् ॥'
+  source_text: 'sakhe %navānām ca %caturdaśānām @brūhi %tri-hīnasya %śata-%trayasya/
+
+    %pañca-uttarasya api %ayutasya vargam @jānāsi ced varga-vidhāna-mārgam//[upajāti] Lil_21'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - upajāti
+- id: verse.lilavati.22
+  section: section.lilavati.parikarma-astaka
+  ordinal: 20
+  ref_label: '22'
+  devanagari: 'त्यक्त्वा अन्त्यात् विषमात् कृतिम् द्वि-गुणयेत् मूलम् समे तद्-हृते त्यक्त्वा लब्ध-कृतिम् तद्-आद्य-विषमात् लब्धम् द्वि-निघ्नम् न्यसेत् ।
+
+    पङ्क्त्याम् पङ्क्ति-हृते समे अन्य-विषमात् त्यक्त्वा आप्त-वर्गम् फलम् पङ्क्त्याम् तत् द्वि-गुणम् न्यसेत् इति मुहुस् पङ्क्तेस् दलम् स्यात् पदम् ॥'
+  source_text: '@tyaktvā antyāt viṣamāt kṛtim @%dvi-guṇayet mūlam same tad-hṛte @tyaktvā labdha-kṛtim tad-ādya-viṣamāt labdham %dvi-nighnam @nyaset/
+
+    paṅktyām paṅkti-hṛte same anya-viṣamāt @tyaktvā āpta-vargam phalam paṅktyām tat %dvi-guṇam @nyaset iti muhus paṅktes #dalam @syāt padam//[śārdūlavikrīḍita] Lil_22'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - śārdūlavikrīḍita
+- id: verse.lilavati.23
+  section: section.lilavati.parikarma-astaka
+  ordinal: 21
+  ref_label: '23'
+  devanagari: 'मूलम् चतुर्णाम् च तथा नवानाम् पूर्वम् कृतानाम् च सखे कृतीनाम् ।
+
+    पृथक् पृथक् वर्ग-पदानि विद्धि बुद्धेस् विवृद्धिस् यदि ते अत्र जाता ॥'
+  source_text: 'mūlam %caturṇām ca tathā %navānām pūrvam kṛtānām ca sakhe kṛtīnām/
+
+    pṛthak pṛthak varga-padāni @viddhi buddhes vivṛddhis yadi te atra jātā//[upajāti] Lil_23'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - upajāti
+- id: verse.lilavati.24
+  section: section.lilavati.parikarma-astaka
+  ordinal: 22
+  ref_label: '24'
+  devanagari: 'सम-त्रि-घातस् च घनस् प्रदिष्टस् स्थाप्यस् घनस् अन्त्यस्य ततस् अन्त्य-वर्गस् ।
+
+    आदि-त्रि-निघ्नस् ततस् आदि-वर्गस् त्रि-अन्त्य-आहतस् अथ आदि-घनस् च सर्वे ॥'
+  source_text: 'sama-%tri-ghātas ca ghanas pradiṣṭas sthāpyas ghanas antyasya tatas antya-vargas/
+
+    ādi-%tri-nighnas tatas ādi-vargas %tri-antya-āhatas atha ādi-ghanas ca sarve//[upajāti] Lil_24'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - upajāti
+- id: verse.lilavati.25
+  section: section.lilavati.parikarma-astaka
+  ordinal: 23
+  ref_label: '25'
+  devanagari: 'स्थान-अन्तरत्वेन युतास् घनस् स्यात् प्रकल्प्य तद्-खण्ड-युगम् ततस् अन्त्यम् ।
+
+    एवम् मुहुस् वर्ग-घन-प्रसिद्धौ आद्य-अङ्कतस् वा विधिस् एषस् कार्यस् ॥'
+  source_text: 'sthāna-antaratvena yutās ghanas @syāt @prakalpya tad-khaṇḍa-#yugam tatas antyam/
+
+    evam muhus varga-ghana-prasiddhau ādya-aṅkatas vā vidhis eṣas kāryas//[upajāti] Lil_25'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - upajāti
+- id: verse.lilavati.26
+  section: section.lilavati.parikarma-astaka
+  ordinal: 24
+  ref_label: '26'
+  devanagari: 'खण्डाभ्याम् वा आहतस् राशिस् त्रि-घ्नस् खण्ड-घन-ऐक्य-युक् ।
+
+    वर्ग-मूल-घनस् स्व-घ्नस् वर्ग-राशेस् घनस् भवेत् ॥'
+  source_text: 'khaṇḍābhyām vā āhatas rāśis %tri-ghnas khaṇḍa-ghana-aikya-yuk/
+
+    varga-mūla-ghanas sva-ghnas varga-rāśes ghanas @bhavet//[śloka] Lil_26'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - śloka
+- id: verse.lilavati.27
+  section: section.lilavati.parikarma-astaka
+  ordinal: 25
+  ref_label: '27'
+  devanagari: 'नव-घनम् त्रि-घनस्य घनम् तथा कथय पञ्च-घनस्य घनम् च मे ।
+
+    घन-पदम् च ततस् अपि घनात् सखे यदि घने अस्ति घना भवतस् मतिस् ॥'
+  source_text: 'nava-ghanam %tri-ghanasya ghanam tathā @kathaya %pañca-ghanasya ghanam ca me/
+
+    ghana-padam ca tatas api ghanāt sakhe yadi ghane @asti ghanā bhavatas matis//[drutavilambita] Lil_27'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - drutavilambita
+- id: verse.lilavati.28
+  section: section.lilavati.parikarma-astaka
+  ordinal: 26
+  ref_label: '28'
+  devanagari: 'आद्यम् घन-स्थानम् अथ अघने द्वे पुनर् तथा अन्त्यात् घनतस् विशोध्य ।
+
+    घनम् पृथक्-स्थम् पदम् अस्य कृत्वा त्रि-घ्न्या तद्-आद्यम् विभजेत् फलम् तु ॥'
+  source_text: 'ādyam ghana-sthānam atha aghane %dve punar tathā antyāt ghanatas @viśodhya/
+
+    ghanam pṛthak-stham padam asya @kṛtvā %tri-ghnyā tad-ādyam @vibhajet phalam tu//[upajāti] Lil_28'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - upajāti
+- id: verse.lilavati.29
+  section: section.lilavati.parikarma-astaka
+  ordinal: 27
+  ref_label: '29'
+  devanagari: 'पङ्क्त्याम् न्यसेत् तद्-कृतिम् अन्त्य-निघ्नीम् त्रि-घ्नीम् त्यजेत् तद्-प्रथमात् फलस्य ।
+
+    घनम् तद्-आद्यात् घन-मूलम् एवम् पङ्क्तिस् भवेत् एवम् अतस् पुनर् च ॥
+
+    अत्र पूर्व-घनानाम् मूल-अर्थम् न्यासस् । । । क्रमेण लब्धानि मूलानि । । ॥ इति घन-मूलम् ॥ इति परिकर्म-अष्टकम् ॥'
+  source_text: 'paṅktyām @nyaset tad-kṛtim antya-nighnīm %tri-ghnīm @tyajet tad-%prathamāt phalasya/
+
+    ghanam tad-ādyāt ghana-mūlam evam paṅktis @bhavet evam atas punar ca//[upajāti]
+
+    atra pūrva-ghanānām mūla-artham nyāsas 729/ 19683/ 1953125/ krameṇa labdhāni mūlāni 9/ 27/ 125// iti ghana-mūlam// iti parikarma-%aṣṭakam// Lil_29'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - upajāti

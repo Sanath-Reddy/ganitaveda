@@ -1,0 +1,204 @@
+- id: verse.lilavati.117
+  section: section.lilavati.sredhi-vyavahara
+  ordinal: 106
+  ref_label: '117'
+  devanagari: 'स-एक-पद-घ्न-पद-अर्धम् अथ एक-आदि-अङ्क-युतिस् किल संकलित-आख्या ।
+
+    सा द्वि-युतेन पदेन विनिघ्नी स्यात् त्रि-हृता खलु संकलित-ऐक्यम् ॥'
+  source_text: 'sa-%eka-pada-ghna-pada-%ardham atha %eka-ādi-aṅka-yutis kila saṃkalita-ākhyā/
+
+    sā %dvi-yutena padena vinighnī @syāt %tri-hṛtā khalu saṃkalita-aikyam// Lil_117'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.118
+  section: section.lilavati.sredhi-vyavahara
+  ordinal: 107
+  ref_label: '118'
+  devanagari: 'एक-आदीनाम् नव-अन्तानाम् पृथक् संकलितानि मे ।
+
+    तेषाम् संकलित-ऐक्यानि प्रचक्ष्व गणक द्रुतम् ॥'
+  source_text: '%eka-ādīnām %nava-antānām pṛthak saṃkalitāni me/
+
+    teṣām saṃkalita-aikyāni @pracakṣva gaṇaka drutam// Lil_118'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.119
+  section: section.lilavati.sredhi-vyavahara
+  ordinal: 108
+  ref_label: '119'
+  devanagari: 'द्वि-घ्न-पदम् कु-युतम् त्रि-विभक्तम् संकलितेन हतम् कृति-योगस् ।
+
+    संकलितस्य कृतेस् समम् एक-आदि-अङ्क-घन-ऐक्यम् उदाहृतम् आद्यैस् ॥'
+  source_text: '%dvi-ghna-padam #ku-yutam %tri-vibhaktam saṃkalitena hatam kṛti-yogas/
+
+    saṃkalitasya kṛtes samam %eka-ādi-aṅka-ghana-aikyam udāhṛtam ādyais// Lil_119'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.120
+  section: section.lilavati.sredhi-vyavahara
+  ordinal: 109
+  ref_label: '120'
+  devanagari: 'तेषाम् एव च वर्ग-ऐक्यम् घन-ऐक्यम् च वद द्रुतम् ।
+
+    कृति-संकलना-मार्गे कुशला यदि ते मतिस् ॥'
+  source_text: 'teṣām eva ca varga-aikyam ghana-aikyam ca @vada drutam/
+
+    kṛti-saṃkalanā-mārge kuśalā yadi te matis// Lil_120'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.121
+  section: section.lilavati.sredhi-vyavahara
+  ordinal: 110
+  ref_label: '121'
+  devanagari: 'वि-एक-पद-घ्न-चयस् मुख-युक् स्यात् अन्त्य-धनम् मुख-युक् दलितम् तत् ।
+
+    मध्य-धनम् पद-संगुणितम् तत् सर्व-धनम् गणितम् च तत् उक्तम् ॥'
+  source_text: 'vi-%eka-pada-ghna-cayas mukha-yuk @syāt antya-dhanam mukha-yuk dalitam tat/
+
+    madhya-dhanam pada-saṃguṇitam tat sarva-dhanam gaṇitam ca tat uktam// Lil_121'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.122
+  section: section.lilavati.sredhi-vyavahara
+  ordinal: 111
+  ref_label: '122'
+  devanagari: 'आद्ये दिने द्रम्म-चतुष्टयम् यस् दत्त्वा द्विजेभ्यस् अनु-दिनम् प्रवृत्तस् ।
+
+    दातुम् सखे पञ्च-चयेन पक्षे द्रम्मास् वद द्राक् कति तेन दत्तास् ॥'
+  source_text: 'ādye dine dramma-%catuṣṭayam yas @dattvā dvijebhyas anu-dinam pravṛttas/
+
+    dātum sakhe %pañca-cayena pakṣe drammās @vada drāk kati tena dattās// Lil_122'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.123
+  section: section.lilavati.sredhi-vyavahara
+  ordinal: 112
+  ref_label: '123'
+  devanagari: 'आदिस् सप्त चयस् पञ्च गच्छस् अष्टौ यत्र तत्र मे ।
+
+    मध्य-अन्त्य-धन-संख्ये के वद सर्व-धनम् च किम् ॥'
+  source_text: 'ādis %sapta cayas %pañca gacchas %aṣṭau yatra tatra me/
+
+    madhya-antya-dhana-saṃkhye ke @vada sarva-dhanam ca kim// Lil_123'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.125
+  section: section.lilavati.sredhi-vyavahara
+  ordinal: 113
+  ref_label: '125'
+  devanagari: 'पञ्च-अधिकम् शतम् श्रेढी-फलम् सप्त पदम् किल ।
+
+    चयम् त्रयम् वयम् विद्मस् वदनम् वद नन्दन ॥'
+  source_text: '%pañca-adhikam %śatam śreḍhī-phalam %sapta padam kila/
+
+    cayam %trayam vayam @vidmas vadanam @vada nandana// Lil_125'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.127
+  section: section.lilavati.sredhi-vyavahara
+  ordinal: 114
+  ref_label: '127'
+  devanagari: 'प्रथमम् अगमत् अह्ना योजने यस् जन-ईशस् तद्-अनु ननु कया असौ ब्रूहि यातस् अध्व-वृद्ध्या ।
+
+    अरि-करि-हरण-अर्थम् योजनानाम् अशीत्या रिपु-नगरम् अवाप्तस् सप्त-रात्रेण धीमन् ॥'
+  source_text: '%prathamam @agamat ahnā yojane yas jana-īśas tad-anu nanu kayā asau @brūhi yātas adhva-vṛddhyā/
+
+    ari-kari-haraṇa-artham yojanānām %aśītyā ripu-nagaram avāptas %sapta-rātreṇa dhīman// Lil_127'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.128
+  section: section.lilavati.sredhi-vyavahara
+  ordinal: 115
+  ref_label: '128'
+  devanagari: 'श्रेढी-फलात् उत्तर-लोचन-घ्नात् चय-अर्ध-वक्त्र-अन्तर-वर्ग-युक्तात् ।
+
+    मूलम् मुख-ऊनम् चय-खण्ड-युक्तम् चय-उद्धृतम् गच्छम् उदाहरन्ति ॥'
+  source_text: 'śreḍhī-phalāt uttara-#locana-ghnāt caya-%ardha-vaktra-antara-varga-yuktāt/
+
+    mūlam mukha-ūnam caya-#khaṇḍa-yuktam caya-uddhṛtam gaccham @udāharanti// Lil_128'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.129
+  section: section.lilavati.sredhi-vyavahara
+  ordinal: 116
+  ref_label: '129'
+  devanagari: 'द्रम्म-त्रयम् यस् प्रथमे अह्नि दत्त्वा दातुम् प्रवृत्तस् द्वि-चयेन तेन ।
+
+    शत-त्रयम् षष्टि-अधिकम् द्विजेभ्यस् दत्तम् कियद्भिस् दिवसैस् वद आशु ॥'
+  source_text: 'dramma-%trayam yas %prathame ahni @dattvā @dātum pravṛttas %dvi-cayena tena/
+
+    %śata-%trayam %ṣaṣṭi-adhikam dvijebhyas dattam kiyadbhis divasais @vada āśu// Lil_129'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.130
+  section: section.lilavati.sredhi-vyavahara
+  ordinal: 117
+  ref_label: '130'
+  devanagari: 'विषमे गच्छे वि-एके गुणकस् स्थाप्यस् समे अर्धिते वर्गस् ।
+
+    गच्छ-क्षय-अन्तम् अन्त्यात् व्यस्तम् गुण-वर्ग-जम् फलम् यत् तत् ।
+
+    वि-एकम् वि-एक-गुण-उद्धृतम् आदि-गुणम् स्यात् गुण-उत्तरे गणितम् ॥'
+  source_text: 'viṣame gacche vi-%eke guṇakas sthāpyas same ardhite vargas/
+
+    gaccha-kṣaya-antam antyāt vyastam guṇa-varga-jam phalam yat tat/
+
+    vi-%ekam vi-%eka-guṇa-uddhṛtam ādi-guṇam @syāt guṇa-uttare gaṇitam// Lil_130'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.131
+  section: section.lilavati.sredhi-vyavahara
+  ordinal: 118
+  ref_label: '131'
+  devanagari: 'पूर्वम् वराटक-युगम् येन द्वि-गुण-उत्तरम् प्रतिज्ञातम् ।
+
+    प्रति-अहम् अर्थि-जनाय सस् मासे निष्कान् ददाति कति ॥'
+  source_text: 'pūrvam varāṭaka-yugam yena %dvi-guṇa-uttaram pratijñātam/
+
+    prati-aham arthi-janāya sas māse niṣkān @dadāti kati// Lil_131'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.132
+  section: section.lilavati.sredhi-vyavahara
+  ordinal: 119
+  ref_label: '132'
+  devanagari: 'आदिस् द्विकम् सखे वृद्धिस् प्रति-अहम् त्रि-गुण-उत्तरा ।
+
+    गच्छस् सप्त-दिनम् यत्र गणितम् तत्र किम् वद ॥'
+  source_text: 'ādis %dvikam sakhe vṛddhis prati-aham %tri-guṇa-uttarā/
+
+    gacchas %sapta-dinam yatra gaṇitam tatra kim @vada// Lil_132'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.133
+  section: section.lilavati.sredhi-vyavahara
+  ordinal: 120
+  ref_label: '133'
+  devanagari: 'पाद-अक्षर-मित-गच्छे गुण-वर्ग-फलम् चये द्वि-गुणे ।
+
+    सम-वृत्तानाम् संख्या तद्-वर्गस् वर्ग-वर्गस् च ।
+
+    स्व-स्व-पद-ऊनौ स्याताम् अर्ध-समानाम् च विषमाणाम् ॥'
+  source_text: 'pāda-akṣara-mita-gacche guṇa-varga-phalam caye %dvi-guṇe/
+
+    sama-vṛttānām saṃkhyā tad-vargas varga-vargas ca/
+
+    sva-sva-pada-ūnau @syātām %ardha-samānām ca viṣamāṇām// Lil_133'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.134
+  section: section.lilavati.sredhi-vyavahara
+  ordinal: 121
+  ref_label: '134'
+  devanagari: 'समानाम् अर्ध-तुल्यानाम् विषमाणाम् पृथक् पृथक् ।
+
+    वृत्तानाम् वद मे संख्याम् अनुष्टुभ्-छन्दसि द्रुतम् ॥
+
+    न्यासस् । उत्तरस् द्वि-गुणस् । गच्छस् । लब्धास् सम-वृत्तानाम् संख्यास् । तथा अर्ध-समानाम् च । विषमाणाम् च ॥ इति श्रेढी-व्यवहारस् समाप्तस् ॥'
+  source_text: 'samānām %ardha-tulyānām viṣamāṇām pṛthak pṛthak/
+
+    vṛttānām @vada me saṃkhyām anuṣṭubh-chandasi drutam//
+
+    nyāsas/ uttaras %dvi-guṇas 2/ gacchas 8/ labdhās sama-vṛttānām saṃkhyās 256/ tathā %ardha-samānām ca 65280/ viṣamāṇām ca 4294901760// iti śreḍhī-vyavahāras samāptas// Lil_134'
+  source: source.gretil-lilavati
+  review: unreviewed

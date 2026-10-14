@@ -1,0 +1,46 @@
+id: lesson.bee-swarm
+version: 1
+title: {en: "The swarm of bees", kn: "ದುಂಬಿಗಳ ಹಿಂಡು"}
+subtitle: {en: "The rule of supposition", kn: "ಇಷ್ಟಕರ್ಮ ನಿಯಮ"}
+area: area.arithmetic
+concepts: [concept.ishta-karma, concept.fractions]
+curriculum: [ncert.6.gp.fractions, ncert.7.gp.fractions]
+minutes: 7
+author: A
+review: {maths: draft, sanskrit: unreviewed, kannada: draft}
+claims:
+  verse: [{source: source.colebrooke-1817, note: "Līlāvatī §54"}]
+cards:
+  - id: scene
+    type: scene
+    art: art.bee-swarm
+    text:
+      en: "A swarm of bees flies over a garden. A fifth of them settle on a kadamba flower and a third on a śilīndhra. Three times the difference between those two groups flies off to a kuṭaja bush. One bee is left, circling in the air, unable to choose between the jasmine and the pandanus. How many bees were in the swarm?"
+      kn: "ದುಂಬಿಗಳ ಹಿಂಡೊಂದು ತೋಟದ ಮೇಲೆ ಹಾರುತ್ತಿದೆ. ಅವುಗಳಲ್ಲಿ ಐದನೇ ಒಂದು ಭಾಗ ಕದಂಬದ ಹೂವಿನ ಮೇಲೆ, ಮೂರನೇ ಒಂದು ಭಾಗ ಶಿಲೀಂಧ್ರದ ಮೇಲೆ ಕೂರುತ್ತವೆ. ಆ ಎರಡು ಗುಂಪುಗಳ ವ್ಯತ್ಯಾಸದ ಮೂರರಷ್ಟು ದುಂಬಿಗಳು ಕುಟಜದ ಪೊದೆಗೆ ಹಾರುತ್ತವೆ. ಮಲ್ಲಿಗೆಯೋ ಕೇದಗೆಯೋ ಎಂದು ತೀರ್ಮಾನಿಸಲಾಗದೆ ಒಂದು ದುಂಬಿ ಗಾಳಿಯಲ್ಲಿ ಸುತ್ತುತ್ತಿದೆ. ಹಿಂಡಿನಲ್ಲಿ ಎಷ್ಟು ದುಂಬಿಗಳಿದ್ದವು?"
+  - id: play
+    type: explore
+    widget: swarm
+    params: {parts: ["1/5", "1/3"], difference_multiplier: 3, remainder: 1, range: [5, 60]}
+    prompt: {en: "Change the size of the swarm. Find the size that leaves exactly one bee.", kn: "ಹಿಂಡಿನ ಗಾತ್ರವನ್ನು ಬದಲಿಸಿ. ಸರಿಯಾಗಿ ಒಂದು ದುಂಬಿ ಉಳಿಯುವ ಗಾತ್ರ ಕಂಡುಹಿಡಿಯಿರಿ."}
+    goal: {en: "Some sizes don't split into fifths and thirds at all. Which ones do?", kn: "ಕೆಲವು ಗಾತ್ರಗಳು ಐದನೇ ಮತ್ತು ಮೂರನೇ ಭಾಗಗಳಾಗಿ ಒಡೆಯುವುದೇ ಇಲ್ಲ. ಯಾವುವು ಒಡೆಯುತ್ತವೆ?"}
+  - id: verse
+    type: verse
+    verse: verse.lilavati.55
+    show_compare: true
+    intro: {en: "Bhāskara set this puzzle around 1150. Here it is in his words.", kn: "ಭಾಸ್ಕರ ಈ ಒಗಟನ್ನು ಸುಮಾರು 1150ರಲ್ಲಿ ಕೊಟ್ಟ. ಅವನದೇ ಮಾತುಗಳಲ್ಲಿ ಇಲ್ಲಿದೆ."}
+  - id: method
+    type: method
+    algorithm: ishta_karma
+    inputs: {parts: ["1/5", "1/3"], difference_multiplier: 3, remainder: 1, guess: 30}
+    intro: {en: "Bhāskara's trick: guess any size that splits nicely, work the story forward, then scale your guess.", kn: "ಭಾಸ್ಕರನ ಉಪಾಯ: ಸುಲಭವಾಗಿ ಭಾಗವಾಗುವ ಯಾವುದಾದರೂ ಗಾತ್ರ ಊಹಿಸಿ, ಕಥೆಯನ್ನು ಮುಂದಕ್ಕೆ ಲೆಕ್ಕ ಮಾಡಿ, ನಂತರ ಊಹೆಯನ್ನು ಅನುಪಾತದಲ್ಲಿ ಬದಲಿಸಿ."}
+    modern: {en: "x − x/5 − x/3 − 3(x/3 − x/5) = 1, so x/15 = 1 and x = 15.", kn: "x − x/5 − x/3 − 3(x/3 − x/5) = 1, ಆದ್ದರಿಂದ x/15 = 1, x = 15."}
+  - id: practice
+    type: practice
+    generator: fractions.remainder.v1
+    count: 4
+    difficulty: [1, 2, 2, 3]
+  - id: summary
+    type: summary
+    key_idea: {en: "If a problem only multiplies, divides and takes fractions of the unknown, guess any convenient number. Answer = guess × given number ÷ what your guess produced.", kn: "ಲೆಕ್ಕದಲ್ಲಿ ಅಜ್ಞಾತವನ್ನು ಗುಣಿಸುವುದು, ಭಾಗಿಸುವುದು, ಭಿನ್ನಾಂಶ ತೆಗೆಯುವುದು ಮಾತ್ರ ಇದ್ದರೆ, ಅನುಕೂಲದ ಸಂಖ್ಯೆ ಊಹಿಸಿ. ಉತ್ತರ = ಊಹೆ × ಕೊಟ್ಟ ಸಂಖ್ಯೆ ÷ ಊಹೆ ಕೊಟ್ಟ ಫಲ."}
+    textbook: {en: "Class 6 · Fractions. Class 7 · Working with Fractions.", kn: "6ನೇ ತರಗತಿ · ಭಿನ್ನರಾಶಿಗಳು. 7ನೇ ತರಗತಿ · ಭಿನ್ನರಾಶಿಗಳೊಂದಿಗೆ ಕೆಲಸ."}
+    next: lesson.trairashika

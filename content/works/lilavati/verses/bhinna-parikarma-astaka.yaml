@@ -1,0 +1,147 @@
+- id: verse.lilavati.30
+  section: section.lilavati.bhinna-parikarma-astaka
+  ordinal: 28
+  ref_label: '30'
+  devanagari: 'अन्योन्य-हार-अभिहतौ हर-अंशौ राश्योस् सम-छेद-विधानम् एवम् ।
+
+    मिथस् हराभ्याम् अपवर्तिताभ्याम् यत् वा हर-अंशौ सुधिया अत्र गुण्यौ ॥'
+  source_text: 'anyonya-hāra-abhihatau hara-aṃśau rāśyos sama-cheda-vidhānam evam/
+
+    mithas harābhyām apavartitābhyām yat vā hara-aṃśau sudhiyā atra guṇyau//[upajāti] Lil_30'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - upajāti
+- id: verse.lilavati.31
+  section: section.lilavati.bhinna-parikarma-astaka
+  ordinal: 29
+  ref_label: '31'
+  devanagari: 'रूप-त्रयम् पञ्च-लवस् त्रि-भागस् योग-अर्थम् एतान् वद तुल्य-हारान् ।
+
+    त्रिषष्टि-भागस् च चतुर्दश-अंशस् सम-छिदौ मित्र वियोजन-अर्थम् ॥'
+  source_text: 'rūpa-%trayam %pañca-lavas %tri-bhāgas yoga-artham etān @vada tulya-hārān/
+
+    %triṣaṣṭi-bhāgas ca %caturdaśa-aṃśas sama-chidau mitra viyojana-artham// [upajāti] Lil_31'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - upajāti
+- id: verse.lilavati.33
+  section: section.lilavati.bhinna-parikarma-astaka
+  ordinal: 30
+  ref_label: '33'
+  devanagari: 'द्रम्म-अर्ध-त्रि-लव-द्वयस्य सुमते पाद-त्रयम् यत् भवेत् तत् पञ्च-अंशक-षोडश-अंश-चरणस् संप्रार्थितेन अर्थिने ।
+
+    दत्तस् येन वराटकास् कति कदर्येण अर्पितास् तेन मे ब्रूहि त्वम् यदि वेत्सि वत्स गणिते जातिम् प्रभाग-अभिधाम् ॥'
+  source_text: 'dramma-%ardha-%tri-lava-%dvayasya sumate #pāda-%trayam yat @bhavet tat %pañca-aṃśaka-%ṣoḍaśa-aṃśa-#caraṇas saṃprārthitena arthine/
+
+    dattas yena varāṭakās kati kadaryeṇa arpitās tena me @brūhi tvam yadi @vetsi vatsa gaṇite jātim prabhāga-abhidhām// [śārdūlavikrīḍita] Lil_33'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - śārdūlavikrīḍita
+- id: verse.lilavati.34
+  section: section.lilavati.bhinna-parikarma-astaka
+  ordinal: 31
+  ref_label: '34'
+  devanagari: 'छेद-घ्न-रूपेषु लवास् धन-ऋणम् एकस्य भागास् अधिक-ऊनकास् चेद् ॥
+
+    स्व-अंश-अधिक-ऊनस् खलु यत्र तत्र भाग-अनुबन्धे च लव-अपवाहे ।
+
+    तल-स्थ-हारेण हरम् निहन्यात् स्व-अंश-अधिक-ऊनेन तु तेन भागान् ॥'
+  source_text: 'cheda-ghna-rūpeṣu lavās dhana-ṛṇam %ekasya bhāgās adhika-ūnakās ced// [upajāti-cd; ab=32]
+
+    sva-aṃśa-adhika-ūnas khalu yatra tatra bhāga-anubandhe ca lava-apavāhe/
+
+    tala-stha-hāreṇa haram @nihanyāt sva-aṃśa-adhika-ūnena tu tena bhāgān// [upajāti] Lil_34'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - upajāti-cd; ab=32
+  - upajāti
+- id: verse.lilavati.35
+  section: section.lilavati.bhinna-parikarma-astaka
+  ordinal: 32
+  ref_label: '35'
+  devanagari: 'स-अङ्घ्रि द्वयम् त्रयम् वि-अङ्घ्रि कीदृश् ब्रूहि सवर्णितम् ।
+
+    जानासि अंश-अनुबन्धम् चेद् तथा भाग-अपवाहनम् ॥'
+  source_text: 'sa-#aṅghri %dvayam %trayam vi-#aṅghri kīdṛś @brūhi savarṇitam/
+
+    @jānāsi aṃśa-anubandham ced tathā bhāga-apavāhanam// Lil_35'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.36
+  section: section.lilavati.bhinna-parikarma-astaka
+  ordinal: 33
+  ref_label: '36'
+  devanagari: 'अङ्घ्रिस् स्व-त्रि-अंश-युक्तस् सस् निज-दल-युतस् कीदृशस् कीदृशौ द्वौ त्रि-अंशौ स्व-अष्ट-अंश-हीनौ तद्-अनु च रहितौ तौ त्रिभिस् सप्त-भागैस् ।
+
+    अर्धम् स्व-अष्ट-अंश-हीनम् नवभिस् अथ युतम् सप्तम-अंशैस् स्वकीयैस् कीदृश् स्यात् ब्रूहि वेत्सि त्वम् इह यदि सखे अंश-अनुबन्ध-अपवाहौ ॥'
+  source_text: '#aṅghris sva-%tri-aṃśa-yuktas sas nija-#dala-yutas kīdṛśas kīdṛśau %dvau %tri-aṃśau sva-%aṣṭa-aṃśa-hīnau tad-anu ca rahitau tau %tribhis %sapta-bhāgais/
+
+    %ardham sva-%aṣṭa-aṃśa-hīnam %navabhis atha yutam %saptama-aṃśais svakīyais kīdṛś @syāt @brūhi @vetsi tvam iha yadi sakhe aṃśa-anubandha-apavāhau// [sragdharā] Lil_36'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - sragdharā
+- id: verse.lilavati.38
+  section: section.lilavati.bhinna-parikarma-astaka
+  ordinal: 34
+  ref_label: '38'
+  devanagari: 'पञ्च-अंअ-पाद-त्रि-लव-अर्ध-षष्ठान् एकी-कृतान् ब्रूहि सखे मम एतान् ।
+
+    एभिस् च भागैस् अथ वर्जितानाम् किम् स्यात् त्रयाणाम् कथय आशु शेषम् ॥'
+  source_text: '%pañca-aṃa-#pāda-%tri-lava-%ardha-%ṣaṣṭhān %ekī-kṛtān @brūhi sakhe mama etān/
+
+    ebhis ca bhāgais atha varjitānām kim @syāt %trayāṇām @kathaya āśu śeṣam// [indravajrā] Lil_38'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - indravajrā
+- id: verse.lilavati.40
+  section: section.lilavati.bhinna-parikarma-astaka
+  ordinal: 35
+  ref_label: '40'
+  devanagari: 'स-त्रि-अंश-रूप-द्वितयेन निघ्नम् स-सप्तम-अंश-द्वितयम् भवेत् किम् ।
+
+    अर्धम् त्रि-भागेन हतम् च विद्धि दक्षस् असि भिन्ने गुणना-विधौ चेद् ॥'
+  source_text: 'sa-%tri-aṃśa-rūpa-%dvitayena nighnam sa-%saptama-aṃśa-%dvitayam @bhavet kim/
+
+    %ardham %tri-bhāgena hatam ca @viddhi dakṣas @asi bhinne guṇanā-vidhau ced// [upajāti] Lil_40'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - upajāti
+- id: verse.lilavati.42
+  section: section.lilavati.bhinna-parikarma-astaka
+  ordinal: 36
+  ref_label: '42'
+  devanagari: 'स-त्रि-अंश-रूप-द्वितयेन पञ्च त्रि-अंशेन षष्ठम् वद मे विभज्य ।
+
+    दर्भीय-गर्भ-अग्र-सु-तीक्ष्ण-बुद्धिस् चेद् अस्ति ते भिन्न-हृतौ समर्था ॥'
+  source_text: 'sa-%tri-aṃśa-rūpa-%dvitayena %pañca %tri-aṃśena %ṣaṣṭham @vada me @vibhajya/
+
+    darbhīya-garbha-agra-su-tīkṣṇa-buddhis ced @asti te bhinna-hṛtau samarthā// [indravajrā] Lil_42'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - indravajrā
+- id: verse.lilavati.44
+  section: section.lilavati.bhinna-parikarma-astaka
+  ordinal: 37
+  ref_label: '44'
+  devanagari: 'स-अर्ध-त्रयाणाम् कथय आशु वर्गम् वर्गात् ततस् वर्ग-पदम् च मित्र ।
+
+    घनम् च मूलम् च घनात् ततस् अपि जानासि चेद् वर्ग-घनौ विभिन्नौ ॥
+
+    न्यासस् । छेद-घ्न-रूपे कृते जातम् । अस्य वर्गस् । अतस् मूलम् । घनस् । अस्य मूलम् ॥ इति भिन्न-परिकर्म-अष्टकम् ॥'
+  source_text: 'sa-%ardha-%trayāṇām @kathaya āśu vargam vargāt tatas varga-padam ca mitra/
+
+    ghanam ca mūlam ca ghanāt tatas api @jānāsi ced varga-ghanau vibhinnau// [upajāti]
+
+    nyāsas 3_1_2/ cheda-ghna-rūpe kṛte jātam 7_2/ asya vargas 49_4/ atas mūlam 7_2/ ghanas 343_8/ asya mūlam 7_2// iti bhinna-parikarma-%aṣṭakam// Lil_44'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - upajāti

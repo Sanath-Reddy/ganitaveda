@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sources.schema.json",
+  "type": "object",
+  "properties": {
+    "licences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"$ref": "common.schema.json#/$defs/id"},
+          "name": {"type": "string"},
+          "url": {"type": "string"},
+          "commercial_use": {"type": "boolean"},
+          "share_alike": {"type": "boolean"}
+        },
+        "required": ["id", "name", "url", "commercial_use", "share_alike"],
+        "additionalProperties": false
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"$ref": "common.schema.json#/$defs/id"},
+          "citation": {"type": "string"},
+          "url": {"type": "string"},
+          "licence": {"$ref": "common.schema.json#/$defs/id"},
+          "attribution": {"type": "string"},
+          "kind": {"enum": ["text", "translation", "scholarship", "media", "font", "curriculum"]}
+        },
+        "required": ["id", "citation", "licence", "kind"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["licences", "sources"],
+  "additionalProperties": false
+}

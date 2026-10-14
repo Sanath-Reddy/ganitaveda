@@ -1,0 +1,45 @@
+id: lesson.cyclic-quadrilateral
+version: 1
+title: {en: "Brahmagupta's quadrilateral", kn: "ಬ್ರಹ್ಮಗುಪ್ತನ ಚತುರ್ಭುಜ"}
+subtitle: {en: "Area from four sides", kn: "ನಾಲ್ಕು ಬಾಹುಗಳಿಂದ ವಿಸ್ತೀರ್ಣ"}
+area: area.geometry
+concepts: [concept.cyclic-quadrilateral]
+curriculum: [ncert.12.recommended]
+minutes: 8
+author: A
+review: {maths: draft, sanskrit: unreviewed, kannada: draft}
+claims:
+  verse: [{source: source.colebrooke-1817, note: "Brahmagupta ch. 12 §21"}]
+cards:
+  - id: scene
+    type: scene
+    art: art.field-circle
+    text:
+      en: "A field has four straight sides of 25, 39, 52 and 60 rods, and its four corners lie on one circle. How big is the field? Four sides alone don't fix the shape of a quadrilateral, but on a circle they do."
+      kn: "ಒಂದು ಹೊಲಕ್ಕೆ 25, 39, 52 ಮತ್ತು 60 ದಂಡಗಳ ನಾಲ್ಕು ನೇರ ಬಾಹುಗಳಿವೆ; ಅದರ ನಾಲ್ಕು ಮೂಲೆಗಳು ಒಂದೇ ವೃತ್ತದ ಮೇಲಿವೆ. ಹೊಲ ಎಷ್ಟು ದೊಡ್ಡದು? ನಾಲ್ಕು ಬಾಹುಗಳು ಮಾತ್ರ ಚತುರ್ಭುಜದ ಆಕಾರವನ್ನು ನಿರ್ಧರಿಸುವುದಿಲ್ಲ, ಆದರೆ ವೃತ್ತದ ಮೇಲೆ ನಿರ್ಧರಿಸುತ್ತವೆ."
+  - id: play
+    type: explore
+    widget: cyclic_quad
+    params: {radius: 1}
+    prompt: {en: "Move the four corners around the circle. Compare the true area with the 'gross' area from half the sums of opposite sides.", kn: "ನಾಲ್ಕು ಮೂಲೆಗಳನ್ನು ವೃತ್ತದ ಸುತ್ತ ಸರಿಸಿ. ನಿಜವಾದ ವಿಸ್ತೀರ್ಣವನ್ನು ಎದುರು ಬಾಹುಗಳ ಮೊತ್ತದ ಅರ್ಧಗಳಿಂದ ಬರುವ 'ಸ್ಥೂಲ' ವಿಸ್ತೀರ್ಣದೊಂದಿಗೆ ಹೋಲಿಸಿ."}
+    goal: {en: "When is the gross area exactly right?", kn: "ಸ್ಥೂಲ ವಿಸ್ತೀರ್ಣ ಯಾವಾಗ ಸರಿಯಾಗಿ ನಿಖರವಾಗಿರುತ್ತದೆ?"}
+  - id: verse
+    type: verse
+    verse: verse.bss.12.21
+    show_compare: true
+    intro: {en: "Brahmagupta gives a rough rule and then the exact one in the same verse.", kn: "ಬ್ರಹ್ಮಗುಪ್ತ ಒಂದೇ ಪದ್ಯದಲ್ಲಿ ಸ್ಥೂಲ ನಿಯಮ ಮತ್ತು ನಿಖರ ನಿಯಮ ಎರಡನ್ನೂ ಕೊಡುತ್ತಾನೆ."}
+  - id: method
+    type: method
+    algorithm: cyclic_quad
+    inputs: {sides: [25, 39, 52, 60]}
+    intro: {en: "Half the sum of the sides, four times; take a side from each; multiply; square root.", kn: "ಬಾಹುಗಳ ಮೊತ್ತದ ಅರ್ಧ, ನಾಲ್ಕು ಕಡೆ; ಪ್ರತಿಯೊಂದರಿಂದ ಒಂದು ಬಾಹು ಕಳೆಯಿರಿ; ಗುಣಿಸಿ; ವರ್ಗಮೂಲ ತೆಗೆಯಿರಿ."}
+    modern: {en: "s = 88; Area = √((s−a)(s−b)(s−c)(s−d)) = √(63 × 49 × 36 × 28) = 1764.", kn: "s = 88; ವಿಸ್ತೀರ್ಣ = √((s−a)(s−b)(s−c)(s−d)) = √(63 × 49 × 36 × 28) = 1764."}
+  - id: practice
+    type: practice
+    generator: geometry.cyclic_quad.v1
+    count: 3
+    difficulty: [1, 2, 3]
+  - id: summary
+    type: summary
+    key_idea: {en: "For a quadrilateral whose corners lie on a circle, area = √((s−a)(s−b)(s−c)(s−d)), where s is half the perimeter.", kn: "ಮೂಲೆಗಳು ವೃತ್ತದ ಮೇಲಿರುವ ಚತುರ್ಭುಜಕ್ಕೆ ವಿಸ್ತೀರ್ಣ = √((s−a)(s−b)(s−c)(s−d)); s ಪರಿಧಿಯ ಅರ್ಧ."}
+    textbook: {en: "Explore · Geometry. Heron's formula (Class 9) is the triangle case.", kn: "ಅನ್ವೇಷಣೆ · ರೇಖಾಗಣಿತ. ಹೆರಾನ್ ಸೂತ್ರ (9ನೇ ತರಗತಿ) ತ್ರಿಭುಜದ ವಿಶೇಷ ಸಂದರ್ಭ."}

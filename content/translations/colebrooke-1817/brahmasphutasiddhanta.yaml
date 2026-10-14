@@ -1,0 +1,47 @@
+# Brahmagupta, chapters 12 and 18, from the 1817 OCR. Colebrooke's numbering in
+# chapter 18 runs one ahead of Dvivedin's here (Hayashi notes the offsets).
+translation: translation.colebrooke-1817
+work: work.brahmasphutasiddhanta
+segments:
+  - id: seg.colebrooke-1817.bss.12.21
+    label: "Ch. 12 §21"
+    verses: [verse.bss.12.21]
+    page: "295–296"
+    status: ocr-draft
+    glossary: [gloss.countersides, gloss.tetragon]
+    text: "The product of half the sides and countersides is the gross area of a triangle and tetragon. Half the sum of the sides set down four times, and severally lessened by the sides, being multiplied together, the square-root of the product is the exact area."
+  - id: seg.colebrooke-1817.bss.12.28
+    label: "Ch. 12 §28"
+    verses: [verse.bss.12.28]
+    page: "to confirm"
+    status: ocr-draft
+    glossary: [gloss.trapezium]
+    text: "The sums of the products of the sides about both the diagonals being divided by each other, multiply the quotients by the sum of the products of opposite sides; the square-roots of the results are the diagonals in a trapezium."
+  - id: seg.colebrooke-1817.bss.18.31
+    label: "Ch. 18 §31"
+    verses: [verse.bss.18.30]
+    page: 339
+    status: ocr-draft
+    glossary: [gloss.affirmative, gloss.cipher]
+    text: "Rule for addition of affirmative and negative quantities and cipher: The sum of two affirmative quantities is affirmative; of two negative is negative; of an affirmative and a negative is their difference; or, if they be equal, nought. The sum of cipher and negative is negative; of affirmative and nought is positive; of two ciphers is cipher."
+  - id: seg.colebrooke-1817.bss.18.32
+    label: "Ch. 18 §32–33"
+    verses: [verse.bss.18.31, verse.bss.18.32]
+    page: 339
+    status: ocr-draft
+    glossary: [gloss.affirmative, gloss.cipher]
+    text: "Rule for subtraction: The less is to be taken from the greater, positive from positive; negative from negative. When the greater, however, is subtracted from the less, the difference is reversed. Negative, taken from cipher, becomes positive; and affirmative, becomes negative. Negative, less cipher, is negative; positive, is positive; cipher, nought. When affirmative is to be subtracted from negative, and negative from affirmative, they must be thrown together."
+  - id: seg.colebrooke-1817.bss.18.34
+    label: "Ch. 18 §34"
+    verses: [verse.bss.18.33]
+    page: 339
+    status: ocr-draft
+    glossary: [gloss.affirmative, gloss.cipher]
+    text: "Rule for multiplication: The product of a negative quantity and an affirmative is negative; of two negative, is positive; of two affirmative, is affirmative. The product of cipher and negative, or of cipher and affirmative, is nought; of two ciphers, is cipher."
+  - id: seg.colebrooke-1817.bss.18.35
+    label: "Ch. 18 §35–36"
+    verses: [verse.bss.18.34, verse.bss.18.35]
+    page: "339–340"
+    status: ocr-draft
+    glossary: [gloss.affirmative, gloss.cipher]
+    text: "Rule for division: Positive, divided by positive, or negative by negative, is affirmative. Cipher, divided by cipher, is nought. Positive, divided by negative, is negative. Negative, divided by affirmative, is negative. Positive, or negative, divided by cipher, is a fraction with that for denominator: or cipher divided by negative or affirmative."

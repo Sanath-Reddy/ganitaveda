@@ -1,0 +1,17 @@
+name: content_model
+description: Typed models for content.db and lesson documents, pack manifest verification, and the read-only content repository.
+publish_to: none
+version: 1.0.0
+resolution: workspace
+environment:
+  sdk: ^3.13.0
+dependencies:
+  crypto: ^3.0.7
+  cryptography: ^2.9.0
+  ganita_core:
+    path: ../ganita_core
+  meta: ^1.19.0
+  sqlite3: ^3.7.1
+dev_dependencies:
+  lints: ^6.1.0
+  test: any

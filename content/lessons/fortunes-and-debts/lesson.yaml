@@ -1,0 +1,56 @@
+id: lesson.fortunes-and-debts
+version: 1
+title: {en: "Fortunes and debts", kn: "ಧನ ಮತ್ತು ಋಣ"}
+subtitle: {en: "Zero and negative numbers", kn: "ಸೊನ್ನೆ ಮತ್ತು ಋಣ ಸಂಖ್ಯೆಗಳು"}
+area: area.algebra
+concepts: [concept.negative-numbers, concept.zero]
+curriculum: [ncert.6.gp.other-side-of-zero, ncert.7.gp.integers]
+minutes: 7
+author: B
+review: {maths: draft, sanskrit: unreviewed, kannada: draft}
+claims:
+  verse: [{source: source.colebrooke-1817, note: "Brahmagupta ch. 18 §31–36"}]
+cards:
+  - id: scene
+    type: scene
+    art: art.ledger
+    text:
+      en: "A trader keeps her accounts with two kinds of numbers: fortunes she owns and debts she owes. If she has a fortune of 5 and a debt of 3, what is she worth? What if the debt is taken away? In 628, Brahmagupta wrote down rules for all of this, and for zero too."
+      kn: "ಒಬ್ಬ ವ್ಯಾಪಾರಿ ಎರಡು ರೀತಿಯ ಸಂಖ್ಯೆಗಳಿಂದ ಲೆಕ್ಕ ಇಡುತ್ತಾಳೆ: ತನ್ನದಾದ ಧನ ಮತ್ತು ತಾನು ಕೊಡಬೇಕಾದ ಋಣ. 5 ಧನ ಮತ್ತು 3 ಋಣ ಇದ್ದರೆ ಅವಳ ಬೆಲೆ ಎಷ್ಟು? ಋಣವನ್ನು ತೆಗೆದುಹಾಕಿದರೆ? ಕ್ರಿ.ಶ. 628ರಲ್ಲಿ ಬ್ರಹ್ಮಗುಪ್ತ ಇವೆಲ್ಲಕ್ಕೂ, ಸೊನ್ನೆಗೂ, ನಿಯಮಗಳನ್ನು ಬರೆದ."
+  - id: play
+    type: explore
+    widget: number_line
+    params: {range: [-10, 10]}
+    prompt: {en: "Set a fortune and a debt, then pick an operation. Watch where the answer lands.", kn: "ಒಂದು ಧನ ಮತ್ತು ಒಂದು ಋಣ ಆರಿಸಿ, ನಂತರ ಕ್ರಿಯೆ ಆರಿಸಿ. ಉತ್ತರ ಎಲ್ಲಿ ಬೀಳುತ್ತದೆ ನೋಡಿ."}
+    goal: {en: "When do a fortune and a debt add up to exactly zero?", kn: "ಧನ ಮತ್ತು ಋಣ ಕೂಡಿ ಸರಿಯಾಗಿ ಸೊನ್ನೆ ಯಾವಾಗ ಆಗುತ್ತದೆ?"}
+  - id: verse
+    type: verse
+    verse: verse.bss.18.30
+    highlight: [term.dhana, term.rna, term.sunya]
+    show_compare: true
+    intro: {en: "Brahmagupta's rule for adding fortunes, debts and zero.", kn: "ಧನ, ಋಣ ಮತ್ತು ಸೊನ್ನೆಯನ್ನು ಕೂಡಿಸುವ ಬ್ರಹ್ಮಗುಪ್ತನ ನಿಯಮ."}
+  - id: method
+    type: method
+    algorithm: sign_rules
+    inputs: {a: 5, b: -3}
+    intro: {en: "Take one fortune and one debt through all four operations, rule by rule.", kn: "ಒಂದು ಧನ ಮತ್ತು ಒಂದು ಋಣವನ್ನು ನಾಲ್ಕೂ ಕ್ರಿಯೆಗಳ ಮೂಲಕ, ನಿಯಮದಂತೆ ತೆಗೆದುಕೊಂಡು ಹೋಗಿ."}
+    modern: {en: "5 + (−3) = 2,  5 − (−3) = 8,  5 × (−3) = −15,  (−3) × (−3) = 9.", kn: "5 + (−3) = 2,  5 − (−3) = 8,  5 × (−3) = −15,  (−3) × (−3) = 9."}
+  - id: check
+    type: quiz
+    questions:
+      - prompt: {en: "What does Brahmagupta say zero divided by zero is?", kn: "ಸೊನ್ನೆಯನ್ನು ಸೊನ್ನೆಯಿಂದ ಭಾಗಿಸಿದರೆ ಏನು ಎಂದು ಬ್ರಹ್ಮಗುಪ್ತ ಹೇಳುತ್ತಾನೆ?"}
+        choices:
+          - {en: "Zero", kn: "ಸೊನ್ನೆ"}
+          - {en: "One", kn: "ಒಂದು"}
+          - {en: "He leaves it out", kn: "ಅವನು ಅದನ್ನು ಬಿಟ್ಟುಬಿಡುತ್ತಾನೆ"}
+        answer: 0
+        why: {en: "He says zero. Today we say 0 ÷ 0 is undefined: no single number works.", kn: "ಅವನು ಸೊನ್ನೆ ಎನ್ನುತ್ತಾನೆ. ಇಂದು 0 ÷ 0 ಅನಿರ್ದಿಷ್ಟ ಎನ್ನುತ್ತೇವೆ: ಯಾವ ಒಂದು ಸಂಖ್ಯೆಯೂ ಸರಿಹೊಂದದು."}
+  - id: practice
+    type: practice
+    generator: integers.signs.v1
+    count: 5
+    difficulty: [1, 1, 2, 2, 3]
+  - id: summary
+    type: summary
+    key_idea: {en: "Fortune plus fortune is fortune; debt plus debt is debt. The product of two debts is a fortune. Taking a debt away is the same as adding a fortune.", kn: "ಧನ + ಧನ = ಧನ; ಋಣ + ಋಣ = ಋಣ. ಎರಡು ಋಣಗಳ ಗುಣಲಬ್ಧ ಧನ. ಋಣವನ್ನು ಕಳೆಯುವುದು ಧನವನ್ನು ಕೂಡಿಸಿದಂತೆ."}
+    textbook: {en: "Class 6 · The Other Side of Zero. Class 7 · Integers.", kn: "6ನೇ ತರಗತಿ · ಸೊನ್ನೆಯ ಆಚೆಯ ಬದಿ. 7ನೇ ತರಗತಿ · ಪೂರ್ಣಾಂಕಗಳು."}

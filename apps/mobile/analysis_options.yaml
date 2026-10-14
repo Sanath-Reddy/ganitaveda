@@ -1,0 +1,16 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+analyzer:
+  exclude:
+    - lib/l10n/app_localizations*.dart
+    - build/**
+    - android/**
+linter:
+  rules:
+    # Doc comments where they help, not on every public member of an app.
+    public_member_api_docs: false
+    lines_longer_than_80_chars: false
+    # Text-heavy widgets read better without forced trailing commas.
+    require_trailing_commas: false
+    # Painters read better as one draw call per line.
+    cascade_invocations: false

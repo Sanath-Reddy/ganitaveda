@@ -1,0 +1,135 @@
+note: Root verses of the Gaṇitapāda (Shukla 1976 numbering), picked out of Bhāskara I's commentary. Each line is copied exactly from the e-text and must occur exactly once in it. Verse 16 has no closing line in the e-text and verse 21 is numbered 20 there; both still need locating. The Sanskrit reviewer confirms every pick.
+todo:
+- 16
+- 21
+ganitapada:
+  1:
+    lines:
+    - brahma-ku-śaśi-budha-bhṛgu-ravi-
+    - kuja-guru-koṇa-bhagaṇān namaskṛtya |
+    - āryabhaṭaḥ tu iha nigadati
+    - kusumapure abhyarcitam jñānam || 1 ||
+  2:
+    lines:
+    - ekam ca daśa ca śatam ca
+    - sahasram tu ayutaniyute tathā prayutam |
+    - koṭyarbudam ca vṛndam
+    - sthānāt sthānam daśaguṇam syāt || 2 ||
+  3:
+    lines:
+    - vargaḥ samacaturaśraḥ phalam ca sadṛśadvayasya saṃvargaḥ |
+    - sadṛśatrayasaṃvargaḥ ghanaḥ tathā dvādaśāśritaḥ syāt || 3 ||
+  4:
+    lines:
+    - bhāgam haret avargāt nityam dviguṇena vargamūlena |
+    - vargāt varge śuddhe labdham sthānāntare mūlam || 4 ||
+  5:
+    lines:
+    - aghanāt bhajet dvitīyāt
+    - triguṇena ghanasya mūlavargeṇa |
+    - vargaḥ tripūrvaguṇitaḥ
+    - śodhyaḥ prathamāt ghanaḥ ca ghanāt || 5 ||
+  6:
+    lines:
+    - ūrdhvabhujātatsaṃvargārdham sa ghanaḥ ṣaḍaśriḥ iti || 6 ||
+    incomplete: Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
+  7:
+    lines:
+    - tat nijamūlena hatam ghanagolaphalam niravaśeṣam || 7 ||
+    incomplete: Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
+  8:
+    lines:
+    - āyāmaguṇe pārśve tadyogahṛte svapātelekhe te |
+    - vistarayogārdhaguṇe jñeyam kṣetraphalam āyāme || 8 ||
+  9:
+    lines:
+    - paridheḥ ṣaḍbhāgajyā viṣkambhārdhena sā tulyā || 9 ||
+    incomplete: Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
+  10:
+    lines:
+    - caturadhikam śatam aṣṭaguṇam dvāṣaṣṭiḥ tathā sahasrāṇām |
+    - ayutadvayaviṣkambhasya āsannaḥ vṛttapariṇāhaḥ || 10 ||
+  11:
+    lines:
+    - samavṛttaparidhipādam chindyāt tribhujāt caturbhujāt ca eva |
+    - samacāpajyārdhāni tu viṣkambhārdhe yathā iṣṭāni || 11 ||
+  12:
+    lines:
+    - prathamāt cāpajyārdhāt yaiḥ ūnam khaṇḍitam dvitīyārdham |
+    - tatprathamajyārdhāṃśaiḥ taiḥ taiḥ ūnāni śeṣāṇi || 12 ||
+  13:
+    lines:
+    - vṛttam bhrameṇa sādhyam tribhujam ca caturbhujam ca karṇābhyām |
+    - sādhyā jalena samabhūḥ adhaḥ ūrdhvam lambakena eva || 13 ||
+  14:
+    lines:
+    - śaṅkoḥ pramāṇavargam chāyāvargeṇa saṃyutam kṛtvā |
+    - yat tasya vargamūlam viṣkambhārdham svavṛttasya || 14 ||
+  15:
+    lines:
+    - śaṅkuguṇam śaṅkubhujāvivaram śaṅkubhujayoḥ viśeṣahṛtam |
+    - yat labdham tā chāyā jñeyā śaṅkoḥ svamūlāt hi || 15 ||
+  17:
+    lines:
+    - vṛtte śarasaṃvargaḥ ardhajyāvargaḥ sa khalu dhanuṣoḥ || 17 ||
+    incomplete: Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
+  18:
+    lines:
+    - grāsone dve vṛtte grāsaguṇe bhājayet pṛthaktvena |
+    - grāsonayogalabdhau saṃpātaśarau parasparataḥ || 18 ||
+  19:
+    lines:
+    - iṣṭam vyekam dalitam sapūrvam uttaraguṇam samukham madhyam |
+    - iṣṭaguṇitam iṣtadhanam tu athavā ādyantam padārdhahatam || 19 ||
+  20:
+    lines:
+    - gacchaḥ aṣṭottaraguṇitāt dviguṇādyuttaraviśeṣavargayutāt |
+    - mūlam dviguṇādyūnam svottarabhajitam sarūpārdham || 20 ||
+  22:
+    lines:
+    - saikasagacchapadānām kramāt trisamvargatasya ṣaṣṭhaḥ aṃśaḥ |
+    - vargacitighanaḥ sa bhavet citavargaḥ ghanacitighanaḥ ca || 22 ||
+  23:
+    lines:
+    - samparkasya hi vargāt viśodhayet eva vargasamparkam |
+    - yat tasya bhavati ardham vidyāt guṇakārasaṃvargam || 23 ||
+  24:
+    lines:
+    - dvikṛtiguṇāt saṃvargāt dvyantaravargeṇa saṃyutāt mūlam |
+    - antarayuktam hīnam tat guṇakāradvayam dalitam || 24 ||
+  25:
+    lines:
+    - mūlaphalam saphalam kālamūlaguṇam ardhamūlakṛtiyuktam |
+    - tanmūlam mūlārdhonam kālahṛtam svamūlaphalam || 25 ||
+  26:
+    lines:
+    - trairāśikaphalarāśim tam atha icchārāśinā hatam kṛtvā |
+    - labdham pramāṇabhajitam tasmāt icchāphalam idam syāt || 26 ||
+  27:
+    lines:
+    - chedaguṇam sacchedam parasparam tat savarṇatvam || 27 ||
+    incomplete: Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
+  28:
+    lines:
+    - guṇakārāḥ bhāgaharāḥ bhāgaharāḥ te bhavanti guṇakārāḥ |
+    - yaḥ kṣepaḥ saḥ apacayaḥ apacayaḥ kṣepaḥ ca viparīte || 28 ||
+  29:
+    lines:
+    - rāśyūnam rāśyūnam gacchadhanam piṇḍitam pṛthaktvena |
+    - vyekena padena hṛtam sarvadhanam tat bhavati evam || 29 ||
+  30:
+    lines:
+    - gulikāntareṇa vibhajet dvayoḥ puruṣayoḥ tu rūpakaviśeṣam |
+    - labdham gulikāmūlyam yadi arthakṛtam bhavati tulyam || 30 ||
+  31:
+    lines:
+    - bhakte vilomavivare gatiyogena anulomavivare dvau |
+    - gatyantareṇa labdhau dviyogakālau atītaiṣyau || 31 ||
+  32:
+    lines:
+    - adhikāgrabhāgahāram chindyāt ūnāgrabhāgahāreṇa |
+    - śeṣaparasparabhaktam matiguṇam agrāntare kṣiptam || 32 ||
+  33:
+    lines:
+    - adhaupariguṇitam antyayuk ūnāgracchedabhājite śeṣam |
+    - adhikāgracchedaguṇam dvicchedāgram adhikāgrayutam || 33 ||

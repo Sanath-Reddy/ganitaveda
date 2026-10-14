@@ -1,0 +1,46 @@
+# Single list of everything a lesson may reference. The pack validator checks
+# lessons against it, and the app has a test that its renderer and generator
+# registries match it (apps/mobile/test/registry_parity_test.dart).
+engine_version: 1
+card_types:
+  scene: {min_engine: 1}
+  explore: {min_engine: 1}
+  verse: {min_engine: 1}
+  method: {min_engine: 1}
+  watch: {min_engine: 1}
+  practice: {min_engine: 1}
+  quiz: {min_engine: 1}
+  summary: {min_engine: 1}
+widgets:
+  swarm: [parts, difference_multiplier, remainder, range]
+  number_line: [range]
+  triangle: [start]
+  ratio_balance: [start]
+  sequence_builder: [start]
+  chord: [radius, steps]
+  series_plot: [max_terms]
+  division_table: [start]
+  cyclic_quad: [radius]
+  digit_arrange: [digits]
+algorithms:
+  - ishta_karma
+  - sign_rules
+  - bhuja_koti_karna
+  - trairashika
+  - sredhi
+  - jya_table
+  - madhava_series
+  - kuttaka
+  - cyclic_quad
+  - ankapasha
+generators:
+  - fractions.remainder.v1
+  - integers.signs.v1
+  - geometry.right_triangle.v1
+  - ratio.rule_of_three.v1
+  - sequences.arithmetic.v1
+  - trig.half_chord.v1
+  - series.madhava.v1
+  - number_theory.kuttaka.v1
+  - geometry.cyclic_quad.v1
+  - combinatorics.ankapasha.v1

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "work.schema.json",
+  "type": "object",
+  "properties": {
+    "id": {"$ref": "common.schema.json#/$defs/id"},
+    "title": {"$ref": "common.schema.json#/$defs/ltext"},
+    "title_iast": {"type": "string"},
+    "author": {"$ref": "common.schema.json#/$defs/id"},
+    "year_from": {"$ref": "common.schema.json#/$defs/year"},
+    "year_to": {"$ref": "common.schema.json#/$defs/year"},
+    "source": {"$ref": "common.schema.json#/$defs/id"},
+    "licence": {"$ref": "common.schema.json#/$defs/id"},
+    "text_form": {"type": "string"},
+    "about": {"$ref": "common.schema.json#/$defs/ltext"},
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"$ref": "common.schema.json#/$defs/id"},
+          "ordinal": {"type": "integer"},
+          "label": {"$ref": "common.schema.json#/$defs/ltext"}
+        },
+        "required": ["id", "ordinal", "label"],
+        "additionalProperties": false
+      }
+    },
+    "claims": {"$ref": "common.schema.json#/$defs/claims"}
+  },
+  "required": ["id", "title", "title_iast", "author", "year_from", "year_to", "source", "licence", "sections", "claims"],
+  "additionalProperties": false
+}

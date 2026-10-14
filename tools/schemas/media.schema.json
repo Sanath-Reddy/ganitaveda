@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "media.schema.json",
+  "type": "object",
+  "properties": {
+    "media": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/$defs/id"
+          },
+          "provider": {
+            "enum": [
+              "youtube"
+            ]
+          },
+          "external_id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_-]{11}$"
+          },
+          "title": {
+            "$ref": "common.schema.json#/$defs/ltext"
+          },
+          "speaker": {
+            "type": "string"
+          },
+          "organisation": {
+            "type": "string"
+          },
+          "licence": {
+            "$ref": "common.schema.json#/$defs/id"
+          },
+          "duration_s": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "level": {
+            "enum": [
+              "school",
+              "teachers",
+              "advanced"
+            ]
+          },
+          "segments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "$ref": "common.schema.json#/$defs/id"
+                },
+                "title": {
+                  "$ref": "common.schema.json#/$defs/ltext"
+                },
+                "start_s": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "end_s": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "checked_by": {
+                  "type": "string"
+                },
+                "checked_on": {
+                  "type": "string",
+                  "format": "date"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "start_s",
+                "end_s"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "status": {
+            "enum": [
+              "pending",
+              "checked"
+            ],
+            "description": "pending = the exact upload and minutes are not yet pinned; pending media never ships in a release pack."
+          },
+          "note": {
+            "type": "string"
+          },
+          "plan": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Chapters this upload should serve once its minutes are pinned."
+          }
+        },
+        "required": [
+          "id",
+          "provider",
+          "title",
+          "speaker",
+          "organisation",
+          "licence",
+          "level",
+          "segments",
+          "status"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "media"
+  ],
+  "additionalProperties": false
+}

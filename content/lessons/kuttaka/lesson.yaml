@@ -1,0 +1,47 @@
+id: lesson.kuttaka
+version: 1
+title: {en: "Kuṭṭaka", kn: "ಕುಟ್ಟಕ"}
+subtitle: {en: "The pulveriser", kn: "ಪುಡಿಮಾಡುವ ವಿಧಾನ"}
+area: area.number-theory
+concepts: [concept.kuttaka]
+curriculum: [ncert.12.recommended]
+minutes: 9
+author: B
+review: {maths: draft, sanskrit: unreviewed, kannada: draft}
+claims:
+  verse: [{source: source.clark-1930, note: "Gaṇitapāda 32–33"}]
+  example: [{source: source.gretil-lilavati, note: "worked example after Lil_247: dividend 221, divisor 195, additive 65"}]
+cards:
+  - id: scene
+    type: scene
+    art: art.grinding
+    text:
+      en: "Bhāskara asks: what number, multiplied by 221 and then increased by 65, can be divided by 195 with nothing left over? Trying numbers one by one is slow. The pulveriser grinds the big numbers down until the answer falls out."
+      kn: "ಭಾಸ್ಕರ ಕೇಳುತ್ತಾನೆ: ಯಾವ ಸಂಖ್ಯೆಯನ್ನು 221ರಿಂದ ಗುಣಿಸಿ 65 ಕೂಡಿಸಿದರೆ, ಅದು 195ರಿಂದ ಶೇಷವಿಲ್ಲದೆ ಭಾಗವಾಗುತ್ತದೆ? ಒಂದೊಂದೇ ಸಂಖ್ಯೆ ಪ್ರಯತ್ನಿಸುವುದು ನಿಧಾನ. ಕುಟ್ಟಕ ದೊಡ್ಡ ಸಂಖ್ಯೆಗಳನ್ನು ಉತ್ತರ ಹೊರಬೀಳುವವರೆಗೆ ಪುಡಿಮಾಡುತ್ತದೆ."
+  - id: play
+    type: explore
+    widget: division_table
+    params: {start: [221, 195, 65]}
+    prompt: {en: "Divide the two numbers into each other again and again. Each row is smaller than the last.", kn: "ಎರಡು ಸಂಖ್ಯೆಗಳನ್ನು ಒಂದರಿಂದ ಇನ್ನೊಂದು ಮತ್ತೆಮತ್ತೆ ಭಾಗಿಸಿ. ಪ್ರತಿ ಸಾಲೂ ಹಿಂದಿನದಕ್ಕಿಂತ ಚಿಕ್ಕದು."}
+    goal: {en: "What is the last non-zero remainder? It divides both numbers.", kn: "ಕೊನೆಯ ಸೊನ್ನೆಯಲ್ಲದ ಶೇಷ ಯಾವುದು? ಅದು ಎರಡೂ ಸಂಖ್ಯೆಗಳನ್ನು ಭಾಗಿಸುತ್ತದೆ."}
+  - id: verse
+    type: verse
+    verse: verse.aryabhatiya.2.32
+    highlight: []
+    show_compare: true
+    intro: {en: "Āryabhaṭa's rule, the oldest known general method for this problem.", kn: "ಆರ್ಯಭಟನ ನಿಯಮ, ಈ ಲೆಕ್ಕಕ್ಕೆ ತಿಳಿದಿರುವ ಅತ್ಯಂತ ಹಳೆಯ ಸಾಮಾನ್ಯ ವಿಧಾನ."}
+  - id: method
+    type: method
+    algorithm: kuttaka
+    inputs: {a: 221, b: 195, c: 65}
+    intro: {en: "Reduce by the common divisor, divide mutually, write the quotients in a column (the vallī), then work up the column.", kn: "ಸಾಮಾನ್ಯ ಭಾಜಕದಿಂದ ಕಡಿಮೆ ಮಾಡಿ, ಪರಸ್ಪರ ಭಾಗಿಸಿ, ಭಾಗಲಬ್ಧಗಳನ್ನು ಕಂಬಸಾಲಿನಲ್ಲಿ (ವಲ್ಲೀ) ಬರೆದು, ಕಂಬಸಾಲಿನಲ್ಲಿ ಮೇಲಕ್ಕೆ ಲೆಕ್ಕ ಮಾಡಿ."}
+    modern: {en: "221x + 65 = 195y. Dividing by 13: 17x + 5 = 15y, so x = 5, y = 6, or x = 5 + 15t.", kn: "221x + 65 = 195y. 13ರಿಂದ ಭಾಗಿಸಿದರೆ: 17x + 5 = 15y, ಆದ್ದರಿಂದ x = 5, y = 6, ಅಥವಾ x = 5 + 15t."}
+  - id: practice
+    type: practice
+    generator: number_theory.kuttaka.v1
+    count: 3
+    difficulty: [1, 2, 3]
+  - id: summary
+    type: summary
+    key_idea: {en: "The same repeated division that finds the HCF also solves a·x + c = b·y in whole numbers, and there is an answer exactly when the HCF of a and b divides c.", kn: "ಮ.ಸಾ.ಅ. ಕಂಡುಹಿಡಿಯುವ ಅದೇ ಪುನರಾವರ್ತಿತ ಭಾಗಾಕಾರ a·x + c = b·y ಅನ್ನೂ ಪೂರ್ಣಾಂಕಗಳಲ್ಲಿ ಬಿಡಿಸುತ್ತದೆ; a ಮತ್ತು b ಗಳ ಮ.ಸಾ.ಅ. c ಯನ್ನು ಭಾಗಿಸಿದಾಗ ಮಾತ್ರ ಉತ್ತರವಿರುತ್ತದೆ."}
+    textbook: {en: "Explore · Number theory. Builds on HCF (Class 6 · Prime Time).", kn: "ಅನ್ವೇಷಣೆ · ಸಂಖ್ಯಾ ಸಿದ್ಧಾಂತ. ಮ.ಸಾ.ಅ. ಮೇಲೆ ಕಟ್ಟಲಾಗಿದೆ (6ನೇ ತರಗತಿ · ಅವಿಭಾಜ್ಯ ಸಮಯ)."}

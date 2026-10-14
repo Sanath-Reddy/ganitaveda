@@ -1,0 +1,126 @@
+- id: verse.lilavati.1
+  section: section.lilavati.paribhasa
+  ordinal: 1
+  ref_label: '1'
+  devanagari: 'प्रीतिम् भक्त-जनस्य यस् जनयते विघ्नम् विनिघ्नन् स्मृतस् तम् वृन्दारक-वृन्द-वन्दित-पदम् नत्वा मतङ्ग-आननम् ।
+
+    पाटीम् सत्-गणितस्य वच्मि चतुर-प्रीति-प्रदाम् प्रस्फुटाम् संक्षिप्त-अक्षर-कोमल-अमल-पदैस् लालित्य-लीलावतीम् ॥'
+  source_text: 'prītim bhakta-janasya yas @janayate vighnam vinighnan smṛtas tam vṛndāraka-vṛnda-vandita-padam @natvā mataṅga-ānanam/
+
+    pāṭīm sat-gaṇitasya @vacmi catura-prīti-pradām prasphuṭām saṃkṣipta-akṣara-komala-amala-padais lālitya-līlāvatīm//[śārdūlavikrīḍita] Lil_1'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - śārdūlavikrīḍita
+- id: verse.lilavati.2
+  section: section.lilavati.paribhasa
+  ordinal: 2
+  ref_label: '2'
+  devanagari: 'वराटकानाम् दशक-द्वयम् यद् सा काकिणी तास् च पणस् चतस्रस् ।
+
+    ते षोडश द्रम्मस् इह अवगम्यस् द्रम्मैस् तथा षोडशभिस् च निष्कस् ॥'
+  source_text: 'varāṭakānām %daśaka-%dvayam 20 yad sā kākiṇī tās ca paṇas %catasras/
+
+    te %ṣoḍaśa drammas iha avagamyas drammais tathā %ṣoḍaśabhis ca niṣkas//[upajāti] Lil_2'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - upajāti
+- id: verse.lilavati.3
+  section: section.lilavati.paribhasa
+  ordinal: 3
+  ref_label: '3'
+  devanagari: 'तुल्या यवाभ्याम् कथिता अत्र गुञ्जा वल्लस् त्रि-गुञ्जस् धरणम् च ते अष्टौ ।
+
+    गद्याणकस् तद्-द्वयम् इन्द्र-तुल्यैस् वल्लैस् तथा एकस् घटकस् प्रदिष्टस् ॥'
+  source_text: 'tulyā yavābhyām kathitā atra guñjā vallas %tri-guñjas dharaṇam ca te %aṣṭau/
+
+    gadyāṇakas tad-%dvayam #indra-14-tulyais vallais tathā %ekas ghaṭakas pradiṣṭas//[indravajrā] Lil_3'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - indravajrā
+- id: verse.lilavati.4
+  section: section.lilavati.paribhasa
+  ordinal: 4
+  ref_label: '4'
+  devanagari: 'दश-अर्ध-गुञ्जम् प्रवदन्ति माषम् माष-आह्वयैस् षोडशभिस् च कर्षम् ।
+
+    कर्षैस् चतुर्भिस् च पलम् तुला-ज्ञाः कर्षम् सुवर्णस्य सुवर्ण-संज्ञम् ॥'
+  source_text: '%daśa-%ardha-guñjam @pravadanti māṣam māṣa-āhvayais %ṣoḍaśabhis ca karṣam/
+
+    karṣais %caturbhis ca palam tulā-jñāḥ karṣam suvarṇasya suvarṇa-saṃjñam//[upajāti] Lil_4'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - upajāti
+- id: verse.lilavati.5
+  section: section.lilavati.paribhasa
+  ordinal: 5
+  ref_label: '5'
+  devanagari: 'यव-उदरैस् अङ्गुलम् अष्ट-संख्यैस् हस्तस् अङ्गुलैस् षष्-गुणितैस् चतुर्भिस् ।
+
+    हस्तैस् चतुर्भिस् भवति इह दण्डस् क्रोशस् सहस्र-द्वितयेन तेषाम् ॥'
+  source_text: 'yava-udarais aṅgulam %aṣṭa-saṃkhyais hastas aṅgulais %ṣaṣ-guṇitais %caturbhis/[āpaṭe: aguṅlam < aṅgulam]
+
+    hastais %caturbhis @bhavati iha daṇḍas krośas %sahasra-%dvitayena teṣām//[upajāti] Lil_5'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - 'āpaṭe: aguṅlam < aṅgulam'
+  - upajāti
+- id: verse.lilavati.6
+  section: section.lilavati.paribhasa
+  ordinal: 6
+  ref_label: '6'
+  devanagari: 'स्यात् योजनम् क्रोश-चतुष्टयेन तथा कराणाम् दशकेन वंशस् ।
+
+    निवर्तनम् विंशति-वंश-संख्यैस् क्षेत्रम् चतुर्भिस् च भुजैस् निबद्धम् ॥'
+  source_text: '@syāt yojanam krośa-%catuṣṭayena tathā karāṇām %daśakena vaṃśas/
+
+    nivartanam %viṃśati-vaṃśa-saṃkhyais kṣetram %caturbhis ca bhujais nibaddham//[upajāti] Lil_6'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - upajāti
+- id: verse.lilavati.7
+  section: section.lilavati.paribhasa
+  ordinal: 7
+  ref_label: '7'
+  devanagari: 'हस्त-उन्मितैस् विस्तृति-दैर्घ्य-पिण्डैस् यत् द्वादश-अस्रम् घन-हस्त-संज्ञम् ।
+
+    धान्य-आदिके यत् घन-हस्त-मानम् शास्त्र-उदिता मागध-खारिका सा ॥'
+  source_text: 'hasta-unmitais vistṛti-dairghya-piṇḍais yat %dvādaśa-asram ghana-hasta-saṃjñam/
+
+    dhānya-ādike yat ghana-hasta-mānam śāstra-uditā māgadha-khārikā sā//[indravajrā] Lil_7'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - indravajrā
+- id: verse.lilavati.8
+  section: section.lilavati.paribhasa
+  ordinal: 8
+  ref_label: '8'
+  devanagari: 'द्रोणस् तु खार्यास् खलु षोडश-अंशस् स्यात् आढकस् द्रोण-चतुर्थ-भागस् ।
+
+    प्रस्थस् चतुर्थ-अंशस् इह आढकस्य प्रस्थ-अङ्घ्रिस् आद्यैस् कुडवस् प्रदिष्टस् ॥
+
+    पाद-ऊन-गद्याणक-तुल्य-टङ्कैस् द्वि-सप्त-तुल्यैस् कथितस् अत्र सेरस् ।
+
+    मण-अभिधानम् ख-युगैस् च सेरैस् धान्य-आदि-तौल्येषु तुरुष्क-संज्ञा ॥
+
+    शेषा काल-आदि-परिभाषा लोकतस् प्रसिद्धा ज्ञेया । इति परिभाषा ॥'
+  source_text: 'droṇas tu khāryās khalu %ṣoḍaśa-aṃśas @syāt āḍhakas droṇa-%caturtha-bhāgas/
+
+    prasthas %caturtha-aṃśas iha āḍhakasya prastha-#aṅghris ādyais kuḍavas pradiṣṭas//[indravajrā]
+
+    #pāda-ūna-gadyāṇaka-tulya-ṭaṅkais %dvi-%sapta-tulyais kathitas atra seras/
+
+    maṇa-abhidhānam #kha-#yugais ca serais dhānya-ādi-taulyeṣu turuṣka-saṃjñā//[upajāti]
+
+    śeṣā kāla-ādi-paribhāṣā lokatas prasiddhā jñeyā/ iti paribhāṣā// Lil_8'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - indravajrā
+  - upajāti

@@ -1,0 +1,346 @@
+# Concept pages (plan §4.4). Every historical statement is backed by `claims`.
+# Page numbers in notes are pinned by the reviewer.
+concepts:
+  - id: concept.place-value
+    area: area.arithmetic
+    name: {en: Decimal place value, kn: ದಶಮಾನ ಸ್ಥಾನಬೆಲೆ}
+    classical_iast: sthāna
+    modern_name: {en: Place value, kn: ಸ್ಥಾನಬೆಲೆ}
+    aliases: [decimal system, place value, dasaguna]
+    summary: {en: "Each place is worth ten times the place before it.", kn: "ಪ್ರತಿಯೊಂದು ಸ್ಥಾನವೂ ಅದರ ಹಿಂದಿನ ಸ್ಥಾನಕ್ಕಿಂತ ಹತ್ತು ಪಟ್ಟು ಬೆಲೆಯದು."}
+    body:
+      en: "Āryabhaṭa opens the mathematics of the Āryabhaṭīya by naming the places: one, ten, hundred, thousand and on up, and says that each place is ten times the one before. The same idea sits behind every calculation in the later texts, which work digit by digit."
+      kn: "ಆರ್ಯಭಟ ತನ್ನ ಗಣಿತಪಾದವನ್ನು ಸ್ಥಾನಗಳ ಹೆಸರುಗಳಿಂದ ಆರಂಭಿಸುತ್ತಾನೆ: ಏಕ, ದಶ, ಶತ, ಸಹಸ್ರ ಹೀಗೆ ಮೇಲಕ್ಕೆ; ಪ್ರತಿ ಸ್ಥಾನವೂ ಹಿಂದಿನದಕ್ಕಿಂತ ಹತ್ತು ಪಟ್ಟು ಎನ್ನುತ್ತಾನೆ. ಮುಂದಿನ ಗ್ರಂಥಗಳ ಪ್ರತಿಯೊಂದು ಲೆಕ್ಕವೂ ಇದೇ ಆಲೋಚನೆಯ ಮೇಲೆ ಅಂಕಿ ಅಂಕಿಯಾಗಿ ನಡೆಯುತ್ತದೆ."
+    verses:
+      - {verse: verse.aryabhatiya.2.2, role: rule}
+    people: [person.aryabhata]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 2"}]
+
+  - id: concept.square-root
+    area: area.arithmetic
+    name: {en: Square roots, kn: ವರ್ಗಮೂಲ}
+    classical_iast: varga-mūla
+    modern_name: {en: Square root, kn: ವರ್ಗಮೂಲ}
+    aliases: [square root, long division method]
+    summary: {en: "A digit-by-digit method for square roots, still taught today.", kn: "ಇಂದಿಗೂ ಕಲಿಸಲಾಗುವ, ಅಂಕಿ ಅಂಕಿಯಾಗಿ ವರ್ಗಮೂಲ ಕಂಡುಹಿಡಿಯುವ ವಿಧಾನ."}
+    body:
+      en: "Āryabhaṭa gives a rule for square roots that works on pairs of digits, dividing by twice the root found so far. It is the same idea as the long-division method for square roots in school books."
+      kn: "ಆರ್ಯಭಟ ಅಂಕಿಗಳ ಜೋಡಿಗಳ ಮೇಲೆ ಕೆಲಸ ಮಾಡುವ, ಇಲ್ಲಿಯವರೆಗೆ ಸಿಕ್ಕ ಮೂಲದ ಎರಡರಷ್ಟರಿಂದ ಭಾಗಿಸುವ ವರ್ಗಮೂಲದ ನಿಯಮ ಕೊಡುತ್ತಾನೆ. ಶಾಲಾ ಪುಸ್ತಕಗಳಲ್ಲಿನ ಭಾಗಾಕಾರ ವಿಧಾನದ ವರ್ಗಮೂಲವೂ ಇದೇ ಆಲೋಚನೆ."
+    verses:
+      - {verse: verse.aryabhatiya.2.4, role: rule}
+    people: [person.aryabhata]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 4"}]
+
+  - id: concept.ishta-karma
+    area: area.arithmetic
+    name: {en: The rule of supposition, kn: ಇಷ್ಟಕರ್ಮ}
+    classical_iast: iṣṭa-karma
+    modern_name: {en: False position, kn: ಮಿಥ್ಯಾ ಸ್ಥಾನ ವಿಧಾನ}
+    aliases: [rule of supposition, false position, regula falsi, ishta karma, bee swarm]
+    summary: {en: "Guess any number, see what it gives, then scale your guess.", kn: "ಯಾವುದಾದರೂ ಸಂಖ್ಯೆ ಊಹಿಸಿ, ಅದು ಏನು ಕೊಡುತ್ತದೆ ನೋಡಿ, ನಂತರ ಊಹೆಯನ್ನು ಅನುಪಾತದಲ್ಲಿ ಬದಲಿಸಿ."}
+    body:
+      en: "When a problem only multiplies, divides and takes fractions of an unknown number, the answer scales with the number. So pick a convenient guess, work the problem forward, and compare what you get with what the problem says. Multiply your guess by the given number and divide by what your guess produced. Bhāskara teaches this before algebra, so it needs only fractions."
+      kn: "ಲೆಕ್ಕದಲ್ಲಿ ಅಜ್ಞಾತ ಸಂಖ್ಯೆಯನ್ನು ಗುಣಿಸುವುದು, ಭಾಗಿಸುವುದು, ಅದರ ಭಿನ್ನಾಂಶ ತೆಗೆದುಕೊಳ್ಳುವುದು ಮಾತ್ರ ಇದ್ದರೆ, ಉತ್ತರ ಆ ಸಂಖ್ಯೆಯ ಅನುಪಾತದಲ್ಲೇ ಬದಲಾಗುತ್ತದೆ. ಆದ್ದರಿಂದ ಅನುಕೂಲದ ಒಂದು ಸಂಖ್ಯೆ ಊಹಿಸಿ, ಲೆಕ್ಕವನ್ನು ಮುಂದಕ್ಕೆ ಮಾಡಿ, ಸಿಕ್ಕದ್ದನ್ನು ಲೆಕ್ಕದಲ್ಲಿ ಕೊಟ್ಟದ್ದರೊಂದಿಗೆ ಹೋಲಿಸಿ. ಊಹೆಯನ್ನು ಕೊಟ್ಟ ಸಂಖ್ಯೆಯಿಂದ ಗುಣಿಸಿ, ಊಹೆ ಕೊಟ್ಟ ಫಲದಿಂದ ಭಾಗಿಸಿ. ಭಾಸ್ಕರ ಇದನ್ನು ಬೀಜಗಣಿತಕ್ಕೂ ಮೊದಲು ಕಲಿಸುತ್ತಾನೆ; ಭಿನ್ನರಾಶಿಗಳು ಸಾಕು."
+    verses:
+      - {verse: verse.lilavati.51, role: rule}
+      - {verse: verse.lilavati.55, role: example}
+    related:
+      - {to: concept.trairashika, type: related}
+    people: [person.bhaskara-ii]
+    claims:
+      verses: [{source: source.colebrooke-1817, note: "Līlāvatī §50 and §54 in Colebrooke's numbering"}]
+
+  - id: concept.trairashika
+    area: area.arithmetic
+    name: {en: The rule of three, kn: ತ್ರೈರಾಶಿಕ}
+    classical_iast: trairāśika
+    modern_name: {en: Direct proportion, kn: ನೇರ ಅನುಪಾತ}
+    aliases: [rule of three, proportion, unitary method, trairashika]
+    summary: {en: "Measure gives fruit; what does the desire give? Fruit × desire ÷ measure.", kn: "ಪ್ರಮಾಣಕ್ಕೆ ಫಲ; ಇಚ್ಛೆಗೆ ಎಷ್ಟು? ಫಲ × ಇಚ್ಛಾ ÷ ಪ್ರಮಾಣ."}
+    body:
+      en: "Three quantities are known: a measure (pramāṇa), the fruit it gives (phala), and a desire (icchā) of the same kind as the measure. The fruit of the desire is the fruit multiplied by the desire and divided by the measure. Āryabhaṭa, Brahmagupta and Bhāskara all state it, and Bhāskara says that much of arithmetic is this rule in disguise."
+      kn: "ಮೂರು ಪ್ರಮಾಣಗಳು ಗೊತ್ತಿರುತ್ತವೆ: ಪ್ರಮಾಣ, ಅದು ಕೊಡುವ ಫಲ, ಮತ್ತು ಪ್ರಮಾಣದ ಜಾತಿಯದೇ ಆದ ಇಚ್ಛಾ. ಇಚ್ಛಾಫಲ = ಫಲ × ಇಚ್ಛಾ ÷ ಪ್ರಮಾಣ. ಆರ್ಯಭಟ, ಬ್ರಹ್ಮಗುಪ್ತ, ಭಾಸ್ಕರ ಮೂವರೂ ಇದನ್ನು ಹೇಳುತ್ತಾರೆ; ಅಂಕಗಣಿತದ ಬಹುಭಾಗ ಈ ನಿಯಮದ ವೇಷಾಂತರ ಎಂದು ಭಾಸ್ಕರ ಹೇಳುತ್ತಾನೆ."
+    verses:
+      - {verse: verse.aryabhatiya.2.26, role: rule}
+      - {verse: verse.bss.12.10, role: rule}
+      - {verse: verse.lilavati.73, role: rule}
+      - {verse: verse.lilavati.74, role: example}
+    related:
+      - {to: concept.vyasta-trairashika, type: generalises}
+    people: [person.aryabhata, person.brahmagupta, person.bhaskara-ii]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 26"}, {source: source.colebrooke-1817, note: "Līlāvatī §70; Brahmagupta ch. 12 §10"}]
+
+  - id: concept.vyasta-trairashika
+    area: area.arithmetic
+    name: {en: The inverse rule of three, kn: ವ್ಯಸ್ತ ತ್ರೈರಾಶಿಕ}
+    classical_iast: vyasta-trairāśika
+    modern_name: {en: Inverse proportion, kn: ವಿಲೋಮ ಅನುಪಾತ}
+    aliases: [inverse proportion, inverse rule of three]
+    summary: {en: "When more of one means less of the other, the rule runs backwards.", kn: "ಒಂದು ಹೆಚ್ಚಾದಾಗ ಇನ್ನೊಂದು ಕಡಿಮೆಯಾದರೆ, ನಿಯಮ ಹಿಮ್ಮುಖವಾಗಿ ನಡೆಯುತ್ತದೆ."}
+    body:
+      en: "If the fruit shrinks as the desire grows, multiply measure by fruit and divide by the desire. Bhāskara's examples include the value of a slave by age and weighing gold of different purity."
+      kn: "ಇಚ್ಛೆ ಬೆಳೆದಂತೆ ಫಲ ಕುಗ್ಗಿದರೆ, ಪ್ರಮಾಣವನ್ನು ಫಲದಿಂದ ಗುಣಿಸಿ ಇಚ್ಛೆಯಿಂದ ಭಾಗಿಸಿ. ಬೇರೆಬೇರೆ ಶುದ್ಧತೆಯ ಚಿನ್ನವನ್ನು ತೂಗುವಂತಹ ಉದಾಹರಣೆಗಳನ್ನು ಭಾಸ್ಕರ ಕೊಡುತ್ತಾನೆ."
+    verses:
+      - {verse: verse.bss.12.11, role: rule}
+      - {verse: verse.lilavati.77, role: rule}
+    people: [person.brahmagupta, person.bhaskara-ii]
+    claims:
+      verses: [{source: source.colebrooke-1817}]
+
+  - id: concept.zero
+    area: area.arithmetic
+    name: {en: Zero as a number, kn: ಸಂಖ್ಯೆಯಾಗಿ ಸೊನ್ನೆ}
+    classical_iast: śūnya
+    modern_name: {en: Zero, kn: ಸೊನ್ನೆ}
+    aliases: [zero, cipher, sunya, kha, nought]
+    summary: {en: "Rules for adding, subtracting, multiplying and dividing with zero.", kn: "ಸೊನ್ನೆಯೊಂದಿಗೆ ಕೂಡಿಸುವ, ಕಳೆಯುವ, ಗುಣಿಸುವ, ಭಾಗಿಸುವ ನಿಯಮಗಳು."}
+    body:
+      en: "Brahmagupta treats zero as a number with its own rules: a number plus zero is unchanged, a number times zero is zero. He also tries to say what dividing by zero gives, and his answer, that zero divided by zero is zero, is one modern mathematics does not accept. Bhāskara later calls a number divided by zero kha-hara, 'having zero as divisor'."
+      kn: "ಬ್ರಹ್ಮಗುಪ್ತ ಸೊನ್ನೆಯನ್ನು ತನ್ನದೇ ನಿಯಮಗಳಿರುವ ಸಂಖ್ಯೆಯಾಗಿ ನೋಡುತ್ತಾನೆ: ಸಂಖ್ಯೆಗೆ ಸೊನ್ನೆ ಕೂಡಿಸಿದರೆ ಬದಲಾಗದು, ಸೊನ್ನೆಯಿಂದ ಗುಣಿಸಿದರೆ ಸೊನ್ನೆ. ಸೊನ್ನೆಯಿಂದ ಭಾಗಿಸಿದರೆ ಏನು ಎಂದೂ ಹೇಳಲು ಪ್ರಯತ್ನಿಸುತ್ತಾನೆ; ಸೊನ್ನೆಯನ್ನು ಸೊನ್ನೆಯಿಂದ ಭಾಗಿಸಿದರೆ ಸೊನ್ನೆ ಎಂಬ ಅವನ ಉತ್ತರವನ್ನು ಇಂದಿನ ಗಣಿತ ಒಪ್ಪುವುದಿಲ್ಲ. ಮುಂದೆ ಭಾಸ್ಕರ ಸೊನ್ನೆಯಿಂದ ಭಾಗಿಸಿದ ಸಂಖ್ಯೆಯನ್ನು 'ಖಹರ' ಎನ್ನುತ್ತಾನೆ."
+    verses:
+      - {verse: verse.bss.18.30, role: rule}
+      - {verse: verse.bss.18.34, role: rule}
+      - {verse: verse.bss.18.35, role: rule}
+      - {verse: verse.lilavati.45, role: rule}
+    related:
+      - {to: concept.negative-numbers, type: related}
+    people: [person.brahmagupta, person.bhaskara-ii]
+    claims:
+      verses: [{source: source.colebrooke-1817, note: "Brahmagupta ch. 18 §31–36; Līlāvatī §44–45"}]
+      history: [{source: source.plofker-2009}]
+
+  - id: concept.negative-numbers
+    area: area.algebra
+    name: {en: Fortunes and debts, kn: ಧನ ಮತ್ತು ಋಣ}
+    classical_iast: dhana-ṛṇa
+    modern_name: {en: Integers and sign rules, kn: ಪೂರ್ಣಾಂಕಗಳು ಮತ್ತು ಚಿಹ್ನೆಯ ನಿಯಮಗಳು}
+    aliases: [negative numbers, integers, sign rules, fortune and debt, dhana rna]
+    summary: {en: "Positive numbers are fortunes, negative numbers are debts.", kn: "ಧನಾತ್ಮಕ ಸಂಖ್ಯೆಗಳು ಸಂಪತ್ತು, ಋಣಾತ್ಮಕ ಸಂಖ್ಯೆಗಳು ಸಾಲ."}
+    body:
+      en: "In chapter 18 Brahmagupta states rules for positive (dhana, fortune) and negative (ṛṇa, debt) quantities: the product of two debts is a fortune, a fortune taken from zero becomes a debt, and so on. These are the sign rules taught in Class 6 and Class 7 today."
+      kn: "18ನೇ ಅಧ್ಯಾಯದಲ್ಲಿ ಬ್ರಹ್ಮಗುಪ್ತ ಧನ (ಸಂಪತ್ತು) ಮತ್ತು ಋಣ (ಸಾಲ) ಪ್ರಮಾಣಗಳ ನಿಯಮಗಳನ್ನು ಹೇಳುತ್ತಾನೆ: ಎರಡು ಸಾಲಗಳ ಗುಣಲಬ್ಧ ಸಂಪತ್ತು, ಸೊನ್ನೆಯಿಂದ ಸಂಪತ್ತನ್ನು ಕಳೆದರೆ ಸಾಲವಾಗುತ್ತದೆ, ಹೀಗೆ. ಇವೇ ಇಂದು 6 ಮತ್ತು 7ನೇ ತರಗತಿಯಲ್ಲಿ ಕಲಿಸುವ ಚಿಹ್ನೆಯ ನಿಯಮಗಳು."
+    verses:
+      - {verse: verse.bss.18.30, role: rule}
+      - {verse: verse.bss.18.31, role: rule}
+      - {verse: verse.bss.18.32, role: rule}
+      - {verse: verse.bss.18.33, role: rule}
+      - {verse: verse.bss.18.34, role: rule}
+      - {verse: verse.bss.18.35, role: rule}
+    related:
+      - {to: concept.zero, type: related}
+    people: [person.brahmagupta]
+    claims:
+      verses: [{source: source.colebrooke-1817, note: "Brahmagupta ch. 18 §31–36"}]
+      history: [{source: source.plofker-2009}]
+
+  - id: concept.bhuja-koti-karna
+    area: area.geometry
+    name: {en: "Side, upright and hypotenuse", kn: "ಭುಜ, ಕೋಟಿ, ಕರ್ಣ"}
+    classical_iast: bhuja-koṭi-karṇa
+    modern_name: {en: Baudhāyana–Pythagoras theorem, kn: ಬೌಧಾಯನ–ಪೈಥಾಗರಸ್ ಪ್ರಮೇಯ}
+    aliases: [pythagoras, pythagorean theorem, baudhayana, hypotenuse, right triangle]
+    summary: {en: "The square on the hypotenuse equals the sum of the squares on the other two sides.", kn: "ಕರ್ಣದ ಮೇಲಿನ ವರ್ಗ ಇತರ ಎರಡು ಬಾಹುಗಳ ಮೇಲಿನ ವರ್ಗಗಳ ಮೊತ್ತಕ್ಕೆ ಸಮ."}
+    body:
+      en: "The Śulbasūtras, manuals for building fire altars, state that the diagonal of a rectangle produces as much area as its two sides together. Bhāskara gives the working rules: the hypotenuse is the square root of the sum of the squares of side and upright, and either leg is the square root of the difference of squares."
+      kn: "ಯಜ್ಞವೇದಿಗಳನ್ನು ಕಟ್ಟುವ ಕೈಪಿಡಿಗಳಾದ ಶುಲ್ಬಸೂತ್ರಗಳು, ಆಯತದ ಕರ್ಣ ಅದರ ಎರಡು ಬಾಹುಗಳು ಸೇರಿ ಮಾಡುವಷ್ಟು ವಿಸ್ತೀರ್ಣ ಮಾಡುತ್ತದೆ ಎನ್ನುತ್ತವೆ. ಭಾಸ್ಕರ ಬಳಕೆಯ ನಿಯಮಗಳನ್ನು ಕೊಡುತ್ತಾನೆ: ಭುಜ ಮತ್ತು ಕೋಟಿಯ ವರ್ಗಗಳ ಮೊತ್ತದ ವರ್ಗಮೂಲ ಕರ್ಣ; ವರ್ಗಗಳ ವ್ಯತ್ಯಾಸದ ವರ್ಗಮೂಲ ಇನ್ನೊಂದು ಬಾಹು."
+    verses:
+      - {verse: verse.lilavati.136, role: rule}
+      - {verse: verse.lilavati.137, role: example}
+    related:
+      - {to: concept.jya, type: builds_on}
+    people: [person.baudhayana, person.bhaskara-ii]
+    claims:
+      verses: [{source: source.colebrooke-1817, note: "Līlāvatī §134, §136"}]
+      history: [{source: source.plofker-2009, note: "Śulbasūtras, ch. 2"}]
+
+  - id: concept.circle-circumference
+    area: area.geometry
+    name: {en: Circumference and diameter, kn: ಪರಿಧಿ ಮತ್ತು ವ್ಯಾಸ}
+    classical_iast: paridhi
+    modern_name: {en: The value of π, kn: π ನ ಬೆಲೆ}
+    aliases: [pi, circumference, "3.1416", diameter]
+    summary: {en: "Āryabhaṭa: a circle of diameter 20,000 has circumference about 62,832.", kn: "ಆರ್ಯಭಟ: 20,000 ವ್ಯಾಸದ ವೃತ್ತದ ಪರಿಧಿ ಸುಮಾರು 62,832."}
+    body:
+      en: "Āryabhaṭa says: add 4 to 100, multiply by 8 and add 62,000; that is approximately (āsanna) the circumference of a circle of diameter 20,000. The ratio is 3.1416. He calls it approximate, and later Kerala mathematicians found series that give π as closely as you like."
+      kn: "ಆರ್ಯಭಟ ಹೇಳುತ್ತಾನೆ: 100ಕ್ಕೆ 4 ಕೂಡಿಸಿ, 8ರಿಂದ ಗುಣಿಸಿ, 62,000 ಕೂಡಿಸಿ; ಅದು 20,000 ವ್ಯಾಸದ ವೃತ್ತದ ಪರಿಧಿಗೆ ಸುಮಾರು (ಆಸನ್ನ) ಸಮ. ಅನುಪಾತ 3.1416. ಅವನೇ ಇದನ್ನು ಸುಮಾರು ಎನ್ನುತ್ತಾನೆ; ಮುಂದೆ ಕೇರಳದ ಗಣಿತಜ್ಞರು π ಯನ್ನು ಬೇಕಾದಷ್ಟು ನಿಖರವಾಗಿ ಕೊಡುವ ಶ್ರೇಢಿಗಳನ್ನು ಕಂಡುಕೊಂಡರು."
+    verses:
+      - {verse: verse.aryabhatiya.2.10, role: rule}
+    related:
+      - {to: concept.madhava-series, type: related}
+    people: [person.aryabhata]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 10, p. 28"}]
+
+  - id: concept.cyclic-quadrilateral
+    area: area.geometry
+    name: {en: Brahmagupta's quadrilateral, kn: ಬ್ರಹ್ಮಗುಪ್ತನ ಚತುರ್ಭುಜ}
+    classical_iast: catur-bhuja
+    modern_name: {en: Cyclic quadrilateral, kn: ಚಕ್ರೀಯ ಚತುರ್ಭುಜ}
+    aliases: [brahmagupta formula, cyclic quadrilateral, area of quadrilateral, diagonals]
+    summary: {en: "Area √((s−a)(s−b)(s−c)(s−d)) for a quadrilateral whose corners lie on a circle.", kn: "ಮೂಲೆಗಳು ವೃತ್ತದ ಮೇಲಿರುವ ಚತುರ್ಭುಜದ ವಿಸ್ತೀರ್ಣ √((s−a)(s−b)(s−c)(s−d))."}
+    body:
+      en: "Brahmagupta: take half the sum of the sides four times, subtract each side from one of them, multiply the four results, and take the square root: that is the exact area. It is exact when the four corners lie on one circle, which is the case his other rules describe. He also gives the lengths of both diagonals from the four sides."
+      kn: "ಬ್ರಹ್ಮಗುಪ್ತ: ಬಾಹುಗಳ ಮೊತ್ತದ ಅರ್ಧವನ್ನು ನಾಲ್ಕು ಕಡೆ ಬರೆದು, ಪ್ರತಿಯೊಂದರಿಂದ ಒಂದೊಂದು ಬಾಹು ಕಳೆದು, ನಾಲ್ಕನ್ನೂ ಗುಣಿಸಿ ವರ್ಗಮೂಲ ತೆಗೆದರೆ ಅದು ನಿಖರ ವಿಸ್ತೀರ್ಣ. ನಾಲ್ಕು ಮೂಲೆಗಳು ಒಂದೇ ವೃತ್ತದ ಮೇಲಿದ್ದಾಗ ಇದು ನಿಖರ. ನಾಲ್ಕು ಬಾಹುಗಳಿಂದ ಎರಡೂ ಕರ್ಣಗಳ ಉದ್ದವನ್ನೂ ಅವನು ಕೊಡುತ್ತಾನೆ."
+    verses:
+      - {verse: verse.bss.12.21, role: rule}
+      - {verse: verse.bss.12.28, role: rule}
+    related:
+      - {to: concept.bhuja-koti-karna, type: builds_on}
+    people: [person.brahmagupta]
+    claims:
+      verses: [{source: source.colebrooke-1817, note: "Brahmagupta ch. 12 §21, §28"}]
+      history: [{source: source.plofker-2009}]
+
+  - id: concept.jya
+    area: area.trigonometry
+    name: {en: Half-chords, kn: ಅರ್ಧಜ್ಯಾ}
+    classical_iast: ardhajyā
+    modern_name: {en: Sine, kn: ಸೈನ್}
+    aliases: [sine, half chord, jya, ardhajya, sine table, trigonometry]
+    summary: {en: "The half-chord of an arc, the ancestor of the sine, and a way to tabulate it.", kn: "ಚಾಪದ ಅರ್ಧಜ್ಯಾ, ಸೈನ್‌ನ ಮೂಲ, ಮತ್ತು ಅದರ ಕೋಷ್ಟಕ ತಯಾರಿಸುವ ವಿಧಾನ."}
+    body:
+      en: "Indian astronomers measured the half-chord (ardhajyā) of an arc in a circle of fixed radius, rather than a ratio. Āryabhaṭa notes that the chord of a sixth of the circle equals the radius, and gives a rule for building a table of 24 half-chords by their differences. The word jyā travelled through Arabic jība into Latin sinus, our 'sine'."
+      kn: "ಭಾರತೀಯ ಖಗೋಳಶಾಸ್ತ್ರಜ್ಞರು ಅನುಪಾತದ ಬದಲು, ನಿರ್ದಿಷ್ಟ ತ್ರಿಜ್ಯದ ವೃತ್ತದಲ್ಲಿ ಚಾಪದ ಅರ್ಧಜ್ಯಾವನ್ನು ಅಳೆಯುತ್ತಿದ್ದರು. ವೃತ್ತದ ಆರನೇ ಒಂದು ಭಾಗದ ಜ್ಯಾ ತ್ರಿಜ್ಯಕ್ಕೆ ಸಮ ಎಂದು ಆರ್ಯಭಟ ಗಮನಿಸುತ್ತಾನೆ; ವ್ಯತ್ಯಾಸಗಳ ಮೂಲಕ 24 ಅರ್ಧಜ್ಯಾಗಳ ಕೋಷ್ಟಕ ಕಟ್ಟುವ ನಿಯಮವನ್ನೂ ಕೊಡುತ್ತಾನೆ. 'ಜ್ಯಾ' ಪದ ಅರಬ್ಬಿಯ 'ಜೀಬಾ' ಮೂಲಕ ಲ್ಯಾಟಿನ್ 'ಸೈನಸ್' ಆಗಿ, ನಮ್ಮ 'ಸೈನ್' ಆಯಿತು."
+    verses:
+      - {verse: verse.aryabhatiya.2.9, role: rule}
+      - {verse: verse.aryabhatiya.2.11, role: rule}
+      - {verse: verse.aryabhatiya.2.12, role: rule}
+    related:
+      - {to: concept.bhuja-koti-karna, type: requires}
+    people: [person.aryabhata, person.bhaskara-i]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 9, 11, 12"}]
+      history: [{source: source.plofker-2009, note: "jyā to sinus"}]
+
+  - id: concept.sredhi
+    area: area.series
+    name: {en: Progressions, kn: ಶ್ರೇಢಿ}
+    classical_iast: śreḍhī
+    modern_name: {en: Arithmetic progression, kn: ಸಮಾಂತರ ಶ್ರೇಢಿ}
+    aliases: [arithmetic progression, ap, progression, series, sum of ap]
+    summary: {en: "First term, common increase and number of terms give the last term and the sum.", kn: "ಮೊದಲ ಪದ, ಸಾಮಾನ್ಯ ಹೆಚ್ಚಳ ಮತ್ತು ಪದಗಳ ಸಂಖ್ಯೆಯಿಂದ ಕೊನೆಯ ಪದ ಮತ್ತು ಮೊತ್ತ."}
+    body:
+      en: "Āryabhaṭa and Bhāskara give the same rules: the last term is the first term plus the increase times one less than the number of terms; the middle term is half of first plus last; the sum is the middle term times the number of terms."
+      kn: "ಆರ್ಯಭಟ ಮತ್ತು ಭಾಸ್ಕರ ಇಬ್ಬರೂ ಒಂದೇ ನಿಯಮಗಳನ್ನು ಕೊಡುತ್ತಾರೆ: ಕೊನೆಯ ಪದ = ಮೊದಲ ಪದ + ಹೆಚ್ಚಳ × (ಪದಗಳ ಸಂಖ್ಯೆ − 1); ಮಧ್ಯ ಪದ = (ಮೊದಲ + ಕೊನೆಯ) ÷ 2; ಮೊತ್ತ = ಮಧ್ಯ ಪದ × ಪದಗಳ ಸಂಖ್ಯೆ."
+    verses:
+      - {verse: verse.aryabhatiya.2.19, role: rule}
+      - {verse: verse.aryabhatiya.2.20, role: rule}
+      - {verse: verse.lilavati.121, role: rule}
+      - {verse: verse.lilavati.122, role: example}
+    related:
+      - {to: concept.sums-of-powers, type: related}
+    people: [person.aryabhata, person.bhaskara-ii]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 19–20"}, {source: source.colebrooke-1817, note: "Līlāvatī §119–120"}]
+
+  - id: concept.sums-of-powers
+    area: area.series
+    name: {en: Sums of squares and cubes, kn: ವರ್ಗ ಮತ್ತು ಘನಗಳ ಮೊತ್ತ}
+    classical_iast: varga-citi
+    modern_name: {en: Sums of powers, kn: ಘಾತಗಳ ಮೊತ್ತ}
+    aliases: [sum of squares, sum of cubes, triangular numbers]
+    summary: {en: "1² + 2² + … + n² and 1³ + 2³ + … + n³ in closed form.", kn: "1² + 2² + … + n² ಮತ್ತು 1³ + 2³ + … + n³ ಗಳ ಸೂತ್ರ."}
+    body:
+      en: "Āryabhaṭa gives the sum of the squares as n(n+1)(2n+1)/6 and the sum of the cubes as the square of 1 + 2 + … + n. Bhāskara repeats both. These rules came from counting stacked piles, such as cannon-ball pyramids."
+      kn: "ಆರ್ಯಭಟ ವರ್ಗಗಳ ಮೊತ್ತವನ್ನು n(n+1)(2n+1)/6 ಎಂದೂ, ಘನಗಳ ಮೊತ್ತವನ್ನು 1 + 2 + … + n ರ ವರ್ಗ ಎಂದೂ ಕೊಡುತ್ತಾನೆ. ಭಾಸ್ಕರ ಎರಡನ್ನೂ ಪುನರಾವರ್ತಿಸುತ್ತಾನೆ. ಈ ನಿಯಮಗಳು ಪೇರಿಸಿದ ರಾಶಿಗಳನ್ನು ಎಣಿಸುವುದರಿಂದ ಬಂದವು."
+    verses:
+      - {verse: verse.aryabhatiya.2.22, role: rule}
+      - {verse: verse.lilavati.119, role: rule}
+    people: [person.aryabhata, person.bhaskara-ii]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 22"}, {source: source.colebrooke-1817, note: "Līlāvatī §117"}]
+
+  - id: concept.madhava-series
+    area: area.series
+    name: {en: Mādhava's series for π, kn: ಮಾಧವನ π ಶ್ರೇಢಿ}
+    classical_iast: paridhi-ānayana
+    modern_name: {en: "Infinite series for π (Mādhava–Leibniz)", kn: "π ಗೆ ಅನಂತ ಶ್ರೇಢಿ (ಮಾಧವ–ಲೈಬ್ನಿಜ್)"}
+    aliases: [madhava, leibniz series, gregory series, pi series, infinite series, kerala school]
+    summary: {en: "π/4 = 1 − 1/3 + 1/5 − 1/7 + …, with a correction term to speed it up.", kn: "π/4 = 1 − 1/3 + 1/5 − 1/7 + …, ವೇಗವಾಗಿ ಸಮೀಪಿಸಲು ತಿದ್ದುಪಡಿ ಪದದೊಂದಿಗೆ."}
+    body:
+      en: "Later Kerala texts, among them the Yuktibhāṣā and the Kriyākramakarī, attribute to Mādhava of Saṅgamagrāma a series for the circumference: four times the diameter, minus and plus the diameter times four divided by 3, 5, 7 and so on. The series converges slowly, so the same tradition adds a correction after the last term. No work of Mādhava's containing it survives; we know it through his successors."
+      kn: "ಯುಕ್ತಿಭಾಷಾ, ಕ್ರಿಯಾಕ್ರಮಕರೀ ಮುಂತಾದ ಕೇರಳದ ನಂತರದ ಗ್ರಂಥಗಳು ಸಂಗಮಗ್ರಾಮದ ಮಾಧವನಿಗೆ ಪರಿಧಿಯ ಒಂದು ಶ್ರೇಢಿಯನ್ನು ಆರೋಪಿಸುತ್ತವೆ: ವ್ಯಾಸದ ನಾಲ್ಕರಷ್ಟು, ಅದರಿಂದ ವ್ಯಾಸ×4ನ್ನು 3, 5, 7… ರಿಂದ ಭಾಗಿಸಿದವನ್ನು ಪರ್ಯಾಯವಾಗಿ ಕಳೆಯುತ್ತಾ ಕೂಡಿಸುತ್ತಾ. ಶ್ರೇಢಿ ನಿಧಾನವಾಗಿ ಸಮೀಪಿಸುವುದರಿಂದ, ಅದೇ ಪರಂಪರೆ ಕೊನೆಯ ಪದದ ನಂತರ ಒಂದು ತಿದ್ದುಪಡಿ ಸೇರಿಸುತ್ತದೆ. ಇದನ್ನು ಹೊಂದಿರುವ ಮಾಧವನ ಕೃತಿ ಉಳಿದಿಲ್ಲ; ಅವನ ಶಿಷ್ಯಪರಂಪರೆಯ ಮೂಲಕ ನಮಗೆ ತಿಳಿದಿದೆ."
+    verses: []
+    related:
+      - {to: concept.circle-circumference, type: generalises}
+    people: [person.madhava, person.nilakantha, person.jyesthadeva]
+    claims:
+      attribution: [{source: source.plofker-2009, note: "ch. 7"}, {source: source.sarma-1972}]
+
+  - id: concept.kuttaka
+    area: area.number-theory
+    name: {en: The pulveriser, kn: ಕುಟ್ಟಕ}
+    classical_iast: kuṭṭaka
+    modern_name: {en: Linear Diophantine equations, kn: ರೇಖೀಯ ಡಯೋಫಾಂಟೈನ್ ಸಮೀಕರಣಗಳು}
+    aliases: [pulveriser, pulverizer, kuttaka, diophantine, euclidean algorithm, gcd, hcf]
+    summary: {en: "Find a whole number x so that (a·x + c) is divisible by b, by repeated division.", kn: "(a·x + c) ಯು b ಯಿಂದ ಭಾಗವಾಗುವಂತೆ ಪೂರ್ಣಾಂಕ x ಅನ್ನು ಪದೇಪದೇ ಭಾಗಾಕಾರದಿಂದ ಕಂಡುಹಿಡಿಯುವುದು."}
+    body:
+      en: "Divide the dividend and divisor into each other, as when finding the highest common factor, and write the quotients in a column. Then work back up the column, multiplying and adding. Āryabhaṭa's rule is the earliest known general method; astronomers needed it to find when planets return to the same positions."
+      kn: "ಮಹತ್ತಮ ಸಾಮಾನ್ಯ ಅಪವರ್ತನ ಕಂಡುಹಿಡಿಯುವಂತೆ ಭಾಜ್ಯ ಮತ್ತು ಭಾಜಕಗಳನ್ನು ಒಂದರಿಂದ ಇನ್ನೊಂದು ಭಾಗಿಸಿ, ಭಾಗಲಬ್ಧಗಳನ್ನು ಒಂದು ಕಂಬಸಾಲಿನಲ್ಲಿ ಬರೆಯಿರಿ (ವಲ್ಲೀ). ನಂತರ ಗುಣಿಸಿ ಕೂಡಿಸುತ್ತಾ ಕಂಬಸಾಲಿನಲ್ಲಿ ಮೇಲಕ್ಕೆ ಬನ್ನಿ. ಆರ್ಯಭಟನ ನಿಯಮ ತಿಳಿದಿರುವುದರಲ್ಲಿ ಅತ್ಯಂತ ಹಳೆಯ ಸಾಮಾನ್ಯ ವಿಧಾನ; ಗ್ರಹಗಳು ಮತ್ತೆ ಅದೇ ಸ್ಥಾನಕ್ಕೆ ಯಾವಾಗ ಬರುತ್ತವೆ ಎಂದು ಕಂಡುಕೊಳ್ಳಲು ಖಗೋಳಶಾಸ್ತ್ರಜ್ಞರಿಗೆ ಇದು ಬೇಕಾಗಿತ್ತು."
+    verses:
+      - {verse: verse.aryabhatiya.2.32, role: rule}
+      - {verse: verse.aryabhatiya.2.33, role: rule}
+      - {verse: verse.lilavati.242, role: rule}
+      - {verse: verse.lilavati.243, role: rule}
+      - {verse: verse.lilavati.244, role: rule}
+    related:
+      - {to: concept.varga-prakriti, type: related}
+    people: [person.aryabhata, person.bhaskara-i, person.brahmagupta, person.bhaskara-ii]
+    claims:
+      verses: [{source: source.clark-1930, note: "Gaṇitapāda 32–33"}, {source: source.colebrooke-1817, note: "Līlāvatī §248–252"}]
+      history: [{source: source.plofker-2009}]
+
+  - id: concept.varga-prakriti
+    area: area.number-theory
+    name: {en: Square nature, kn: ವರ್ಗಪ್ರಕೃತಿ}
+    classical_iast: varga-prakṛti
+    modern_name: {en: "Pell's equation", kn: "ಪೆಲ್ ಸಮೀಕರಣ"}
+    aliases: [pell's equation, pell equation, chakravala, cakravala, bhavana]
+    summary: {en: "Whole-number solutions of N·x² + 1 = y².", kn: "N·x² + 1 = y² ಗೆ ಪೂರ್ಣಾಂಕ ಪರಿಹಾರಗಳು."}
+    body:
+      en: "Brahmagupta showed how to combine two solutions into a new one (bhāvanā, 'composition'). Later, the cakravāla or 'cyclic' method, known from Jayadeva and Bhāskara, finds a solution for any N that is not a square. Bhāskara solves 61·x² + 1 = y², whose smallest answer has ten digits. Version 1 has no lesson for this yet."
+      kn: "ಎರಡು ಪರಿಹಾರಗಳನ್ನು ಸೇರಿಸಿ ಹೊಸದೊಂದನ್ನು ಪಡೆಯುವುದನ್ನು (ಭಾವನಾ) ಬ್ರಹ್ಮಗುಪ್ತ ತೋರಿಸಿದ. ಮುಂದೆ ಜಯದೇವ ಮತ್ತು ಭಾಸ್ಕರರಿಂದ ತಿಳಿದಿರುವ 'ಚಕ್ರವಾಲ' ವಿಧಾನ, ವರ್ಗವಲ್ಲದ ಯಾವುದೇ N ಗೆ ಪರಿಹಾರ ಕೊಡುತ್ತದೆ. ಭಾಸ್ಕರ 61·x² + 1 = y² ಅನ್ನು ಬಿಡಿಸುತ್ತಾನೆ; ಅದರ ಅತಿ ಚಿಕ್ಕ ಉತ್ತರಕ್ಕೆ ಹತ್ತು ಅಂಕಿಗಳಿವೆ. ಮೊದಲ ಆವೃತ್ತಿಯಲ್ಲಿ ಇದಕ್ಕೆ ಪಾಠವಿಲ್ಲ."
+    verses: []
+    people: [person.brahmagupta, person.bhaskara-ii]
+    claims:
+      history: [{source: source.plofker-2009}, {source: source.datta-singh-1935}]
+
+  - id: concept.ankapasha
+    area: area.combinatorics
+    name: {en: Arranging digits, kn: ಅಂಕಪಾಶ}
+    classical_iast: aṅka-pāśa
+    modern_name: {en: Permutations, kn: ಕ್ರಮಯೋಜನೆಗಳು}
+    aliases: [permutations, factorial, arrangements, ankapasha, combinatorics]
+    summary: {en: "n different digits can be arranged in 1 × 2 × … × n ways.", kn: "n ಬೇರೆಬೇರೆ ಅಂಕಿಗಳನ್ನು 1 × 2 × … × n ವಿಧಗಳಲ್ಲಿ ಜೋಡಿಸಬಹುದು."}
+    body:
+      en: "Bhāskara's last chapter counts how many numbers can be made from given digits: multiply 1, 2, 3 … up to the number of places. He also finds the sum of all those numbers without listing them, and asks how many forms the god Śiva can take when ten attributes are shuffled among ten hands."
+      kn: "ಕೊಟ್ಟ ಅಂಕಿಗಳಿಂದ ಎಷ್ಟು ಸಂಖ್ಯೆಗಳನ್ನು ಮಾಡಬಹುದು ಎಂದು ಭಾಸ್ಕರನ ಕೊನೆಯ ಅಧ್ಯಾಯ ಎಣಿಸುತ್ತದೆ: ಸ್ಥಾನಗಳ ಸಂಖ್ಯೆಯವರೆಗೆ 1, 2, 3 … ಗುಣಿಸಿ. ಎಲ್ಲವನ್ನೂ ಪಟ್ಟಿ ಮಾಡದೆ ಆ ಸಂಖ್ಯೆಗಳ ಮೊತ್ತವನ್ನೂ ಕಂಡುಕೊಳ್ಳುತ್ತಾನೆ; ಹತ್ತು ಕೈಗಳಲ್ಲಿ ಹತ್ತು ಆಯುಧಗಳನ್ನು ಬದಲಿಸಿದರೆ ಶಿವನಿಗೆ ಎಷ್ಟು ರೂಪಗಳು ಎಂದೂ ಕೇಳುತ್ತಾನೆ."
+    verses:
+      - {verse: verse.lilavati.261, role: rule}
+      - {verse: verse.lilavati.262, role: example}
+      - {verse: verse.lilavati.263, role: example}
+      - {verse: verse.lilavati.264, role: rule}
+    people: [person.bhaskara-ii]
+    claims:
+      verses: [{source: source.colebrooke-1817, note: "Līlāvatī ch. 13, §267–270"}]
+
+  - id: concept.fractions
+    area: area.arithmetic
+    name: {en: Fractions, kn: ಭಿನ್ನರಾಶಿಗಳು}
+    classical_iast: bhinna
+    modern_name: {en: Fractions, kn: ಭಿನ್ನರಾಶಿಗಳು}
+    aliases: [fractions, bhinna, common denominator]
+    summary: {en: "Bringing fractions to a common denominator, and the operations on them.", kn: "ಭಿನ್ನರಾಶಿಗಳನ್ನು ಸಮಾನ ಛೇದಕ್ಕೆ ತರುವುದು ಮತ್ತು ಅವುಗಳ ಮೇಲಿನ ಕ್ರಿಯೆಗಳು."}
+    body:
+      en: "Fractions were written as one number above another, without a bar. Bhāskara's first rule for fractions is to multiply numerator and denominator of each by the other's denominator so they share one denominator."
+      kn: "ಭಿನ್ನರಾಶಿಗಳನ್ನು ಅಡ್ಡಗೆರೆ ಇಲ್ಲದೆ, ಒಂದು ಸಂಖ್ಯೆಯ ಕೆಳಗೆ ಇನ್ನೊಂದನ್ನು ಬರೆಯುತ್ತಿದ್ದರು. ಎರಡೂ ಒಂದೇ ಛೇದ ಹೊಂದುವಂತೆ ಪ್ರತಿಯೊಂದರ ಅಂಶ ಮತ್ತು ಛೇದವನ್ನು ಇನ್ನೊಂದರ ಛೇದದಿಂದ ಗುಣಿಸುವುದು ಭಾಸ್ಕರನ ಭಿನ್ನರಾಶಿಗಳ ಮೊದಲ ನಿಯಮ."
+    verses:
+      - {verse: verse.lilavati.30, role: rule}
+    related:
+      - {to: concept.ishta-karma, type: related}
+    people: [person.bhaskara-ii]
+    claims:
+      verses: [{source: source.colebrooke-1817}]

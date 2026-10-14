@@ -1,0 +1,47 @@
+id: lesson.trairashika
+version: 1
+title: {en: "Trairāśika", kn: "ತ್ರೈರಾಶಿಕ"}
+subtitle: {en: "The rule of three", kn: "ಮೂರು ರಾಶಿಗಳ ನಿಯಮ"}
+area: area.arithmetic
+concepts: [concept.trairashika]
+curriculum: [ncert.8.gp.proportional-reasoning]
+minutes: 7
+author: B
+review: {maths: draft, sanskrit: unreviewed, kannada: draft}
+claims:
+  verse: [{source: source.colebrooke-1817, note: "Līlāvatī §70–71"}]
+cards:
+  - id: scene
+    type: scene
+    art: art.saffron
+    text:
+      en: "A merchant can buy two and a half palas of saffron for three-sevenths of a niṣka. A customer has nine niṣkas. How much saffron can she buy? Bhāskara calls the known price the measure, the saffron it buys the fruit, and the customer's money the desire."
+      kn: "ಒಬ್ಬ ವ್ಯಾಪಾರಿಗೆ ನಿಷ್ಕದ ಮೂರನೇ ಏಳು ಭಾಗಕ್ಕೆ ಎರಡೂವರೆ ಪಲ ಕೇಸರಿ ಸಿಗುತ್ತದೆ. ಗ್ರಾಹಕಳ ಬಳಿ ಒಂಬತ್ತು ನಿಷ್ಕಗಳಿವೆ. ಅವಳು ಎಷ್ಟು ಕೇಸರಿ ಕೊಳ್ಳಬಹುದು? ಗೊತ್ತಿರುವ ಬೆಲೆಯನ್ನು ಭಾಸ್ಕರ 'ಪ್ರಮಾಣ', ಅದಕ್ಕೆ ಸಿಗುವ ಕೇಸರಿಯನ್ನು 'ಫಲ', ಗ್ರಾಹಕಳ ಹಣವನ್ನು 'ಇಚ್ಛಾ' ಎನ್ನುತ್ತಾನೆ."
+  - id: play
+    type: explore
+    widget: ratio_balance
+    params: {start: ["3/7", "5/2", "9"]}
+    prompt: {en: "Change the money on the right pan. The saffron grows in step, keeping the balance level.", kn: "ಬಲ ತಟ್ಟೆಯಲ್ಲಿನ ಹಣವನ್ನು ಬದಲಿಸಿ. ತಕ್ಕಡಿ ಸಮವಾಗಿರುವಂತೆ ಕೇಸರಿ ಅದೇ ಅನುಪಾತದಲ್ಲಿ ಬೆಳೆಯುತ್ತದೆ."}
+    goal: {en: "How much saffron does one whole niṣka buy?", kn: "ಒಂದು ಪೂರ್ತಿ ನಿಷ್ಕಕ್ಕೆ ಎಷ್ಟು ಕೇಸರಿ ಸಿಗುತ್ತದೆ?"}
+  - id: verse
+    type: verse
+    verse: verse.lilavati.73
+    highlight: [term.pramana, term.phala, term.iccha]
+    show_compare: true
+    intro: {en: "Bhāskara's statement of the rule. Āryabhaṭa gave the same rule 650 years earlier.", kn: "ಭಾಸ್ಕರನ ನಿಯಮ. ಆರ್ಯಭಟ 650 ವರ್ಷ ಮೊದಲೇ ಇದೇ ನಿಯಮ ಕೊಟ್ಟಿದ್ದ."}
+  - id: method
+    type: method
+    algorithm: trairashika
+    inputs: {pramana: "3/7", phala: "5/2", iccha: "9"}
+    intro: {en: "Place measure, fruit and desire in a row. Multiply fruit by desire, divide by measure.", kn: "ಪ್ರಮಾಣ, ಫಲ, ಇಚ್ಛಾ ಇವನ್ನು ಸಾಲಾಗಿ ಇಡಿ. ಫಲವನ್ನು ಇಚ್ಛೆಯಿಂದ ಗುಣಿಸಿ, ಪ್ರಮಾಣದಿಂದ ಭಾಗಿಸಿ."}
+    modern: {en: "x = (5/2 × 9) ÷ (3/7) = 105/2 = 52½ palas.", kn: "x = (5/2 × 9) ÷ (3/7) = 105/2 = 52½ ಪಲ."}
+  - id: practice
+    type: practice
+    generator: ratio.rule_of_three.v1
+    count: 4
+    difficulty: [1, 2, 2, 3]
+  - id: summary
+    type: summary
+    key_idea: {en: "Fruit of the desire = fruit × desire ÷ measure. Measure and desire must be the same kind of thing.", kn: "ಇಚ್ಛಾಫಲ = ಫಲ × ಇಚ್ಛಾ ÷ ಪ್ರಮಾಣ. ಪ್ರಮಾಣ ಮತ್ತು ಇಚ್ಛಾ ಒಂದೇ ಜಾತಿಯವಾಗಿರಬೇಕು."}
+    textbook: {en: "Class 8 · Proportional Reasoning.", kn: "8ನೇ ತರಗತಿ · ಅನುಪಾತೀಯ ತಾರ್ಕಿಕತೆ."}
+    next: lesson.sredhi

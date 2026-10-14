@@ -1,0 +1,191 @@
+# Mathematicians (plan §4.4, §7.6). No portraits: a person is shown as a seal.
+# Dates are ranges; `dates_label` is what readers see. Every date and every
+# teacher–student link cites a source; pages are pinned by the reviewer.
+places:
+  - id: place.kusumapura
+    name: {en: "Kusumapura (Pāṭaliputra, near Patna)", kn: "ಕುಸುಮಪುರ (ಪಾಟಲೀಪುತ್ರ, ಪಾಟ್ನಾ ಬಳಿ)"}
+    lat: 25.61
+    lon: 85.14
+  - id: place.bhillamala
+    name: {en: "Bhillamāla (Bhinmal, Rajasthan)", kn: "ಭಿಲ್ಲಮಾಲ (ಭಿನ್ಮಾಲ್, ರಾಜಸ್ಥಾನ)"}
+    lat: 25.0
+    lon: 72.25
+  - id: place.sangamagrama
+    name: {en: "Saṅgamagrāma (Irinjalakuda, Kerala)", kn: "ಸಂಗಮಗ್ರಾಮ (ಇರಿಂಜಾಲಕುಡ, ಕೇರಳ)"}
+    lat: 10.34
+    lon: 76.21
+  - id: place.kerala
+    name: {en: "Central Kerala", kn: "ಮಧ್ಯ ಕೇರಳ"}
+    lat: 10.8
+    lon: 76.0
+
+mathematicians:
+  - id: person.baudhayana
+    name: {en: Baudhāyana, kn: ಬೌಧಾಯನ}
+    name_iast: Baudhāyana
+    born_from: -800
+    born_to: -400
+    dates_label: {en: "Śulbasūtra composed perhaps 800–400 BCE; very uncertain", kn: "ಶುಲ್ಬಸೂತ್ರದ ರಚನೆ ಸುಮಾರು ಕ್ರಿ.ಪೂ. 800–400; ತುಂಬಾ ಅನಿಶ್ಚಿತ"}
+    summary: {en: "Author of the oldest Śulbasūtra, rules for laying out fire altars with cords, including the diagonal rule now taught as the Baudhāyana–Pythagoras theorem.", kn: "ಹಗ್ಗಗಳಿಂದ ಯಜ್ಞವೇದಿಗಳನ್ನು ಅಳೆಯುವ ನಿಯಮಗಳ ಅತ್ಯಂತ ಹಳೆಯ ಶುಲ್ಬಸೂತ್ರದ ಕರ್ತೃ; ಇಂದು ಬೌಧಾಯನ–ಪೈಥಾಗರಸ್ ಪ್ರಮೇಯವೆಂದು ಕಲಿಸುವ ಕರ್ಣದ ನಿಯಮ ಇದರಲ್ಲಿದೆ."}
+    other_works: [Baudhāyana Śulbasūtra]
+    claims:
+      dates: [{source: source.plofker-2009, note: "ch. 2"}]
+
+  - id: person.pingala
+    name: {en: Piṅgala, kn: ಪಿಂಗಲ}
+    name_iast: Piṅgala
+    born_from: -500
+    born_to: -100
+    dates_label: {en: "Perhaps the last centuries BCE; uncertain", kn: "ಬಹುಶಃ ಕ್ರಿ.ಪೂ. ಕೊನೆಯ ಶತಮಾನಗಳು; ಅನಿಶ್ಚಿತ"}
+    summary: {en: "Author of the Chandaḥśāstra on poetic metre, which counts patterns of long and short syllables, an early piece of combinatorics.", kn: "ಛಂದಸ್ಸಿನ ಕುರಿತಾದ ಛಂದಃಶಾಸ್ತ್ರದ ಕರ್ತೃ; ಗುರು-ಲಘು ಅಕ್ಷರಗಳ ಮಾದರಿಗಳನ್ನು ಎಣಿಸುವ ಇದು ಸಂಯೋಜನಶಾಸ್ತ್ರದ ಆರಂಭಿಕ ರೂಪ."}
+    other_works: [Chandaḥśāstra]
+    claims:
+      dates: [{source: source.plofker-2009, note: "ch. 3"}]
+
+  - id: person.aryabhata
+    name: {en: Āryabhaṭa, kn: ಆರ್ಯಭಟ}
+    name_iast: Āryabhaṭa
+    born_from: 476
+    born_to: 476
+    dates_label: {en: "Born 476 CE", kn: "ಜನನ ಕ್ರಿ.ಶ. 476"}
+    place: place.kusumapura
+    summary: {en: "Wrote the Āryabhaṭīya in 499 CE, aged 23 by his own statement. Its mathematics section gives place value, square and cube roots, π ≈ 3.1416, a table of half-chords, progressions and the pulveriser.", kn: "ತನ್ನದೇ ಹೇಳಿಕೆಯಂತೆ 23ರ ವಯಸ್ಸಿನಲ್ಲಿ ಕ್ರಿ.ಶ. 499ರಲ್ಲಿ ಆರ್ಯಭಟೀಯ ಬರೆದ. ಅದರ ಗಣಿತ ಭಾಗದಲ್ಲಿ ಸ್ಥಾನಬೆಲೆ, ವರ್ಗ ಮತ್ತು ಘನಮೂಲ, π ≈ 3.1416, ಅರ್ಧಜ್ಯಾ ಕೋಷ್ಟಕ, ಶ್ರೇಢಿಗಳು ಮತ್ತು ಕುಟ್ಟಕ ಇವೆ."}
+    works: [work.aryabhatiya]
+    claims:
+      dates: [{source: source.clark-1930, note: "Kālakriyāpāda 10"}, {source: source.plofker-2009}]
+      place: [{source: source.clark-1930, note: "Gaṇitapāda 1: knowledge honoured at Kusumapura"}]
+
+  - id: person.bhaskara-i
+    name: {en: Bhāskara I, kn: ಒಂದನೇ ಭಾಸ್ಕರ}
+    name_iast: Bhāskara
+    born_from: 580
+    born_to: 610
+    dates_label: {en: "Fl. c. 600–630 CE; commentary dated 629 CE", kn: "ಸುಮಾರು ಕ್ರಿ.ಶ. 600–630; ವ್ಯಾಖ್ಯಾನ ಕ್ರಿ.ಶ. 629"}
+    summary: {en: "Wrote the oldest surviving commentary on the Āryabhaṭīya (629 CE), full of worked examples, and a rational approximation for the sine.", kn: "ಆರ್ಯಭಟೀಯದ ಮೇಲೆ ಉಳಿದಿರುವ ಅತ್ಯಂತ ಹಳೆಯ ವ್ಯಾಖ್ಯಾನವನ್ನು (ಕ್ರಿ.ಶ. 629) ಬರೆದ; ಅದರಲ್ಲಿ ಅನೇಕ ಬಿಡಿಸಿದ ಉದಾಹರಣೆಗಳಿವೆ. ಸೈನ್‌ಗೆ ಒಂದು ಭಿನ್ನರಾಶಿ ಅಂದಾಜನ್ನೂ ಕೊಟ್ಟ."}
+    other_works: [Āryabhaṭīyabhāṣya, Mahābhāskarīya, Laghubhāskarīya]
+    claims:
+      dates: [{source: source.plofker-2009}]
+
+  - id: person.brahmagupta
+    name: {en: Brahmagupta, kn: ಬ್ರಹ್ಮಗುಪ್ತ}
+    name_iast: Brahmagupta
+    born_from: 598
+    born_to: 598
+    dates_label: {en: "Born 598 CE; Brāhmasphuṭasiddhānta 628 CE", kn: "ಜನನ ಕ್ರಿ.ಶ. 598; ಬ್ರಾಹ್ಮಸ್ಫುಟಸಿದ್ಧಾಂತ ಕ್ರಿ.ಶ. 628"}
+    place: place.bhillamala
+    summary: {en: "Completed the Brāhmasphuṭasiddhānta at 30. It gives rules for zero and negative numbers, the area and diagonals of a cyclic quadrilateral, and composition of solutions of square-nature equations.", kn: "30ರ ವಯಸ್ಸಿನಲ್ಲಿ ಬ್ರಾಹ್ಮಸ್ಫುಟಸಿದ್ಧಾಂತ ಪೂರ್ಣಗೊಳಿಸಿದ. ಸೊನ್ನೆ ಮತ್ತು ಋಣ ಸಂಖ್ಯೆಗಳ ನಿಯಮಗಳು, ಚಕ್ರೀಯ ಚತುರ್ಭುಜದ ವಿಸ್ತೀರ್ಣ ಮತ್ತು ಕರ್ಣಗಳು, ವರ್ಗಪ್ರಕೃತಿಯ ಪರಿಹಾರಗಳ ಭಾವನಾ ಇದರಲ್ಲಿವೆ."}
+    works: [work.brahmasphutasiddhanta]
+    other_works: [Khaṇḍakhādyaka]
+    claims:
+      dates: [{source: source.plofker-2009, note: "BSS 24 gives his age and the date"}]
+      place: [{source: source.plofker-2009}]
+
+  - id: person.sridhara
+    name: {en: Śrīdhara, kn: ಶ್ರೀಧರ}
+    name_iast: Śrīdhara
+    born_from: 750
+    born_to: 900
+    dates_label: {en: "Between c. 750 and 900 CE; disputed", kn: "ಸುಮಾರು ಕ್ರಿ.ಶ. 750–900ರ ನಡುವೆ; ವಿವಾದಿತ"}
+    summary: {en: "Wrote the Pāṭīgaṇita and its short version, the Triśatikā, arithmetic books that Bhāskara II later drew on.", kn: "ಪಾಟೀಗಣಿತ ಮತ್ತು ಅದರ ಸಂಕ್ಷಿಪ್ತ ರೂಪ ತ್ರಿಶತಿಕಾ ಎಂಬ ಅಂಕಗಣಿತ ಗ್ರಂಥಗಳನ್ನು ಬರೆದ; ಎರಡನೇ ಭಾಸ್ಕರ ಮುಂದೆ ಇವನ್ನು ಬಳಸಿಕೊಂಡ."}
+    other_works: [Pāṭīgaṇita, Triśatikā]
+    claims:
+      dates: [{source: source.plofker-2009}]
+
+  - id: person.mahavira
+    name: {en: Mahāvīra, kn: ಮಹಾವೀರ}
+    name_iast: Mahāvīra
+    born_from: 800
+    born_to: 870
+    dates_label: {en: "Fl. c. 850 CE", kn: "ಸುಮಾರು ಕ್ರಿ.ಶ. 850"}
+    summary: {en: "A Jain mathematician at the Rāṣṭrakūṭa court of Amoghavarṣa, in what is now Karnataka. His Gaṇitasārasaṅgraha is a complete arithmetic textbook with many problems.", kn: "ಇಂದಿನ ಕರ್ನಾಟಕದಲ್ಲಿ, ರಾಷ್ಟ್ರಕೂಟ ಅಮೋಘವರ್ಷನ ಆಸ್ಥಾನದಲ್ಲಿದ್ದ ಜೈನ ಗಣಿತಜ್ಞ. ಅವನ ಗಣಿತಸಾರಸಂಗ್ರಹ ಅನೇಕ ಲೆಕ್ಕಗಳಿರುವ ಸಂಪೂರ್ಣ ಅಂಕಗಣಿತ ಪಠ್ಯ."}
+    other_works: [Gaṇitasārasaṅgraha]
+    claims:
+      dates: [{source: source.plofker-2009}]
+      place: [{source: source.plofker-2009, note: "Amoghavarṣa's court"}]
+
+  - id: person.bhaskara-ii
+    name: {en: Bhāskara II (Bhāskarācārya), kn: ಎರಡನೇ ಭಾಸ್ಕರ (ಭಾಸ್ಕರಾಚಾರ್ಯ)}
+    name_iast: Bhāskarācārya
+    born_from: 1114
+    born_to: 1114
+    dates_label: {en: "Born 1114 CE; Siddhāntaśiromaṇi 1150 CE", kn: "ಜನನ ಕ್ರಿ.ಶ. 1114; ಸಿದ್ಧಾಂತಶಿರೋಮಣಿ ಕ್ರಿ.ಶ. 1150"}
+    summary: {en: "Wrote the Siddhāntaśiromaṇi, whose parts include the Līlāvatī (arithmetic and geometry) and the Bījagaṇita (algebra). The Līlāvatī was the standard arithmetic book in India for centuries.", kn: "ಸಿದ್ಧಾಂತಶಿರೋಮಣಿಯನ್ನು ಬರೆದ; ಅದರ ಭಾಗಗಳಲ್ಲಿ ಲೀಲಾವತೀ (ಅಂಕಗಣಿತ ಮತ್ತು ರೇಖಾಗಣಿತ) ಮತ್ತು ಬೀಜಗಣಿತ ಸೇರಿವೆ. ಲೀಲಾವತೀ ಶತಮಾನಗಳ ಕಾಲ ಭಾರತದಲ್ಲಿ ಪ್ರಮಾಣಿತ ಅಂಕಗಣಿತ ಪುಸ್ತಕವಾಗಿತ್ತು."}
+    works: [work.lilavati]
+    other_works: [Bījagaṇita, Siddhāntaśiromaṇi]
+    claims:
+      dates: [{source: source.plofker-2009, note: "his own statement in the Golādhyāya"}]
+
+  - id: person.madhava
+    name: {en: Mādhava of Saṅgamagrāma, kn: ಸಂಗಮಗ್ರಾಮದ ಮಾಧವ}
+    name_iast: Mādhava
+    born_from: 1340
+    born_to: 1350
+    died_from: 1420
+    died_to: 1425
+    dates_label: {en: "c. 1340–1425", kn: "ಸುಮಾರು 1340–1425"}
+    place: place.sangamagrama
+    summary: {en: "Founder of the Kerala school. Later texts attribute to him infinite series for π, sine and cosine, with corrections to speed them up. Few of his own works survive.", kn: "ಕೇರಳ ಪರಂಪರೆಯ ಸ್ಥಾಪಕ. π, ಸೈನ್ ಮತ್ತು ಕೊಸೈನ್‌ಗಳ ಅನಂತ ಶ್ರೇಢಿಗಳನ್ನು, ಅವುಗಳನ್ನು ವೇಗಗೊಳಿಸುವ ತಿದ್ದುಪಡಿಗಳೊಂದಿಗೆ, ನಂತರದ ಗ್ರಂಥಗಳು ಅವನಿಗೆ ಆರೋಪಿಸುತ್ತವೆ. ಅವನ ಸ್ವಂತ ಕೃತಿಗಳು ಕೆಲವೇ ಉಳಿದಿವೆ."}
+    other_works: [Veṇvāroha]
+    claims:
+      dates: [{source: source.sarma-1972}, {source: source.plofker-2009, note: "ch. 7"}]
+
+  - id: person.paramesvara
+    name: {en: Parameśvara, kn: ಪರಮೇಶ್ವರ}
+    name_iast: Parameśvara
+    born_from: 1360
+    born_to: 1370
+    died_from: 1455
+    died_to: 1460
+    dates_label: {en: "c. 1360–1455", kn: "ಸುಮಾರು 1360–1455"}
+    place: place.kerala
+    summary: {en: "An astronomer of the Kerala school, known for decades of eclipse observations and the Dṛggaṇita system.", kn: "ಕೇರಳ ಪರಂಪರೆಯ ಖಗೋಳಶಾಸ್ತ್ರಜ್ಞ; ದಶಕಗಳ ಗ್ರಹಣ ವೀಕ್ಷಣೆಗಳು ಮತ್ತು ದೃಗ್ಗಣಿತ ಪದ್ಧತಿಗೆ ಹೆಸರಾದವನು."}
+    other_works: [Dṛggaṇita]
+    teachers:
+      - {id: person.madhava, source: source.sarma-1972, note: "traditional account of the lineage"}
+    claims:
+      dates: [{source: source.sarma-1972}]
+
+  - id: person.damodara
+    name: {en: Dāmodara, kn: ದಾಮೋದರ}
+    name_iast: Dāmodara
+    born_from: 1400
+    born_to: 1420
+    dates_label: {en: "Fifteenth century", kn: "ಹದಿನೈದನೇ ಶತಮಾನ"}
+    place: place.kerala
+    summary: {en: "Son and pupil of Parameśvara, and teacher of both Nīlakaṇṭha and Jyeṣṭhadeva.", kn: "ಪರಮೇಶ್ವರನ ಮಗ ಮತ್ತು ಶಿಷ್ಯ; ನೀಲಕಂಠ ಮತ್ತು ಜ್ಯೇಷ್ಠದೇವ ಇಬ್ಬರ ಗುರು."}
+    teachers:
+      - {id: person.paramesvara, source: source.sarma-1972}
+    claims:
+      dates: [{source: source.sarma-1972}]
+
+  - id: person.nilakantha
+    name: {en: Nīlakaṇṭha Somayājī, kn: ನೀಲಕಂಠ ಸೋಮಯಾಜಿ}
+    name_iast: Nīlakaṇṭha Somayājī
+    born_from: 1444
+    born_to: 1444
+    died_from: 1540
+    died_to: 1550
+    dates_label: {en: "1444 – c. 1545", kn: "1444 – ಸುಮಾರು 1545"}
+    place: place.kerala
+    summary: {en: "Wrote the Tantrasaṅgraha (1501) and a long commentary on the Āryabhaṭīya, where he discusses why the circumference cannot be measured exactly by the diameter.", kn: "ತಂತ್ರಸಂಗ್ರಹ (1501) ಮತ್ತು ಆರ್ಯಭಟೀಯದ ಮೇಲೆ ದೀರ್ಘ ವ್ಯಾಖ್ಯಾನ ಬರೆದ; ಪರಿಧಿಯನ್ನು ವ್ಯಾಸದಿಂದ ನಿಖರವಾಗಿ ಏಕೆ ಅಳೆಯಲಾಗದು ಎಂದು ಅದರಲ್ಲಿ ಚರ್ಚಿಸುತ್ತಾನೆ."}
+    other_works: [Tantrasaṅgraha, Āryabhaṭīyabhāṣya]
+    teachers:
+      - {id: person.damodara, source: source.sarma-1972}
+    claims:
+      dates: [{source: source.sarma-1972}, {source: source.plofker-2009}]
+
+  - id: person.jyesthadeva
+    name: {en: Jyeṣṭhadeva, kn: ಜ್ಯೇಷ್ಠದೇವ}
+    name_iast: Jyeṣṭhadeva
+    born_from: 1500
+    born_to: 1500
+    died_from: 1570
+    died_to: 1610
+    dates_label: {en: "c. 1500–1600", kn: "ಸುಮಾರು 1500–1600"}
+    place: place.kerala
+    summary: {en: "Wrote the Yuktibhāṣā in Malayalam, which explains with proofs the Kerala series for π and the sine.", kn: "ಮಲಯಾಳಂನಲ್ಲಿ ಯುಕ್ತಿಭಾಷಾ ಬರೆದ; π ಮತ್ತು ಸೈನ್‌ಗಳ ಕೇರಳ ಶ್ರೇಢಿಗಳನ್ನು ಸಾಧನೆಗಳೊಂದಿಗೆ ಅದು ವಿವರಿಸುತ್ತದೆ."}
+    other_works: [Yuktibhāṣā]
+    teachers:
+      - {id: person.damodara, source: source.sarma-1972}
+    claims:
+      dates: [{source: source.sarma-1972}, {source: source.plofker-2009}]

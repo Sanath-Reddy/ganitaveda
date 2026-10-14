@@ -1,0 +1,216 @@
+- id: verse.lilavati.242
+  section: section.lilavati.kuttaka
+  ordinal: 224
+  ref_label: '242'
+  devanagari: 'भाज्यस् हारस् क्षेपकस् च अपवर्त्यस् केन अपि आदौ संभवे कुट्टक-अर्थम् ।
+
+    येन छिन्नौ भाज्य-हारौ न तेन क्षेपस् च एतत् दुष्टम् उद्दिष्टम् एव ॥'
+  source_text: 'bhājyas hāras kṣepakas ca apavartyas kena api ādau saṃbhave kuṭṭaka-%artham/
+
+    yena chinnau bhājya-hārau na tena kṣepas ca etat duṣṭam uddiṣṭam eva// Lil_242'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.243
+  section: section.lilavati.kuttaka
+  ordinal: 225
+  ref_label: '243'
+  devanagari: 'परस्परम् भाजितयोस् ययोस् यस् शेषस् तयोस् स्यात् अपवर्तनम् सस् ।
+
+    तेन अपवर्तेन विभाजितौ यौ तौ भाज्य-हारौ दृढ-संज्ञितौ स्तस् ॥'
+  source_text: 'parasparam bhājitayos yayos yas śeṣas tayos @syāt apavartanam sas/
+
+    tena apavartena vibhājitau yau tau bhājya-hārau dṛḍha-saṃjñitau @stas// Lil_243'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.244
+  section: section.lilavati.kuttaka
+  ordinal: 226
+  ref_label: '244'
+  devanagari: 'मिथस् भजेत् तौ दृढ-भाज्य-हारौ यावत् विभाज्ये भवति इह रूपम् ।
+
+    फलानि अधस् अधस् तद्-अधस् निवेश्यस् क्षेपस् ततस् शून्यम् उपान्तिमेन ॥'
+  source_text: 'mithas @bhajet tau dṛḍha-bhājya-hārau yāvat vibhājye @bhavati iha #rūpam/
+
+    phalāni adhas adhas tad-adhas niveśyas kṣepas tatas śūnyam upāntimena// Lil_244'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.245
+  section: section.lilavati.kuttaka
+  ordinal: 227
+  ref_label: '245'
+  devanagari: 'स्व-ऊर्ध्वे हते अन्त्येन युते तद्-अन्त्यम् त्यजेत् मुहुस् स्यात् इति राशि-युग्मम् ।
+
+    ऊर्ध्वस् विभाज्येन दृढेन तष्टस् फलम् गुणस् स्यात् अधरस् हरेण ॥'
+  source_text: 'sva-ūrdhve hate antyena yute tad-antyam @tyajet muhus @syāt iti rāśi-#yugmam/
+
+    ūrdhvas vibhājyena dṛḍhena taṣṭas phalam guṇas @syāt adharas hareṇa// Lil_245'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.246
+  section: section.lilavati.kuttaka
+  ordinal: 228
+  ref_label: '246'
+  devanagari: 'एवम् तदा एव अत्र यदा समास् तास् स्युस् लब्धयस् चेद् विषमास् तदानीम् ।
+
+    यथा आगतौ लब्धि-गुणौ विशोध्यौ स्व-तक्षणात् शेष-मितौ तु तौ स्तस् ॥'
+  source_text: 'evam tadā eva atra yadā samās tās @syus labdhayas ced viṣamās tadānīm/
+
+    yathā āgatau labdhi-guṇau viśodhyau sva-takṣaṇāt śeṣa-mitau tu tau @stas// Lil_246'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.247
+  section: section.lilavati.kuttaka
+  ordinal: 229
+  ref_label: '247'
+  devanagari: 'एकविंशति-युतम् शत-द्वयम् यद्-गुणम् गणक पञ्चषष्टि-युक् ।
+
+    पञ्च-वर्जित-शत-द्वय-उद्धृतम् शुद्धिम् एति गुणकम् वद आशु तम् ॥'
+  source_text: '%ekaviṃśati-yutam %śata-%dvayam yad-guṇam gaṇaka %pañcaṣaṣṭi-yuk/
+
+    %pañca-varjita-%śata-%dvaya-uddhṛtam śuddhim @eti guṇakam @vada āśu tam// Lil_247'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.248
+  section: section.lilavati.kuttaka
+  ordinal: 230
+  ref_label: '248'
+  devanagari: 'भवति कुट्ट-विधेर् युति-भाज्ययोस् समपवर्तितयोस् अपि वा गुणस् ।
+
+    भवति यस् युति-भाजकयोस् पुनर् सस् च भवेत् अपवर्तन-संगुणस् ॥'
+  source_text: '@bhavati kuṭṭa-vidher yuti-bhājyayos samapavartitayos api vā guṇas/
+
+    @bhavati yas yuti-bhājakayos punar sas ca @bhavet apavartana-saṃguṇas// Lil_248'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.249
+  section: section.lilavati.kuttaka
+  ordinal: 231
+  ref_label: '249'
+  devanagari: 'शतम् हतम् येन युतम् नवत्या विवर्जितम् वा विहृतम् त्रिषष्ट्या ।
+
+    निस्-अग्रकम् स्यात् वद मे गुणम् तम् स्पष्टम् पटीयान् यदि कुट्टके असि ॥'
+  source_text: '%śatam hatam yena yutam %navatyā vivarjitam vā vihṛtam %triṣaṣṭyā/
+
+    nis-agrakam @syāt @vada me guṇam tam spaṣṭam paṭīyān yadi kuṭṭake @asi// Lil_249'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.251
+  section: section.lilavati.kuttaka
+  ordinal: 232
+  ref_label: '251'
+  devanagari: 'यद्-गुणा गणक षष्टिस् अन्विता वर्जिता च दशभिस् षष्-उत्तरैस् ।
+
+    स्यात् त्रयोदश-हृता निस्-अग्रका तत् गुणम् कथय मे पृथक् पृथक् ॥'
+  source_text: 'yad-guṇā gaṇaka %ṣaṣṭis anvitā varjitā ca %daśabhis %ṣaṣ-uttarais/
+
+    @syāt %trayodaśa-hṛtā nis-agrakā tat guṇam @kathaya me pṛthak pṛthak// Lil_251'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.252
+  section: section.lilavati.kuttaka
+  ordinal: 233
+  ref_label: '252'
+  devanagari: 'गुण-लब्ध्योस् समम् ग्राह्यम् धी-मता तक्षणे फलम् ।
+
+    हर-तष्टे धन-क्षेपे गुण-लब्धी तु पूर्व-वत् ।
+
+    क्षेप-तक्षण-लाभ-आढ्या लब्धिस् शुद्धौ तु वर्जिता ॥'
+  source_text: 'guṇa-labdhyos samam grāhyam dhī-matā takṣaṇe phalam/
+
+    hara-taṣṭe dhana-kṣepe guṇa-labdhī tu pūrva-vat/
+
+    kṣepa-takṣaṇa-lābha-āḍhyā labdhis śuddhau tu varjitā// Lil_252'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.253
+  section: section.lilavati.kuttaka
+  ordinal: 234
+  ref_label: '253'
+  devanagari: 'येन संगुणितास् पञ्च त्रयोविंशति-संयुतास् ।
+
+    वर्जितास् वा त्रिभिस् भक्तास् निस्-अग्रास् स्युस् स कस् गुणस् ॥'
+  source_text: 'yena saṃguṇitās %pañca %trayoviṃśati-saṃyutās/
+
+    varjitās vā %tribhis bhaktās nis-agrās @syus sa kas guṇas// Lil_253'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.254
+  section: section.lilavati.kuttaka
+  ordinal: 235
+  ref_label: '254'
+  devanagari: 'क्षेप-अभावस् अथ वा क्षेपस् शुद्धस् हर-उद्धृतस् ।
+
+    ज्ञेयस् शून्यम् गुणस् तत्र क्षेपस् हार-हृतस् फलम् ॥'
+  source_text: 'kṣepa-abhāvas atha vā kṣepas śuddhas hara-uddhṛtas/
+
+    jñeyas #śūnyam guṇas tatra kṣepas hāra-hṛtas phalam// Lil_254'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.255
+  section: section.lilavati.kuttaka
+  ordinal: 236
+  ref_label: '255'
+  devanagari: 'येन पञ्च-गुणितास् ख-संयुतास् पञ्चषष्टि-सहितास् च ते अथ वा ।
+
+    स्युस् त्रयोदश-हृतास् निस्-अग्रकास् तम् गुणम् गणक कीर्तय आशु मे ॥'
+  source_text: 'yena %pañca-guṇitās #kha-saṃyutās %pañcaṣaṣṭi-sahitās ca te atha vā/
+
+    @syus %trayodaśa-hṛtās nis-agrakās tam guṇam gaṇaka kīrtaya āśu me// Lil_255'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.257
+  section: section.lilavati.kuttaka
+  ordinal: 237
+  ref_label: '257'
+  devanagari: 'क्षेपे तु रूपे यदि वा विशुद्धे स्याताम् क्रमात् ये गुण-कार-लब्धी ।
+
+    अभीप्सित-क्षेप-विशुद्धि-निघ्ने स्व-हार-तष्टे भवतस् तयोस् ते ॥'
+  source_text: 'kṣepe tu #rūpe yadi vā viśuddhe @syātām kramāt ye guṇa-kāra-labdhī/
+
+    abhīpsita-kṣepa-viśuddhi-nighne sva-hāra-taṣṭe @bhavatas tayos te// Lil_257'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.258
+  section: section.lilavati.kuttaka
+  ordinal: 238
+  ref_label: '258'
+  devanagari: 'कल्प्या अथ शुद्धिस् विकला-अवशेषस् षष्टिस् च भाज्यस् कु-दिनानि हारस् ।
+
+    तद्-जम् फलम् स्युस् विकला गुणस् तु लिप्ता-अग्रम् अस्मात् च कला लव-अग्रम् ।
+
+    एवम् तद्-ऊर्ध्वम् च तथा अधिमास-अवम-अग्रकाभ्याम् दिवसास् रवि-इन्द्वोस् ॥'
+  source_text: 'kalpyā atha śuddhis vikalā-avaśeṣas %ṣaṣṭis ca bhājyas ku-dināni hāras/
+
+    tad-jam phalam @syus vikalā guṇas tu liptā-agram asmāt ca kalā lava-agram/
+
+    evam tad-ūrdhvam ca tathā adhimāsa-avama-agrakābhyām divasās ravi-indvos// Lil_258'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.259
+  section: section.lilavati.kuttaka
+  ordinal: 239
+  ref_label: '259'
+  devanagari: 'एकस् हरस् चेद् गुणकौ विभिन्नौ तदा गुण-ऐक्यम् परिकल्प्य भाज्यम् ।
+
+    अग्र-ऐक्यम् अग्रम् कृतस् उक्त-वत् यस् संश्लिष्ट-संज्ञस् स्फुट-कुट्टकस् असौ ॥'
+  source_text: '%ekas haras ced guṇakau vibhinnau tadā guṇa-aikyam @parikalpya bhājyam/
+
+    agra-aikyam agram kṛtas ukta-vat yas saṃśliṣṭa-saṃjñas sphuṭa-kuṭṭakas asau// Lil_259'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.260
+  section: section.lilavati.kuttaka
+  ordinal: 240
+  ref_label: '260'
+  devanagari: 'कस् पञ्च-निघ्नस् विहृतस् त्रिषष्ट्या सप्त अवशेषस् अथ सस् एव राशिस् ।
+
+    दश-आहतस् स्यात् विहृतस् त्रिषष्ट्या चतुर्दश अग्रस् वद राशिम् एनम् ॥
+
+    अत्र गुण-ऐक्यम् भाज्यस् । अग्र-ऐक्यम् शुद्धिस् इति । न्यासस् । भाज्यस् हारस् शुधिस् । पूर्व-वत् जातस् शुद्धस् गुणस् ॥ इति लीलावत्याम् कुट्टक-अध्यायस् ॥'
+  source_text: 'kas %pañca-nighnas vihṛtas %triṣaṣṭyā %sapta avaśeṣas atha sas eva rāśis/
+
+    %daśa-āhatas @syāt vihṛtas %triṣaṣṭyā %caturdaśa agras @vada rāśim enam//
+
+    atra guṇa-aikyam bhājyas/ agra-aikyam śuddhis iti/ nyāsas/ bhājyas 15 hāras 63 śudhis 21/ pūrva-vat jātas śuddhas guṇas 14// iti līlāvatyām kuṭṭaka-adhyāyas// Lil_260'
+  source: source.gretil-lilavati
+  review: unreviewed

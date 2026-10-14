@@ -1,0 +1,111 @@
+- id: verse.lilavati.232
+  section: section.lilavati.chaya-vyavahara
+  ordinal: 216
+  ref_label: '232'
+  devanagari: 'छाययोस् कर्णयोस् अन्तरे ये तयोस् वर्ग-विश्लेष-भक्तास् रस-अद्रि-इषवस् ।
+
+    स-एक-लब्धेस् पद-घ्नम् तु कर्ण-अन्तरम् भा-अन्तरेण ऊन-युक्तम् दले स्तस् प्रभे ॥'
+  source_text: 'chāyayos karṇayos antare ye tayos varga-viśleṣa-bhaktās #rasa-#adri-#iṣavas/
+
+    sa-%eka-labdhes pada-ghnam tu karṇa-antaram bhā-antareṇa ūna-yuktam #dale @stas prabhe// [śarma: stambha-bhe < stas prabhe] Lil_232'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - 'śarma: stambha-bhe < stas prabhe'
+- id: verse.lilavati.233
+  section: section.lilavati.chaya-vyavahara
+  ordinal: 217
+  ref_label: '233'
+  devanagari: 'नन्द-चन्द्रैस् मितम् छाययोस् अन्तरम् कर्णयोस् अन्तरम् विश्व-तुल्यम् ययोस् ।
+
+    ते प्रभे वक्ति यस् युक्तिमान् वेत्ति असौ व्यक्तम् अव्यक्त-युक्तम् हि मन्ये अखिलम् ॥'
+  source_text: '#nanda-#candrais mitam chāyayos antaram karṇayos antaram #viśva-tulyam yayos/
+
+    te prabhe @vakti yas yuktimān @vetti asau vyaktam avyakta-yuktam hi @manye akhilam// [śarma: yukti-mārgeṇa me < yuktimān vetti asau, avyaktam uktam < avyakta-yuktam] Lil_233'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - 'śarma: yukti-mārgeṇa me < yuktimān vetti asau, avyaktam uktam < avyakta-yuktam'
+- id: verse.lilavati.234
+  section: section.lilavati.chaya-vyavahara
+  ordinal: 218
+  ref_label: '234'
+  devanagari: शङ्कुस् प्रदीप-तल-शङ्कु-तल-अन्तर-घ्नस् छाया भवेत् वि-नर-दीप-शिख-औच्च्य-भक्तस् ॥
+  source_text: 'śaṅkus pradīpa-tala-śaṅku-tala-antara-ghnas chāyā @bhavet vi-nara-dīpa-śikha-auccya-bhaktas// [śarma: -aucca-] Lil_234'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - 'śarma: -aucca-'
+- id: verse.lilavati.235
+  section: section.lilavati.chaya-vyavahara
+  ordinal: 219
+  ref_label: '235'
+  devanagari: 'शङ्कु-प्रदीप-अन्तर-भूस् त्रि-हस्ता दीप-उच्छ्रितिस् स-अर्ध-कर-त्रया चेद् ।
+
+    शङ्कोस् तदा अर्क-अङ्गुल-संमितस्य तस्य प्रभा स्यात् कियती वद आशु ॥'
+  source_text: 'śaṅku-pradīpa-antara-bhūs %tri-hastā dīpa-ucchritis sa-%ardha-kara-%trayā ced/
+
+    śaṅkos tadā #arka-aṅgula-saṃmitasya tasya prabhā @syāt kiyatī @vada āśu// Lil_235'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.237
+  section: section.lilavati.chaya-vyavahara
+  ordinal: 220
+  ref_label: '237'
+  devanagari: 'प्रदीप-शङ्कु-अन्तर-भूस् त्रि-हस्ता छाया-अङ्गुलैस् षोडशभिस् समा चेद् ।
+
+    दीप-उच्छ्रितिस् स्यात् कियती वद आशु प्रदीप-शङ्कु-अन्तरम् उच्यताम् मे ॥'
+  source_text: 'pradīpa-śaṅku-antara-bhūs %tri-hastā chāyā-aṅgulais %ṣoḍaśabhis samā ced/
+
+    dīpa-ucchritis @syāt kiyatī @vada āśu pradīpa-śaṅku-antaram @ucyatām me// [śarma: tathā ābhyām < vada āśu] Lil_237'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - 'śarma: tathā ābhyām < vada āśu'
+- id: verse.lilavati.239
+  section: section.lilavati.chaya-vyavahara
+  ordinal: 221
+  ref_label: '239'
+  devanagari: 'छाया-अग्रयोस् अन्तर-संगुणा भा छाया-प्रमाण-अन्तर-हृत् भवेत् भूस् ।
+
+    भू-शङ्कु-घातस् प्रभया विभक्तस् प्रजायते दीप-शिख-औच्च्यम् एवम् ।
+
+    त्रैराशिकेन एव यत् एतत् उक्तम् व्याप्तम् स्व-भेदैस् हरिणा इव विश्वम् ॥'
+  source_text: 'chāyā-agrayos antara-saṃguṇā bhā chāyā-pramāṇa-antara-hṛt @bhavet bhūs/
+
+    bhū-śaṅku-ghātas prabhayā vibhaktas @prajāyate dīpa-śikha-auccyam evam/
+
+    trairāśikena eva yat etat uktam vyāptam sva-bhedais hariṇā iva viśvam// Lil_239'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.240
+  section: section.lilavati.chaya-vyavahara
+  ordinal: 222
+  ref_label: '240'
+  devanagari: 'शङ्कोस् भा अर्क-मित-अङ्गुलस्य सु-मते दृष्टा किल अष्ट-अङ्गुला छाया-अग्र-अभिमुखे कर-द्वय-मिते न्यस्तस्य देशे पुनर् ।
+
+    तस्य एव अर्क-मित-अङ्गुला यदि तदा छाया-प्रदीप-अन्तरम् दीप-औच्च्यम् च कियत् वद व्यवहृतिम् छाया-अभिधाम् वेत्सि चेत् ॥'
+  source_text: 'śaṅkos bhā #arka-mita-aṅgulasya su-mate dṛṣṭā kila %aṣṭa-aṅgulā chāyā-agra-abhimukhe kara-%dvaya-mite nyastasya deśe punar/
+
+    tasya eva #arka-mita-aṅgulā yadi tadā chāyā-pradīpa-antaram dīpa-auccyam ca kiyat @vada vyavahṛtim chāyā-abhidhām @vetsi cet// Lil_240'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.241
+  section: section.lilavati.chaya-vyavahara
+  ordinal: 223
+  ref_label: '241'
+  devanagari: 'यत् किंचित् गुण-भाग-हार-विधिना बीजे अत्र वा गण्यते तत् त्रैराशिकम् एव निर्मल-धियाम् एव अवगम्यम् विदाम् ।
+
+    एतत् यत् बहुधा अस्मद्-आदि-जड-धी-धी-वृद्धि-बुद्ध्या बुधैस् तद्-भेदान् सु-गमान् विधाय रचितम् प्राज्ञैस् प्रकीर्ण-आदिकम् ॥
+
+    इति श्री-भास्कर-आचार्य-विरचितायाम् लीलावत्याम् छाया-अधिकारस् समाप्तिम् अगात् ॥'
+  source_text: 'yat kiṃcit guṇa-bhāga-hāra-vidhinā bīje atra vā @gaṇyate tat trairāśikam eva nirmala-dhiyām eva avagamyam vidām/ [śarma: avagamyā bhidā]
+
+    etat yat bahudhā asmad-ādi-jaḍa-dhī-dhī-vṛddhi-buddhyā budhais tad-bhedān su-gamān @vidhāya racitam prājñais prakīrṇa-ādikam// [śarma: -buddhi-pravṛddhyai < -vṛddhi-buddhyā, -bheda-anugamān < -bhedān sugamān]
+
+    iti śrī-bhāskara-ācārya-viracitāyām līlāvatyām chāyā-adhikāras samāptim @agāt// Lil_241'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - 'śarma: avagamyā bhidā'
+  - 'śarma: -buddhi-pravṛddhyai < -vṛddhi-buddhyā, -bheda-anugamān < -bhedān sugamān'

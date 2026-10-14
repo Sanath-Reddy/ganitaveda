@@ -1,0 +1,43 @@
+name: ganitaveda
+description: GanitaVeda — classical Indian mathematics from the original texts.
+publish_to: none
+version: 0.1.0+1
+resolution: workspace
+environment:
+  sdk: ^3.13.0
+  flutter: ">=3.47.0"
+dependencies:
+  connectivity_plus: ^7.3.2
+  content_model:
+    path: ../../packages/content_model
+  crypto: ^3.0.7
+  design_system:
+    path: ../../packages/design_system
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^3.4.3
+  ganita_core:
+    path: ../../packages/ganita_core
+  go_router: ^18.0.2
+  http: ^1.6.0
+  in_app_update: ^5.0.0
+  intl: ^0.20.3
+  just_audio: ^0.10.6
+  path_provider: ^2.1.6
+  sqlite3: ^3.7.1
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  mocktail: ^1.0.5
+  very_good_analysis: ^11.0.0
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/packs/

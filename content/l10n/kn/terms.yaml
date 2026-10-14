@@ -1,0 +1,33 @@
+# Kannada term list (plan §5.4). Kannada school-textbook terms; Sanskrit technical
+# terms stay in Sanskrit with a Kannada explanation. Status: draft, for the Kannada reviewer.
+terms:
+  fraction: ಭಿನ್ನರಾಶಿ
+  numerator: ಅಂಶ
+  denominator: ಛೇದ
+  integer: ಪೂರ್ಣಾಂಕ
+  positive: ಧನಾತ್ಮಕ
+  negative: ಋಣಾತ್ಮಕ
+  zero: ಸೊನ್ನೆ
+  square: ವರ್ಗ
+  square root: ವರ್ಗಮೂಲ
+  hypotenuse: ಕರ್ಣ
+  right triangle: ಲಂಬಕೋನ ತ್ರಿಭುಜ
+  quadrilateral: ಚತುರ್ಭುಜ
+  circle: ವೃತ್ತ
+  radius: ತ್ರಿಜ್ಯ
+  diameter: ವ್ಯಾಸ
+  circumference: ಪರಿಧಿ
+  area: ವಿಸ್ತೀರ್ಣ
+  diagonal: ಕರ್ಣ
+  arithmetic progression: ಸಮಾಂತರ ಶ್ರೇಢಿ
+  common difference: ಸಾಮಾನ್ಯ ವ್ಯತ್ಯಾಸ
+  sum: ಮೊತ್ತ
+  proportion: ಅನುಪಾತ
+  inverse proportion: ವಿಲೋಮ ಅನುಪಾತ
+  HCF: ಮಹತ್ತಮ ಸಾಮಾನ್ಯ ಅಪವರ್ತನ (ಮ.ಸಾ.ಅ.)
+  remainder: ಶೇಷ
+  quotient: ಭಾಗಲಬ್ಧ
+  permutation: ಕ್ರಮಯೋಜನೆ
+  trigonometry: ತ್ರಿಕೋಣಮಿತಿ
+  sine: ಸೈನ್
+sanskrit_kept: [iṣṭa-karma, trairāśika, śreḍhī, jyā, ardhajyā, kuṭṭaka, aṅkapāśa, bhuja, koṭi, karṇa, dhana, ṛṇa, śūnya]

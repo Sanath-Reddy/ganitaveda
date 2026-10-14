@@ -1,0 +1,37 @@
+name: design_system
+description: GanitaVeda design tokens, typography, theme, components and the kolam painter (plan §7).
+publish_to: none
+version: 1.0.0
+resolution: workspace
+environment:
+  sdk: ^3.13.0
+  flutter: ">=3.47.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  ganita_core:
+    path: ../ganita_core
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  assets:
+    - assets/fonts/OFL-Anek.txt
+    - assets/fonts/OFL-Tiro.txt
+  fonts:
+    - family: AnekLatin
+      fonts:
+        - asset: assets/fonts/AnekLatin.ttf
+    - family: AnekKannada
+      fonts:
+        - asset: assets/fonts/AnekKannada.ttf
+    - family: TiroDevanagariSanskrit
+      fonts:
+        - asset: assets/fonts/TiroDevanagariSanskrit-Regular.ttf
+        - asset: assets/fonts/TiroDevanagariSanskrit-Italic.ttf
+          style: italic
+    - family: TiroKannada
+      fonts:
+        - asset: assets/fonts/TiroKannada-Regular.ttf
+        - asset: assets/fonts/TiroKannada-Italic.ttf
+          style: italic

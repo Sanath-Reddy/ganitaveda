@@ -1,0 +1,27 @@
+id: work.aryabhatiya
+title:
+  en: Āryabhaṭīya
+  kn: ಆರ್ಯಭಟೀಯ
+title_iast: Āryabhaṭīya
+author: person.aryabhata
+year_from: 499
+year_to: 499
+source: source.gretil-aryabhatiya
+licence: licence.cc-by-nc-sa-4
+text_form: analytic
+about:
+  en: Āryabhaṭa's short book in 121 verses, in four parts. Version 1 includes the root verses of the Gaṇitapāda, the part on mathematics. The e-text separates words without sandhi.
+  kn: ಆರ್ಯಭಟನ 121 ಪದ್ಯಗಳ ಸಣ್ಣ ಗ್ರಂಥ, ನಾಲ್ಕು ಭಾಗಗಳಲ್ಲಿದೆ. ಮೊದಲ ಆವೃತ್ತಿಯಲ್ಲಿ ಗಣಿತದ ಭಾಗವಾದ ಗಣಿತಪಾದದ ಮೂಲ ಪದ್ಯಗಳಿವೆ. ಇ-ಪಠ್ಯದಲ್ಲಿ ಪದಗಳನ್ನು ಸಂಧಿ ಮಾಡದೆ ಬೇರ್ಪಡಿಸಲಾಗಿದೆ.
+sections:
+- id: section.aryabhatiya.ganitapada
+  ordinal: 2
+  label:
+    en: Gaṇitapāda · Mathematics
+    kn: ಗಣಿತಪಾದ · ಗಣಿತ
+claims:
+  dates:
+  - source: source.clark-1930
+    note: 'Kālakriyāpāda 10: Āryabhaṭa was 23 when 3,600 years of the Kali age had passed (499 CE)'
+  - source: source.plofker-2009
+  author:
+  - source: source.plofker-2009

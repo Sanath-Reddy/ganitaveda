@@ -1,0 +1,45 @@
+id: lesson.sredhi
+version: 1
+title: {en: "Śreḍhī", kn: "ಶ್ರೇಢಿ"}
+subtitle: {en: "Progressions", kn: "ಸಮಾಂತರ ಶ್ರೇಢಿಗಳು"}
+area: area.series
+concepts: [concept.sredhi]
+curriculum: [ncert.9.gm.sequences, ncert.10.math.ap]
+minutes: 7
+author: B
+review: {maths: draft, sanskrit: unreviewed, kannada: draft}
+claims:
+  verse: [{source: source.colebrooke-1817, note: "Līlāvatī §119–120"}, {source: source.clark-1930, note: "Gaṇitapāda 19"}]
+cards:
+  - id: scene
+    type: scene
+    art: art.alms
+    text:
+      en: "On the first day a man gives four drammas to priests. Each day after, he gives five more than the day before. How much has he given after half a month, fifteen days?"
+      kn: "ಮೊದಲ ದಿನ ಒಬ್ಬನು ಪುರೋಹಿತರಿಗೆ ನಾಲ್ಕು ದ್ರಮ್ಮ ಕೊಡುತ್ತಾನೆ. ನಂತರದ ಪ್ರತಿದಿನ ಹಿಂದಿನ ದಿನಕ್ಕಿಂತ ಐದು ಹೆಚ್ಚು ಕೊಡುತ್ತಾನೆ. ಅರ್ಧ ತಿಂಗಳು, ಅಂದರೆ ಹದಿನೈದು ದಿನಗಳ ನಂತರ ಒಟ್ಟು ಎಷ್ಟು ಕೊಟ್ಟಿದ್ದಾನೆ?"
+  - id: play
+    type: explore
+    widget: sequence_builder
+    params: {start: [4, 5, 15]}
+    prompt: {en: "Build the row of gifts. Pair the first day with the last, the second with the second-last.", kn: "ಕಾಣಿಕೆಗಳ ಸಾಲು ಕಟ್ಟಿ. ಮೊದಲ ದಿನವನ್ನು ಕೊನೆಯ ದಿನದೊಂದಿಗೆ, ಎರಡನೆಯದನ್ನು ಕೊನೆಯ ಹಿಂದಿನದರೊಂದಿಗೆ ಜೋಡಿಸಿ."}
+    goal: {en: "What do all the pairs have in common?", kn: "ಎಲ್ಲಾ ಜೋಡಿಗಳಲ್ಲಿ ಸಮಾನವಾದದ್ದು ಏನು?"}
+  - id: verse
+    type: verse
+    verse: verse.lilavati.121
+    highlight: [term.adi, term.caya, term.gaccha]
+    intro: {en: "Bhāskara's rule for the last term, the middle term and the sum.", kn: "ಕೊನೆಯ ಪದ, ಮಧ್ಯ ಪದ ಮತ್ತು ಮೊತ್ತಕ್ಕೆ ಭಾಸ್ಕರನ ನಿಯಮ."}
+  - id: method
+    type: method
+    algorithm: sredhi
+    inputs: {adi: 4, caya: 5, gaccha: 15}
+    intro: {en: "Last term first, then the middle, then the whole.", kn: "ಮೊದಲು ಕೊನೆಯ ಪದ, ನಂತರ ಮಧ್ಯ, ನಂತರ ಒಟ್ಟು."}
+    modern: {en: "aₙ = a + (n − 1)d = 74;  Sₙ = n(a + aₙ)/2 = 15 × 78 / 2 = 585.", kn: "aₙ = a + (n − 1)d = 74;  Sₙ = n(a + aₙ)/2 = 15 × 78 / 2 = 585."}
+  - id: practice
+    type: practice
+    generator: sequences.arithmetic.v1
+    count: 4
+    difficulty: [1, 2, 2, 3]
+  - id: summary
+    type: summary
+    key_idea: {en: "Last = first + increase × (terms − 1). Middle = (first + last) ÷ 2. Sum = middle × terms.", kn: "ಕೊನೆಯ ಪದ = ಮೊದಲ + ಹೆಚ್ಚಳ × (ಪದಗಳು − 1). ಮಧ್ಯ = (ಮೊದಲ + ಕೊನೆಯ) ÷ 2. ಮೊತ್ತ = ಮಧ್ಯ × ಪದಗಳು."}
+    textbook: {en: "Class 9 · Sequences and Progressions. Class 10 · Arithmetic Progressions.", kn: "9ನೇ ತರಗತಿ · ಅನುಕ್ರಮಗಳು ಮತ್ತು ಶ್ರೇಢಿಗಳು. 10ನೇ ತರಗತಿ · ಸಮಾಂತರ ಶ್ರೇಢಿಗಳು."}

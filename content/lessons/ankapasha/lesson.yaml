@@ -1,0 +1,45 @@
+id: lesson.ankapasha
+version: 1
+title: {en: "Aṅkapāśa", kn: "ಅಂಕಪಾಶ"}
+subtitle: {en: "Arranging digits", kn: "ಅಂಕಿಗಳ ಜೋಡಣೆ"}
+area: area.combinatorics
+concepts: [concept.ankapasha]
+curriculum: [ncert.12.recommended]
+minutes: 7
+author: B
+review: {maths: draft, sanskrit: unreviewed, kannada: draft}
+claims:
+  verse: [{source: source.colebrooke-1817, note: "Līlāvatī §267–268"}]
+cards:
+  - id: scene
+    type: scene
+    art: art.digits
+    text:
+      en: "How many different numbers can you write using the digits 3, 9 and 8, each exactly once? And what do they all add up to? Bhāskara answers both without writing the numbers out."
+      kn: "3, 9 ಮತ್ತು 8 ಅಂಕಿಗಳನ್ನು ಒಮ್ಮೆ ಮಾತ್ರ ಬಳಸಿ ಎಷ್ಟು ಬೇರೆಬೇರೆ ಸಂಖ್ಯೆಗಳನ್ನು ಬರೆಯಬಹುದು? ಅವೆಲ್ಲವುಗಳ ಮೊತ್ತ ಎಷ್ಟು? ಸಂಖ್ಯೆಗಳನ್ನು ಬರೆಯದೆಯೇ ಭಾಸ್ಕರ ಎರಡಕ್ಕೂ ಉತ್ತರಿಸುತ್ತಾನೆ."
+  - id: play
+    type: explore
+    widget: digit_arrange
+    params: {digits: [3, 9, 8]}
+    prompt: {en: "Tap the digits to build numbers. Each new number is added to the list.", kn: "ಸಂಖ್ಯೆಗಳನ್ನು ಕಟ್ಟಲು ಅಂಕಿಗಳನ್ನು ಒತ್ತಿ. ಪ್ರತಿ ಹೊಸ ಸಂಖ್ಯೆ ಪಟ್ಟಿಗೆ ಸೇರುತ್ತದೆ."}
+    goal: {en: "How often does each digit sit in the hundreds place?", kn: "ಪ್ರತಿ ಅಂಕಿ ನೂರರ ಸ್ಥಾನದಲ್ಲಿ ಎಷ್ಟು ಬಾರಿ ಬರುತ್ತದೆ?"}
+  - id: verse
+    type: verse
+    verse: verse.lilavati.261
+    highlight: [term.ankapasa]
+    intro: {en: "Bhāskara's rule for the count and the sum.", kn: "ಎಣಿಕೆ ಮತ್ತು ಮೊತ್ತಕ್ಕೆ ಭಾಸ್ಕರನ ನಿಯಮ."}
+  - id: method
+    type: method
+    algorithm: ankapasha
+    inputs: {digits: [3, 9, 8]}
+    intro: {en: "Multiply 1 × 2 × 3 for three places. Each digit sits in each place equally often.", kn: "ಮೂರು ಸ್ಥಾನಗಳಿಗೆ 1 × 2 × 3 ಗುಣಿಸಿ. ಪ್ರತಿ ಅಂಕಿಯೂ ಪ್ರತಿ ಸ್ಥಾನದಲ್ಲಿ ಸಮನಾಗಿ ಬರುತ್ತದೆ."}
+    modern: {en: "3! = 6 numbers. Sum = (6 ÷ 3) × (3 + 9 + 8) × 111 = 2 × 20 × 111 = 4440.", kn: "3! = 6 ಸಂಖ್ಯೆಗಳು. ಮೊತ್ತ = (6 ÷ 3) × (3 + 9 + 8) × 111 = 2 × 20 × 111 = 4440."}
+  - id: practice
+    type: practice
+    generator: combinatorics.ankapasha.v1
+    count: 4
+    difficulty: [1, 2, 2, 3]
+  - id: summary
+    type: summary
+    key_idea: {en: "n different digits make n! = 1 × 2 × … × n numbers. Their sum is (n! ÷ n) × (sum of digits) × 11…1 (n ones).", kn: "n ಬೇರೆಬೇರೆ ಅಂಕಿಗಳಿಂದ n! = 1 × 2 × … × n ಸಂಖ್ಯೆಗಳು. ಅವುಗಳ ಮೊತ್ತ (n! ÷ n) × (ಅಂಕಿಗಳ ಮೊತ್ತ) × 11…1 (n ಒಂದುಗಳು)."}
+    textbook: {en: "Explore · Combinatorics. Permutations come back in Class 11.", kn: "ಅನ್ವೇಷಣೆ · ಸಂಯೋಜನಶಾಸ್ತ್ರ. ಕ್ರಮಯೋಜನೆಗಳು 11ನೇ ತರಗತಿಯಲ್ಲಿ ಮತ್ತೆ ಬರುತ್ತವೆ."}

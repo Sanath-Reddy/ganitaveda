@@ -1,0 +1,65 @@
+# Curated video segments (plan §5.6). A segment ships only after a person has
+# watched it, pinned start and end, and recorded who checked it and when.
+# Until then the upload stays `pending` with no id and is left out of packs.
+media:
+  - id: media.nptel-111101080.lilavati
+    provider: youtube
+    status: pending
+    title: {en: "Mathematics in India: Līlāvatī (NPTEL lectures 20–22)", kn: "ಭಾರತದಲ್ಲಿ ಗಣಿತ: ಲೀಲಾವತೀ (NPTEL ಉಪನ್ಯಾಸಗಳು 20–22)"}
+    speaker: K. Ramasubramanian, M. D. Srinivas, M. S. Sriram
+    organisation: NPTEL
+    licence: licence.link-only
+    level: advanced
+    plan: [ncert.6.gp.fractions, ncert.8.gp.proportional-reasoning, ncert.9.gm.sequences]
+    note: "Find the official uploads of lectures 20–22; pin the minutes on iṣṭa-karma and the rule of three."
+    segments: []
+  - id: media.nptel-111101080.brahmagupta
+    provider: youtube
+    status: pending
+    title: {en: "Mathematics in India: Brāhmasphuṭasiddhānta (NPTEL lectures 11–13)", kn: "ಭಾರತದಲ್ಲಿ ಗಣಿತ: ಬ್ರಾಹ್ಮಸ್ಫುಟಸಿದ್ಧಾಂತ (NPTEL ಉಪನ್ಯಾಸಗಳು 11–13)"}
+    speaker: K. Ramasubramanian, M. D. Srinivas, M. S. Sriram
+    organisation: NPTEL
+    licence: licence.link-only
+    level: advanced
+    plan: [ncert.6.gp.other-side-of-zero]
+    segments: []
+  - id: media.nptel-111101080.sulba
+    provider: youtube
+    status: pending
+    title: {en: "Mathematics in India: Śulbasūtras (NPTEL lectures 2–3)", kn: "ಭಾರತದಲ್ಲಿ ಗಣಿತ: ಶುಲ್ಬಸೂತ್ರಗಳು (NPTEL ಉಪನ್ಯಾಸಗಳು 2–3)"}
+    speaker: K. Ramasubramanian, M. D. Srinivas, M. S. Sriram
+    organisation: NPTEL
+    licence: licence.link-only
+    level: advanced
+    plan: [ncert.8.gp.baudhayana-pythagoras]
+    segments: []
+  - id: media.nptel-111101080.kerala
+    provider: youtube
+    status: pending
+    title: {en: "Mathematics in India: the Kerala school (NPTEL lectures 30–31)", kn: "ಭಾರತದಲ್ಲಿ ಗಣಿತ: ಕೇರಳ ಪರಂಪರೆ (NPTEL ಉಪನ್ಯಾಸಗಳು 30–31)"}
+    speaker: K. Ramasubramanian, M. D. Srinivas, M. S. Sriram
+    organisation: NPTEL
+    licence: licence.link-only
+    level: advanced
+    plan: [ncert.11.math.sequences-series]
+    segments: []
+  - id: media.homi.trigonometry
+    provider: youtube
+    status: pending
+    title: {en: "HoMI: Trigonometry in India", kn: "HoMI: ಭಾರತದಲ್ಲಿ ತ್ರಿಕೋಣಮಿತಿ"}
+    speaker: HoMI, IIT Gandhinagar
+    organisation: IIT Gandhinagar
+    licence: licence.link-only
+    level: school
+    plan: [ncert.10.math.trigonometry]
+    segments: []
+  - id: media.mathologer.madhava
+    provider: youtube
+    status: pending
+    title: {en: "Mathologer: Powell's Pi Paradox, the 14th-century Indian solution", kn: "ಮ್ಯಾಥಾಲಜರ್: ಪೊವೆಲ್‌ನ π ವಿರೋಧಾಭಾಸ, 14ನೇ ಶತಮಾನದ ಭಾರತೀಯ ಪರಿಹಾರ"}
+    speaker: Burkard Polster
+    organisation: Mathologer
+    licence: licence.link-only
+    level: advanced
+    plan: [ncert.11.math.sequences-series]
+    segments: []

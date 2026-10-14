@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "people.schema.json",
+  "type": "object",
+  "properties": {
+    "places": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"$ref": "common.schema.json#/$defs/id"},
+          "name": {"$ref": "common.schema.json#/$defs/ltext"},
+          "lat": {"type": "number"}, "lon": {"type": "number"}
+        },
+        "required": ["id", "name", "lat", "lon"],
+        "additionalProperties": false
+      }
+    },
+    "mathematicians": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"$ref": "common.schema.json#/$defs/id"},
+          "name": {"$ref": "common.schema.json#/$defs/ltext"},
+          "name_iast": {"type": "string"},
+          "born_from": {"$ref": "common.schema.json#/$defs/year"},
+          "born_to": {"$ref": "common.schema.json#/$defs/year"},
+          "died_from": {"$ref": "common.schema.json#/$defs/year"},
+          "died_to": {"$ref": "common.schema.json#/$defs/year"},
+          "dates_label": {"$ref": "common.schema.json#/$defs/ltext"},
+          "place": {"$ref": "common.schema.json#/$defs/id"},
+          "summary": {"$ref": "common.schema.json#/$defs/ltext"},
+          "works": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/id"}},
+          "other_works": {"type": "array", "items": {"type": "string"}},
+          "teachers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {"id": {"$ref": "common.schema.json#/$defs/id"}, "source": {"$ref": "common.schema.json#/$defs/id"}, "note": {"type": "string"}},
+              "required": ["id", "source"],
+              "additionalProperties": false
+            }
+          },
+          "claims": {"$ref": "common.schema.json#/$defs/claims"}
+        },
+        "required": ["id", "name", "name_iast", "dates_label", "summary", "claims"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["places", "mathematicians"],
+  "additionalProperties": false
+}

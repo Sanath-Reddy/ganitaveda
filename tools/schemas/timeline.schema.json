@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "timeline.schema.json",
+  "type": "object",
+  "properties": {
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"$ref": "common.schema.json#/$defs/id"},
+          "year_from": {"$ref": "common.schema.json#/$defs/year"},
+          "year_to": {"$ref": "common.schema.json#/$defs/year"},
+          "region": {"type": "string"},
+          "label": {"$ref": "common.schema.json#/$defs/ltext"},
+          "detail": {"$ref": "common.schema.json#/$defs/ltext"},
+          "links": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/id"}},
+          "source": {"$ref": "common.schema.json#/$defs/id"},
+          "source_note": {"type": "string"}
+        },
+        "required": ["id", "year_from", "year_to", "region", "label", "source"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["events"],
+  "additionalProperties": false
+}

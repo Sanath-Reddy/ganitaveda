@@ -1,0 +1,13 @@
+name: link-check
+on:
+  schedule: [{cron: "0 4 * * 1"}]
+  workflow_dispatch:
+jobs:
+  links:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.13"}
+      - run: pip install -r tools/requirements.txt
+      - run: python -m tools.linkcheck

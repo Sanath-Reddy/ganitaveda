@@ -1,0 +1,1231 @@
+- id: verse.bss.18.1
+  section: section.bss.18
+  ordinal: 67
+  ref_label: '18.1'
+  devanagari: 'प्रायेण यतस् प्रश्नास् कुट्टाकारात् ऋते न शक्यन्ते ।
+
+    ज्ञातुम् वक्ष्यामि ततस् कुट्टाकारम् सह प्रश्नैस् ॥'
+  source_text: 'prāyeṇa yatas praśnās kuṭṭākārāt ṛte na śakyante/
+
+    jñātum vakṣyāmi tatas kuṭṭākāram saha praśnais// BSS_18.1'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.2
+  section: section.bss.18
+  ordinal: 68
+  ref_label: '18.2'
+  devanagari: 'कुट्टक-ख-ऋण-धन-अव्यक्त-मध्य-हरण-एक-वर्ण-भावितकैस् ।
+
+    आचार्यस् तन्त्र-विदाम् ज्ञातैस् वर्ग-प्रकृत्या च ॥'
+  source_text: 'kuṭṭaka-#kha-ṛṇa-dhana-avyakta-madhya-haraṇa-%eka-varṇa-bhāvitakais/
+
+    ācāryas tantra-vidām jñātais varga-prakṛtyā ca// BSS_18.2'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.3
+  section: section.bss.18
+  ordinal: 69
+  ref_label: '18.3'
+  devanagari: 'अधिक-अग्र-भाग-हारात् ऊन-अग्र-छेद-भाजितात् शेषम् ।
+
+    यत् तत् परस्पर-हृतम् लब्धम् अधस् अधस् पृथक् स्थाप्यम् ॥'
+  source_text: 'adhika-agra-bhāga-hārāt ūna-agra-cheda-bhājitāt śeṣam/
+
+    yat tat paraspara-hṛtam labdham adhas adhas pṛthak sthāpyam// BSS_18.3'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.4
+  section: section.bss.18
+  ordinal: 70
+  ref_label: '18.4'
+  devanagari: 'शेषम् तथा इष्ट-गुणितम् यथा अग्रयोस् अन्तरेण संयुक्तम् ।
+
+    शुध्यति गुणकस् स्थाप्यस् लब्धम् च अन्त्यात् उपान्त्य-गुणस् ॥'
+  source_text: 'śeṣam tathā iṣṭa-guṇitam yathā agrayos antareṇa saṃyuktam/
+
+    śudhyati guṇakas sthāpyas labdham ca antyāt upāntya-guṇas// BSS_18.4'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.5
+  section: section.bss.18
+  ordinal: 71
+  ref_label: '18.5'
+  devanagari: 'स्व-ऊर्ध्वस् अन्त्य-युतस् अग्र-अन्तस् हीन-अग्र-छेद-भाजितस् शेषम् ।
+
+    अधिक-अग्र-छेद-हतम् अधिक-अग्र-युतम् भवति अग्रम् ॥'
+  source_text: 'sva-ūrdhvas antya-yutas agra-antas hīna-agra-cheda-bhājitas śeṣam/
+
+    adhika-agra-cheda-hatam adhika-agra-yutam bhavati agram// BSS_18.5'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.6
+  section: section.bss.18
+  ordinal: 72
+  ref_label: '18.6'
+  devanagari: 'छेद-वधस्य द्वि-युगम् छेद-वधस् युग-गतम् द्वयोस् अग्रम् ।
+
+    कुट्टाकारेण एवम् त्रि-आदि-ग्रह-युग-गत-आनयनम् ॥'
+  source_text: 'cheda-vadhasya %dvi-yugam cheda-vadhas yuga-gatam %dvayos agram/
+
+    kuṭṭākāreṇa evam %tri-ādi-graha-yuga-gata-ānayanam// BSS_18.6'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.7
+  section: section.bss.18
+  ordinal: 73
+  ref_label: '18.7'
+  devanagari: 'भ-गण-आदि-शेषम् अग्रम् छेद-हृतम् खम् च दिन-ज-शेष-हृतम् ।
+
+    अनयोस् अग्रम् भ-गण-आदि-दिन-ज-शेष-उद्धृतम् द्यु-गणस् ॥'
+  source_text: 'bha-gaṇa-ādi-śeṣam agram cheda-hṛtam #kham ca dina-ja-śeṣa-hṛtam/
+
+    anayos agram bha-gaṇa-ādi-dina-ja-śeṣa-uddhṛtam dyu-gaṇas//  BSS_18.7'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.8
+  section: section.bss.18
+  ordinal: 74
+  ref_label: '18.8'
+  devanagari: 'दिन-ज-भ-गण-आदि-शेषम् येन गुणम् मण्डल-आदि शेषकयोस् ।
+
+    स-दृश-छेद-उद्धृतयोस् तद्-घातम् अहर्-गण-आद्यम् अतस् ॥'
+  source_text: 'dina-ja-bha-gaṇa-ādi-śeṣam yena guṇam maṇḍala-ādi śeṣakayos/
+
+    sa-dṛśa-cheda-uddhṛtayos tad-ghātam ahar-gaṇa-ādyam atas//  BSS_18.8'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.9
+  section: section.bss.18
+  ordinal: 75
+  ref_label: '18.9'
+  devanagari: 'हृतयोस् परस्परम् यत् छेषम् गुण-कार-भाग-हारकयोस् ।
+
+    तेन हृतौ निस्-छेदौ तौ एव परस्परम् हृतयोस् ॥'
+  source_text: 'hṛtayos parasparam yat cheṣam guṇa-kāra-bhāga-hārakayos/
+
+    tena hṛtau nis-chedau tau eva parasparam hṛtayos//  BSS_18.9'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.10
+  section: section.bss.18
+  ordinal: 76
+  ref_label: '18.10'
+  devanagari: 'लब्धम् अधस् अधस् स्थाप्यम् तथा इष्ट-गुण-कार-सङ्गुणम् शेषम् ।
+
+    शुध्यति यथा एक-हीनम् गुणकस् स्थाप्यस् फलम् च अन्त्यात् ॥'
+  source_text: 'labdham adhas adhas sthāpyam tathā iṣṭa-guṇa-kāra-saṅguṇam śeṣam/
+
+    śudhyati yathā %eka-hīnam guṇakas sthāpyas phalam ca antyāt//  BSS_18.10'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.11
+  section: section.bss.18
+  ordinal: 77
+  ref_label: '18.11'
+  devanagari: 'अग्र-अन्तम् उपान्त्येन स्व-ऊर्ध्वस् गुणितस् अन्त्य-संयुतस् भक्तम् ।
+
+    निस्-शेष-भाग-हारेण एवम् स्थिर-कुट्टकस् शेषम् ॥'
+  source_text: 'agra-antam upāntyena sva-ūrdhvas guṇitas antya-saṃyutas bhaktam/
+
+    nis-śeṣa-bhāga-hāreṇa evam sthira-kuṭṭakas śeṣam//  BSS_18.11'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.12
+  section: section.bss.18
+  ordinal: 78
+  ref_label: '18.12'
+  devanagari: 'इष्ट-भ-गण-आदि-शेषात् स्व-कुट्टक-गुणात् स्व-भाग-हार-गुणात् ।
+
+    शेषम् द्यु-गणस् गत-निस्-अपवर्त-गुण-भाग-हार-युतस् ॥'
+  source_text: 'iṣṭa-bha-gaṇa-ādi-śeṣāt sva-kuṭṭaka-guṇāt sva-bhāga-hāra-guṇāt/
+
+    śeṣam dyu-gaṇas gata-nis-apavarta-guṇa-bhāga-hāra-yutas//  BSS_18.12'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.13
+  section: section.bss.18
+  ordinal: 79
+  ref_label: '18.13'
+  devanagari: 'एवम् समेषु विषमेषु ऋणम् धनम् धनम् ऋणम् यत् उक्तम् तत् ।
+
+    ऋण-धनयोस् व्यस्तत्वम् गुण्य-प्रक्षेपयोस् कार्यम् ॥'
+  source_text: 'evam sameṣu viṣameṣu ṛṇam dhanam dhanam ṛṇam yat uktam tat/
+
+    ṛṇa-dhanayos vyastatvam guṇya-prakṣepayos kāryam//  BSS_18.13'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.14
+  section: section.bss.18
+  ordinal: 80
+  ref_label: '18.14'
+  devanagari: 'गुणकस् छेदस् छेदस् गुणकस् धनम् ऋणम् ऋणम् धनम् कार्यम् ।
+
+    वर्गम् पदम् पदम् कृतिस् अन्त्यात् विपरीतम् आद्यम् तत् ॥'
+  source_text: 'guṇakas chedas chedas guṇakas dhanam ṛṇam ṛṇam dhanam kāryam/
+
+    vargam padam padam kṛtis antyāt viparītam ādyam tat//  BSS_18.14'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.15
+  section: section.bss.18
+  ordinal: 81
+  ref_label: '18.15'
+  devanagari: 'यस् जानाति युग-आदि ग्रह-युग-यातैस् पृथक् पृथक् कथितैस् ।
+
+    द्वि-त्रि-चतुर्-प्रभृतीनाम् कुट्टाकारम् सस् जानाति ॥'
+  source_text: 'yas jānāti yuga-ādi graha-yuga-yātais pṛthak pṛthak kathitais/
+
+    %dvi-%tri-%catur-prabhṛtīnām kuṭṭākāram sas jānāti//  BSS_18.15'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.16
+  section: section.bss.18
+  ordinal: 82
+  ref_label: '18.16'
+  devanagari: 'भ-गण-आद्यम् इष्ट-शेषम् कदा इन्दु-दिवसे रवेस् गुरु-दिने वा ।
+
+    ज्ञ-दिने राशीन् कथयति कुट्टाकारम् सस् जानाति ॥'
+  source_text: 'bha-gaṇa-ādyam iṣṭa-śeṣam kadā indu-divase raves guru-dine vā/
+
+    jña-dine rāśīn kathayati kuṭṭākāram sas jānāti//  BSS_18.16'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.17
+  section: section.bss.18
+  ordinal: 83
+  ref_label: '18.17'
+  devanagari: 'ज्ञ-दिने यत् अंश-शेषम् विकला-शेषम् कदा तत् इन्दु-दिने ।
+
+    भानोस् अथ वा शशिनस् यस् कथयति कुट्टक-ज्ञस् सस् ॥'
+  source_text: 'jña-dine yat aṃśa-śeṣam vikalā-śeṣam kadā tat indu-dine/
+
+    bhānos atha vā śaśinas yas kathayati kuṭṭaka-jñas sas//  BSS_18.17'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.18
+  section: section.bss.18
+  ordinal: 84
+  ref_label: '18.18'
+  devanagari: 'तिथि-मान-दिनेषु इष्टास् ये अर्क-आद्यास् ते पुनर् कदा तेषु ।
+
+    इष्ट-ग्रह-वारेषु यस् कथयति कुट्टक-ज्ञस् सस् ॥'
+  source_text: 'tithi-māna-dineṣu iṣṭās ye arka-ādyās te punar kadā teṣu/
+
+    iṣṭa-graha-vāreṣu yas kathayati kuṭṭaka-jñas sas//  BSS_18.18'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.19
+  section: section.bss.18
+  ordinal: 85
+  ref_label: '18.19'
+  devanagari: 'इष्ट-भ-गण-आदि-शेषात् द्यु-गणस् तत् कुट्टकेन संयुक्तस् ।
+
+    तद्-छेद-दिनैस् तावत् दिन-वारस् यावत् इष्टस् स्यात् ॥'
+  source_text: 'iṣṭa-bha-gaṇa-ādi-śeṣāt dyu-gaṇas tat kuṭṭakena saṃyuktas/
+
+    tad-cheda-dinais tāvat dina-vāras yāvat iṣṭas syāt//  BSS_18.19'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.20
+  section: section.bss.18
+  ordinal: 86
+  ref_label: '18.20'
+  devanagari: 'यस् राशि-आदीन् दृष्ट्वा मध्यस्य इष्टस्य कतह्यति द्यु-गणम् ।
+
+    द्वि-आदि-ग्रह-संयोगात् ग्रह-अन्तरात् वा सस् कुट्ट-ज्ञस् ॥'
+  source_text: 'yas rāśi-ādīn dṛṣṭvā madhyasya iṣṭasya katahyati dyu-gaṇam/
+
+    %dvi-ādi-graha-saṃyogāt graha-antarāt vā sas kuṭṭa-jñas//  BSS_18.20'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.21
+  section: section.bss.18
+  ordinal: 87
+  ref_label: '18.21'
+  devanagari: 'निस्-छेद-भाग-हारात् राशि-आदि-कला-आदिना हतात् भक्तात् ।
+
+    भ-गण-कलाभिस् लब्धम् मण्डल-शेषम् दिन-गणस् अस्मात् ॥'
+  source_text: 'nis-cheda-bhāga-hārāt rāśi-ādi-kalā-ādinā hatāt bhaktāt/
+
+    bha-gaṇa-kalābhis labdham maṇḍala-śeṣam dina-gaṇas asmāt//  BSS_18.21'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.22
+  section: section.bss.18
+  ordinal: 88
+  ref_label: '18.22'
+  devanagari: 'एवम् राशि-अंश-कला-विकला-शेषात् अहर्-गणस् प्राक्-वत् ।
+
+    नष्ट-स्थेषु इष्टान् तान् कृत्वा भक्त्वा उक्त-वत् शेषम् ॥'
+  source_text: 'evam rāśi-aṃśa-kalā-vikalā-śeṣāt ahar-gaṇas prāk-vat/
+
+    naṣṭa-stheṣu iṣṭān tān kṛtvā bhaktvā ukta-vat śeṣam//  BSS_18.22'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.23
+  section: section.bss.18
+  ordinal: 89
+  ref_label: '18.23'
+  devanagari: 'राशि-अंश-कला-विकला-शेषात् कथितात् अभीष्टतस् नष्टान् ।
+
+    यस् साधयति उपरितनान् स-मध्यमान् कुट्टक-ज्ञस् सस् ॥'
+  source_text: 'rāśi-aṃśa-kalā-vikalā-śeṣāt kathitāt abhīṣṭatas naṣṭān/
+
+    yas sādhayati uparitanān sa-madhyamān kuṭṭaka-jñas sas//  BSS_18.23'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.24
+  section: section.bss.18
+  ordinal: 90
+  ref_label: '18.24'
+  devanagari: 'येन गुणस् शेष-युतस् छेदस् शुध्यति हृतस् स्व-गुणकेन ।
+
+    तद्-भुक्तम् शेषम् फलम् एवम् शेषात् ग्रह-द्यु-गणौ ॥'
+  source_text: 'yena guṇas śeṣa-yutas chedas śudhyati hṛtas sva-guṇakena/
+
+    tad-bhuktam śeṣam phalam evam śeṣāt graha-dyu-gaṇau//  BSS_18.24'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.25
+  section: section.bss.18
+  ordinal: 91
+  ref_label: '18.25'
+  devanagari: 'जानाति यस् युग-गतम् कथितात् अधिमास-शेषकात् इष्टात् ।
+
+    अवम-अवशेषतस् वा तद्-योगात् वा सस् कुट्ट-ज्ञस् ॥'
+  source_text: 'jānāti yas yuga-gatam kathitāt adhimāsa-śeṣakāt iṣṭāt/
+
+    avama-avaśeṣatas vā tad-yogāt vā sas kuṭṭa-jñas//  BSS_18.25'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.26
+  section: section.bss.18
+  ordinal: 92
+  ref_label: '18.26'
+  devanagari: 'इष्टेषु मान-दिवसेषु अधिमास-न्यून-रात्र-शेषे वा ।
+
+    भूयस् ते यस् कथयति पृथक् पृथक् वा सस् कुट्ट-ज्ञस् ॥'
+  source_text: 'iṣṭeṣu māna-divaseṣu adhimāsa-nyūna-rātra-śeṣe vā/
+
+    bhūyas te yas kathayati pṛthak pṛthak vā sas kuṭṭa-jñas//  BSS_18.26'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.27
+  section: section.bss.18
+  ordinal: 93
+  ref_label: '18.27'
+  devanagari: 'अंशक-शेषात् त्रि-ऊनात् सप्त-हृतात् मूलम् ऊनम् अष्टाभिस् ।
+
+    नवभिस् गुणम् स-रूपम् कदा शतम् बुध-दिने सवितुस् ॥'
+  source_text: 'aṃśaka-śeṣāt %tri-ūnāt %sapta-hṛtāt mūlam ūnam %aṣṭābhis/
+
+    %navabhis guṇam sa-#rūpam kadā %śatam budha-dine savitus//  BSS_18.27'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.28
+  section: section.bss.18
+  ordinal: 94
+  ref_label: '18.28'
+  devanagari: 'त्रि-ऊन-अधिमास-शेषात् मूलम् द्वि-अधिकम् विभाजितम् षड्भिस् ।
+
+    द्वि-ऊनम् वर्गितम् अधिकम् नवभिस् नवतिस् कदा भवति ॥'
+  source_text: '%tri-ūna-adhimāsa-śeṣāt mūlam %dvi-adhikam vibhājitam %ṣaḍbhis/
+
+    %dvi-ūnam vargitam adhikam %navabhis %navatis kadā bhavati//  BSS_18.28'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.29
+  section: section.bss.18
+  ordinal: 95
+  ref_label: '18.29'
+  devanagari: 'अवम-अवशेष-वर्गस् वि-एकस् विंशति-विभाजितस् द्वि-अधिकस् ।
+
+    अष्ट-गुणस् दश-भक्तस् द्वि-युतस् अष्टादश कदा भवति ॥'
+  source_text: 'avama-avaśeṣa-vargas vi-%ekas %viṃśati-vibhājitas %dvi-adhikas/
+
+    %aṣṭa-guṇas %daśa-bhaktas %dvi-yutas %aṣṭādaśa kadā bhavati//  BSS_18.29'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.30
+  section: section.bss.18
+  ordinal: 96
+  ref_label: '18.30'
+  devanagari: 'धनयोस् धनम् ऋणम् ऋणयोस् धन-ऋणयोस् अन्तरम् सम-ऐक्यम् खम् ।
+
+    ऋणम् ऐक्यम् च धनम् ऋण-धन-शून्ययोस् शून्ययोस् शून्यम् ॥'
+  source_text: 'dhanayos dhanam ṛṇam ṛṇayos dhana-ṛṇayos antaram sama-aikyam #kham/
+
+    ṛṇam aikyam ca dhanam ṛṇa-dhana-#śūnyayos #śūnyayos #śūnyam//  BSS_18.30'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.31
+  section: section.bss.18
+  ordinal: 97
+  ref_label: '18.31'
+  devanagari: 'ऊनम् अधिकात् विशोध्यम् धनम् धनात् ऋणम् ऋणात् अधिकम् ऊनात् ।
+
+    व्यस्तम् तद्-अन्तरम् स्यात् ऋणम् धनम् धनम् ऋणम् भवति ॥'
+  source_text: 'ūnam adhikāt viśodhyam dhanam dhanāt ṛṇam ṛṇāt adhikam ūnāt/
+
+    vyastam tad-antaram syāt ṛṇam dhanam dhanam ṛṇam bhavati//  BSS_18.31'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.32
+  section: section.bss.18
+  ordinal: 98
+  ref_label: '18.32'
+  devanagari: 'शून्य-विहीनम् ऋणम् ऋणम् धनम् धनम् भवति शून्यम् आकाशम् ।
+
+    शोध्यम् यदा धनम् ऋणात् ऋणम् धनात् वा तदा क्षेप्यम् ॥'
+  source_text: '#śūnya-vihīnam ṛṇam ṛṇam dhanam dhanam bhavati #śūnyam #ākāśam/
+
+    śodhyam yadā dhanam ṛṇāt ṛṇam dhanāt vā tadā kṣepyam//  BSS_18.32'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.33
+  section: section.bss.18
+  ordinal: 99
+  ref_label: '18.33'
+  devanagari: 'ऋणम् ऋण-धनयोस् घातस् धनम् ऋणयोस् धन-वधस् धनम् भवति ।
+
+    शून्य-ऋणयोस् ख-धनयोस् ख-शून्ययोस् वा वधस् शून्यम् ॥'
+  source_text: 'ṛṇam ṛṇa-dhanayos ghātas dhanam ṛṇayos dhana-vadhas dhanam bhavati/
+
+    #śūnya-ṛṇayos #kha-dhanayos #kha-#śūnyayos vā vadhas #śūnyam//  BSS_18.33'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.34
+  section: section.bss.18
+  ordinal: 100
+  ref_label: '18.34'
+  devanagari: 'धन-भक्तम् धनम् ऋण-हृतम् ऋणम् धनम् भवति खम् ख-भक्तम् खम् ।
+
+    भक्तम् ऋणेन धनम् ऋणम् धनेन हृतम् ऋणम् ऋणम् भवति ॥'
+  source_text: 'dhana-bhaktam dhanam ṛṇa-hṛtam ṛṇam dhanam bhavati #kham #kha-bhaktam #kham/
+
+    bhaktam ṛṇena dhanam ṛṇam dhanena hṛtam ṛṇam ṛṇam bhavati//  BSS_18.34'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.35
+  section: section.bss.18
+  ordinal: 101
+  ref_label: '18.35'
+  devanagari: 'ख-उद्धृतम् ऋणम् धनम् वा तद्-छेदम् खम् ऋण-धन-विभक्तम् वा ।
+
+    ऋण-धनयोस् वर्गस् स्वम् खम् खस्य पदम् कृतिस् यत् तत् ॥'
+  source_text: '#kha-uddhṛtam ṛṇam dhanam vā tad-chedam #kham ṛṇa-dhana-vibhaktam vā/
+
+    ṛṇa-dhanayos vargas svam #kham #khasya padam kṛtis yat tat//  BSS_18.35'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.36
+  section: section.bss.18
+  ordinal: 102
+  ref_label: '18.36'
+  devanagari: 'योगस् अन्तर-युत-हीनस् द्वि-हृतस् सङ्क्रमणम् अन्तर-विभक्तम् वा ।
+
+    वर्ग-अन्तरम् अन्तर-युत-हीनम् द्वि-हृतम् विषम-कर्म ॥'
+  source_text: 'yogas antara-yuta-hīnas %dvi-hṛtas saṅkramaṇam antara-vibhaktam vā/
+
+    varga-antaram antara-yuta-hīnam %dvi-hṛtam viṣama-karma//  BSS_18.36'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.37
+  section: section.bss.18
+  ordinal: 103
+  ref_label: '18.37'
+  devanagari: 'करणी लम्बस् तद्-कृतिस् इष्ट-हृता इष्ट-ऊन-संयुता अल्पा भूस् ।
+
+    अधिकस् द्वि-हृतस् बाहुस् संक्षेप्यस् यद्-वधस् वर्गस् ॥'
+  source_text: 'karaṇī lambas tad-kṛtis iṣṭa-hṛtā iṣṭa-ūna-saṃyutā alpā bhūs/
+
+    adhikas %dvi-hṛtas bāhus saṃkṣepyas yad-vadhas vargas//  BSS_18.37'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.38
+  section: section.bss.18
+  ordinal: 104
+  ref_label: '18.38'
+  devanagari: 'इष्ट-उद्धृत-करणी-पद-युति-कृतिस् इष्ट-गुणिता अन्तर-कृतिस् वा ।
+
+    गुण्यस् तिर्यक् अधस् अधस् गुणक-समस् तद्-गुणस् सहितस् ॥'
+  source_text: 'iṣṭa-uddhṛta-karaṇī-pada-yuti-kṛtis iṣṭa-guṇitā antara-kṛtis vā/
+
+    guṇyas tiryak adhas adhas guṇaka-samas tad-guṇas sahitas//  BSS_18.38'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.39
+  section: section.bss.18
+  ordinal: 105
+  ref_label: '18.39'
+  devanagari: 'स्व-इष्ट-ऋण-छेद-गुणौ भाज्य-छेदौ पृथक् युजौ असकृत् ।
+
+    छेद-एक-गत-हृतस् वा भाज्यस् वर्गस् सम-द्वि-वधस् ॥'
+  source_text: 'sva-iṣṭa-ṛṇa-cheda-guṇau bhājya-chedau pṛthak yujau asakṛt/
+
+    cheda-%eka-gata-hṛtas vā bhājyas vargas sama-%dvi-vadhas//  BSS_18.39'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.40
+  section: section.bss.18
+  ordinal: 106
+  ref_label: '18.40'
+  devanagari: 'इष्ट-करणी-ऊनायास् रूप-कृतेस् पद-युत-ऊन-रूप-अर्धे ।
+
+    प्रथमम् रूपाणि अन्यत् ततस् द्वितीयम् करणी असकृत् ॥'
+  source_text: 'iṣṭa-karaṇī-ūnāyās rūpa-kṛtes pada-yuta-ūna-rūpa-%ardhe/
+
+    %prathamam rūpāṇi anyat tatas dvitīyam karaṇī asakṛt//  BSS_18.40'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.41
+  section: section.bss.18
+  ordinal: 107
+  ref_label: '18.41'
+  devanagari: 'अव्यक्त-वर्ग-घन-वर्ग-वर्ग-पञ्च-गत-षष्-गत-आदीनाम् ।
+
+    तुल्यानाम् सङ्कलित-व्यवकलिते पृथक् अतुल्यानाम् ॥'
+  source_text: 'avyakta-varga-ghana-varga-varga-%pañca-gata-%ṣaṣ-gata-ādīnām/
+
+    tulyānām saṅkalita-vyavakalite pṛthak atulyānām//  BSS_18.41'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.42
+  section: section.bss.18
+  ordinal: 108
+  ref_label: '18.42'
+  devanagari: 'सदृश-द्वि-वधस् वर्गस् त्रि-आदि-वधस् तद्-गतस् अन्य-जाति-वधस् ।
+
+    अन्योन्य-वर्ण-घातस् भावितकस् पूर्व-वत् शेषम् ॥'
+  source_text: 'sadṛśa-%dvi-vadhas vargas %tri-ādi-vadhas tad-gatas anya-jāti-vadhas/
+
+    anyonya-varṇa-ghātas bhāvitakas pūrva-vat śeṣam//  BSS_18.42'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.43
+  section: section.bss.18
+  ordinal: 109
+  ref_label: '18.43'
+  devanagari: 'अव्यक्त-अन्तर-भक्तम् व्यस्तम् रूप-अन्तरम् समे अव्यक्तस् ।
+
+    वर्ग-अव्यक्तास् शोध्यास् यस्मात् रूपाणि तद्-अधस्तात् ॥'
+  source_text: 'avyakta-antara-bhaktam vyastam rūpa-antaram same avyaktas/
+
+    varga-avyaktās śodhyās yasmāt rūpāṇi tad-adhastāt//  BSS_18.43'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.44
+  section: section.bss.18
+  ordinal: 110
+  ref_label: '18.44'
+  devanagari: 'वर्ग-चतुर्-गुणितानाम् रूपाणाम् मध्य-वर्ग-सहितानाम् ।
+
+    मूलम् नध्येन ऊनम् वर्ग-द्वि-गुण-उद्धृतम् मध्यस् ॥'
+  source_text: 'varga-%catur-guṇitānām rūpāṇām madhya-varga-sahitānām/
+
+    mūlam nadhyena ūnam varga-%dvi-guṇa-uddhṛtam madhyas//  BSS_18.44'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.45
+  section: section.bss.18
+  ordinal: 111
+  ref_label: '18.45'
+  devanagari: 'वर्ग-आहत-रूपाणाम् अव्यक्त-अर्ध-कृति-संयुतानाम् यत् ।
+
+    पदम् अव्यक्त-अर्ध-ऊनम् तत् वर्ग-विभक्तम् अव्यक्तस् ॥'
+  source_text: 'varga-āhata-rūpāṇām avyakta-%ardha-kṛti-saṃyutānām yat/
+
+    padam avyakta-%ardha-ūnam tat varga-vibhaktam avyaktas//  BSS_18.45'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.46
+  section: section.bss.18
+  ordinal: 112
+  ref_label: '18.46'
+  devanagari: 'स-एकात् अंशक-शेषात् द्वादश-भागस् चतुर्-गुणस् अष्ट-युतस् ।
+
+    स-एक-अंश-शेष-तुल्यस् यदा तदा अहर्-गणम् कथय ॥'
+  source_text: 'sa-%ekāt aṃśaka-śeṣāt %dvādaśa-bhāgas %catur-guṇas %aṣṭa-yutas/
+
+    sa-%eka-aṃśa-śeṣa-tulyas yadā tadā ahar-gaṇam kathaya//  BSS_18.46'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.47
+  section: section.bss.18
+  ordinal: 113
+  ref_label: '18.47'
+  devanagari: 'द्वि-ऊनम् अधिक-मास-शेषम् त्रि-हृतम् सप्त-अधिकम् द्वि-सङ्गुणितम् ।
+
+    अधिमास-शेष-तुल्यम् यदा तदा युग-गतम् कथय ॥'
+  source_text: '%dvi-ūnam adhika-māsa-śeṣam %tri-hṛtam %sapta-adhikam %dvi-saṅguṇitam/
+
+    adhimāsa-śeṣa-tulyam yadā tadā yuga-gatam kathaya//  BSS_18.47'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.48
+  section: section.bss.18
+  ordinal: 114
+  ref_label: '18.48'
+  devanagari: 'वि-एकम् अवम-अवशेषम् षष्-उद्धृतम् त्रि-युतम् अवम-शेषस्य ।
+
+    पञ्च-विभक्तस्य समम् यदा तदा युग-गतम् कथय ॥'
+  source_text: 'vi-%ekam avama-avaśeṣam %ṣaṣ-uddhṛtam %tri-yutam avama-śeṣasya/
+
+    %pañca-vibhaktasya samam yadā tadā yuga-gatam kathaya//  BSS_18.48'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.49
+  section: section.bss.18
+  ordinal: 115
+  ref_label: '18.49'
+  devanagari: 'मण्डल-शेषात् द्वि-ऊनात् मूलम् वि-एकम् दश-आहतम् द्वि-युतम् ।
+
+    मण्डल-शेषम् वि-एकम् भानोस् ज्ञ-दिने कदा भवति ॥'
+  source_text: 'maṇḍala-śeṣāt %dvi-ūnāt mūlam vi-%ekam %daśa-āhatam %dvi-yutam/
+
+    maṇḍala-śeṣam vi-%ekam bhānos jña-dine kadā bhavati// BSS_18.49'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.50
+  section: section.bss.18
+  ordinal: 116
+  ref_label: '18.50'
+  devanagari: 'अधिमास-शेष-पादात् त्रि-ऊनात् वर्गस् अधिमास-शेष-समस् ।
+
+    अवम-अवशेषतस् वा अवम-शेष-समस् कदा भवति ॥'
+  source_text: 'adhimāsa-śeṣa-#pādāt %tri-ūnāt vargas adhimāsa-śeṣa-samas/
+
+    avama-avaśeṣatas vā avama-śeṣa-samas kadā bhavati//  BSS_18.50'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.51
+  section: section.bss.18
+  ordinal: 117
+  ref_label: '18.51'
+  devanagari: 'आद्यात् वर्णात् अन्यान् वर्णान् प्रोह्य आद्य-मानम् आड्य-हृतम् ।
+
+    सदृश-छेदौ असकृत् द्वौ व्यस्तौ कुट्टकस् बहुषु ॥'
+  source_text: 'ādyāt varṇāt anyān varṇān prohya ādya-mānam āḍya-hṛtam/
+
+    sadṛśa-chedau asakṛt %dvau vyastau kuṭṭakas bahuṣu//  BSS_18.51'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.52
+  section: section.bss.18
+  ordinal: 118
+  ref_label: '18.52'
+  devanagari: 'गत-भगण-युतात् द्यु-गणात् तद्-शेष-युतात् तद्-ऐक्य-संयुक्तात् ।
+
+    तद्-योगात् द्यु-गणम् वा यस् कथयति कुट्टक-ज्ञस् सस् ॥'
+  source_text: 'gata-bhagaṇa-yutāt dyu-gaṇāt tad-śeṣa-yutāt tad-aikya-saṃyuktāt/
+
+    tad-yogāt dyu-gaṇam vā yas kathayati kuṭṭaka-jñas sas//  BSS_18.52'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.53
+  section: section.bss.18
+  ordinal: 119
+  ref_label: '18.53'
+  devanagari: 'गत-भगण-ऊनात् द्यु-गणात् तद्-शेष-ऊनात् तद्-ऐक्य-हीनात् वा ।
+
+    तद्-विवरात् द्यु-गणम् वा यस् कथयति कुट्टक-ज्ञस् सस् ॥'
+  source_text: 'gata-bhagaṇa-ūnāt dyu-gaṇāt tad-śeṣa-ūnāt tad-aikya-hīnāt vā/
+
+    tad-vivarāt dyu-gaṇam vā yas kathayati kuṭṭaka-jñas sas//  BSS_18.53'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.54
+  section: section.bss.18
+  ordinal: 120
+  ref_label: '18.54'
+  devanagari: 'राशि-आद्यैस् तद्-शेषैस् च एवम् भुक्त-अधिमास-दिन-हीनैस् ।
+
+    तद्-शेषैस् च युग-गतम् यस् कथयति कुट्टक-ज्ञस् सस् ॥'
+  source_text: 'rāśi-ādyais tad-śeṣais ca evam bhukta-adhimāsa-dina-hīnais/
+
+    tad-śeṣais ca yuga-gatam yas kathayati kuṭṭaka-jñas sas//  BSS_18.54'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.55
+  section: section.bss.18
+  ordinal: 121
+  ref_label: '18.55'
+  devanagari: 'अंशक-शेषेण युतात् लिप्ता-शेषात् तद्-अन्तरात् अथ वा ।
+
+    भानोस् ज्ञ-दिने द्यु-गणम् यस् कथयति कुट्टक-ज्ञस् सस् ॥'
+  source_text: 'aṃśaka-śeṣeṇa yutāt liptā-śeṣāt tad-antarāt atha vā/
+
+    bhānos jña-dine dyu-gaṇam yas kathayati kuṭṭaka-jñas sas//  BSS_18.55'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.56
+  section: section.bss.18
+  ordinal: 122
+  ref_label: '18.56'
+  devanagari: 'अंशक-शेषम् त्रि-युतम् लिप्ता-शेषम् कदा रवेस् ज्ञ-दिने ।
+
+    षट् सप्त अष्टौ नव वा कुर्वन् आ वत्सरात् गणकस् ॥'
+  source_text: 'aṃśaka-śeṣam %tri-yutam liptā-śeṣam kadā raves jña-dine/
+
+    %ṣaṭ %sapta %aṣṭau %nava vā kurvan ā vatsarāt gaṇakas//  BSS_18.56'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.57
+  section: section.bss.18
+  ordinal: 123
+  ref_label: '18.57'
+  devanagari: 'अंश-समम् अंश-शेषम् कला-समम् वा कला-शेषम् ।
+
+    दिवस-करस्य इष्ट-दिने कुर्वन् आ वत्सरात् गणकस् ॥'
+  source_text: 'aṃśa-samam aṃśa-śeṣam kalā-samam vā kalā-śeṣam/
+
+    divasa-karasya iṣṭa-dine kurvan ā vatsarāt gaṇakas//  BSS_18.57'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.58
+  section: section.bss.18
+  ordinal: 124
+  ref_label: '18.58'
+  devanagari: 'अवम-अवशेषम् अवमैस् अधिमासक-शेषम् अधिमासैस् ।
+
+    इष्ट-युत-ऊनम् तुल्यम् कुर्वन् आ वत्सरात् गणकस् ॥'
+  source_text: 'avama-avaśeṣam avamais adhimāsaka-śeṣam adhimāsais/
+
+    iṣṭa-yuta-ūnam tulyam kurvan ā vatsarāt gaṇakas//  BSS_18.58'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.59
+  section: section.bss.18
+  ordinal: 125
+  ref_label: '18.59'
+  devanagari: 'निस्-छेद-भाग-हारस् भानोस् सप्तति-गुणस् अंश-शेष-ऊनस् ।
+
+    शुध्यति अयुत-विभक्तस् कुर्वन् आ वत्सरात् गणकस् ॥'
+  source_text: 'nis-cheda-bhāga-hāras bhānos %saptati-guṇas aṃśa-śeṣa-ūnas/
+
+    śudhyati %ayuta-vibhaktas kurvan ā vatsarāt gaṇakas//  BSS_18.59'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.60
+  section: section.bss.18
+  ordinal: 126
+  ref_label: '18.60'
+  devanagari: 'भावितक-रूप-गुणना स-अव्यक्त-वधा इष्ट-भाजिता इष्ट-आप्त्योस् ।
+
+    अल्पे अधिकस् अधिके अल्पस् क्षेप्यस् भावित-हृतौ व्यस्तम् ॥'
+  source_text: 'bhāvitaka-rūpa-guṇanā sa-avyakta-vadhā iṣṭa-bhājitā iṣṭa-āptyos/
+
+    alpe adhikas adhike alpas kṣepyas bhāvita-hṛtau vyastam//  BSS_18.60'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.61
+  section: section.bss.18
+  ordinal: 127
+  ref_label: '18.61'
+  devanagari: 'भानोस् राशि-अंश-वधात् त्रि-चतुर्-गुणितान् विशोध्य राशि-अंशान् ।
+
+    नवतिम् दृष्ट्वा सूर्यम् कुर्वन् आ वत्सरात् गणकस् ॥'
+  source_text: 'bhānos rāśi-aṃśa-vadhāt %tri-%catur-guṇitān viśodhya rāśi-aṃśān/
+
+    %navatim dṛṣṭvā sūryam kurvan ā vatsarāt gaṇakas//  BSS_18.61'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.62
+  section: section.bss.18
+  ordinal: 128
+  ref_label: '18.62'
+  devanagari: 'भावितके यद्-घातस् विनष्ट-वर्णेन तद्-प्रमाणानि ।
+
+    कृत्वा इष्टानि तद्-आहत-वर्ण-ऐक्यम् भवति रूपाणि ॥'
+  source_text: 'bhāvitake yad-ghātas vinaṣṭa-varṇena tad-pramāṇāni/
+
+    kṛtvā iṣṭāni tad-āhata-varṇa-aikyam bhavati rūpāṇi//  BSS_18.62'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.63
+  section: section.bss.18
+  ordinal: 129
+  ref_label: '18.63'
+  devanagari: 'वर्ण-प्रमाण-भावित-घातस् भवति इष्ट-वर्ण-सङ्ख्या एवम् ।
+
+    सिध्यति विना अपि भावित-सम-करणात् किम् कृतम् तत् अतस् ॥'
+  source_text: 'varṇa-pramāṇa-bhāvita-ghātas bhavati iṣṭa-varṇa-saṅkhyā evam/
+
+    sidhyati vinā api bhāvita-sama-karaṇāt kim kṛtam tat atas//  BSS_18.63'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.64
+  section: section.bss.18
+  ordinal: 130
+  ref_label: '18.64'
+  devanagari: 'मूलम् द्विधा इष्ट-वर्गात् गुणक-गुणात् इष्ट-युत-विहीनात् च ।
+
+    आद्य-वधस् गुणक-गुणस् सह अन्त्य-घातेन कृतम् अन्त्यम् ॥'
+  source_text: 'mūlam dvidhā iṣṭa-vargāt guṇaka-guṇāt iṣṭa-yuta-vihīnāt ca/
+
+    ādya-vadhas guṇaka-guṇas saha antya-ghātena kṛtam antyam//  BSS_18.64'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.65
+  section: section.bss.18
+  ordinal: 131
+  ref_label: '18.65'
+  devanagari: 'वज्र-वध-ऐक्यम् प्रथमम् प्रक्षेपस् क्षेप-वध-तुल्यस् ।
+
+    प्रक्षेप-शोधक-हृते मूले प्रक्षेपके रूपे ॥'
+  source_text: 'vajra-vadha-aikyam %prathamam prakṣepas kṣepa-vadha-tulyas/
+
+    prakṣepa-śodhaka-hṛte mūle prakṣepake #rūpe//  BSS_18.65'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.66
+  section: section.bss.18
+  ordinal: 132
+  ref_label: '18.66'
+  devanagari: 'रूप-प्रक्षेप-पदे पृथक् इष्ट-क्षेप्य-शोध्य-मूलाभ्याम् ।
+
+    कृत्वा अन्त्य-आद्य-पदे ये प्रक्षेपे शोधने वा इष्टे ॥'
+  source_text: '#rūpa-prakṣepa-pade pṛthak iṣṭa-kṣepya-śodhya-mūlābhyām/
+
+    kṛtvā antya-ādya-pade ye prakṣepe śodhane vā iṣṭe//  BSS_18.66'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.67
+  section: section.bss.18
+  ordinal: 133
+  ref_label: '18.67'
+  devanagari: 'चतुर्-अधिके अन्त्य-पद-कृतिस् त्रि-ऊना दलिता अन्त्य-पद-गुणा अन्त्य-पदम् ।
+
+    अन्त्य-पद-कृतिस् वि-एका द्वि-हृता आद्य-पद-आहता आद्य-पदम् ॥'
+  source_text: '%catur-adhike antya-pada-kṛtis %tri-ūnā dalitā antya-pada-guṇā antya-padam/
+
+    antya-pada-kṛtis vi-%ekā %dvi-hṛtā ādya-pada-āhatā ādya-padam//  BSS_18.67'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.68
+  section: section.bss.18
+  ordinal: 134
+  ref_label: '18.68'
+  devanagari: 'चतुर्-ऊने अन्त्य-पद-कृती त्रि-एक-युते वध-दलम् पृथक् वि-एकम् ।
+
+    वि-एक-आड्य-आहतम् अन्त्यम् पद-वध-गुणम् आद्यम् आन्त्य-पदम् ॥'
+  source_text: '%catur-ūne antya-pada-kṛtī %tri-%eka-yute vadha-#dalam pṛthak vi-%ekam/
+
+    vi-%eka-āḍya-āhatam antyam pada-vadha-guṇam ādyam āntya-padam//  BSS_18.68'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.69
+  section: section.bss.18
+  ordinal: 135
+  ref_label: '18.69'
+  devanagari: 'वर्गे गुणके क्षेपस् केन चित् उद्धृत-युत-ऊनितस् दलितस् ।
+
+    प्रथमस् अन्त्य-मूलम् अन्यस् गुण-कार-पद-उद्धृतस् प्रथमस् ॥'
+  source_text: 'varge guṇake kṣepas kena cit uddhṛta-yuta-ūnitas dalitas/
+
+    %prathamas antya-mūlam anyas guṇa-kāra-pada-uddhṛtas %prathamas//  BSS_18.69'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.70
+  section: section.bss.18
+  ordinal: 136
+  ref_label: '18.70'
+  devanagari: 'वर्ग-छिन्ने गुणके प्रथमम् तद्-मूल-भाजितम् भवति ।
+
+    वर्ग-छिन्ने क्षेपे तद्-पद-गुणिते तदा मूले ॥'
+  source_text: 'varga-chinne guṇake %prathamam tad-mūla-bhājitam bhavati/
+
+    varga-chinne kṣepe tad-pada-guṇite tadā mūle//  BSS_18.70'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.71
+  section: section.bss.18
+  ordinal: 137
+  ref_label: '18.71'
+  devanagari: 'गुणक-युतिस् अष्ट-गुणिता गुणक-अन्तर-वर्ग-भाजिता राशिस् ।
+
+    गुणकौ त्रि-गुणौ व्यस्त-अधिकौ हृतौ अन्तरेण पदे ॥'
+  source_text: 'guṇaka-yutis %aṣṭa-guṇitā guṇaka-antara-varga-bhājitā rāśis/
+
+    guṇakau %tri-guṇau vyasta-adhikau hṛtau antareṇa pade//  BSS_18.71'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.72
+  section: section.bss.18
+  ordinal: 138
+  ref_label: '18.72'
+  devanagari: 'वर्गस् अन्य-कृति-युत-ऊनस् तद्-संयोग-अन्तर-अर्ध-कृति-भक्तस् ।
+
+    तद्-गुणितौ युति-वियुतौ वर्गौ घाते च रूप-युते ॥'
+  source_text: 'vargas anya-kṛti-yuta-ūnas tad-saṃyoga-antara-%ardha-kṛti-bhaktas/
+
+    tad-guṇitau yuti-viyutau vargau ghāte ca #rūpa-yute//  BSS_18.72'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.73
+  section: section.bss.18
+  ordinal: 139
+  ref_label: '18.73'
+  devanagari: 'यैस् ऊनस् यैस् च युतस् रूपैस् वर्गस् तद्-ऐक्यम् इष्ट-हृतम् ।
+
+    इष्ट-ऊनम् तद्-दल-कृतिस् ऊना अभ्यधिका भवति राशिस् ॥'
+  source_text: 'yais ūnas yais ca yutas rūpais vargas tad-aikyam iṣṭa-hṛtam/
+
+    iṣṭa-ūnam tad-#dala-kṛtis ūnā abhyadhikā bhavati rāśis//  BSS_18.73'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.74
+  section: section.bss.18
+  ordinal: 140
+  ref_label: '18.74'
+  devanagari: 'याभ्याम् कृतिस् अधिक-ऊनस् तद्-अन्तरम् हृत-युत-ऊनम् इष्टेन ।
+
+    तद्-दल-कृतिस् अधिक-ऊना अधिकयोस् अधिक-ऊनयोस् राशिस् ॥'
+  source_text: 'yābhyām kṛtis adhika-ūnas tad-antaram hṛta-yuta-ūnam iṣṭena/
+
+    tad-#dala-kṛtis adhika-ūnā adhikayos adhika-ūnayos rāśis//  BSS_18.74'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.75
+  section: section.bss.18
+  ordinal: 141
+  ref_label: '18.75'
+  devanagari: 'राशि-कला-शेष-कृतिम् द्विनवति-गुणिताम् त्र्यशीति-गुणिताम् वा ।
+
+    स-एका ज्ञ-दिने वर्गम् कुर्वन् आ वत्सरात् गणकस् ॥'
+  source_text: 'rāśi-kalā-śeṣa-kṛtim %dvinavati-guṇitām %tryaśīti-guṇitām vā/
+
+    sa-%ekā jña-dine vargam kurvan ā vatsarāt gaṇakas//  BSS_18.75'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.76
+  section: section.bss.18
+  ordinal: 142
+  ref_label: '18.76'
+  devanagari: 'सूर्य-विलिप्ता-शेषम् पञ्चभिस् ऊन-आहतम् तथा दशभिस् ।
+
+    वर्गे बृहस्पति-दिने कुर्वन् आ वत्सरात् गणकस् ॥'
+  source_text: 'sūrya-viliptā-śeṣam %pañcabhis ūna-āhatam tathā %daśabhis/
+
+    varge bṛhaspati-dine kurvan ā vatsarāt gaṇakas//  BSS_18.76'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.77
+  section: section.bss.18
+  ordinal: 143
+  ref_label: '18.77'
+  devanagari: 'भ-गण-आदि-शेष-वर्गम् त्रिभिस् गुणम् संयुतम् शतैस् नवभिस् ।
+
+    कृतिम् अष्ट-शत-ऊनम् वा कुर्वन् आ वत्सरात् गणकस् ॥'
+  source_text: 'bha-gaṇa-ādi-śeṣa-vargam %tribhis guṇam saṃyutam %śatais %navabhis/
+
+    kṛtim %aṣṭa-%śata-ūnam vā kurvan ā vatsarāt gaṇakas//  BSS_18.77'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.78
+  section: section.bss.18
+  ordinal: 144
+  ref_label: '18.78'
+  devanagari: 'भ-गण-आदि-शेष-वर्गम् चतुर्-गुणम् पञ्चषष्टि-संयुक्तम् ।
+
+    षष्टि-ऊनम् वा वर्गम् कुर्वन् आ वत्सरात् गणकस् ॥'
+  source_text: 'bha-gaṇa-ādi-śeṣa-vargam %catur-guṇam %pañcaṣaṣṭi-saṃyuktam/
+
+    %ṣaṣṭi-ūnam vā vargam kurvan ā vatsarāt gaṇakas//  BSS_18.78'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.79
+  section: section.bss.18
+  ordinal: 145
+  ref_label: '18.79'
+  devanagari: 'इष्ट-भगण-आदि-शेषम् द्विनवति-ऊनम् त्र्यशीति-संगुणितम् ।
+
+    रूपेण युतम् वर्गम् कुर्वन् आ वत्सरात् गणकस् ॥'
+  source_text: 'iṣṭa-bhagaṇa-ādi-śeṣam %dvinavati-ūnam %tryaśīti-saṃguṇitam/
+
+    #rūpeṇa yutam vargam kurvan ā vatsarāt gaṇakas//  BSS_18.79'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.80
+  section: section.bss.18
+  ordinal: 146
+  ref_label: '18.80'
+  devanagari: 'अधिमास-शेष-वर्गम् त्रयोदश-गुणम् त्रिभिस् शतैस् युक्तम् ।
+
+    त्रि-घन-ऊनम् वा वर्गम् कुर्वन् आ वत्सरात् गणकस् ॥'
+  source_text: 'adhimāsa-śeṣa-vargam %trayodaśa-guṇam %tribhis %śatais yuktam/
+
+    %tri-ghana-ūnam vā vargam kurvan ā vatsarāt gaṇakas//  BSS_18.80'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.81
+  section: section.bss.18
+  ordinal: 147
+  ref_label: '18.81'
+  devanagari: 'इन्दु-विलिप्ता-शेषम् सप्तदश-गुणम् त्रयोदश-गुणम् च अपि ।
+
+    पृथक् एक-युतम् वर्गम् कुर्वन् आ वत्सरात् गणकस् ॥'
+  source_text: 'indu-viliptā-śeṣam %saptadaśa-guṇam %trayodaśa-guṇam ca api/
+
+    pṛthak %eka-yutam vargam kurvan ā vatsarāt gaṇakas//  BSS_18.81'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.82
+  section: section.bss.18
+  ordinal: 148
+  ref_label: '18.82'
+  devanagari: 'अवम-अवशेष-वर्गम् द्वादश-गुणितम् शतेन संयुक्तम् ।
+
+    त्रिभिस् ऊनम् वा वर्गम् कुर्वन् आ वत्सरात् गणकस् ॥'
+  source_text: 'avama-avaśeṣa-vargam %dvādaśa-guṇitam %śatena saṃyuktam/
+
+    %tribhis ūnam vā vargam kurvan ā vatsarāt gaṇakas//  BSS_18.82'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.83
+  section: section.bss.18
+  ordinal: 149
+  ref_label: '18.83'
+  devanagari: 'ज्ञ-दिने अर्क-कला-शेषम् गुरु-दिन-विकला-अवशेष-युक्त-ऊनम् ।
+
+    वर्गम् वधम् च स-एकम् कुर्वन् आ वत्सरात् गणकस् ॥'
+  source_text: 'jña-dine arka-kalā-śeṣam guru-dina-vikalā-avaśeṣa-yukta-ūnam/
+
+    vargam vadham ca sa-%ekam kurvan ā vatsarāt gaṇakas//  BSS_18.83'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.84
+  section: section.bss.18
+  ordinal: 150
+  ref_label: '18.84'
+  devanagari: 'विकला-शेषम् सहितम् त्रिनवत्या सप्तषष्टि-हीनम् च ।
+
+    भानोस् ज्ञ-दिने वर्गम् कुर्वन् आ वत्सरात् गणकस् ॥'
+  source_text: 'vikalā-śeṣam sahitam %trinavatyā %saptaṣaṣṭi-hīnam ca/
+
+    bhānos jña-dine vargam kurvan ā vatsarāt gaṇakas//  BSS_18.84'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.85
+  section: section.bss.18
+  ordinal: 151
+  ref_label: '18.85'
+  devanagari: 'ज्ञ-दिने अर्क-कला-शेषम् द्वादशभिस् संयुतम् त्रिषष्ट्या च ।
+
+    षष्ट्या अष्टभिस् च ऊनम् कुर्वन् आ वत्सरात् गणकस् ॥'
+  source_text: 'jña-dine arka-kalā-śeṣam %dvādaśabhis saṃyutam %triṣaṣṭyā ca/
+
+    %ṣaṣṭyā %aṣṭabhis ca ūnam kurvan ā vatsarāt gaṇakas//  BSS_18.85'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.86
+  section: section.bss.18
+  ordinal: 152
+  ref_label: '18.86'
+  devanagari: 'इन्दु-विलिप्ता-शेषात् रवि-लिप्ता-शेषम् अंश-शेषम् वा ।
+
+    अथ वा मध्यमम् इष्टम् कुर्वन् आ वत्सरात् गणकस् ॥'
+  source_text: 'indu-viliptā-śeṣāt ravi-liptā-śeṣam aṃśa-śeṣam vā/
+
+    atha vā madhyamam iṣṭam kurvan ā vatsarāt gaṇakas//  BSS_18.86'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.87
+  section: section.bss.18
+  ordinal: 153
+  ref_label: '18.87'
+  devanagari: 'जीव-विलिप्ता-शेषात् कु-जम् इन्दुम् भौम-लिप्तिका-शेषात् ।
+
+    रविम् इन्दु-भाग-शेषात् कुर्वन् आ वत्सरात् गणकस् ॥'
+  source_text: 'jīva-viliptā-śeṣāt ku-jam indum bhauma-liptikā-śeṣāt/
+
+    ravim indu-bhāga-śeṣāt kurvan ā vatsarāt gaṇakas//  BSS_18.87'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.88
+  section: section.bss.18
+  ordinal: 154
+  ref_label: '18.88'
+  devanagari: 'इष्ट-ग्रह-इष्ट-शेषात् द्यु-गणस् गत-निस्-अपवर्त-संगुणितैस् ।
+
+    छेद-दिनैस् अधिकस् अस्मात् अन्य-ग्रह-शेषम् इष्टस् वा ॥'
+  source_text: 'iṣṭa-graha-iṣṭa-śeṣāt dyu-gaṇas gata-nis-apavarta-saṃguṇitais/
+
+    cheda-dinais adhikas asmāt anya-graha-śeṣam iṣṭas vā//  BSS_18.88'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.89
+  section: section.bss.18
+  ordinal: 155
+  ref_label: '18.89'
+  devanagari: 'निस्-छेद-भाग-हारौ ग्रहयोस् विपरीतौ ग्रहयोस् द्यु-गणात् ।
+
+    यस्मात् तद्-निस्-छेदेन उद्धृतयोस् लब्ध-संगुणितौ ॥'
+  source_text: 'nis-cheda-bhāga-hārau grahayos viparītau grahayos dyu-gaṇāt/
+
+    yasmāt tad-nis-chedena uddhṛtayos labdha-saṃguṇitau//  BSS_18.89'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.90
+  section: section.bss.18
+  ordinal: 156
+  ref_label: '18.90'
+  devanagari: 'निस्-छेद-भाग-हारौ विपरीतौ तद्-युतात् पुनर् तस्मात् ।
+
+    शेषे द्यु-गणात् एवम् त्रि-आदीनाम् प्राक्-वत् इष्ट-दिने ॥'
+  source_text: 'nis-cheda-bhāga-hārau viparītau tad-yutāt punar tasmāt/
+
+    śeṣe dyu-gaṇāt evam %tri-ādīnām prāk-vat iṣṭa-dine//  BSS_18.90'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.91
+  section: section.bss.18
+  ordinal: 157
+  ref_label: '18.91'
+  devanagari: 'द्यु-गणम् अवम-अवशेषात् रवि-चन्द्रौ मध्यमौ स्फुटौ अथ वा ।
+
+    एवम् तिथिम् ग्रहम् वा कुर्वन् आ वत्सरात् गणकस् ॥'
+  source_text: 'dyu-gaṇam avama-avaśeṣāt ravi-candrau madhyamau sphuṭau atha vā/
+
+    evam tithim graham vā kurvan ā vatsarāt gaṇakas//  BSS_18.91'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.92
+  section: section.bss.18
+  ordinal: 158
+  ref_label: '18.92'
+  devanagari: 'एक-दिनम् अवम-शेषम् यद्-गुणम् एक-रवि-चन्द्र-भ-गण-ऊनम् ।
+
+    शुध्यति भू-दिन-भक्तम् वि-एकम् चान्द्रैस् तद्-उक्तिस् इयम् ॥'
+  source_text: '%eka-dinam avama-śeṣam yad-guṇam %eka-ravi-candra-bha-gaṇa-ūnam/
+
+    śudhyati bhū-dina-bhaktam vi-%ekam cāndrais tad-uktis iyam//  BSS_18.92'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.93
+  section: section.bss.18
+  ordinal: 159
+  ref_label: '18.93'
+  devanagari: 'इषु-शर-कृत-अष्ट-दिग्भिस् सङ्गुणितात् अवम-शेषकात् भक्तात् ।
+
+    रूप-अष्ट-वेद-रस-शून्य-शर-गुणैस् दिन-गणस् शेषम् ॥'
+  source_text: '#iṣu-#śara-#kṛta-%aṣṭa-3digbhis 108455 saṅguṇitāt avama-śeṣakāt bhaktāt/
+
+    #rūpa-%aṣṭa-#veda-#rasa-#śūnya-#śara-#guṇais 3506481 dina-gaṇas śeṣam//  BSS_18.93'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.94
+  section: section.bss.18
+  ordinal: 160
+  ref_label: '18.94'
+  devanagari: 'जिन-रस-गो-अब्धि-रद-गुणात् शशि-वसु-कृत-रस-ख-भूत-राम-हृतात् ।
+
+    इष्ट-अवम-शेषात् यत् शेषम् रवि-भ-गण-शेषम् तत् ॥'
+  source_text: '#jina-#rasa-#go-#abdhi-#rada-3249624-guṇāt #śaśi-#vasu-#kṛta-#rasa-#kha-#bhūta-#rāma-3506481-hṛtāt/
+
+    iṣṭa-avama-śeṣāt yat śeṣam ravi-bha-gaṇa-śeṣam tat//  BSS_18.94'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.95
+  section: section.bss.18
+  ordinal: 161
+  ref_label: '18.95'
+  devanagari: 'गो-अग-इन्दु-ख-ईश-गुणितात् भक्तात् नख-पक्ष-यम-रस-इषु-गुणैस् ।
+
+    शेषम् अवम-अवशेषात् तिथयस् अवम-शेषकात् विकलम् ॥'
+  source_text: '#go-#aga-#indu-#kha-#īśa-110179-guṇitāt bhaktāt #nakha-#pakṣa-#yama-#rasa-#iṣu-#guṇais 3562220/
+
+    śeṣam avama-avaśeṣāt tithayas avama-śeṣakāt vikalam//  BSS_18.95'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.96
+  section: section.bss.18
+  ordinal: 162
+  ref_label: '18.96'
+  devanagari: 'भाग-कला-विकला-ऐक्यम् दृष्ट्वा विकला-अन्तरम् च के शेषे ।
+
+    ऐक्यम् द्विधा अन्तर-अधिक-हीनम् च द्वि-भाजितम् शेषे ॥'
+  source_text: 'bhāga-kalā-vikalā-aikyam dṛṣṭvā vikalā-antaram ca ke śeṣe/
+
+    aikyam dvidhā antara-adhika-hīnam ca %dvi-bhājitam śeṣe//  BSS_18.96'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.97
+  section: section.bss.18
+  ordinal: 163
+  ref_label: '18.97'
+  devanagari: 'तद्-वर्ग-अन्तरम् आद्ये तद्-अन्तरम् च अनतर-उद्धृत-युत-ऊनम् ।
+
+    वर्ग-अन्तरम् विभक्तम् द्वाभ्याम् शेषे ततस् द्यु-गणस् ॥'
+  source_text: 'tad-varga-antaram ādye tad-antaram ca anatara-uddhṛta-yuta-ūnam/
+
+    varga-antaram vibhaktam %dvābhyām śeṣe tatas dyu-gaṇas//  BSS_18.97'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.98
+  section: section.bss.18
+  ordinal: 164
+  ref_label: '18.98'
+  devanagari: 'कृति-संयोगात् द्वि-गुणात् युति-वर्गम् प्रोह्य शेष-मूलम् यत् ।
+
+    तेन युत-ऊनस् योगस् दलितस् शेषे पृथक् अभीष्टे ॥'
+  source_text: '[kṛti-saṃyogāt %dvi-guṇāt yuti-vargam prohya śeṣa-mūlam yat/
+
+    tena yuta-ūnas yogas dalitas śeṣe pṛthak abhīṣṭe// cb.99] BSS_18.98'
+  source: source.gretil-bss
+  review: unreviewed
+  notes:
+  - bracketed in the edition
+  - Colebrooke numbers this 99
+- id: verse.bss.18.99
+  section: section.bss.18
+  ordinal: 165
+  ref_label: '18.99'
+  devanagari: 'शेष-वधात् द्वि-कृति-गुणात् शेष-अन्तर-वर्ग-संयुतात् मूलम् ।
+
+    शेष-अन्तर-ऊन-युक्तम् दलितम् शेषे पृथक् अभीष्टे ॥'
+  source_text: 'śeṣa-vadhāt %dvi-kṛti-guṇāt śeṣa-antara-varga-saṃyutāt mūlam/
+
+    śeṣa-antara-ūna-yuktam dalitam śeṣe pṛthak abhīṣṭe//  BSS_18.99'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.100
+  section: section.bss.18
+  ordinal: 166
+  ref_label: '18.100'
+  devanagari: 'हृदि-घात्रम् अमी प्रश्नास् प्रश्नान् अन्यान् सहस्र-शस् कुर्यात् ।
+
+    अन्यैस् दत्तान् प्रश्नान् उक्त्या एवम् साधयेत् करणैस् ॥'
+  source_text: 'hṛdi-ghātram amī praśnās praśnān anyān %sahasra-śas kuryāt/
+
+    anyais dattān praśnān uktyā evam sādhayet karaṇais//  BSS_18.100'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.101
+  section: section.bss.18
+  ordinal: 167
+  ref_label: '18.101'
+  devanagari: 'जन-संसदि दैव-विदाम् तेजस् नाशयति भानुस् इव भानाम् ।
+
+    कुट्टाकार-प्रश्नैस् पथितैस् अपि किम् पुनर् शत-शस् ॥'
+  source_text: 'jana-saṃsadi daiva-vidām tejas nāśayati bhānus iva bhānām/
+
+    kuṭṭākāra-praśnais pathitais api kim punar %śata-śas//  BSS_18.101'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.18.102
+  section: section.bss.18
+  ordinal: 168
+  ref_label: '18.102'
+  devanagari: 'प्रति-सूत्रम् अमी प्रश्नास् पथितास् स-उद्देशकेषु सूत्रेषु ।
+
+    आर्या-त्रि-अधिक-शतेन च कुट्टस् च अष्टादशस् अध्यायस् ॥
+
+    इति श्री-ब्राह्मस्फुटसिद्धान्ते कुट्टक-अध्यायस् अष्टादशस् ॥'
+  source_text: 'prati-sūtram amī praśnās pathitās sa-uddeśakeṣu sūtreṣu/
+
+    āryā-%tri-adhika-%śatena ca kuṭṭas ca %aṣṭādaśas adhyāyas//
+
+    iti śrī-brāhmasphuṭasiddhānte kuṭṭaka-adhyāyas %aṣṭādaśas// BSS_18.102'
+  source: source.gretil-bss
+  review: unreviewed

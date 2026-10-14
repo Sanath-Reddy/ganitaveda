@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "segments.schema.json",
+  "type": "object",
+  "properties": {
+    "translation": {"$ref": "common.schema.json#/$defs/id"},
+    "work": {"$ref": "common.schema.json#/$defs/id"},
+    "segments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"$ref": "common.schema.json#/$defs/id"},
+          "verses": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/id"}, "minItems": 1},
+          "label": {"type": "string"},
+          "text": {"type": "string", "minLength": 1},
+          "page": {"type": ["integer", "string"]},
+          "status": {"enum": ["ocr-draft", "proofread", "approved"]},
+          "glossary": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/id"}}
+        },
+        "required": ["id", "verses", "text", "page", "status"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["translation", "work", "segments"],
+  "additionalProperties": false
+}

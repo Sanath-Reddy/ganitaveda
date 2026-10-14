@@ -1,0 +1,108 @@
+# NCERT mapping (plan §5.5). Chapter number 0 means "not yet confirmed": the
+# maths teacher fills in numbers against the current books, and the app shows
+# no number until then. Chapters with no lessons and no checked videos are
+# hidden in the School tab.
+board: board.ncert
+name: {en: NCERT, kn: ಎನ್‌ಸಿಇಆರ್‌ಟಿ}
+review: draft
+classes:
+  - class: 6
+    books:
+      - id: book.ncert.6.ganita-prakash
+        title: {en: Ganita Prakash, kn: ಗಣಿತ ಪ್ರಕಾಶ}
+        chapters:
+          - id: ncert.6.gp.patterns
+            number: 1
+            title: {en: Patterns in Mathematics, kn: ಗಣಿತದಲ್ಲಿ ಮಾದರಿಗಳು}
+            links: []
+          - id: ncert.6.gp.fractions
+            number: 7
+            title: {en: Fractions, kn: ಭಿನ್ನರಾಶಿಗಳು}
+            links:
+              - {to: lesson.bee-swarm, relevance: core}
+              - {to: concept.fractions, relevance: related}
+          - id: ncert.6.gp.other-side-of-zero
+            number: 10
+            title: {en: The Other Side of Zero, kn: ಸೊನ್ನೆಯ ಆಚೆಯ ಬದಿ}
+            links:
+              - {to: lesson.fortunes-and-debts, relevance: core}
+              - {to: concept.zero, relevance: related}
+  - class: 7
+    books:
+      - id: book.ncert.7.ganita-prakash
+        title: {en: Ganita Prakash, kn: ಗಣಿತ ಪ್ರಕಾಶ}
+        chapters:
+          - id: ncert.7.gp.fractions
+            number: 0
+            title: {en: Working with Fractions, kn: ಭಿನ್ನರಾಶಿಗಳೊಂದಿಗೆ ಕೆಲಸ}
+            links:
+              - {to: lesson.bee-swarm, relevance: core}
+          - id: ncert.7.gp.integers
+            number: 0
+            title: {en: Integers, kn: ಪೂರ್ಣಾಂಕಗಳು}
+            links:
+              - {to: lesson.fortunes-and-debts, relevance: core}
+  - class: 8
+    books:
+      - id: book.ncert.8.ganita-prakash
+        title: {en: Ganita Prakash, kn: ಗಣಿತ ಪ್ರಕಾಶ}
+        chapters:
+          - id: ncert.8.gp.proportional-reasoning
+            number: 0
+            title: {en: Proportional Reasoning, kn: ಅನುಪಾತೀಯ ತಾರ್ಕಿಕತೆ}
+            links:
+              - {to: lesson.trairashika, relevance: core}
+          - id: ncert.8.gp.baudhayana-pythagoras
+            number: 0
+            title: {en: The Baudhāyana–Pythagoras Theorem, kn: ಬೌಧಾಯನ–ಪೈಥಾಗರಸ್ ಪ್ರಮೇಯ}
+            links:
+              - {to: lesson.bhuja-koti-karna, relevance: core}
+  - class: 9
+    books:
+      - id: book.ncert.9.ganita-manjari
+        title: {en: Ganita Manjari, kn: ಗಣಿತ ಮಂಜರಿ}
+        chapters:
+          - id: ncert.9.gm.sequences
+            number: 0
+            title: {en: Sequences and Progressions, kn: ಅನುಕ್ರಮಗಳು ಮತ್ತು ಶ್ರೇಢಿಗಳು}
+            links:
+              - {to: lesson.sredhi, relevance: core}
+  - class: 10
+    books:
+      - id: book.ncert.10.mathematics
+        title: {en: Mathematics, kn: ಗಣಿತ}
+        chapters:
+          - id: ncert.10.math.ap
+            number: 5
+            title: {en: Arithmetic Progressions, kn: ಸಮಾಂತರ ಶ್ರೇಢಿಗಳು}
+            links:
+              - {to: lesson.sredhi, relevance: core}
+          - id: ncert.10.math.trigonometry
+            number: 8
+            title: {en: Introduction to Trigonometry, kn: ತ್ರಿಕೋಣಮಿತಿಯ ಪರಿಚಯ}
+            links:
+              - {to: lesson.jya, relevance: core}
+  - class: 11
+    books:
+      - id: book.ncert.11.mathematics
+        title: {en: Mathematics, kn: ಗಣಿತ}
+        chapters:
+          - id: ncert.11.math.sequences-series
+            number: 0
+            title: {en: Sequences and Series, kn: ಅನುಕ್ರಮಗಳು ಮತ್ತು ಶ್ರೇಢಿಗಳು}
+            links:
+              - {to: lesson.madhava-pi, relevance: core}
+              - {to: lesson.sredhi, relevance: related}
+  - class: 12
+    books:
+      - id: book.ncert.12.explore
+        title: {en: Recommended from Explore, kn: ಅನ್ವೇಷಣೆಯಿಂದ ಶಿಫಾರಸು}
+        chapters:
+          - id: ncert.12.recommended
+            number: 0
+            title: {en: Recommended from Explore, kn: ಅನ್ವೇಷಣೆಯಿಂದ ಶಿಫಾರಸು}
+            links:
+              - {to: lesson.madhava-pi, relevance: recommended}
+              - {to: lesson.kuttaka, relevance: recommended}
+              - {to: lesson.cyclic-quadrilateral, relevance: recommended}
+              - {to: lesson.ankapasha, relevance: recommended}

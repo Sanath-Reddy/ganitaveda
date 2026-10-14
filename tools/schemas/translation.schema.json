@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "translation.schema.json",
+  "type": "object",
+  "properties": {
+    "id": {"$ref": "common.schema.json#/$defs/id"},
+    "translator": {"type": "string"},
+    "year": {"$ref": "common.schema.json#/$defs/year"},
+    "language": {"enum": ["en", "kn", "hi", "sa"]},
+    "kind": {"enum": ["historical", "scholarly", "modern", "plain"]},
+    "licence": {"$ref": "common.schema.json#/$defs/id"},
+    "source": {"$ref": "common.schema.json#/$defs/id"},
+    "works": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/id"}, "minItems": 1},
+    "about": {"$ref": "common.schema.json#/$defs/ltext"},
+    "style_note": {"$ref": "common.schema.json#/$defs/ltext"}
+  },
+  "required": ["id", "translator", "year", "language", "kind", "licence", "source", "works", "about"],
+  "additionalProperties": false
+}

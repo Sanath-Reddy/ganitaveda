@@ -1,0 +1,91 @@
+# When ideas were written down (plan §4.4). Ranges carry their uncertainty.
+events:
+  - id: event.sulbasutras
+    year_from: -800
+    year_to: -400
+    region: North India
+    label: {en: "Śulbasūtras: rules for altars, including the diagonal rule", kn: "ಶುಲ್ಬಸೂತ್ರಗಳು: ಕರ್ಣದ ನಿಯಮ ಸಹಿತ ಯಜ್ಞವೇದಿಗಳ ನಿಯಮಗಳು"}
+    detail: {en: "Dates are approximate and debated.", kn: "ಕಾಲ ಅಂದಾಜಿನದು ಮತ್ತು ಚರ್ಚಾಸ್ಪದ."}
+    links: [person.baudhayana, concept.bhuja-koti-karna]
+    source: source.plofker-2009
+    source_note: ch. 2
+  - id: event.pingala
+    year_from: -500
+    year_to: -100
+    region: North India
+    label: {en: "Piṅgala's Chandaḥśāstra counts metrical patterns", kn: "ಪಿಂಗಲನ ಛಂದಃಶಾಸ್ತ್ರ ಛಂದಸ್ಸಿನ ಮಾದರಿಗಳನ್ನು ಎಣಿಸುತ್ತದೆ"}
+    links: [person.pingala]
+    source: source.plofker-2009
+    source_note: ch. 3
+  - id: event.aryabhatiya
+    year_from: 499
+    year_to: 499
+    region: Kusumapura (Bihar)
+    label: {en: "Āryabhaṭīya: place value, π ≈ 3.1416, half-chords, the pulveriser", kn: "ಆರ್ಯಭಟೀಯ: ಸ್ಥಾನಬೆಲೆ, π ≈ 3.1416, ಅರ್ಧಜ್ಯಾ, ಕುಟ್ಟಕ"}
+    links: [person.aryabhata, work.aryabhatiya, concept.circle-circumference, concept.jya, concept.kuttaka]
+    source: source.clark-1930
+  - id: event.bss
+    year_from: 628
+    year_to: 628
+    region: Bhillamāla (Rajasthan)
+    label: {en: "Brāhmasphuṭasiddhānta: rules for zero and negative numbers", kn: "ಬ್ರಾಹ್ಮಸ್ಫುಟಸಿದ್ಧಾಂತ: ಸೊನ್ನೆ ಮತ್ತು ಋಣ ಸಂಖ್ಯೆಗಳ ನಿಯಮಗಳು"}
+    links: [person.brahmagupta, work.brahmasphutasiddhanta, concept.zero, concept.negative-numbers, concept.cyclic-quadrilateral]
+    source: source.plofker-2009
+  - id: event.bhaskara-i
+    year_from: 629
+    year_to: 629
+    region: Western India
+    label: {en: "Bhāskara I's commentary on the Āryabhaṭīya", kn: "ಆರ್ಯಭಟೀಯದ ಮೇಲೆ ಒಂದನೇ ಭಾಸ್ಕರನ ವ್ಯಾಖ್ಯಾನ"}
+    links: [person.bhaskara-i]
+    source: source.plofker-2009
+  - id: event.ganitasarasangraha
+    year_from: 840
+    year_to: 870
+    region: Rāṣṭrakūṭa kingdom (Karnataka)
+    label: {en: "Mahāvīra's Gaṇitasārasaṅgraha", kn: "ಮಹಾವೀರನ ಗಣಿತಸಾರಸಂಗ್ರಹ"}
+    links: [person.mahavira]
+    source: source.plofker-2009
+  - id: event.lilavati
+    year_from: 1150
+    year_to: 1150
+    region: Western Deccan
+    label: {en: "Bhāskara's Līlāvatī, part of the Siddhāntaśiromaṇi", kn: "ಸಿದ್ಧಾಂತಶಿರೋಮಣಿಯ ಭಾಗವಾದ ಭಾಸ್ಕರನ ಲೀಲಾವತೀ"}
+    links: [person.bhaskara-ii, work.lilavati, concept.ishta-karma, concept.ankapasha]
+    source: source.plofker-2009
+  - id: event.madhava
+    year_from: 1380
+    year_to: 1420
+    region: Kerala
+    label: {en: "Infinite series for π attributed to Mādhava", kn: "ಮಾಧವನಿಗೆ ಆರೋಪಿಸಲಾದ π ಯ ಅನಂತ ಶ್ರೇಢಿ"}
+    detail: {en: "Known through later Kerala texts; no dated work of Mādhava's states it.", kn: "ನಂತರದ ಕೇರಳ ಗ್ರಂಥಗಳ ಮೂಲಕ ತಿಳಿದಿದೆ; ಇದನ್ನು ಹೇಳುವ ಮಾಧವನ ದಿನಾಂಕಿತ ಕೃತಿ ಇಲ್ಲ."}
+    links: [person.madhava, concept.madhava-series]
+    source: source.plofker-2009
+    source_note: ch. 7
+  - id: event.tantrasangraha
+    year_from: 1501
+    year_to: 1501
+    region: Kerala
+    label: {en: "Nīlakaṇṭha's Tantrasaṅgraha", kn: "ನೀಲಕಂಠನ ತಂತ್ರಸಂಗ್ರಹ"}
+    links: [person.nilakantha]
+    source: source.sarma-1972
+  - id: event.yuktibhasa
+    year_from: 1530
+    year_to: 1560
+    region: Kerala
+    label: {en: "Jyeṣṭhadeva's Yuktibhāṣā explains the series with proofs", kn: "ಜ್ಯೇಷ್ಠದೇವನ ಯುಕ್ತಿಭಾಷಾ ಶ್ರೇಢಿಗಳನ್ನು ಸಾಧನೆಗಳೊಂದಿಗೆ ವಿವರಿಸುತ್ತದೆ"}
+    links: [person.jyesthadeva, concept.madhava-series]
+    source: source.sarma-1972
+  - id: event.taylor-colebrooke
+    year_from: 1816
+    year_to: 1817
+    region: Bombay and London
+    label: {en: "Taylor (1816) and Colebrooke (1817) translate the Līlāvatī into English", kn: "ಟೇಲರ್ (1816) ಮತ್ತು ಕೋಲ್‌ಬ್ರೂಕ್ (1817) ಲೀಲಾವತಿಯನ್ನು ಇಂಗ್ಲಿಷ್‌ಗೆ ಅನುವಾದಿಸುತ್ತಾರೆ"}
+    links: [work.lilavati]
+    source: source.colebrooke-1817
+  - id: event.clark
+    year_from: 1930
+    year_to: 1930
+    region: Chicago
+    label: {en: "Clark's English translation of the Āryabhaṭīya", kn: "ಕ್ಲಾರ್ಕ್‌ನ ಆರ್ಯಭಟೀಯದ ಇಂಗ್ಲಿಷ್ ಅನುವಾದ"}
+    links: [work.aryabhatiya]
+    source: source.clark-1930

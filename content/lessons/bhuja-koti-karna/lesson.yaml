@@ -1,0 +1,46 @@
+id: lesson.bhuja-koti-karna
+version: 1
+title: {en: "Bhuja, koṭi, karṇa", kn: "ಭುಜ, ಕೋಟಿ, ಕರ್ಣ"}
+subtitle: {en: "Right triangles", kn: "ಲಂಬಕೋನ ತ್ರಿಭುಜಗಳು"}
+area: area.geometry
+concepts: [concept.bhuja-koti-karna]
+curriculum: [ncert.8.gp.baudhayana-pythagoras]
+minutes: 7
+author: A
+review: {maths: draft, sanskrit: unreviewed, kannada: draft}
+claims:
+  verse: [{source: source.colebrooke-1817, note: "Līlāvatī §134, §136"}]
+cards:
+  - id: scene
+    type: scene
+    art: art.cord-altar
+    text:
+      en: "Altar builders laid out shapes on the ground with pegs and cords. To be sure a corner was square, they needed to know how long the slanting cord must be. Bhāskara asks: if the upright is four and the side is three, how long is the hypotenuse?"
+      kn: "ವೇದಿ ಕಟ್ಟುವವರು ಗೂಟ ಮತ್ತು ಹಗ್ಗಗಳಿಂದ ನೆಲದ ಮೇಲೆ ಆಕೃತಿಗಳನ್ನು ಗುರುತಿಸುತ್ತಿದ್ದರು. ಮೂಲೆ ಲಂಬಕೋನವಾಗಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಲು ಓರೆ ಹಗ್ಗ ಎಷ್ಟು ಉದ್ದ ಇರಬೇಕು ಎಂದು ತಿಳಿಯಬೇಕಿತ್ತು. ಭಾಸ್ಕರ ಕೇಳುತ್ತಾನೆ: ಕೋಟಿ ನಾಲ್ಕು, ಭುಜ ಮೂರು ಆದರೆ ಕರ್ಣ ಎಷ್ಟು?"
+  - id: play
+    type: explore
+    widget: triangle
+    params: {start: [3, 4]}
+    prompt: {en: "Change the side and the upright. Compare the square on the hypotenuse with the other two squares.", kn: "ಭುಜ ಮತ್ತು ಕೋಟಿಯನ್ನು ಬದಲಿಸಿ. ಕರ್ಣದ ಮೇಲಿನ ವರ್ಗವನ್ನು ಇತರ ಎರಡು ವರ್ಗಗಳೊಂದಿಗೆ ಹೋಲಿಸಿ."}
+    goal: {en: "Find three triangles whose sides are all whole numbers.", kn: "ಮೂರೂ ಬಾಹುಗಳು ಪೂರ್ಣ ಸಂಖ್ಯೆಗಳಾಗಿರುವ ಮೂರು ತ್ರಿಭುಜಗಳನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ."}
+  - id: verse
+    type: verse
+    verse: verse.lilavati.136
+    highlight: [term.bhuja, term.koti, term.karna]
+    intro: {en: "Bhāskara's rule for all three sides.", kn: "ಮೂರೂ ಬಾಹುಗಳಿಗೆ ಭಾಸ್ಕರನ ನಿಯಮ."}
+  - id: method
+    type: method
+    algorithm: bhuja_koti_karna
+    inputs: {bhuja: 3, koti: 4}
+    intro: {en: "Square the two sides, add, and take the square root. To find a leg, subtract instead.", kn: "ಎರಡು ಬಾಹುಗಳನ್ನು ವರ್ಗಿಸಿ, ಕೂಡಿಸಿ, ವರ್ಗಮೂಲ ತೆಗೆಯಿರಿ. ಒಂದು ಬಾಹು ಬೇಕಾದರೆ ಕೂಡಿಸುವ ಬದಲು ಕಳೆಯಿರಿ."}
+    modern: {en: "c = √(a² + b²) = √(9 + 16) = √25 = 5.", kn: "c = √(a² + b²) = √(9 + 16) = √25 = 5."}
+  - id: practice
+    type: practice
+    generator: geometry.right_triangle.v1
+    count: 4
+    difficulty: [1, 2, 2, 3]
+  - id: summary
+    type: summary
+    key_idea: {en: "Hypotenuse² = side² + upright². Either leg is the square root of the difference of the other two squares.", kn: "ಕರ್ಣ² = ಭುಜ² + ಕೋಟಿ². ಯಾವುದೇ ಬಾಹು ಉಳಿದ ಎರಡು ವರ್ಗಗಳ ವ್ಯತ್ಯಾಸದ ವರ್ಗಮೂಲ."}
+    textbook: {en: "Class 8 · The Baudhāyana–Pythagoras Theorem.", kn: "8ನೇ ತರಗತಿ · ಬೌಧಾಯನ–ಪೈಥಾಗರಸ್ ಪ್ರಮೇಯ."}
+    next: lesson.jya

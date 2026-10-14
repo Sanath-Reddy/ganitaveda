@@ -1,0 +1,101 @@
+id: work.lilavati
+title:
+  en: Līlāvatī
+  kn: ಲೀಲಾವತೀ
+title_iast: Līlāvatī
+author: person.bhaskara-ii
+year_from: 1150
+year_to: 1150
+source: source.gretil-lilavati
+licence: licence.cc-by-nc-sa-4
+text_form: analytic
+about:
+  en: The arithmetic and geometry book of Bhāskara's Siddhāntaśiromaṇi, written in verse. Many problems are addressed to a girl called Līlāvatī. The Sanskrit here follows Takao Hayashi's e-text, which writes each word separately (without sandhi) and joins compound words with hyphens.
+  kn: ಭಾಸ್ಕರನ ಸಿದ್ಧಾಂತಶಿರೋಮಣಿಯ ಅಂಕಗಣಿತ ಮತ್ತು ರೇಖಾಗಣಿತದ ಭಾಗ, ಪದ್ಯರೂಪದಲ್ಲಿದೆ. ಅನೇಕ ಲೆಕ್ಕಗಳು ಲೀಲಾವತಿ ಎಂಬ ಹುಡುಗಿಯನ್ನು ಉದ್ದೇಶಿಸಿವೆ. ಇಲ್ಲಿನ ಸಂಸ್ಕೃತ ಪಾಠ ತಕಾವೊ ಹಯಾಶಿ ಅವರ ಇ-ಪಠ್ಯವನ್ನು ಅನುಸರಿಸುತ್ತದೆ; ಅದರಲ್ಲಿ ಪದಗಳನ್ನು ಸಂಧಿ ಮಾಡದೆ ಬೇರೆಬೇರೆಯಾಗಿ ಬರೆದು, ಸಮಾಸದ ಪದಗಳನ್ನು ಅಡ್ಡಗೆರೆಯಿಂದ ಜೋಡಿಸಲಾಗಿದೆ.
+sections:
+- id: section.lilavati.paribhasa
+  ordinal: 1
+  label:
+    en: Paribhāṣā · Units of measure
+    kn: ಪರಿಭಾಷಾ · ಅಳತೆಯ ಮಾನಗಳು
+- id: section.lilavati.parikarma-astaka
+  ordinal: 2
+  label:
+    en: Parikarma-aṣṭaka · The eight operations
+    kn: ಪರಿಕರ್ಮ-ಅಷ್ಟಕ · ಎಂಟು ಮೂಲ ಕ್ರಿಯೆಗಳು
+- id: section.lilavati.bhinna-parikarma-astaka
+  ordinal: 3
+  label:
+    en: Bhinna-parikarma-aṣṭaka · Operations on fractions
+    kn: ಭಿನ್ನ-ಪರಿಕರ್ಮ-ಅಷ್ಟಕ · ಭಿನ್ನರಾಶಿಗಳ ಕ್ರಿಯೆಗಳು
+- id: section.lilavati.sunya-parikarma-astaka
+  ordinal: 4
+  label:
+    en: Śūnya-parikarma-aṣṭaka · Operations with zero
+    kn: ಶೂನ್ಯ-ಪರಿಕರ್ಮ-ಅಷ್ಟಕ · ಸೊನ್ನೆಯೊಂದಿಗಿನ ಕ್ರಿಯೆಗಳು
+- id: section.lilavati.prakirnaka
+  ordinal: 5
+  label:
+    en: Prakīrṇaka · Miscellaneous rules
+    kn: ಪ್ರಕೀರ್ಣಕ · ವಿವಿಧ ನಿಯಮಗಳು
+- id: section.lilavati.misraka-vyavahara
+  ordinal: 6
+  label:
+    en: Miśraka-vyavahāra · Mixtures and interest
+    kn: ಮಿಶ್ರಕ-ವ್ಯವಹಾರ · ಮಿಶ್ರಣ ಮತ್ತು ಬಡ್ಡಿ
+- id: section.lilavati.sredhi-vyavahara
+  ordinal: 7
+  label:
+    en: Śreḍhī-vyavahāra · Progressions
+    kn: ಶ್ರೇಢೀ-ವ್ಯವಹಾರ · ಶ್ರೇಢಿಗಳು
+- id: section.lilavati.ksetra-vyavahara
+  ordinal: 8
+  label:
+    en: Kṣetra-vyavahāra · Plane figures
+    kn: ಕ್ಷೇತ್ರ-ವ್ಯವಹಾರ · ಸಮತಲ ಆಕೃತಿಗಳು
+- id: section.lilavati.khata-vyavahara
+  ordinal: 9
+  label:
+    en: Khāta-vyavahāra · Excavations
+    kn: ಖಾತ-ವ್ಯವಹಾರ · ಅಗೆತದ ಘನಫಲ
+- id: section.lilavati.citi-vyavahara
+  ordinal: 10
+  label:
+    en: Citi-vyavahāra · Stacks of bricks
+    kn: ಚಿತಿ-ವ್ಯವಹಾರ · ಇಟ್ಟಿಗೆಗಳ ರಾಶಿ
+- id: section.lilavati.krakaca-vyavahara
+  ordinal: 11
+  label:
+    en: Krākaca-vyavahāra · Sawing timber
+    kn: ಕ್ರಾಕಚ-ವ್ಯವಹಾರ · ಮರ ಕೊಯ್ಯುವುದು
+- id: section.lilavati.rasi-vyavahara
+  ordinal: 12
+  label:
+    en: Rāśi-vyavahāra · Heaps of grain
+    kn: ರಾಶಿ-ವ್ಯವಹಾರ · ಧಾನ್ಯದ ರಾಶಿ
+- id: section.lilavati.chaya-vyavahara
+  ordinal: 13
+  label:
+    en: Chāyā-vyavahāra · Shadows
+    kn: ಛಾಯಾ-ವ್ಯವಹಾರ · ನೆರಳುಗಳು
+- id: section.lilavati.kuttaka
+  ordinal: 14
+  label:
+    en: Kuṭṭaka · The pulveriser
+    kn: ಕುಟ್ಟಕ · ಕುಟ್ಟಕ
+- id: section.lilavati.anka-pasa
+  ordinal: 15
+  label:
+    en: Aṅka-pāśa · Arranging digits
+    kn: ಅಙ್ಕ-ಪಾಶ · ಅಂಕಿಗಳ ಜೋಡಣೆ
+- id: section.lilavati.grantha-samapti
+  ordinal: 16
+  label:
+    en: Grantha-samāpti · Closing verses
+    kn: ಗ್ರನ್ಥ-ಸಮಾಪ್ತಿ · ಮುಕ್ತಾಯದ ಪದ್ಯಗಳು
+claims:
+  dates:
+  - source: source.plofker-2009
+    note: Siddhāntaśiromaṇi completed 1150 CE; page to pin
+  author:
+  - source: source.plofker-2009

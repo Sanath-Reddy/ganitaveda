@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "concept.schema.json",
+  "type": "object",
+  "properties": {
+    "areas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/$defs/id"
+          },
+          "ordinal": {
+            "type": "integer"
+          },
+          "name": {
+            "$ref": "common.schema.json#/$defs/ltext"
+          },
+          "sanskrit_iast": {
+            "type": "string"
+          },
+          "blurb": {
+            "$ref": "common.schema.json#/$defs/ltext"
+          }
+        },
+        "required": [
+          "id",
+          "ordinal",
+          "name",
+          "sanskrit_iast",
+          "blurb"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "concepts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/$defs/id"
+          },
+          "area": {
+            "$ref": "common.schema.json#/$defs/id"
+          },
+          "name": {
+            "$ref": "common.schema.json#/$defs/ltext"
+          },
+          "classical_iast": {
+            "type": "string"
+          },
+          "modern_name": {
+            "$ref": "common.schema.json#/$defs/ltext"
+          },
+          "summary": {
+            "$ref": "common.schema.json#/$defs/ltext"
+          },
+          "body": {
+            "$ref": "common.schema.json#/$defs/ltext"
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "verses": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "verse": {
+                  "$ref": "common.schema.json#/$defs/id"
+                },
+                "role": {
+                  "enum": [
+                    "rule",
+                    "example",
+                    "mention"
+                  ]
+                }
+              },
+              "required": [
+                "verse",
+                "role"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "related": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "to": {
+                  "$ref": "common.schema.json#/$defs/id"
+                },
+                "type": {
+                  "enum": [
+                    "builds_on",
+                    "generalises",
+                    "requires",
+                    "related"
+                  ]
+                }
+              },
+              "required": [
+                "to",
+                "type"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "people": {
+            "type": "array",
+            "items": {
+              "$ref": "common.schema.json#/$defs/id"
+            }
+          },
+          "claims": {
+            "$ref": "common.schema.json#/$defs/claims"
+          }
+        },
+        "required": [
+          "id",
+          "area",
+          "name",
+          "classical_iast",
+          "modern_name",
+          "summary",
+          "body",
+          "verses",
+          "claims"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}

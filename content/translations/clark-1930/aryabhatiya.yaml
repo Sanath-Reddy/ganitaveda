@@ -1,0 +1,44 @@
+# Gaṇitapāda verses from the Internet Archive OCR of Clark (1930). Verse 32–33
+# is one segment in Clark. Status stays ocr-draft until proofread.
+translation: translation.clark-1930
+work: work.aryabhatiya
+segments:
+  - id: seg.clark-1930.2.10
+    label: "II.10"
+    verses: [verse.aryabhatiya.2.10]
+    page: 28
+    status: ocr-draft
+    text: "Add 4 to 100, multiply by 8, and add 62,000. The result is approximately the circumference of a circle of which the diameter is 20,000."
+  - id: seg.clark-1930.2.11
+    label: "II.11"
+    verses: [verse.aryabhatiya.2.11]
+    page: 28
+    status: ocr-draft
+    glossary: [gloss.sine-clark]
+    text: "One should divide a quarter of the circumference of a circle (into as many equal parts as are desired). From the triangles and quadrilaterals (which are formed) one will have on the radius as many sines of equal arcs as are desired."
+  - id: seg.clark-1930.2.12
+    label: "II.12"
+    verses: [verse.aryabhatiya.2.12]
+    page: 29
+    status: ocr-draft
+    glossary: [gloss.sine-clark]
+    text: "By what number the second sine is less than the first sine, and by the quotient obtained by dividing the sum of the preceding sines by the first sine, by the sum of these two quantities the following sines are less than the first sine."
+  - id: seg.clark-1930.2.19
+    label: "II.19"
+    verses: [verse.aryabhatiya.2.19]
+    page: "to confirm"
+    status: ocr-draft
+    text: "The desired number of terms minus one, halved, plus the number of terms which precedes, multiplied by the common difference between the terms, plus the first term, is the middle term. This multiplied by the number of terms desired is the sum of the desired number of terms. Or the sum of the first and last terms is multiplied by half the number of terms."
+  - id: seg.clark-1930.2.26
+    label: "II.26"
+    verses: [verse.aryabhatiya.2.26]
+    page: "to confirm"
+    status: ocr-draft
+    text: "In the rule of three multiply the fruit by the desire and divide by the measure. The result will be the fruit of the desire."
+  - id: seg.clark-1930.2.32
+    label: "II.32–33"
+    verses: [verse.aryabhatiya.2.32, verse.aryabhatiya.2.33]
+    page: "to confirm"
+    status: ocr-draft
+    glossary: [gloss.agra]
+    text: "Divide the divisor which gives the greater agra by the divisor which gives the smaller agra. The remainder is reciprocally divided (that is to say, the remainder becomes the divisor of the original divisor, and the remainder of this second division becomes the divisor of the second divisor, etc.). (The quotients are placed below each other in the so-called chain.) (The last remainder) is multiplied by an assumed number and added to the difference between the agras. Multiply the penultimate number by the number above it and add the number which is below it. (Continue this process to the top of the chain.) Divide (the top number) by the divisor which gives the smaller agra. Multiply the remainder by the divisor which gives the greater agra. Add this product to the greater agra. The result is the number which will satisfy both divisors and both agras."

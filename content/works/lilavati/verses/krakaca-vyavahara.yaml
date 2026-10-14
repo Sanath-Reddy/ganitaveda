@@ -1,0 +1,62 @@
+- id: verse.lilavati.223
+  section: section.lilavati.krakaca-vyavahara
+  ordinal: 207
+  ref_label: '223'
+  devanagari: 'पिण्ड-योग-दलम् अग्र-मूलयोस् दैर्घ्य-संगुणितम् अङ्गुल-आत्मकम् ।
+
+    दारु-दारण-पथैस् समाहतम् षष्-स्वर-इषु-विहृतम् कर-आत्मकम् ॥'
+  source_text: 'piṇḍa-yoga-#dalam agra-mūlayos dairghya-saṃguṇitam aṅgula-ātmakam/
+
+    dāru-dāraṇa-pathais samāhatam %ṣaṣ-#svara-#iṣu-vihṛtam kara-ātmakam// [āpaṭe: ṣaṣ-stareṣu vihṛtam] Lil_223'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - 'āpaṭe: ṣaṣ-stareṣu vihṛtam'
+- id: verse.lilavati.224
+  section: section.lilavati.krakaca-vyavahara
+  ordinal: 208
+  ref_label: '224'
+  devanagari: 'मूले नख-अङ्गुल-मितस् अथ नृप-अङ्गुलस् अग्रे पिण्डस् शत-अङ्गुल-मितम् किल यस्य दैर्घ्यम् ।
+
+    तद्-दारु-दारण-पथेषु चतुर्षु किम् स्यात् हस्त-आत्मकम् वद सखे गणितम् द्रुतम् मे ॥'
+  source_text: 'mūle #nakha-aṅgula-mitas atha #nṛpa-aṅgulas agre piṇḍas %śata-aṅgula-mitam kila yasya dairghyam/
+
+    tad-dāru-dāraṇa-patheṣu %caturṣu kim @syāt hasta-ātmakam @vada sakhe gaṇitam drutam me// Lil_224'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.225
+  section: section.lilavati.krakaca-vyavahara
+  ordinal: 209
+  ref_label: '225'
+  devanagari: 'छिद्यते तु यदि तिर्यक् उक्त-वत् पिण्ड-विस्तृति-हतेस् फलम् तदा ।
+
+    इष्टका-चिति-दृषद्-चिति-खात-क्राकच-व्यवहृतौ खलु मूल्यम् ।
+
+    कर्म-कार-जन-संप्रतिपत्त्या तद्-मृदुत्व-कठिनत्व-वशेन ॥'
+  source_text: '@chidyate tu yadi tiryak ukta-vat piṇḍa-vistṛti-hates phalam tadā/ [śarma:-hṛtes < -hates]
+
+    iṣṭakā-citi-dṛṣad-citi-khāta-krākaca-vyavahṛtau khalu mūlyam/
+
+    karma-kāra-jana-saṃpratipattyā tad-mṛdutva-kaṭhinatva-vaśena// Lil_225'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - śarma:-hṛtes < -hates
+- id: verse.lilavati.226
+  section: section.lilavati.krakaca-vyavahara
+  ordinal: 210
+  ref_label: '226'
+  devanagari: 'यद्-विस्तृतिस् दन्त-मिता अङ्गुलानि पिण्डस् तथा षोडश यत्र काष्ठे ।
+
+    छेदेषु तिर्यक् नवसु प्रचक्ष्व किम् स्यात् फलम् तत्र कर-आत्मकम् मे ॥
+
+    न्यासस् । विस्तारस् । पिण्डस् । पिण्ड-विस्तृति-हतिस् । दारु-दारण-मार्ग-घ्नी । षष्-स्वर-इषु-विहृता जातम् फलम् हस्तास् ॥ इति क्रकच-व्यवहारस् ॥'
+  source_text: 'yad-vistṛtis #danta-mitā aṅgulāni piṇḍas tathā %ṣoḍaśa yatra kāṣṭhe/
+
+    chedeṣu tiryak %navasu @pracakṣva kim @syāt phalam tatra kara-ātmakam me//
+
+    nyāsas/ [fig.40] vistāras 32/ piṇḍas 16/ piṇḍa-vistṛti-hatis 512/ dāru-dāraṇa-mārga-9-ghnī 4608/ %ṣaṣ-#svara-#iṣu-576-vihṛtā jātam phalam hastās 8// iti krakaca-vyavahāras// Lil_226'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - fig.40

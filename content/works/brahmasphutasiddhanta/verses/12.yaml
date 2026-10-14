@@ -1,0 +1,796 @@
+- id: verse.bss.12.1
+  section: section.bss.12
+  ordinal: 1
+  ref_label: '12.1'
+  devanagari: 'परिकर्म-विंशतिम् यस् सङ्कलित-आद्याम् पृथक् विजानाति ।
+
+    अष्टौ च व्यवहारान् छाया-अन्तान् भवति गणकस् सस् ॥'
+  source_text: 'parikarma-%viṃśatim yas saṅkalita-ādyām pṛthak vijānāti/
+
+    %aṣṭau ca vyavahārān chāyā-antān bhavati gaṇakas sas// BSS_12.1'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.2
+  section: section.bss.12
+  ordinal: 2
+  ref_label: '12.2'
+  devanagari: 'विपरीत-छेद-गुणास् राश्योस् छेद-अंशकास् सम-छेदास् ।
+
+    सङ्कलिते अंशास् योज्यास् व्यवकलिते अंश-अन्तरम् कार्यम् ॥'
+  source_text: 'viparīta-cheda-guṇās rāśyos cheda-aṃśakās sama-chedās/
+
+    saṅkalite aṃśās yojyās vyavakalite aṃśa-antaram kāryam// BSS_12.2'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.3
+  section: section.bss.12
+  ordinal: 3
+  ref_label: '12.3'
+  devanagari: 'रूपाणि छेद-गुणानि अंश-युतानि द्वयोस् बहूनाम् वा ।
+
+    प्रत्युत्पन्नस् भवति छेद-वधेन उद्धृतस् अंश-वधस् ॥'
+  source_text: 'rūpāṇi cheda-guṇāni aṃśa-yutāni %dvayos bahūnām vā/
+
+    pratyutpannas bhavati cheda-vadhena uddhṛtas aṃśa-vadhas// BSS_12.3'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.4
+  section: section.bss.12
+  ordinal: 4
+  ref_label: '12.4'
+  devanagari: 'परिवर्त्य भाग-हार-छेद-अंशौ छेद-संगुण-छेदस् ।
+
+    अंशस् अंश-गुणस् भाज्यस्य भाग-हारस् सवर्णितयोस् ॥'
+  source_text: 'parivartya bhāga-hāra-cheda-aṃśau cheda-saṃguṇa-chedas/
+
+    aṃśas aṃśa-guṇas bhājyasya bhāga-hāras savarṇitayos// BSS_12.4'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.5
+  section: section.bss.12
+  ordinal: 5
+  ref_label: '12.5'
+  devanagari: 'संवर्णित-अंश-वर्गस् छेद-कृति-विभाजितस् भवति वर्गस् ।
+
+    संवर्णित-अंश-मूलम् छेद-पदेन उद्धृतम् मूलम् ॥'
+  source_text: 'saṃvarṇita--aṃśa-vargas cheda-kṛti-vibhājitas bhavati vargas/
+
+    saṃvarṇita-aṃśa-mūlam cheda-padena uddhṛtam mūlam// BSS_12.5'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.6
+  section: section.bss.12
+  ordinal: 6
+  ref_label: '12.6'
+  devanagari: 'स्थाप्यस् अन्त्य-घनस् अन्त्य-कृतिस् त्रि-गुण-उत्तर-सङ्गुणा च तद्-प्रथमात् ।
+
+    उत्तर-कृतिस् अन्त्य-गुणा त्रि-गुणा च उत्तर-घनस् च घनस् ॥'
+  source_text: 'sthāpyas antya-ghanas antya-kṛtis %tri-guṇa-uttara-saṅguṇā ca tad-%prathamāt/
+
+    uttara-kṛtis antya-guṇā %tri-guṇā ca uttara-ghanas ca ghanas// BSS_12.6'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.7
+  section: section.bss.12
+  ordinal: 7
+  ref_label: '12.7'
+  devanagari: 'छेदस् घनात् द्वितीयात् घन-मूल-कृतिस् त्रि-सङ्गुणा आप्त-कृतिस् ।
+
+    शोध्या त्रि-पूर्व-गुणिता प्रथमात् घनतस् घनस् मूलम् ॥'
+  source_text: 'chedas ghanāt %dvitīyāt ghana-mūla-kṛtis %tri-saṅguṇā āpta-kṛtis/
+
+    śodhyā %tri-pūrva-guṇitā %prathamāt ghanatas ghanas mūlam// BSS_12.7'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.8
+  section: section.bss.12
+  ordinal: 8
+  ref_label: '12.8'
+  devanagari: 'सदृश-छेद-अंश-युतिस् छेद-विभक्ता फलम् प्रथम-जातौ ।
+
+    अंशैस् अंशास् गुणितास् छेदैस् छेदास् द्वितीयायाम् ॥'
+  source_text: 'sadṛśa-cheda-aṃśa-yutis cheda-vibhaktā phalam %prathama-jātau/
+
+    aṃśais aṃśās guṇitās chedais chedās %dvitīyāyām// BSS_12.8'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.9
+  section: section.bss.12
+  ordinal: 9
+  ref_label: '12.9'
+  devanagari: 'ऊर्ध्व-अंशास् छेद-गुणास् तृतीय-जातौ द्वयोस् प्रथम-परयोस् ।
+
+    छेदैस् छेदास् गुणितास् स्व-अंश-युत-ऊनैस् उपरि-ग-अंशास् ॥'
+  source_text: 'ūrdhva-aṃśās cheda-guṇās %tṛtīya-jātau %dvayos %prathama-parayos/
+
+    chedais chedās guṇitās sva-aṃśa-yuta-ūnais upari-ga-aṃśās// BSS_12.9'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.10
+  section: section.bss.12
+  ordinal: 10
+  ref_label: '12.10'
+  devanagari: 'त्रैराशिके प्रमाणम् फलम् इच्चा आदि-अन्तयोस् सदृश-राशी ।
+
+    इच्छा फलेन गुणिता प्रमाण-भक्ता फलम् भवति ॥'
+  source_text: 'trairāśike pramāṇam phalam iccā ādi-antayos sadṛśa-rāśī/
+
+    icchā phalena guṇitā pramāṇa-bhaktā phalam bhavati// BSS_12.10'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.11
+  section: section.bss.12
+  ordinal: 11
+  ref_label: '12.11'
+  devanagari: 'व्यस्त-त्रैराशिक-फलम् इच्छा-भक्तस् प्रमाण-फल-घातस् ।
+
+    त्रैराशिक-आदिषु फलम् विषमेषु एकादश-अन्तेषु ॥'
+  source_text: 'vyasta-trairāśika-phalam icchā-bhaktas pramāṇa-phala-ghātas/
+
+    trairāśika-ādiṣu phalam viṣameṣu %ekādaśa-anteṣu// BSS_12.11'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.12
+  section: section.bss.12
+  ordinal: 12
+  ref_label: '12.12'
+  devanagari: 'फल-सङ्क्रमणम् उभय-तस् बहु-राशि-वधस् अल्प-वध-हृतस् ज्ञेयम् ।
+
+    सकलेषु एवम् भिन्नेषु उभय-तस् छेद-सङ्क्रमणम् ॥'
+  source_text: 'phala-saṅkramaṇam ubhaya-tas bahu-rāśi-vadhas alpa-vadha-hṛtas jñeyam/
+
+    sakaleṣu evam bhinneṣu ubhaya-tas cheda-saṅkramaṇam// BSS_12.12'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.13
+  section: section.bss.12
+  ordinal: 13
+  ref_label: '12.13'
+  devanagari: 'प्राक् मूल्य-व्यत्यासस् भाण्डप्रतिभाण्डके अन्यत् उक्त-समम् ।
+
+    परिकर्माणि अष्टानाम् व्यवहाराणाम् अभिहितानि ॥'
+  source_text: 'prāk mūlya-vyatyāsas bhāṇḍapratibhāṇḍake anyat ukta-samam/
+
+    parikarmāṇi %aṣṭānām vyavahārāṇām abhihitāni// BSS_12.13'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.14
+  section: section.bss.12
+  ordinal: 14
+  ref_label: '12.14'
+  devanagari: 'काल-गुणितम् प्रमाणम् फल-भक्तम् वि-एक-गुण-हतम् कालस् ।
+
+    स्व-फल-युत-रूप-भक्तम् मूल-फल-ऐक्यम् भवति मूलम् ॥'
+  source_text: 'kāla-guṇitam pramāṇam phala-bhaktam vi-%eka-guṇa-hatam kālas/
+
+    sva-phala-yuta-#rūpa-bhaktam mūla-phala-aikyam bhavati mūlam// BSS_12.14'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.15
+  section: section.bss.12
+  ordinal: 15
+  ref_label: '12.15'
+  devanagari: 'काल-प्रमाण-घातस् पर-काल-हृतस् द्विधा आद्य-मिश्र-वधात् ।
+
+    अन्य-अर्ध-कृति-युतात् पदम् अन्य-अर्ध-ऊनम् प्रमाण-फलम् ॥'
+  source_text: 'kāla-pramāṇa-ghātas para-kāla-hṛtas dvidhā ādya-miśra-vadhāt/
+
+    anya-%ardha-kṛti-yutāt padam anya-%ardha-ūnam pramāṇa-phalam// BSS_12.15'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.16
+  section: section.bss.12
+  ordinal: 16
+  ref_label: '12.16'
+  devanagari: 'प्रक्षेप-योग-हृतया लब्ध्या प्रक्षेपकास् गुणास् लाभास् ।
+
+    ऊन-अधिक-उत्तरास् तद्-युत-ऊनया स्व-फलम् ऊन-युतम् ॥'
+  source_text: 'prakṣepa-yoga-hṛtayā labdhyā prakṣepakās guṇās lābhās/
+
+    ūna-adhika-uttarās tad-yuta-ūnayā sva-phalam ūna-yutam// BSS_12.16'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.17
+  section: section.bss.12
+  ordinal: 17
+  ref_label: '12.17'
+  devanagari: 'पदम् एक-हीनम् उत्तर-गुणितम् संयुक्तम् आदिना अन्त्य-धनम् ।
+
+    आदि-युत-अन्त्य-धन-अर्धम् मध्य-धनम् पद-गुणम् गणितम् ॥'
+  source_text: 'padam %eka-hīnam uttara-guṇitam saṃyuktam ādinā antya-dhanam/
+
+    ādi-yuta-antya-dhana-%ardham madhya-dhanam pada-guṇam gaṇitam// BSS_12.17'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.18
+  section: section.bss.12
+  ordinal: 18
+  ref_label: '12.18'
+  devanagari: 'उत्तर-हीन-द्वि-गुण-आदि-शेष-वर्गम् धन-उत्तर-अष्ट-वधे ।
+
+    प्रक्षिप्य पदम् शेष-ऊनम् द्वि-गुण-उत्तर-हृतम् गच्छस् ॥'
+  source_text: 'uttara-hīna-%dvi-guṇa-ādi-śeṣa-vargam dhana-uttara-%aṣṭa-vadhe/
+
+    prakṣipya padam śeṣa-ūnam %dvi-guṇa-uttara-hṛtam gacchas// BSS_12.18'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.19
+  section: section.bss.12
+  ordinal: 19
+  ref_label: '12.19'
+  devanagari: 'एक-उत्तरम् एक-आद्यम् यदि इष्ट-गच्छस्य भवति सङ्कलितम् ।
+
+    तत् द्वि-युत-गच्छ-गुणितम् त्रि-हृतम् सङ्कलित-सङ्कलितम् ॥'
+  source_text: '%eka-uttaram %eka-ādyam yadi iṣṭa-gacchasya bhavati saṅkalitam/
+
+    tat %dvi-yuta-gaccha-guṇitam %tri-hṛtam saṅkalita-saṅkalitam// BSS_12.19'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.20
+  section: section.bss.12
+  ordinal: 20
+  ref_label: '12.20'
+  devanagari: 'द्वि-गुण-पद-स-एक-गुणितम् तत् त्रि-हृतम् भवति वर्ग-सङ्कलितम् ।
+
+    घन-सङ्कलितम् तद्-कृतिस् एषाम् सम-गोलकैस् चितयस् ॥'
+  source_text: '%dvi-guṇa-pada-sa-%eka-guṇitam tat %tri-hṛtam bhavati varga-saṅkalitam/
+
+    ghana-saṅkalitam tad-kṛtis eṣām sama-golakais citayas// BSS_12.20'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.21
+  section: section.bss.12
+  ordinal: 21
+  ref_label: '12.21'
+  devanagari: 'स्थूल-फलम् त्रि-चतुर्-भुज-बाहु-प्रतिबाहु-योग-दल-घातस् ।
+
+    भुज-योग-अर्ध-चतुष्टय-भुज-ऊन-घातात् पदम् सूक्ष्मम् ॥'
+  source_text: 'sthūla-phalam %tri-%catur-bhuja-bāhu-pratibāhu-yoga-#dala-ghātas/
+
+    bhuja-yoga-%ardha-%catuṣṭaya-bhuja-ūna-ghātāt padam sūkṣmam// BSS_12.21'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.22
+  section: section.bss.12
+  ordinal: 22
+  ref_label: '12.22'
+  devanagari: 'भुज-कृति-अन्तर-भू-हृत-हीन-युता भूस् द्वि-भाजिता आवाधे ।
+
+    स्व-आवाधा-वर्ग-ऊनात् भुज-वर्गात् मूलम् अवलम्बस् ॥'
+  source_text: 'bhuja-kṛti-antara-bhū-hṛta-hīna-yutā bhūs %dvi-bhājitā āvādhe/
+
+    sva-āvādhā-varga-ūnāt bhuja-vargāt mūlam avalambas// BSS_12.22'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.23
+  section: section.bss.12
+  ordinal: 23
+  ref_label: '12.23'
+  devanagari: 'अविषम-चतुर्-अस्र-भुज-प्रतिभुज-वधयोस् युतेस् पदम् कर्णस् ।
+
+    कर्ण-कृतिस् भू-मुख-युति-दल-वर्ग-ऊना पदम् लम्बस् ॥'
+  source_text: 'aviṣama-%catur-asra-bhuja--pratibhuja-vadhayos yutes padam karṇas/
+
+    karṇa-kṛtis bhū-mukha-yuti-#dala-varga-ūnā padam lambas// BSS_12.23'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.24
+  section: section.bss.12
+  ordinal: 24
+  ref_label: '12.24'
+  devanagari: 'कर्ण-कृतेस् कोटि-कृतिम् विशोध्य मूलम् भुजस् भुजस्य कृतिम् ।
+
+    प्रोह्य पदम् कोटिस् कोटि-बाहु-कृति-युति-पदम् कर्णस् ॥'
+  source_text: 'karṇa-kṛtes koṭi-kṛtim viśodhya mūlam bhujas bhujasya kṛtim/
+
+    prohya padam koṭis koṭi-bāhu-kṛti-yuti-padam karṇas//  BSS_12.24'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.25
+  section: section.bss.12
+  ordinal: 25
+  ref_label: '12.25'
+  devanagari: 'कर्ण-युतौ ऊर्ध्व-अधर-खण्डे कर्ण-अवलम्ब-योगे वा ।
+
+    स्व-आवाधे स्व-युति-हृते द्विधा पृथक् कर्ण-लम्ब-गुणे ॥'
+  source_text: 'karṇa-yutau ūrdhva-adhara-khaṇḍe karṇa-avalamba-yoge vā/
+
+    sva-āvādhe sva-yuti-hṛte dvidhā pṛthak karṇa-lamba-guṇe// BSS_12.25'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.26
+  section: section.bss.12
+  ordinal: 26
+  ref_label: '12.26'
+  devanagari: 'अविषम-पार्श्व-भुज-गुणस् कर्णस् द्वि-गुण-अवलम्बक-विभक्तस् ।
+
+    हृदयम् विषमस्य भुज-प्रतिभुज-कृति-योग-मूल-अर्धम् ॥'
+  source_text: 'aviṣama-pārśva-bhuja-guṇas karṇas %dvi-guṇa-avalambaka-vibhaktas/
+
+    hṛdayam viṣamasya bhuja-pratibhuja-kṛti-yoga-mūla-%ardham// BSS_12.26'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.27
+  section: section.bss.12
+  ordinal: 27
+  ref_label: '12.27'
+  devanagari: 'त्रि-भुजस्य वधस् भुजयोस् द्वि-गुणित-लम्ब-उद्धृतस् हृदय-रज्जुस् ।
+
+    सा द्वि-गुणा त्रि-चतुर्-भुज-कोण-स्पृक् वृत्त-विष्कम्भस् ॥'
+  source_text: '%tri-bhujasya vadhas bhujayos %dvi-guṇita-lamba-uddhṛtas hṛdaya-rajjus/
+
+    sā %dvi-guṇā %tri-%catur-bhuja-koṇa-spṛk vṛtta-viṣkambhas// BSS_12.27'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.28
+  section: section.bss.12
+  ordinal: 28
+  ref_label: '12.28'
+  devanagari: 'कर्ण-आश्रित-भुज-घात-ऐक्यम् उभयथा अन्योन्य-भाजितम् गुणयेत् ।
+
+    योगेन भुज-प्रतिभुज-वधयोस् कर्णौ पदे विषमे ॥'
+  source_text: 'karṇa-āśrita-bhuja-ghāta-aikyam ubhayathā anyonya-bhājitam guṇayet/
+
+    yogena bhuja-pratibhuja-vadhayos karṇau pade viṣame// BSS_12.28'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.29
+  section: section.bss.12
+  ordinal: 29
+  ref_label: '12.29'
+  devanagari: 'विषम-चतुर्-अस्र-मध्ये विषम-त्रि-भुज-द्वयम् प्रकल्प्य पृथक् ।
+
+    कर्ण-द्वयेन पूर्व-वत् आवाधे लम्बकौ च पृथक् ॥'
+  source_text: 'viṣama-%catur-asra-madhye viṣama-%tri-bhuja-%dvayam prakalpya pṛthak/
+
+    karṇa-%dvayena pūrva-vat āvādhe lambakau ca pṛthak// BSS_12.29'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.30
+  section: section.bss.12
+  ordinal: 30
+  ref_label: '12.30'
+  devanagari: 'विषम-भुज-अन्तर्-त्रि-भुजे प्रकल्प्य कर्णौ भुजौ तद्-आवाधे ।
+
+    पृथक् ऊर्ध्व-अधर-खण्डे कर्ण-युतौ कर्णयोस् अधरे ॥'
+  source_text: 'viṣama-bhuja-antar-%tri-bhuje prakalpya karṇau bhujau tad-āvādhe/
+
+    pṛthak ūrdhva-adhara-khaṇḍe karṇa-yutau karṇayos adhare// BSS_12.30'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.31
+  section: section.bss.12
+  ordinal: 31
+  ref_label: '12.31'
+  devanagari: 'त्रि-भ्जे भुजौ तु भूमिस् तद्-लम्बस् लम्बक-अधरम् खण्डम् ।
+
+    ऊर्ध्वम् अवलम्ब-खण्डम् लम्बक-योग-अर्धम् अधर-ऊनम् ॥'
+  source_text: '%tri-bhje bhujau tu bhūmis tad-lambas lambaka-adharam khaṇḍam/
+
+    ūrdhvam avalamba-khaṇḍam lambaka-yoga-%ardham adhara-ūnam// BSS_12.31'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.32
+  section: section.bss.12
+  ordinal: 32
+  ref_label: '12.32'
+  devanagari: 'कर्ण-अवलम्बक-युतौ खण्डे कर्ण-अवलम्बकयोस् अधरे ।
+
+    अनुपातेन तद्-ऊने ऊर्ध्वे सूच्याम् स-पाटायाम् ॥'
+  source_text: 'karṇa-avalambaka-yutau khaṇḍe karṇa-avalambakayos adhare/
+
+    anupātena tad-ūne ūrdhve sūcyām sa-pāṭāyām// BSS_12.32'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.33
+  section: section.bss.12
+  ordinal: 33
+  ref_label: '12.33'
+  devanagari: 'कृति-युतिस् असदृश-राश्योस् बाहुस् घातस् द्वि-सङ्गुणस् लम्बस् ।
+
+    कृति-अन्तरम् असदृशयोस् द्वि-गुणम् द्वि-सम-त्रि-भुज-भूमिस् ॥'
+  source_text: 'kṛti-yutis asadṛśa-rāśyos bāhus ghātas %dvi-saṅguṇas lambas/
+
+    kṛti-antaram asadṛśayos %dvi-guṇam %dvi-sama-%tri-bhuja-bhūmis// BSS_12.33'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.34
+  section: section.bss.12
+  ordinal: 34
+  ref_label: '12.34'
+  devanagari: 'इष्ट-द्वयेन भक्तस् द्विधा इष्ट-वर्गस् फल-इष्ट-योग-अर्धे ।
+
+    विषम-त्रि-भुजस्य भुजौ इष्ट-ऊन-फल-अर्ध-योगस् भूस् ॥'
+  source_text: 'iṣṭa-%dvayena bhaktas dvidhā iṣṭa-vargas phala-iṣṭa-yoga-%ardhe/
+
+    viṣama-%tri-bhujasya bhujau iṣṭa-ūna-phala-%ardha-yogas bhūs// BSS_12.34'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.35
+  section: section.bss.12
+  ordinal: 35
+  ref_label: '12.35'
+  devanagari: 'इष्टस्य भुजस्य कृतिस् भक्ता ऊना इष्टेन तद्-दलम् कोटिस् ।
+
+    आयत-चतुर्-अस्रस्य क्षेत्रस्य इष्ट-अधिका कर्णस् ॥'
+  source_text: 'iṣṭasya bhujasya kṛtis bhaktā ūnā iṣṭena tad-#dalam koṭis/
+
+    āyata-%catur-asrasya kṣetrasya iṣṭa-adhikā karṇas// BSS_12.35'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.36
+  section: section.bss.12
+  ordinal: 36
+  ref_label: '12.36'
+  devanagari: 'आयत-कर्णस् बाहू भुज-कृतिस् इष्टेन भाजिता इष्ट-ऊना ।
+
+    द्वि-हृता कोटि-अधिका भूस् मुखम् ऊना द्वि-सम-चतुर्-अस्रे ॥'
+  source_text: 'āyata-karṇas bāhū bhuja-kṛtis iṣṭena bhājitā iṣṭa-ūnā/
+
+    %dvi-hṛtā koṭi-adhikā bhūs mukham ūnā %dvi-sama-%catur-asre// BSS_12.36'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.37
+  section: section.bss.12
+  ordinal: 37
+  ref_label: '12.37'
+  devanagari: 'कर्ण-कृतिस् त्रि-सम-ह्बुजास् त्रयस् चतुर्थस् विशोध्य कोटि-कृतिम् ।
+
+    बाहु-कृतेस् त्रि-गुणायास् यदि अधिकस् भूस् मुखम् हीनस् ॥'
+  source_text: 'karṇa-kṛtis %tri-sama-hbujās %trayas %caturthas viśodhya koṭi-kṛtim/
+
+    bāhu-kṛtes %tri-guṇāyās yadi adhikas bhūs mukham hīnas// BSS_12.37'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.38
+  section: section.bss.12
+  ordinal: 38
+  ref_label: '12.38'
+  devanagari: 'जात्य-द्वय-कोटि-भुजास् पर-कर्ण-गुणास् भुजास् चतुर्-विषमे ।
+
+    अधिकस् भूस् मुख-हीनस् बाहु-द्वितयम् भुजौ अन्यौ ॥'
+  source_text: 'jātya-%dvaya-koṭi-bhujās para-karṇa-guṇās bhujās %catur-viṣame/
+
+    adhikas bhūs mukha-hīnas bāhu-%dvitayam bhujau anyau// BSS_12.38'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.39
+  section: section.bss.12
+  ordinal: 39
+  ref_label: '12.39'
+  devanagari: 'इष्ट-गुण-कार-गुणितस् गिरि-उच्छ्रायस् पुर-अन्तरम् अनष्टम् ।
+
+    द्वि-युत-गुण-कार-भाजितम् उत्पातस् अन्यस्य सम-गत्योस् ॥'
+  source_text: 'iṣṭa-guṇa-kāra-guṇitas giri-ucchrāyas pura-antaram anaṣṭam/
+
+    %dvi-yuta-guṇa-kāra-bhājitam utpātas anyasya sama-gatyos// BSS_12.39'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.40
+  section: section.bss.12
+  ordinal: 40
+  ref_label: '12.40'
+  devanagari: 'व्यास-व्यास-अर्ध-कृती परिधि-फले व्यावहारिके त्रि-गुणे ।
+
+    तद्-वर्गाभ्याम् दशभिस् सङ्गुणिताभ्याम् पदे सूक्ष्मे ॥'
+  source_text: 'vyāsa-vyāsa-%ardha-kṛtī paridhi-phale vyāvahārike %tri-guṇe/
+
+    tad-vargābhyām %daśabhis saṅguṇitābhyām pade sūkṣme// BSS_12.40'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.41
+  section: section.bss.12
+  ordinal: 41
+  ref_label: '12.41'
+  devanagari: 'वृत्ते शर-ऊन-गुणितात् व्यासात् चतुर्-आहतात् पदम् जीवा ।
+
+    ज्या-वर्गस् चतुर्-आहत-शर-भक्तस् शर-युतस् व्यासस् ॥'
+  source_text: 'vṛtte śara-ūna-guṇitāt vyāsāt %catur-āhatāt padam jīvā/
+
+    jyā-vargas %catur-āhata-śara-bhaktas śara-yutas vyāsas// BSS_12.41'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.42
+  section: section.bss.12
+  ordinal: 42
+  ref_label: '12.42'
+  devanagari: 'ज्या-व्यास-कृति-विशेषात् मूल-व्यास-अन्तर-अर्धम् इषुस् अल्पस् ।
+
+    व्यासौ ग्रास-ऊन-गुणौ ग्रास-ऊन-ऐक्य-उद्धृतौ बाणौ ॥'
+  source_text: 'jyā-vyāsa-kṛti-viśeṣāt mūla-vyāsa-antara-%ardham iṣus alpas/
+
+    vyāsau grāsa-ūna-guṇau grāsa-ūna-aikya-uddhṛtau bāṇau// BSS_12.42'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.43
+  section: section.bss.12
+  ordinal: 43
+  ref_label: '12.43'
+  devanagari: 'इष्ट-शर-द्वय-भक्ते ज्या-अर्ध-कृती शर-युते फले व्यासौ ।
+
+    शरयोस् फलयोस् ऐक्यम् ग्रासस् ग्रास-ऊनम् ऐक्यम् तत् ॥'
+  source_text: 'iṣṭa-śara-%dvaya-bhakte jyā-%ardha-kṛtī śara-yute phale vyāsau/
+
+    śarayos phalayos aikyam grāsas grāsa-ūnam aikyam tat// BSS_12.43'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.44
+  section: section.bss.12
+  ordinal: 44
+  ref_label: '12.44'
+  devanagari: 'क्षेत्र-फलम् वेध-गुणम् सम-खात-फलम् हृतम् त्रिभिस् सूच्यास् ।
+
+    मुख-तल-तुल्य-भुज-ऐक्यानि एक-अग्र-हृतानि सम-रज्जुस् ॥'
+  source_text: 'kṣetra-phalam vedha-guṇam sama-khāta-phalam hṛtam %tribhis sūcyās/
+
+    mukha-tala-tulya-bhuja-aikyāni %eka-agra-hṛtāni sama-rajjus// BSS_12.44'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.45
+  section: section.bss.12
+  ordinal: 45
+  ref_label: '12.45'
+  devanagari: 'मुख-तल-युति-दल-गणितम् वेध-गुणम् व्यावहारिकम् गणितम् ।
+
+    मुख-तल-गणित-ऐक्य-अर्धम् वेध-गुणम् स्यात् गणितम् औत्रम् ॥'
+  source_text: 'mukha-tala-yuti-#dala-gaṇitam vedha-guṇam vyāvahārikam gaṇitam/
+
+    mukha-tala-gaṇita-aikya-%ardham vedha-guṇam syāt gaṇitam autram// BSS_12.45'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.46
+  section: section.bss.12
+  ordinal: 46
+  ref_label: '12.46'
+  devanagari: 'औत्र-गणितात् विशोध्य व्यवहार-फलम् भजेत् त्रिभिस् शेषम् ।
+
+    लब्धम् व्यवहार-फले प्रक्षिप्य भवति फलम् सूक्ष्मम् ॥'
+  source_text: 'autra-gaṇitāt viśodhya vyavahāra-phalam bhajet %tribhis śeṣam/
+
+    labdham vyavahāra-phale prakṣipya bhavati phalam sūkṣmam// BSS_12.46'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.47
+  section: section.bss.12
+  ordinal: 47
+  ref_label: '12.47'
+  devanagari: 'आकृति-फलम् औच्च्य-आहतम् अग्र-तल-ऐक्य-अर्धम् औच्च्य-दैर्घ्य-गुणम् ।
+
+    घन-गणितम् इष्टका-घन-फलेन हृतम् इष्टका-गणितम् ॥'
+  source_text: 'ākṛti-phalam auccya-āhatam agra-tala-aikya-%ardham auccya-dairghya-guṇam/
+
+    ghana-gaṇitam iṣṭakā-ghana-phalena hṛtam iṣṭakā-gaṇitam// BSS_12.47'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.48
+  section: section.bss.12
+  ordinal: 48
+  ref_label: '12.48'
+  devanagari: 'विस्तार-आयाम-अङ्गुल-घातस् मार्ग-आहतस् द्वि-वेद-हृतस् ।
+
+    किष्कु-अङ्गुलानि लब्धम् तत् षण्णवतिस् भवति कर्म ॥'
+  source_text: 'vistāra-āyāma-aṅgula-ghātas mārga-āhatas %dvi-#veda-hṛtas/
+
+    kiṣku-aṅgulāni labdham tat %ṣaṇṇavatis bhavati karma// BSS_12.48'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.49
+  section: section.bss.12
+  ordinal: 49
+  ref_label: '12.49'
+  devanagari: 'शाका-आदिषु शाल्मल्याम् शत-द्वयम् बीजके शतम् विंशम् ।
+
+    शाल-सरल-आदिषु शतम् अथ अवि-दारुषु चतुःषष्टिस् ।'
+  source_text: 'śākā-ādiṣu śālmalyām %śata-%dvayam bījake %śatam %viṃśam/
+
+    śāla-sarala-ādiṣu %śatam atha avi-dāruṣu %catuḥṣaṣṭis/ BSS_12.49'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.50
+  section: section.bss.12
+  ordinal: 50
+  ref_label: '12.50'
+  devanagari: 'नवमस् शूकिषु दशमस् स्थूलेषु एकादशस् भवति अणुषु ।
+
+    परिधेस् वेधस् परिधेस् षष्-अंश-वर्ग-आहतस् गणितम् ॥'
+  source_text: '%navamas śūkiṣu %daśamas sthūleṣu %ekādaśas bhavati aṇuṣu/
+
+    paridhes vedhas paridhes %ṣaṣ-aṃśa-varga-āhatas gaṇitam// BSS_12.50'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.51
+  section: section.bss.12
+  ordinal: 51
+  ref_label: '12.51'
+  devanagari: 'द्वि-चतुर्-स-त्रि-अंश-गुणस् भित्ति-अन्तर्-वाह्य-कोण-गस् परिधिस् ।
+
+    प्राक्-वत् कृत्वा गणितम् तद्-गणितम् स्व-गुण-कार-हृतम् ॥'
+  source_text: '%dvi-%catur-sa-%tri-aṃśa-guṇas bhitti-antar-vāhya-koṇa-gas paridhis/
+
+    prāk-vat kṛtvā gaṇitam tad-gaṇitam sva-guṇa-kāra-hṛtam// BSS_12.51'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.52
+  section: section.bss.12
+  ordinal: 52
+  ref_label: '12.52'
+  devanagari: 'छाया-नर-स-एक-हृतम् द्यु-दलम् प्राक्-अपरयोस् द्यु-गत-शेषम् ।
+
+    दिन-गत-शेष-अंश-हृतम् द्यु-दलम् छाया-नर-वि-एकम् ॥'
+  source_text: 'chāyā-nara-sa-%eka-hṛtam dyu-#dalam prāk-aparayos dyu-gata-śeṣam/
+
+    dina-gata-śeṣa-aṃśa-hṛtam dyu-#dalam chāyā-nara-vi-%ekam// BSS_12.52'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.53
+  section: section.bss.12
+  ordinal: 53
+  ref_label: '12.53'
+  devanagari: 'दीप-तल-शङ्कु-तलयोस् अन्तरम् इष्ट-प्रमाण-शङ्कु-गुणम् ।
+
+    दीप-शिख-औच्च्यात् शङ्कुम् विशोध्य शेष-उद्धृतम् छाया ॥'
+  source_text: 'dīpa-tala-śaṅku-talayos antaram iṣṭa-pramāṇa-śaṅku-guṇam/
+
+    dīpa-śikha-auccyāt śaṅkum viśodhya śeṣa-uddhṛtam chāyā// BSS_12.53'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.54
+  section: section.bss.12
+  ordinal: 54
+  ref_label: '12.54'
+  devanagari: 'छाया-अग्र-अन्तर-गुणिता छाया छाया-अन्तरेण भक्ता भूस् ।
+
+    भूस् शङ्कु-गुणा छाया-विभाजिता दीप-शिखया औच्च्यम् ॥'
+  source_text: 'chāyā-agra-antara-guṇitā chāyā chāyā-antareṇa bhaktā bhūs/
+
+    bhūs śaṅku-guṇā chāyā-vibhājitā dīpa-śikhayā auccyam// BSS_12.54'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.55
+  section: section.bss.12
+  ordinal: 55
+  ref_label: '12.55'
+  devanagari: 'गुण-कार-खण्ड-तुल्यस् गुण्यस् गो-मूत्रिका-कृतस् गुणितस् ।
+
+    सहितस् प्रत्युत्पन्नस् गुण-कारक-भेद-तुल्यस् वा ॥'
+  source_text: 'guṇa-kāra-khaṇḍa-tulyas guṇyas go-mūtrikā-kṛtas guṇitas/
+
+    sahitas pratyutpannas guṇa-kāraka-bheda-tulyas vā// BSS_12.55'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.56
+  section: section.bss.12
+  ordinal: 56
+  ref_label: '12.56'
+  devanagari: 'गुण्यस् राशिस् गुण-कार-राशिना इष्ट-अधिक-ऊनकेन गुणस् ।
+
+    गुण्य-इष्ट-वध-ऊन-युतस् गुणके अभ्यधिक-ऊनके कार्यस् ॥'
+  source_text: 'guṇyas rāśis guṇa-kāra-rāśinā iṣṭa-adhika-ūnakena guṇas/
+
+    guṇya-iṣṭa-vadha-ūna-yutas guṇake abhyadhika-ūnake kāryas// BSS_12.56'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.57
+  section: section.bss.12
+  ordinal: 57
+  ref_label: '12.57'
+  devanagari: 'छेदेन इष्ट-युत-ऊनेन आप्तम् भाज्यात् अनष्टम् इष्ट-गुणम् ।
+
+    प्रकृति-स्थ-छेद-हृतम् लब्ध्या युत-हीनकम् अनष्टम् ॥'
+  source_text: 'chedena iṣṭa-yuta-ūnena āptam bhājyāt anaṣṭam iṣṭa-guṇam/
+
+    prakṛti-stha-cheda-hṛtam labdhyā yuta-hīnakam anaṣṭam// BSS_12.57'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.58
+  section: section.bss.12
+  ordinal: 58
+  ref_label: '12.58'
+  devanagari: 'गुण्यस् छेद-फल-वधस् गुणक-हृतस् गुण्य-भाजितस् गुणकस् ।
+
+    छेद-उद्धृतस् फलम् गुण्य-गुण-वधस् फल-हृतस् छेदस् ॥'
+  source_text: 'guṇyas cheda-phala-vadhas guṇaka-hṛtas guṇya-bhājitas guṇakas/
+
+    cheda-uddhṛtas phalam guṇya-guṇa-vadhas phala-hṛtas chedas// BSS_12.58'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.59
+  section: section.bss.12
+  ordinal: 59
+  ref_label: '12.59'
+  devanagari: 'गुण्य-गुण-कारयोस् छेद-लब्धयोस् यदि द्वयोस् द्वयोस् नाशस् ।
+
+    तेषाम् दृश्यौ व्यस्तौ कृत्वा तद्-स्थानयोस् च इष्टौ ॥'
+  source_text: 'guṇya-guṇa-kārayos cheda-labdhayos yadi %dvayos %dvayos nāśas/
+
+    teṣām dṛśyau vyastau kṛtvā tad-sthānayos ca iṣṭau// BSS_12.59'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.60
+  section: section.bss.12
+  ordinal: 60
+  ref_label: '12.60'
+  devanagari: 'गुण्यम् गुण-कारम् वा गुणयेत् छेदेन भाग-हारस्य ।
+
+    गुण्य-गुण-कार-राश्योस् छेद-गुणस् भाग-हारस् च ॥'
+  source_text: 'guṇyam guṇa-kāram vā guṇayet chedena bhāga-hārasya/
+
+    guṇya-guṇa-kāra-rāśyos cheda-guṇas bhāga-hāras ca// BSS_12.60'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.61
+  section: section.bss.12
+  ordinal: 61
+  ref_label: '12.61'
+  devanagari: 'अच्छेदस्य छेदम् रूपम् कृत्वा अन्यत् उक्त-वत् सर्वम् ।
+
+    अपवर्त्यौ छेद-गुणौ तुल्येन इष्टेन गुण्यौ वा ॥'
+  source_text: 'acchedasya chedam #rūpam kṛtvā anyat ukta-vat sarvam/
+
+    apavartyau cheda-guṇau tulyena iṣṭena guṇyau vā// BSS_12.61'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.62
+  section: section.bss.12
+  ordinal: 62
+  ref_label: '12.62'
+  devanagari: 'स्व-विकल-षष्टि-अंश-गुणस् सकलस् त्रिंश-उद्धृतस् विकल-वर्गस् ।
+
+    प्रक्षेप्यस् सकल-कृतौ वर्ग-घनौ द्वि-त्रि-तुल्य-वधौ ॥'
+  source_text: 'sva-vikala-%ṣaṣṭi-aṃśa-guṇas sakalas %triṃśa-uddhṛtas vikala-vargas/
+
+    prakṣepyas sakala-kṛtau varga-ghanau %dvi-%tri-tulya-vadhau// BSS_12.62'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.63
+  section: section.bss.12
+  ordinal: 63
+  ref_label: '12.63'
+  devanagari: 'राशेस् ऊनम् द्वि-गुणम् बहुतर-गुणम् ऊन-कृति-युतम् वर्गस् ।
+
+    राशेस् इष्ट-युत-ऊनात् वधस् कृतिस् वा इष्ट-कृति-युक्तस् ॥'
+  source_text: 'rāśes ūnam %dvi-guṇam bahutara-guṇam ūna-kṛti-yutam vargas/
+
+    rāśes iṣṭa-yuta-ūnāt vadhas kṛtis vā iṣṭa-kṛti-yuktas// BSS_12.63'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.64
+  section: section.bss.12
+  ordinal: 64
+  ref_label: '12.64'
+  devanagari: 'इष्ट-अल्प-राशि-वर्गौ युक्त-ऊनौ इतर-विकल-वर्गाभ्याम् ।
+
+    द्वि-गुण-इतर-राशिभ्याम् भक्तौ तेन अधिक-ऊनाभ्याम् ॥'
+  source_text: 'iṣṭa-alpa-rāśi-vargau yukta-ūnau itara-vikala-vargābhyām/
+
+    %dvi-guṇa-itara-rāśibhyām bhaktau tena adhika-ūnābhyām// BSS_12.64'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.65
+  section: section.bss.12
+  ordinal: 65
+  ref_label: '12.65'
+  devanagari: 'स्थान-अन्तरेषु लब्धम् येन समम् फल-युत-ऊनक-छेदस् ।
+
+    दलितस् कृति-योग-अन्तर-पदम् इतरस् वा फल-युत-ऊनस् ॥'
+  source_text: 'sthāna-antareṣu labdham yena samam phala-yuta-ūnaka-chedas/
+
+    dalitas kṛti-yoga-antara-padam itaras vā phala-yuta-ūnas// BSS_12.65'
+  source: source.gretil-bss
+  review: unreviewed
+- id: verse.bss.12.66
+  section: section.bss.12
+  ordinal: 66
+  ref_label: '12.66'
+  devanagari: 'दिक्-मात्रम् एतत् अन्यत् ज्या-उत्पत्तौ कुट्टके च कथयिष्ये ।
+
+    सङ्कलित-आदिषु आर्यास् षट्षष्टिस् द्वादशस् अध्यायस् ॥
+
+    इति श्री-ब्राह्म-स्फुट-सिद्धान्ते द्वादशस् अध्यायस् ॥ ॥'
+  source_text: 'dik-mātram etat anyat jyā-utpattau kuṭṭake ca kathayiṣye/
+
+    saṅkalita-ādiṣu āryās %ṣaṭṣaṣṭis %dvādaśas adhyāyas//
+
+    iti śrī-brāhma-sphuṭa-siddhānte %dvādaśas adhyāyas//12// BSS_12.66'
+  source: source.gretil-bss
+  review: unreviewed

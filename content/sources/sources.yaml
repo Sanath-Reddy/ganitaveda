@@ -1,0 +1,105 @@
+# Every source, translator, licence and video channel shown on the
+# "Sources and licences" screen (plan §9.3). Ids are permanent.
+licences:
+  - id: licence.cc-by-nc-sa-4
+    name: Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+    url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+    commercial_use: false
+    share_alike: true
+  - id: licence.public-domain
+    name: Public domain
+    url: https://creativecommons.org/publicdomain/mark/1.0/
+    commercial_use: true
+    share_alike: false
+  - id: licence.public-domain-unconfirmed
+    name: Public domain (to be confirmed by the library before release)
+    url: https://creativecommons.org/publicdomain/mark/1.0/
+    commercial_use: true
+    share_alike: false
+  - id: licence.link-only
+    name: Linked, not copied (the video stays on its owner's channel)
+    url: https://www.youtube.com/t/terms
+    commercial_use: false
+    share_alike: false
+  - id: licence.ofl-1-1
+    name: SIL Open Font License 1.1
+    url: https://openfontlicense.org
+    commercial_use: true
+    share_alike: false
+  - id: licence.cited
+    name: Cited for reference only (rights reserved by the publisher)
+    url: https://en.wikipedia.org/wiki/Fair_dealing
+    commercial_use: false
+    share_alike: false
+
+sources:
+  - id: source.gretil-lilavati
+    kind: text
+    citation: "Bhāskara, Līlāvatī. E-text by Takao Hayashi (1993) from the editions of V. G. Āpaṭe (Poona, 1937) and K. V. Sarma (Hoshiarpur, 1975). GRETIL, SUB Göttingen, version of 2020-07-31."
+    url: http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_bhAskara-lIlAvatI.xml
+    licence: licence.cc-by-nc-sa-4
+    attribution: "Sanskrit text: Takao Hayashi, via GRETIL (Göttingen Register of Electronic Texts in Indian Languages), CC BY-NC-SA 4.0. Shown in Devanagari, Kannada script and IAST without sandhi, as in the e-text."
+  - id: source.gretil-bss
+    kind: text
+    citation: "Brahmagupta, Brāhmasphuṭasiddhānta, chapters 12 and 18–21. E-text by Takao Hayashi (1993) from S. Dvivedin's edition (Benares, 1902). GRETIL, SUB Göttingen, version of 2020-07-31."
+    url: http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_brahmagupta-brAhmasphuTasiddhAnta.xml
+    licence: licence.cc-by-nc-sa-4
+    attribution: "Sanskrit text: Takao Hayashi, via GRETIL, CC BY-NC-SA 4.0."
+  - id: source.gretil-aryabhatiya
+    kind: text
+    citation: "Āryabhaṭa, Āryabhaṭīya with the commentary of Bhāskara I and Someśvara, ed. K. S. Shukla (New Delhi: INSA, 1976). E-text by Danielle Feller (2001). GRETIL, SUB Göttingen, version of 2020-07-31."
+    url: http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_AryabhaTa-AryabhaTIya-comm.xml
+    licence: licence.cc-by-nc-sa-4
+    attribution: "Sanskrit text: Danielle Feller, via GRETIL, CC BY-NC-SA 4.0. Root verses only."
+  - id: source.colebrooke-1817
+    kind: translation
+    citation: "H. T. Colebrooke, Algebra, with Arithmetic and Mensuration, from the Sanscrit of Brahmegupta and Bháscara (London: John Murray, 1817). University of Toronto copy, Internet Archive."
+    url: https://archive.org/details/algebrawitharith00brahuoft
+    licence: licence.public-domain
+  - id: source.taylor-1816
+    kind: translation
+    citation: "John Taylor, Lilawati, or a Treatise on Arithmetic and Geometry by Bhascara Acharya (Bombay: Courier Press, 1816). Google Books scan."
+    url: https://books.google.com/books?id=0KMIAAAAQAAJ
+    licence: licence.public-domain
+  - id: source.clark-1930
+    kind: translation
+    citation: "W. E. Clark, The Āryabhaṭīya of Āryabhaṭa: An Ancient Indian Work on Mathematics and Astronomy (Chicago: University of Chicago Press, 1930). Internet Archive."
+    url: https://archive.org/details/TheAryabhatiyaOfAryabhata
+    licence: licence.public-domain-unconfirmed
+  - id: source.plofker-2009
+    kind: scholarship
+    citation: "Kim Plofker, Mathematics in India (Princeton: Princeton University Press, 2009)."
+    licence: licence.cited
+  - id: source.sarma-1972
+    kind: scholarship
+    citation: "K. V. Sarma, A History of the Kerala School of Hindu Astronomy (Hoshiarpur: Vishveshvaranand Institute, 1972)."
+    licence: licence.cited
+  - id: source.datta-singh-1935
+    kind: scholarship
+    citation: "B. Datta and A. N. Singh, History of Hindu Mathematics: A Source Book, 2 vols. (Lahore: Motilal Banarsi Das, 1935–1938)."
+    licence: licence.cited
+  - id: source.ncert-books
+    kind: curriculum
+    citation: "NCERT mathematics textbooks: Ganita Prakash (Grades 6–8), Ganita Manjari (Grade 9), Mathematics (Grades 10–11). New Delhi: NCERT."
+    url: https://ncert.nic.in/textbook.php
+    licence: licence.cited
+  - id: source.nptel-111101080
+    kind: media
+    citation: "K. Ramasubramanian, M. D. Srinivas and M. S. Sriram, Mathematics in India: From Vedic Period to Modern Times (NPTEL course 111101080)."
+    url: https://nptel.ac.in/courses/111101080
+    licence: licence.link-only
+  - id: source.iitgn-homi
+    kind: media
+    citation: "History of Mathematics in India (HoMI), IIT Gandhinagar, video series."
+    url: https://sites.iitgn.ac.in/homi/homisvideo_series.php
+    licence: licence.link-only
+  - id: source.fonts-tiro
+    kind: font
+    citation: "Tiro Devanagari Sanskrit and Tiro Kannada, Tiro Typeworks, via Google Fonts."
+    url: https://fonts.google.com/specimen/Tiro+Devanagari+Sanskrit
+    licence: licence.ofl-1-1
+  - id: source.fonts-anek
+    kind: font
+    citation: "Anek Latin and Anek Kannada, Ek Type, via Google Fonts."
+    url: https://fonts.google.com/specimen/Anek+Kannada
+    licence: licence.ofl-1-1

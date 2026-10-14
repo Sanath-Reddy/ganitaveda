@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "common.schema.json",
+  "$defs": {
+    "id": {"type": "string", "pattern": "^[a-z][a-z0-9]*(\\.[a-z0-9][a-z0-9_-]*)+$"},
+    "ltext": {
+      "type": "object",
+      "properties": {"en": {"type": "string", "minLength": 1}, "kn": {"type": "string", "minLength": 1}},
+      "required": ["en"],
+      "additionalProperties": false
+    },
+    "review": {"enum": ["unreviewed", "draft", "approved"]},
+    "year": {"type": "integer", "minimum": -3000, "maximum": 2100},
+    "citation": {
+      "type": "object",
+      "properties": {"source": {"$ref": "#/$defs/id"}, "note": {"type": "string"}},
+      "required": ["source"],
+      "additionalProperties": false
+    },
+    "claims": {
+      "description": "Field name -> sources backing the historical statement in that field (plan §5.7).",
+      "type": "object",
+      "additionalProperties": {"type": "array", "items": {"$ref": "#/$defs/citation"}, "minItems": 1}
+    }
+  }
+}

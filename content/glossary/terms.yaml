@@ -1,0 +1,212 @@
+# Sanskrit technical terms (shown highlighted on verse cards and searchable in
+# every script; Devanagari and Kannada are generated from the IAST) and the
+# glossary of archaic English words, units and coins in the old translations.
+terms:
+  - id: term.ishta-karma
+    iast: iṣṭa-karma
+    concept: concept.ishta-karma
+    aliases: [rule of supposition, false position, regula falsi]
+    gloss: {en: "Working with an assumed number: guess any value, see what it gives, then scale.", kn: "ಊಹಿಸಿದ ಸಂಖ್ಯೆಯೊಂದಿಗೆ ಕೆಲಸ: ಯಾವುದಾದರೂ ಬೆಲೆ ಊಹಿಸಿ, ಅದು ಏನು ಕೊಡುತ್ತದೆ ನೋಡಿ, ನಂತರ ಅನುಪಾತದಲ್ಲಿ ಬದಲಿಸಿ."}
+  - id: term.drshya
+    iast: dṛśya
+    concept: concept.ishta-karma
+    gloss: {en: "The 'seen' quantity: the number the problem actually gives you.", kn: "'ಕಾಣುವ' ಸಂಖ್ಯೆ: ಲೆಕ್ಕದಲ್ಲಿ ನಿಜವಾಗಿ ಕೊಟ್ಟಿರುವ ಸಂಖ್ಯೆ."}
+  - id: term.dhana
+    iast: dhana
+    concept: concept.negative-numbers
+    aliases: [positive, fortune, asset]
+    gloss: {en: "'Wealth': a positive quantity.", kn: "'ಧನ': ಧನಾತ್ಮಕ ಸಂಖ್ಯೆ."}
+  - id: term.rna
+    iast: ṛṇa
+    concept: concept.negative-numbers
+    aliases: [negative, debt]
+    gloss: {en: "'Debt': a negative quantity.", kn: "'ಋಣ' (ಸಾಲ): ಋಣಾತ್ಮಕ ಸಂಖ್ಯೆ."}
+  - id: term.sunya
+    iast: śūnya
+    concept: concept.zero
+    aliases: [zero, cipher, nought, kha]
+    gloss: {en: "'Empty': zero. Brahmagupta also calls it kha, 'sky'.", kn: "'ಖಾಲಿ': ಸೊನ್ನೆ. ಬ್ರಹ್ಮಗುಪ್ತ ಇದನ್ನು 'ಖ' (ಆಕಾಶ) ಎಂದೂ ಕರೆಯುತ್ತಾನೆ."}
+  - id: term.bhuja
+    iast: bhuja
+    concept: concept.bhuja-koti-karna
+    aliases: [base, side, leg]
+    gloss: {en: "'Arm': one side of a right triangle, usually the base.", kn: "'ಭುಜ': ಲಂಬಕೋನ ತ್ರಿಭುಜದ ಒಂದು ಬಾಹು, ಸಾಮಾನ್ಯವಾಗಿ ಪಾದ."}
+  - id: term.koti
+    iast: koṭi
+    concept: concept.bhuja-koti-karna
+    aliases: [upright, perpendicular]
+    gloss: {en: "The upright side of a right triangle.", kn: "ಲಂಬಕೋನ ತ್ರಿಭುಜದ ಲಂಬ ಬಾಹು."}
+  - id: term.karna
+    iast: karṇa
+    concept: concept.bhuja-koti-karna
+    aliases: [hypotenuse, diagonal]
+    gloss: {en: "'Ear': the hypotenuse, or the diagonal of a rectangle.", kn: "'ಕರ್ಣ': ವಿಕರ್ಣ, ಅಥವಾ ಆಯತದ ಕರ್ಣ."}
+  - id: term.trairasika
+    iast: trairāśika
+    concept: concept.trairashika
+    aliases: [rule of three, proportion]
+    gloss: {en: "'Of three quantities': the rule of three.", kn: "'ಮೂರು ರಾಶಿಗಳದ್ದು': ತ್ರೈರಾಶಿಕ ನಿಯಮ."}
+  - id: term.pramana
+    iast: pramāṇa
+    concept: concept.trairashika
+    gloss: {en: "The 'measure': the known amount you start from.", kn: "'ಪ್ರಮಾಣ': ಗೊತ್ತಿರುವ ಆರಂಭದ ಪ್ರಮಾಣ."}
+  - id: term.phala
+    iast: phala
+    concept: concept.trairashika
+    gloss: {en: "The 'fruit': what the measure gives.", kn: "'ಫಲ': ಪ್ರಮಾಣಕ್ಕೆ ಸಿಗುವುದು."}
+  - id: term.iccha
+    iast: icchā
+    concept: concept.trairashika
+    gloss: {en: "The 'desire': the amount you ask about.", kn: "'ಇಚ್ಛಾ': ನೀವು ಕೇಳುವ ಪ್ರಮಾಣ."}
+  - id: term.sredhi
+    iast: śreḍhī
+    concept: concept.sredhi
+    aliases: [progression, arithmetic progression, series]
+    gloss: {en: "A row of numbers that grow by the same step: a progression.", kn: "ಒಂದೇ ಹೆಜ್ಜೆಯಲ್ಲಿ ಬೆಳೆಯುವ ಸಂಖ್ಯೆಗಳ ಸಾಲು: ಶ್ರೇಢಿ."}
+  - id: term.adi
+    iast: ādi
+    concept: concept.sredhi
+    gloss: {en: "The first term.", kn: "ಮೊದಲ ಪದ."}
+  - id: term.caya
+    iast: caya
+    concept: concept.sredhi
+    aliases: [common difference, uttara, increase]
+    gloss: {en: "The increase: the common difference.", kn: "ಹೆಚ್ಚಳ: ಸಾಮಾನ್ಯ ವ್ಯತ್ಯಾಸ."}
+  - id: term.gaccha
+    iast: gaccha
+    concept: concept.sredhi
+    aliases: [pada, number of terms, period]
+    gloss: {en: "The number of terms (also pada).", kn: "ಪದಗಳ ಸಂಖ್ಯೆ (ಪದ ಎಂದೂ ಕರೆಯುತ್ತಾರೆ)."}
+  - id: term.jya
+    iast: jyā
+    concept: concept.jya
+    aliases: [sine, half-chord, ardhajya, chord]
+    gloss: {en: "'Bowstring': a chord; Āryabhaṭa uses the half-chord (ardhajyā), the ancestor of the sine.", kn: "'ಬಿಲ್ಲಿನ ಹಗ್ಗ': ಜ್ಯಾ; ಆರ್ಯಭಟ ಅರ್ಧಜ್ಯಾವನ್ನು ಬಳಸುತ್ತಾನೆ, ಅದೇ ಇಂದಿನ ಸೈನ್‌ನ ಮೂಲ."}
+  - id: term.paridhi
+    iast: paridhi
+    concept: concept.circle-circumference
+    aliases: [circumference]
+    gloss: {en: "Circumference.", kn: "ಪರಿಧಿ."}
+  - id: term.viskambha
+    iast: viṣkambha
+    concept: concept.circle-circumference
+    aliases: [diameter, vyasa]
+    gloss: {en: "Diameter.", kn: "ವ್ಯಾಸ."}
+  - id: term.kuttaka
+    iast: kuṭṭaka
+    concept: concept.kuttaka
+    aliases: [pulveriser, pulverizer, linear indeterminate equation, euclidean algorithm]
+    gloss: {en: "'Pulveriser': solving ax + c = by in whole numbers by repeated division.", kn: "'ಕುಟ್ಟಕ': ಪದೇಪದೇ ಭಾಗಾಕಾರದಿಂದ ax + c = by ಅನ್ನು ಪೂರ್ಣಾಂಕಗಳಲ್ಲಿ ಬಿಡಿಸುವ ವಿಧಾನ."}
+  - id: term.bhajya
+    iast: bhājya
+    concept: concept.kuttaka
+    aliases: [dividend]
+    gloss: {en: "The dividend.", kn: "ಭಾಜ್ಯ."}
+  - id: term.hara
+    iast: hāra
+    concept: concept.kuttaka
+    aliases: [divisor]
+    gloss: {en: "The divisor.", kn: "ಭಾಜಕ."}
+  - id: term.ksepa
+    iast: kṣepa
+    concept: concept.kuttaka
+    aliases: [additive]
+    gloss: {en: "The additive: the number added before dividing.", kn: "ಕ್ಷೇಪ: ಭಾಗಿಸುವ ಮೊದಲು ಸೇರಿಸುವ ಸಂಖ್ಯೆ."}
+  - id: term.ankapasa
+    iast: aṅka-pāśa
+    concept: concept.ankapasha
+    aliases: [permutations, arranging digits, combinatorics]
+    gloss: {en: "'Net of digits': counting the ways to arrange digits.", kn: "'ಅಂಕಿಗಳ ಬಲೆ': ಅಂಕಿಗಳನ್ನು ಜೋಡಿಸುವ ವಿಧಗಳನ್ನು ಎಣಿಸುವುದು."}
+  - id: term.varga
+    iast: varga
+    concept: concept.square-root
+    aliases: [square]
+    gloss: {en: "Square.", kn: "ವರ್ಗ."}
+  - id: term.varga-mula
+    iast: varga-mūla
+    concept: concept.square-root
+    aliases: [square root]
+    gloss: {en: "Square root.", kn: "ವರ್ಗಮೂಲ."}
+  - id: term.sthana
+    iast: sthāna
+    concept: concept.place-value
+    aliases: [place value, decimal place]
+    gloss: {en: "'Place': a position in the decimal place-value system.", kn: "'ಸ್ಥಾನ': ದಶಮಾನ ಸ್ಥಾನಬೆಲೆ ಪದ್ಧತಿಯಲ್ಲಿನ ಸ್ಥಾನ."}
+  - id: term.varga-prakrti
+    iast: varga-prakṛti
+    concept: concept.varga-prakriti
+    aliases: [pell's equation, pell equation, square nature, affected square]
+    gloss: {en: "'Square nature': equations like Nx² + 1 = y².", kn: "'ವರ್ಗಪ್ರಕೃತಿ': Nx² + 1 = y² ರೀತಿಯ ಸಮೀಕರಣಗಳು."}
+  - id: term.cakravala
+    iast: cakravāla
+    concept: concept.varga-prakriti
+    aliases: [chakravala, cyclic method]
+    gloss: {en: "'Cyclic' method for square-nature equations.", kn: "ವರ್ಗಪ್ರಕೃತಿ ಸಮೀಕರಣಗಳ 'ಚಕ್ರವಾಲ' ವಿಧಾನ."}
+
+glossary:
+  - id: gloss.cadamba
+    headword: Cadamba
+    note: {en: "Kadamba, a tree with round, fragrant orange flower heads.", kn: "ಕದಂಬ: ದುಂಡನೆಯ ಪರಿಮಳದ ಕಿತ್ತಳೆ ಹೂಗೊಂಚಲುಗಳಿರುವ ಮರ."}
+  - id: gloss.silindhri
+    headword: Silind'hri
+    note: {en: "Sanskrit śilīndhra, a flowering plant; commentators identify it differently.", kn: "ಸಂಸ್ಕೃತ 'ಶಿಲೀಂಧ್ರ', ಒಂದು ಹೂಬಿಡುವ ಸಸ್ಯ; ವ್ಯಾಖ್ಯಾನಕಾರರು ಇದನ್ನು ಬೇರೆಬೇರೆಯಾಗಿ ಗುರುತಿಸುತ್ತಾರೆ."}
+  - id: gloss.cutaja
+    headword: Cut'aja
+    note: {en: "Kuṭaja, a small tree with white flowers.", kn: "ಕುಟಜ: ಬಿಳಿ ಹೂಗಳ ಸಣ್ಣ ಮರ."}
+  - id: gloss.pandanus
+    headword: pandanus
+    note: {en: "Ketaka, the screw-pine, known for its strongly scented flowers.", kn: "ಕೇತಕ (ತಾಳೆ ಹೂವಿನ ಗಿಡ), ಬಲವಾದ ಪರಿಮಳದ ಹೂಗಳಿಗೆ ಪ್ರಸಿದ್ಧ."}
+  - id: gloss.argument
+    headword: argument
+    note: {en: "Colebrooke's word for pramāṇa, the 'measure' in the rule of three.", kn: "ತ್ರೈರಾಶಿಕದಲ್ಲಿನ 'ಪ್ರಮಾಣ'ಕ್ಕೆ ಕೋಲ್‌ಬ್ರೂಕ್ ಬಳಸಿದ ಪದ."}
+  - id: gloss.requisition
+    headword: requisition
+    note: {en: "Colebrooke's word for icchā, the 'desire' or 'demand': the amount asked about.", kn: "'ಇಚ್ಛಾ'ಕ್ಕೆ ಕೋಲ್‌ಬ್ರೂಕ್ ಬಳಸಿದ ಪದ: ಕೇಳಲಾದ ಪ್ರಮಾಣ."}
+  - id: gloss.pala
+    headword: pala
+    note: {en: "A unit of weight. The Līlāvatī defines it as four karṣas.", kn: "ತೂಕದ ಒಂದು ಮಾನ. ಲೀಲಾವತೀ ಪ್ರಕಾರ ನಾಲ್ಕು ಕರ್ಷ = ಒಂದು ಪಲ."}
+  - id: gloss.nishca
+    headword: nishca
+    note: {en: "Niṣka, a coin. The Līlāvatī counts sixteen drammas to a niṣka.", kn: "ನಿಷ್ಕ: ಒಂದು ನಾಣ್ಯ. ಲೀಲಾವತೀ ಪ್ರಕಾರ ಹದಿನಾರು ದ್ರಮ್ಮ = ಒಂದು ನಿಷ್ಕ."}
+  - id: gloss.dramma
+    headword: dramma
+    note: {en: "A silver coin; the name comes from the Greek drachma. Sixteen paṇas make a dramma in the Līlāvatī.", kn: "ಬೆಳ್ಳಿಯ ನಾಣ್ಯ; ಹೆಸರು ಗ್ರೀಕ್ 'ಡ್ರಾಕ್ಮಾ'ದಿಂದ ಬಂದಿದೆ. ಲೀಲಾವತಿಯಲ್ಲಿ ಹದಿನಾರು ಪಣ = ಒಂದು ದ್ರಮ್ಮ."}
+  - id: gloss.period
+    headword: period
+    note: {en: "Colebrooke's word for gaccha or pada: the number of terms in a progression.", kn: "'ಗಚ್ಛ' ಅಥವಾ 'ಪದ'ಕ್ಕೆ ಕೋಲ್‌ಬ್ರೂಕ್ ಬಳಸಿದ ಪದ: ಶ್ರೇಢಿಯಲ್ಲಿನ ಪದಗಳ ಸಂಖ್ಯೆ."}
+  - id: gloss.upright
+    headword: upright
+    note: {en: "Koṭi, the upright side of a right triangle. Colebrooke calls the other leg the 'side' (bhuja).", kn: "ಕೋಟಿ: ಲಂಬಕೋನ ತ್ರಿಭುಜದ ಲಂಬ ಬಾಹು. ಇನ್ನೊಂದು ಬಾಹುವನ್ನು ಕೋಲ್‌ಬ್ರೂಕ್ 'side' (ಭುಜ) ಎನ್ನುತ್ತಾರೆ."}
+  - id: gloss.diagonal
+    headword: diagonal
+    note: {en: "Karṇa: here, the hypotenuse.", kn: "ಕರ್ಣ: ಇಲ್ಲಿ ವಿಕರ್ಣ (ಹೈಪೊಟೆನ್ಯೂಸ್)."}
+  - id: gloss.pulverizer
+    headword: pulverizer
+    note: {en: "Colebrooke's translation of kuṭṭaka, literally 'grinding'.", kn: "ಕುಟ್ಟಕಕ್ಕೆ ಕೋಲ್‌ಬ್ರೂಕ್ ಅನುವಾದ; ಅಕ್ಷರಶಃ 'ಕುಟ್ಟುವುದು'."}
+  - id: gloss.additive
+    headword: additive
+    note: {en: "Kṣepa: the number added before dividing.", kn: "ಕ್ಷೇಪ: ಭಾಗಿಸುವ ಮೊದಲು ಸೇರಿಸುವ ಸಂಖ್ಯೆ."}
+  - id: gloss.variations
+    headword: variations
+    note: {en: "Different arrangements (permutations) of the digits.", kn: "ಅಂಕಿಗಳ ಬೇರೆಬೇರೆ ಜೋಡಣೆಗಳು (ಕ್ರಮಯೋಜನೆಗಳು)."}
+  - id: gloss.countersides
+    headword: countersides
+    note: {en: "Opposite sides of a figure.", kn: "ಆಕೃತಿಯ ಎದುರುಬದುರು ಬಾಹುಗಳು."}
+  - id: gloss.tetragon
+    headword: tetragon
+    note: {en: "A four-sided figure: a quadrilateral.", kn: "ನಾಲ್ಕು ಬಾಹುಗಳ ಆಕೃತಿ: ಚತುರ್ಭುಜ."}
+  - id: gloss.trapezium
+    headword: trapezium
+    note: {en: "Colebrooke uses it for a general four-sided figure; this rule holds for one whose corners lie on a circle.", kn: "ಕೋಲ್‌ಬ್ರೂಕ್ ಇದನ್ನು ಸಾಮಾನ್ಯ ಚತುರ್ಭುಜಕ್ಕೆ ಬಳಸುತ್ತಾರೆ; ಈ ನಿಯಮ ಮೂಲೆಗಳು ವೃತ್ತದ ಮೇಲಿರುವ ಚತುರ್ಭುಜಕ್ಕೆ ಅನ್ವಯಿಸುತ್ತದೆ."}
+  - id: gloss.affirmative
+    headword: affirmative
+    note: {en: "Positive. Brahmagupta's word is dhana, 'wealth'; a negative is ṛṇa, 'debt'.", kn: "ಧನಾತ್ಮಕ. ಬ್ರಹ್ಮಗುಪ್ತನ ಪದ 'ಧನ'; ಋಣಾತ್ಮಕಕ್ಕೆ 'ಋಣ' (ಸಾಲ)."}
+  - id: gloss.cipher
+    headword: cipher
+    note: {en: "Zero. 'Nought' also means zero.", kn: "ಸೊನ್ನೆ. 'Nought' ಎಂದರೂ ಸೊನ್ನೆಯೇ."}
+  - id: gloss.sine-clark
+    headword: sine
+    note: {en: "In Clark, the half-chord (ardhajyā) in a circle of a given radius: radius × the modern sine.", kn: "ಕ್ಲಾರ್ಕ್‌ನಲ್ಲಿ, ನಿರ್ದಿಷ್ಟ ತ್ರಿಜ್ಯದ ವೃತ್ತದ ಅರ್ಧಜ್ಯಾ: ತ್ರಿಜ್ಯ × ಇಂದಿನ ಸೈನ್."}
+  - id: gloss.agra
+    headword: agra
+    note: {en: "A remainder left after dividing.", kn: "ಭಾಗಿಸಿದ ನಂತರ ಉಳಿಯುವ ಶೇಷ."}

@@ -1,0 +1,29 @@
+name: content-check
+on:
+  pull_request:
+    paths: ["content/**", "tools/**", "packages/ganita_core/**"]
+  push:
+    branches: [main]
+    paths: ["content/**", "tools/**", "packages/ganita_core/**"]
+jobs:
+  content:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.13", cache: pip, cache-dependency-path: tools/requirements.txt}
+      - run: pip install -r tools/requirements.txt
+      # Schemas, references, citations, licences, transliteration round-trip, Kannada coverage.
+      - run: python -m tools.pack validate
+      - run: python -m pytest tools/tests -q
+      - run: python -m tools.pack coverage
+      - run: python -m tools.pack build
+      - uses: subosito/flutter-action@v2
+        with: {flutter-version: "3.47.7", channel: stable, cache: true}
+      # Generator property tests: every generator, 1,000 seeds, every difficulty.
+      - run: cd packages/ganita_core && dart test
+      - run: python -m tools.preview --out build/preview
+      - uses: actions/upload-artifact@v4
+        with: {name: preview-site, path: build/preview}
+      - uses: actions/upload-artifact@v4
+        with: {name: content-pack, path: build/pack}

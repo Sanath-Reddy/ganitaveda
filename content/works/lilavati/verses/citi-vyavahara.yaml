@@ -1,0 +1,51 @@
+- id: verse.lilavati.220
+  section: section.lilavati.citi-vyavahara
+  ordinal: 204
+  ref_label: '220'
+  devanagari: 'उच्छ्रयेण गुणितम् चितेस् किल क्षेत्र-संभव-फलम् घनम् भवेत् ।
+
+    इष्टका-घन-हृते घने चितेस् इष्टका-परिमितिस् च लभ्यते ॥
+
+    इष्टका-उच्छ्रय-हृत्-उच्छ्रितिस् चितेस् स्युस् स्तरास् च दृषदाम् चितेस् अपि ॥'
+  source_text: 'ucchrayeṇa guṇitam cites kila kṣetra-saṃbhava-phalam ghanam @bhavet/ [śarma: api < kila]
+
+    iṣṭakā-ghana-hṛte ghane cites iṣṭakā-parimitis ca @labhyate// [śarma: tu < ca]
+
+    iṣṭakā-ucchraya-hṛt-ucchritis cites @syus starās ca dṛṣadām cites api// Lil_220'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - 'śarma: api < kila'
+  - 'śarma: tu < ca'
+- id: verse.lilavati.221
+  section: section.lilavati.citi-vyavahara
+  ordinal: 205
+  ref_label: '221'
+  devanagari: 'अष्टादश-अङ्गुलम् दैर्घ्यम् विस्तारस् द्वादश-अङ्गुलस् ।
+
+    उच्छ्रितिस् त्रि-अङ्गुला यासाम् इष्टकास् तास् चितौ किल ॥'
+  source_text: '%aṣṭādaśa-aṅgulam dairghyam vistāras %dvādaśa-aṅgulas/
+
+    ucchritis %tri-aṅgulā yāsām iṣṭakās tās citau kila// Lil_221'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.222
+  section: section.lilavati.citi-vyavahara
+  ordinal: 206
+  ref_label: '222'
+  devanagari: 'यद्-विस्तृतिस् पञ्च-करा अष्ट-हस्तम् दैर्घ्यम् च यस्याम् त्रि-कर-उच्छ्रितिस् च ।
+
+    तस्याम् चितौ किम् फलम् इष्टकानाम् संख्या च का ब्रूहि कति स्तरास् च ॥
+
+    न्यासस् । इष्टका-चितिस् । इष्टकायास् घन-हस्त-मानम् । चितेस् क्षेत्र-फलम् । उच्छ्रयेण गुणितम् चितेस् घन-फलम् । लब्धा इष्टका-संख्या । स्तर-संख्या । एवम् पाषाण-चितौ अपि ॥ इति चिति-व्यवहारस् ॥'
+  source_text: 'yad-vistṛtis %pañca-karā %aṣṭa-hastam dairghyam ca yasyām %tri-kara-ucchritis ca/ [śarma: yasyās < yasyām]
+
+    tasyām citau kim phalam iṣṭakānām saṃkhyā ca kā @brūhi kati starās ca// [śarma: kim < kā]
+
+    nyāsas/ [fig.38] iṣṭakā-citis/ iṣṭakāyās ghana-hasta-mānam 3_64/ cites kṣetra-phalam 40/ ucchrayeṇa guṇitam cites ghana-phalam 120/ labdhā iṣṭakā-saṃkhyā 2560/ stara-saṃkhyā 24/ evam pāṣāṇa-citau api// iti citi-vyavahāras// Lil_222'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - 'śarma: yasyās < yasyām'
+  - 'śarma: kim < kā'
+  - fig.38

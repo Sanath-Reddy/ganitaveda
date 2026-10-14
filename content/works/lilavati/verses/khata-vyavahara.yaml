@@ -1,0 +1,92 @@
+- id: verse.lilavati.214
+  section: section.lilavati.khata-vyavahara
+  ordinal: 198
+  ref_label: '214'
+  devanagari: 'गणयित्वा विस्तारम् बहुषु स्थानेषु तद्-युतिस् भाज्या ।
+
+    स्थानक-मित्या सम-मितिस् एवम् दैर्घ्यम् च वेधे च ॥
+
+    क्षेत्र-फलम् वेध-गुणम् खाते घन-हस्त-संख्या स्यात् ॥'
+  source_text: '@gaṇayitvā vistāram bahuṣu sthāneṣu tad-yutis bhājyā/
+
+    sthānaka-mityā sama-mitis evam dairghyam ca vedhe ca//
+
+    kṣetra-phalam vedha-guṇam khāte ghana-hasta-saṃkhyā @syāt// [śarma: ghāte < khāte] Lil_214'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - 'śarma: ghāte < khāte'
+- id: verse.lilavati.215
+  section: section.lilavati.khata-vyavahara
+  ordinal: 199
+  ref_label: '215'
+  devanagari: 'भुज-वक्रतया दैर्घ्यम् दश-ईश-अर्क-करैस् मितम् ।
+
+    त्रिषु स्थानेषु षष्-पञ्च-सप्त-हस्ता च विस्तृतिस् ॥'
+  source_text: 'bhuja-vakratayā dairghyam %daśa-#īśa-#arka-karais mitam/
+
+    %triṣu sthāneṣu %ṣaṣ-%pañca-%sapta-hastā ca vistṛtis// [śarma: -hastā atra < -hastā ca] Lil_215'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - 'śarma: -hastā atra < -hastā ca'
+- id: verse.lilavati.216
+  section: section.lilavati.khata-vyavahara
+  ordinal: 200
+  ref_label: '216'
+  devanagari: 'यस्य खातस्य वेधस् अपि द्वि-चतुर्-त्रि-करस् सखे ।
+
+    तत्र खाते कियन्तस् स्युस् घन-हस्तास् प्रचक्ष्व मे ॥'
+  source_text: 'yasya khātasya vedhas api %dvi-%catur-%tri-karas sakhe/ [śarma: -tri-mitas < -tri-karas]
+
+    tatra khāte kiyantas @syus ghana-hastās @pracakṣva me// Lil_216'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - 'śarma: -tri-mitas < -tri-karas'
+- id: verse.lilavati.217
+  section: section.lilavati.khata-vyavahara
+  ordinal: 201
+  ref_label: '217'
+  devanagari: 'मुख-ज-तल-ज-तद्-युति-ज-क्षेत्र-फल-ऐक्यम् हृतम् षड्भिस् ।
+
+    क्षेत्र-फलम् समम् एवम् वेध-हतम् घन-फलम् स्पष्टम् ॥
+
+    सम-खात-फल-त्रि-अंशस् सूची-खाते फलम् भवति ॥'
+  source_text: 'mukha-ja-tala-ja-tad-yuti-ja-kṣetra-phala-aikyam hṛtam %ṣaḍbhis/
+
+    kṣetra-phalam samam evam vedha-hatam ghana-phalam spaṣṭam// [śarma: -guṇam < -hatam]
+
+    sama-khāta-phala-%tri-aṃśas sūcī-khāte phalam @bhavati// Lil_217'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - 'śarma: -guṇam < -hatam'
+- id: verse.lilavati.218
+  section: section.lilavati.khata-vyavahara
+  ordinal: 202
+  ref_label: '218'
+  devanagari: 'मुखे दश-द्वादश-हस्त-तुल्यम् विस्तार-दैर्घ्यम् तु तले तद्-अर्धम् ।
+
+    यस्यास् सखे सप्त-करस् च वेधस् का खात-संख्या वद तत्र वाप्याम् ॥'
+  source_text: 'mukhe %daśa-%dvādaśa-hasta-tulyam vistāra-dairghyam tu tale tad-%ardham/ [śarma: -tulye < -tulyam, -dairghye < -dairghyam]
+
+    yasyās sakhe %sapta-karas ca vedhas kā khāta-saṃkhyā @vada tatra vāpyām// Lil_218'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - 'śarma: -tulye < -tulyam, -dairghye < -dairghyam'
+- id: verse.lilavati.219
+  section: section.lilavati.khata-vyavahara
+  ordinal: 203
+  ref_label: '219'
+  devanagari: 'खाते अथ तिग्मकर-तुल्य-चतुर्-भुजे च किम् स्यात् फलम् नव-मितस् किल यत्र वेधस् ।
+
+    वृत्ते तथा एव दश-विस्तृति-पञ्च-वेधे सूची-फलम् वद तयोस् च पृथक् पृथक् मे ॥'
+  source_text: 'khāte atha #tigmakara-tulya-%catur-bhuje ca kim @syāt phalam %nava-mitas kila yatra vedhas/ [śarma: khalu < kila]
+
+    vṛtte tathā eva %daśa-vistṛti-%pañca-vedhe sūcī-phalam @vada tayos ca pṛthak pṛthak me// Lil_219'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - 'śarma: khalu < kila'

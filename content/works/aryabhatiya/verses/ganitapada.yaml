@@ -1,0 +1,386 @@
+- id: verse.aryabhatiya.2.1
+  section: section.aryabhatiya.ganitapada
+  ordinal: 1
+  ref_label: '2.1'
+  devanagari: 'ब्रह्म-कु-शशि-बुध-भृगु-रवि-
+
+    कुज-गुरु-कोण-भगणान् नमस्कृत्य ।
+
+    आर्यभटः तु इह निगदति
+
+    कुसुमपुरे अभ्यर्चितम् ज्ञानम् ॥'
+  source_text: 'brahma-ku-śaśi-budha-bhṛgu-ravi-
+
+    kuja-guru-koṇa-bhagaṇān namaskṛtya |
+
+    āryabhaṭaḥ tu iha nigadati
+
+    kusumapure abhyarcitam jñānam || 1 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.2
+  section: section.aryabhatiya.ganitapada
+  ordinal: 2
+  ref_label: '2.2'
+  devanagari: 'एकम् च दश च शतम् च
+
+    सहस्रम् तु अयुतनियुते तथा प्रयुतम् ।
+
+    कोट्यर्बुदम् च वृन्दम्
+
+    स्थानात् स्थानम् दशगुणम् स्यात् ॥'
+  source_text: 'ekam ca daśa ca śatam ca
+
+    sahasram tu ayutaniyute tathā prayutam |
+
+    koṭyarbudam ca vṛndam
+
+    sthānāt sthānam daśaguṇam syāt || 2 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.3
+  section: section.aryabhatiya.ganitapada
+  ordinal: 3
+  ref_label: '2.3'
+  devanagari: 'वर्गः समचतुरश्रः फलम् च सदृशद्वयस्य संवर्गः ।
+
+    सदृशत्रयसंवर्गः घनः तथा द्वादशाश्रितः स्यात् ॥'
+  source_text: 'vargaḥ samacaturaśraḥ phalam ca sadṛśadvayasya saṃvargaḥ |
+
+    sadṛśatrayasaṃvargaḥ ghanaḥ tathā dvādaśāśritaḥ syāt || 3 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.4
+  section: section.aryabhatiya.ganitapada
+  ordinal: 4
+  ref_label: '2.4'
+  devanagari: 'भागम् हरेत् अवर्गात् नित्यम् द्विगुणेन वर्गमूलेन ।
+
+    वर्गात् वर्गे शुद्धे लब्धम् स्थानान्तरे मूलम् ॥'
+  source_text: 'bhāgam haret avargāt nityam dviguṇena vargamūlena |
+
+    vargāt varge śuddhe labdham sthānāntare mūlam || 4 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.5
+  section: section.aryabhatiya.ganitapada
+  ordinal: 5
+  ref_label: '2.5'
+  devanagari: 'अघनात् भजेत् द्वितीयात्
+
+    त्रिगुणेन घनस्य मूलवर्गेण ।
+
+    वर्गः त्रिपूर्वगुणितः
+
+    शोध्यः प्रथमात् घनः च घनात् ॥'
+  source_text: 'aghanāt bhajet dvitīyāt
+
+    triguṇena ghanasya mūlavargeṇa |
+
+    vargaḥ tripūrvaguṇitaḥ
+
+    śodhyaḥ prathamāt ghanaḥ ca ghanāt || 5 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.6
+  section: section.aryabhatiya.ganitapada
+  ordinal: 6
+  ref_label: '2.6'
+  devanagari: ऊर्ध्वभुजातत्संवर्गार्धम् स घनः षडश्रिः इति ॥
+  source_text: ūrdhvabhujātatsaṃvargārdham sa ghanaḥ ṣaḍaśriḥ iti || 6 ||
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+  notes:
+  - Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
+- id: verse.aryabhatiya.2.7
+  section: section.aryabhatiya.ganitapada
+  ordinal: 7
+  ref_label: '2.7'
+  devanagari: तत् निजमूलेन हतम् घनगोलफलम् निरवशेषम् ॥
+  source_text: tat nijamūlena hatam ghanagolaphalam niravaśeṣam || 7 ||
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+  notes:
+  - Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
+- id: verse.aryabhatiya.2.8
+  section: section.aryabhatiya.ganitapada
+  ordinal: 8
+  ref_label: '2.8'
+  devanagari: 'आयामगुणे पार्श्वे तद्योगहृते स्वपातेलेखे ते ।
+
+    विस्तरयोगार्धगुणे ज्ञेयम् क्षेत्रफलम् आयामे ॥'
+  source_text: 'āyāmaguṇe pārśve tadyogahṛte svapātelekhe te |
+
+    vistarayogārdhaguṇe jñeyam kṣetraphalam āyāme || 8 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.9
+  section: section.aryabhatiya.ganitapada
+  ordinal: 9
+  ref_label: '2.9'
+  devanagari: परिधेः षड्भागज्या विष्कम्भार्धेन सा तुल्या ॥
+  source_text: paridheḥ ṣaḍbhāgajyā viṣkambhārdhena sā tulyā || 9 ||
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+  notes:
+  - Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
+- id: verse.aryabhatiya.2.10
+  section: section.aryabhatiya.ganitapada
+  ordinal: 10
+  ref_label: '2.10'
+  devanagari: 'चतुरधिकम् शतम् अष्टगुणम् द्वाषष्टिः तथा सहस्राणाम् ।
+
+    अयुतद्वयविष्कम्भस्य आसन्नः वृत्तपरिणाहः ॥'
+  source_text: 'caturadhikam śatam aṣṭaguṇam dvāṣaṣṭiḥ tathā sahasrāṇām |
+
+    ayutadvayaviṣkambhasya āsannaḥ vṛttapariṇāhaḥ || 10 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.11
+  section: section.aryabhatiya.ganitapada
+  ordinal: 11
+  ref_label: '2.11'
+  devanagari: 'समवृत्तपरिधिपादम् छिन्द्यात् त्रिभुजात् चतुर्भुजात् च एव ।
+
+    समचापज्यार्धानि तु विष्कम्भार्धे यथा इष्टानि ॥'
+  source_text: 'samavṛttaparidhipādam chindyāt tribhujāt caturbhujāt ca eva |
+
+    samacāpajyārdhāni tu viṣkambhārdhe yathā iṣṭāni || 11 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.12
+  section: section.aryabhatiya.ganitapada
+  ordinal: 12
+  ref_label: '2.12'
+  devanagari: 'प्रथमात् चापज्यार्धात् यैः ऊनम् खण्डितम् द्वितीयार्धम् ।
+
+    तत्प्रथमज्यार्धांशैः तैः तैः ऊनानि शेषाणि ॥'
+  source_text: 'prathamāt cāpajyārdhāt yaiḥ ūnam khaṇḍitam dvitīyārdham |
+
+    tatprathamajyārdhāṃśaiḥ taiḥ taiḥ ūnāni śeṣāṇi || 12 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.13
+  section: section.aryabhatiya.ganitapada
+  ordinal: 13
+  ref_label: '2.13'
+  devanagari: 'वृत्तम् भ्रमेण साध्यम् त्रिभुजम् च चतुर्भुजम् च कर्णाभ्याम् ।
+
+    साध्या जलेन समभूः अधः ऊर्ध्वम् लम्बकेन एव ॥'
+  source_text: 'vṛttam bhrameṇa sādhyam tribhujam ca caturbhujam ca karṇābhyām |
+
+    sādhyā jalena samabhūḥ adhaḥ ūrdhvam lambakena eva || 13 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.14
+  section: section.aryabhatiya.ganitapada
+  ordinal: 14
+  ref_label: '2.14'
+  devanagari: 'शङ्कोः प्रमाणवर्गम् छायावर्गेण संयुतम् कृत्वा ।
+
+    यत् तस्य वर्गमूलम् विष्कम्भार्धम् स्ववृत्तस्य ॥'
+  source_text: 'śaṅkoḥ pramāṇavargam chāyāvargeṇa saṃyutam kṛtvā |
+
+    yat tasya vargamūlam viṣkambhārdham svavṛttasya || 14 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.15
+  section: section.aryabhatiya.ganitapada
+  ordinal: 15
+  ref_label: '2.15'
+  devanagari: 'शङ्कुगुणम् शङ्कुभुजाविवरम् शङ्कुभुजयोः विशेषहृतम् ।
+
+    यत् लब्धम् ता छाया ज्ञेया शङ्कोः स्वमूलात् हि ॥'
+  source_text: 'śaṅkuguṇam śaṅkubhujāvivaram śaṅkubhujayoḥ viśeṣahṛtam |
+
+    yat labdham tā chāyā jñeyā śaṅkoḥ svamūlāt hi || 15 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.17
+  section: section.aryabhatiya.ganitapada
+  ordinal: 17
+  ref_label: '2.17'
+  devanagari: वृत्ते शरसंवर्गः अर्धज्यावर्गः स खलु धनुषोः ॥
+  source_text: vṛtte śarasaṃvargaḥ ardhajyāvargaḥ sa khalu dhanuṣoḥ || 17 ||
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+  notes:
+  - Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
+- id: verse.aryabhatiya.2.18
+  section: section.aryabhatiya.ganitapada
+  ordinal: 18
+  ref_label: '2.18'
+  devanagari: 'ग्रासोने द्वे वृत्ते ग्रासगुणे भाजयेत् पृथक्त्वेन ।
+
+    ग्रासोनयोगलब्धौ संपातशरौ परस्परतः ॥'
+  source_text: 'grāsone dve vṛtte grāsaguṇe bhājayet pṛthaktvena |
+
+    grāsonayogalabdhau saṃpātaśarau parasparataḥ || 18 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.19
+  section: section.aryabhatiya.ganitapada
+  ordinal: 19
+  ref_label: '2.19'
+  devanagari: 'इष्टम् व्येकम् दलितम् सपूर्वम् उत्तरगुणम् समुखम् मध्यम् ।
+
+    इष्टगुणितम् इष्तधनम् तु अथवा आद्यन्तम् पदार्धहतम् ॥'
+  source_text: 'iṣṭam vyekam dalitam sapūrvam uttaraguṇam samukham madhyam |
+
+    iṣṭaguṇitam iṣtadhanam tu athavā ādyantam padārdhahatam || 19 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.20
+  section: section.aryabhatiya.ganitapada
+  ordinal: 20
+  ref_label: '2.20'
+  devanagari: 'गच्छः अष्टोत्तरगुणितात् द्विगुणाद्युत्तरविशेषवर्गयुतात् ।
+
+    मूलम् द्विगुणाद्यूनम् स्वोत्तरभजितम् सरूपार्धम् ॥'
+  source_text: 'gacchaḥ aṣṭottaraguṇitāt dviguṇādyuttaraviśeṣavargayutāt |
+
+    mūlam dviguṇādyūnam svottarabhajitam sarūpārdham || 20 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.22
+  section: section.aryabhatiya.ganitapada
+  ordinal: 22
+  ref_label: '2.22'
+  devanagari: 'सैकसगच्छपदानाम् क्रमात् त्रिसम्वर्गतस्य षष्ठः अंशः ।
+
+    वर्गचितिघनः स भवेत् चितवर्गः घनचितिघनः च ॥'
+  source_text: 'saikasagacchapadānām kramāt trisamvargatasya ṣaṣṭhaḥ aṃśaḥ |
+
+    vargacitighanaḥ sa bhavet citavargaḥ ghanacitighanaḥ ca || 22 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.23
+  section: section.aryabhatiya.ganitapada
+  ordinal: 23
+  ref_label: '2.23'
+  devanagari: 'सम्पर्कस्य हि वर्गात् विशोधयेत् एव वर्गसम्पर्कम् ।
+
+    यत् तस्य भवति अर्धम् विद्यात् गुणकारसंवर्गम् ॥'
+  source_text: 'samparkasya hi vargāt viśodhayet eva vargasamparkam |
+
+    yat tasya bhavati ardham vidyāt guṇakārasaṃvargam || 23 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.24
+  section: section.aryabhatiya.ganitapada
+  ordinal: 24
+  ref_label: '2.24'
+  devanagari: 'द्विकृतिगुणात् संवर्गात् द्व्यन्तरवर्गेण संयुतात् मूलम् ।
+
+    अन्तरयुक्तम् हीनम् तत् गुणकारद्वयम् दलितम् ॥'
+  source_text: 'dvikṛtiguṇāt saṃvargāt dvyantaravargeṇa saṃyutāt mūlam |
+
+    antarayuktam hīnam tat guṇakāradvayam dalitam || 24 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.25
+  section: section.aryabhatiya.ganitapada
+  ordinal: 25
+  ref_label: '2.25'
+  devanagari: 'मूलफलम् सफलम् कालमूलगुणम् अर्धमूलकृतियुक्तम् ।
+
+    तन्मूलम् मूलार्धोनम् कालहृतम् स्वमूलफलम् ॥'
+  source_text: 'mūlaphalam saphalam kālamūlaguṇam ardhamūlakṛtiyuktam |
+
+    tanmūlam mūlārdhonam kālahṛtam svamūlaphalam || 25 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.26
+  section: section.aryabhatiya.ganitapada
+  ordinal: 26
+  ref_label: '2.26'
+  devanagari: 'त्रैराशिकफलराशिम् तम् अथ इच्छाराशिना हतम् कृत्वा ।
+
+    लब्धम् प्रमाणभजितम् तस्मात् इच्छाफलम् इदम् स्यात् ॥'
+  source_text: 'trairāśikaphalarāśim tam atha icchārāśinā hatam kṛtvā |
+
+    labdham pramāṇabhajitam tasmāt icchāphalam idam syāt || 26 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.27
+  section: section.aryabhatiya.ganitapada
+  ordinal: 27
+  ref_label: '2.27'
+  devanagari: छेदगुणम् सच्छेदम् परस्परम् तत् सवर्णत्वम् ॥
+  source_text: chedaguṇam sacchedam parasparam tat savarṇatvam || 27 ||
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+  notes:
+  - Only the second half is marked as verse in the e-text; the first half sits in the commentary and still needs locating.
+- id: verse.aryabhatiya.2.28
+  section: section.aryabhatiya.ganitapada
+  ordinal: 28
+  ref_label: '2.28'
+  devanagari: 'गुणकाराः भागहराः भागहराः ते भवन्ति गुणकाराः ।
+
+    यः क्षेपः सः अपचयः अपचयः क्षेपः च विपरीते ॥'
+  source_text: 'guṇakārāḥ bhāgaharāḥ bhāgaharāḥ te bhavanti guṇakārāḥ |
+
+    yaḥ kṣepaḥ saḥ apacayaḥ apacayaḥ kṣepaḥ ca viparīte || 28 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.29
+  section: section.aryabhatiya.ganitapada
+  ordinal: 29
+  ref_label: '2.29'
+  devanagari: 'राश्यूनम् राश्यूनम् गच्छधनम् पिण्डितम् पृथक्त्वेन ।
+
+    व्येकेन पदेन हृतम् सर्वधनम् तत् भवति एवम् ॥'
+  source_text: 'rāśyūnam rāśyūnam gacchadhanam piṇḍitam pṛthaktvena |
+
+    vyekena padena hṛtam sarvadhanam tat bhavati evam || 29 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.30
+  section: section.aryabhatiya.ganitapada
+  ordinal: 30
+  ref_label: '2.30'
+  devanagari: 'गुलिकान्तरेण विभजेत् द्वयोः पुरुषयोः तु रूपकविशेषम् ।
+
+    लब्धम् गुलिकामूल्यम् यदि अर्थकृतम् भवति तुल्यम् ॥'
+  source_text: 'gulikāntareṇa vibhajet dvayoḥ puruṣayoḥ tu rūpakaviśeṣam |
+
+    labdham gulikāmūlyam yadi arthakṛtam bhavati tulyam || 30 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.31
+  section: section.aryabhatiya.ganitapada
+  ordinal: 31
+  ref_label: '2.31'
+  devanagari: 'भक्ते विलोमविवरे गतियोगेन अनुलोमविवरे द्वौ ।
+
+    गत्यन्तरेण लब्धौ द्वियोगकालौ अतीतैष्यौ ॥'
+  source_text: 'bhakte vilomavivare gatiyogena anulomavivare dvau |
+
+    gatyantareṇa labdhau dviyogakālau atītaiṣyau || 31 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.32
+  section: section.aryabhatiya.ganitapada
+  ordinal: 32
+  ref_label: '2.32'
+  devanagari: 'अधिकाग्रभागहारम् छिन्द्यात् ऊनाग्रभागहारेण ।
+
+    शेषपरस्परभक्तम् मतिगुणम् अग्रान्तरे क्षिप्तम् ॥'
+  source_text: 'adhikāgrabhāgahāram chindyāt ūnāgrabhāgahāreṇa |
+
+    śeṣaparasparabhaktam matiguṇam agrāntare kṣiptam || 32 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed
+- id: verse.aryabhatiya.2.33
+  section: section.aryabhatiya.ganitapada
+  ordinal: 33
+  ref_label: '2.33'
+  devanagari: 'अधौपरिगुणितम् अन्त्ययुक् ऊनाग्रच्छेदभाजिते शेषम् ।
+
+    अधिकाग्रच्छेदगुणम् द्विच्छेदाग्रम् अधिकाग्रयुतम् ॥'
+  source_text: 'adhaupariguṇitam antyayuk ūnāgracchedabhājite śeṣam |
+
+    adhikāgracchedaguṇam dvicchedāgram adhikāgrayutam || 33 ||'
+  source: source.gretil-aryabhatiya
+  review: unreviewed

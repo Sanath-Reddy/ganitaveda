@@ -1,0 +1,46 @@
+- id: verse.lilavati.45
+  section: section.lilavati.sunya-parikarma-astaka
+  ordinal: 38
+  ref_label: '45'
+  devanagari: 'योगे खम् क्षेप-समम् वर्ग-आदौ खम् ख-भाजितस् राशिस् ।
+
+    ख-हरस् स्यात् ख-गुणस् खम् ख-गुणस् चिन्त्यस् च शेष-विधौ ॥'
+  source_text: 'yoge #kham kṣepa-samam varga-ādau #kham #kha-bhājitas rāśis/
+
+    #kha-haras @syāt #kha-guṇas #kham #kha-guṇas cintyas ca śeṣa-vidhau// [āryā] Lil_45'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - āryā
+- id: verse.lilavati.46
+  section: section.lilavati.sunya-parikarma-astaka
+  ordinal: 39
+  ref_label: '46'
+  devanagari: 'शून्ये गुणके जाते खम् हारस् चेद् पुनर् तदा राशिस् ।
+
+    अविकृतस् एव ज्ञेयस् तथा एव खेन ऊनितस् च युतस् ॥'
+  source_text: '#śūnye guṇake jāte #kham hāras ced punar tadā rāśis/
+
+    avikṛtas eva jñeyas tathā eva #khena ūnitas ca yutas// [āryā] Lil_46'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - āryā
+- id: verse.lilavati.47
+  section: section.lilavati.sunya-parikarma-astaka
+  ordinal: 40
+  ref_label: '47'
+  devanagari: 'खम् पञ्च-युक् भवति किम् वद खस्य वर्गम् मूलम् घनम् घन-पदम् ख-गुणास् च पञ्च ।
+
+    खेन उद्धृतास् दश च कस् ख-गुणस् निज-अर्ध-युक्तस् त्रिभिस् च गुणितस् स्व-हतस् त्रिषष्टिस् ॥
+
+    न्यासस् । एतत् पञ्च-युतम् जातम् । खस्य वर्गस् । मूलम् । घनम् । घन-मूलम् ॥ न्यासस् । एते खेन गुणितास् जातास् ॥ न्यासस् । एते ख-भक्तास् ॥ अज्ञातस् राशिस् तस्य गुणस् । स्व-अर्धम् क्षेपस् । गुणस् । हरस् । दृश्यम् । ततस् वक्ष्यमाणेन विलोम-विधिना इष्ट-कर्मणा वा लब्धस् राशिस् ॥ अस्य गणितस्य ग्रह-गणिते'
+  source_text: '#kham %pañca-yuk @bhavati kim @vada khasya vargam mūlam ghanam ghana-padam #kha-guṇās ca %pañca/
+
+    #khena uddhṛtās %daśa ca kas %kha-guṇas nija-%ardha-yuktas %tribhis ca guṇitas sva-hatas %triṣaṣṭis// [vasantatilakā]
+
+    nyāsas 0/ etat %pañca-yutam jātam 5/ #khasya vargas 0/ mūlam 0/ ghanam 0/ ghana-mūlam 0// nyāsas 5/ ete #khena guṇitās jātās 0// nyāsas 10/ ete #kha-bhaktās 10_0// ajñātas rāśis tasya guṇas 0/ sva-%ardham kṣepas 1_2/ guṇas 3/ haras 0/ dṛśyam 63/ tatas vakṣyamāṇena viloma-vidhinā iṣṭa-karmaṇā vā labdhas rāśis 14// asya gaṇitasya graha-gaṇite Lil_47'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - vasantatilakā

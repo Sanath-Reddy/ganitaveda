@@ -1,0 +1,67 @@
+- id: verse.lilavati.227
+  section: section.lilavati.rasi-vyavahara
+  ordinal: 211
+  ref_label: '227'
+  devanagari: 'अनणुषु दशम-अंशस् अणुषु अथ एकादश-अंशस् परिधि-नवम-भागस् शूकि-धान्येषु वेधस् ।
+
+    भवति परिधि-षष्ठे वर्गिते वेध-निघ्ने घन-गणित-करास् स्युस् मागधास् तास् च खार्यस् ॥'
+  source_text: 'anaṇuṣu %daśama-aṃśas aṇuṣu atha %ekādaśa-aṃśas paridhi-%navama-bhāgas śūki-dhānyeṣu vedhas/ [śarma: śūka- < śūki-]
+
+    @bhavati paridhi-%ṣaṣṭhe vargite vedha-nighne ghana-gaṇita-karās @syus māgadhās tās ca khāryas// Lil_227'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - 'śarma: śūka- < śūki-'
+- id: verse.lilavati.228
+  section: section.lilavati.rasi-vyavahara
+  ordinal: 212
+  ref_label: '228'
+  devanagari: 'सम-भुवि किल राशिस् यस् स्थितस् स्थूल-धान्य-परिधि-परिमितिस् स्यात् हस्त-षष्टिस् यदीया ।
+
+    प्रवद गणक खार्यस् किम्-मितास् सन्ति तस्मिन् अथ पृथक् अणु-धान्यैस् शूक-धान्यैस् च शीघ्रम् ॥'
+  source_text: 'sama-bhuvi kila rāśis yas sthitas sthūla-dhānya-paridhi-parimitis @syāt hasta-%ṣaṣṭis yadīyā/ [śarma:-dhānyas < -dhānya-, vai < syāt]
+
+    @pravada gaṇaka khāryas kim-mitās @santi tasmin atha pṛthak aṇu-dhānyais śūka-dhānyais ca śīghram// [śarma: aṇu-dhānye śūki-dhānye ca] Lil_228'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - śarma:-dhānyas < -dhānya-, vai < syāt
+  - 'śarma: aṇu-dhānye śūki-dhānye ca'
+- id: verse.lilavati.229
+  section: section.lilavati.rasi-vyavahara
+  ordinal: 213
+  ref_label: '229'
+  devanagari: 'द्वि-वेद-स-त्रि-भाग-एक-निघ्नात् तु परिधेस् फलम् ।
+
+    भित्ति-अन्तर्-बाह्य-कोण-स्थ-राशेस् स्व-गुण-भाजितम् ॥'
+  source_text: '%dvi-#veda-sa-%tri-bhāga-%eka-nighnāt tu paridhes phalam/
+
+    bhitti-antar-bāhya-koṇa-stha-rāśes sva-guṇa-bhājitam// [śarma: -antar-koṇa-bāhya-stha-] Lil_229'
+  source: source.gretil-lilavati
+  review: unreviewed
+  notes:
+  - 'śarma: -antar-koṇa-bāhya-stha-'
+- id: verse.lilavati.230
+  section: section.lilavati.rasi-vyavahara
+  ordinal: 214
+  ref_label: '230'
+  devanagari: 'परिधिस् भित्ति-लग्नस्य राशेस् त्रिंशत्-करस् किल ।
+
+    अन्तर्-कोण-स्थितस्य अपि तिथि-तुल्य-करस् सखे ॥'
+  source_text: 'paridhis bhitti-lagnasya rāśes %triṃśat-karas kila/
+
+    antar-koṇa-sthitasya api #tithi-tulya-karas sakhe// Lil_230'
+  source: source.gretil-lilavati
+  review: unreviewed
+- id: verse.lilavati.231
+  section: section.lilavati.rasi-vyavahara
+  ordinal: 215
+  ref_label: '231'
+  devanagari: 'बहिर्-कोण-स्थितस्य अपि पञ्च-घ्न-नव-संमितस् ।
+
+    तेषाम् आचक्ष्व मे क्षिप्रम् घन-हस्तान् पृथक् पृथक् ॥'
+  source_text: 'bahir-koṇa-sthitasya api %pañca-ghna-%nava-saṃmitas/
+
+    teṣām @ācakṣva me kṣipram ghana-hastān pṛthak pṛthak// Lil_231'
+  source: source.gretil-lilavati
+  review: unreviewed

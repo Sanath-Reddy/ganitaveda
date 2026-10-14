@@ -1,0 +1,36 @@
+areas:
+  - id: area.arithmetic
+    ordinal: 1
+    name: {en: Arithmetic, kn: ಅಂಕಗಣಿತ}
+    sanskrit_iast: pāṭīgaṇita
+    blurb: {en: "Numbers, fractions, proportion and the clever tricks merchants used every day.", kn: "ಸಂಖ್ಯೆಗಳು, ಭಿನ್ನರಾಶಿಗಳು, ಅನುಪಾತ ಮತ್ತು ವ್ಯಾಪಾರಿಗಳು ದಿನವೂ ಬಳಸುತ್ತಿದ್ದ ಜಾಣ ವಿಧಾನಗಳು."}
+  - id: area.algebra
+    ordinal: 2
+    name: {en: Algebra, kn: ಬೀಜಗಣಿತ}
+    sanskrit_iast: bījagaṇita
+    blurb: {en: "Unknown quantities, negative numbers and the rules for working with them.", kn: "ಅಜ್ಞಾತ ಪ್ರಮಾಣಗಳು, ಋಣ ಸಂಖ್ಯೆಗಳು ಮತ್ತು ಅವುಗಳೊಂದಿಗೆ ಕೆಲಸ ಮಾಡುವ ನಿಯಮಗಳು."}
+  - id: area.geometry
+    ordinal: 3
+    name: {en: Geometry, kn: ರೇಖಾಗಣಿತ}
+    sanskrit_iast: kṣetragaṇita
+    blurb: {en: "Triangles, quadrilaterals and circles: sides, areas and diagonals.", kn: "ತ್ರಿಭುಜಗಳು, ಚತುರ್ಭುಜಗಳು ಮತ್ತು ವೃತ್ತಗಳು: ಬಾಹುಗಳು, ವಿಸ್ತೀರ್ಣ ಮತ್ತು ಕರ್ಣಗಳು."}
+  - id: area.trigonometry
+    ordinal: 4
+    name: {en: Trigonometry, kn: ತ್ರಿಕೋಣಮಿತಿ}
+    sanskrit_iast: jyā-gaṇita
+    blurb: {en: "Chords and half-chords in a circle, the ancestors of sine and cosine.", kn: "ವೃತ್ತದಲ್ಲಿನ ಜ್ಯಾ ಮತ್ತು ಅರ್ಧಜ್ಯಾಗಳು, ಸೈನ್ ಮತ್ತು ಕೊಸೈನ್‌ಗಳ ಮೂಲ."}
+  - id: area.number-theory
+    ordinal: 5
+    name: {en: Number theory, kn: ಸಂಖ್ಯಾ ಸಿದ್ಧಾಂತ}
+    sanskrit_iast: kuṭṭaka
+    blurb: {en: "Whole-number answers to equations, found by repeated division.", kn: "ಪದೇಪದೇ ಭಾಗಾಕಾರದಿಂದ ಸಮೀಕರಣಗಳಿಗೆ ಪೂರ್ಣಾಂಕ ಉತ್ತರಗಳು."}
+  - id: area.combinatorics
+    ordinal: 6
+    name: {en: Combinatorics, kn: ಸಂಯೋಜನಶಾಸ್ತ್ರ}
+    sanskrit_iast: aṅka-pāśa
+    blurb: {en: "Counting arrangements: digits, metres in poetry, the forms of a god.", kn: "ಜೋಡಣೆಗಳ ಎಣಿಕೆ: ಅಂಕಿಗಳು, ಕಾವ್ಯದ ಛಂದಸ್ಸು, ದೇವರ ರೂಪಗಳು."}
+  - id: area.series
+    ordinal: 7
+    name: {en: Series, kn: ಶ್ರೇಢಿಗಳು}
+    sanskrit_iast: śreḍhī
+    blurb: {en: "Progressions, sums of powers and the infinite series of the Kerala school.", kn: "ಶ್ರೇಢಿಗಳು, ಘಾತಗಳ ಮೊತ್ತಗಳು ಮತ್ತು ಕೇರಳ ಪರಂಪರೆಯ ಅನಂತ ಶ್ರೇಢಿಗಳು."}

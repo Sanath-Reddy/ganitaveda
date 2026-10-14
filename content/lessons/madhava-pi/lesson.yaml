@@ -1,0 +1,52 @@
+# No verse card: the series is attributed to Mādhava in later Kerala texts,
+# and no verse of his own stating it is in the version 1 texts (plan §3).
+id: lesson.madhava-pi
+version: 1
+title: {en: "Mādhava's series for π", kn: "ಮಾಧವನ π ಶ್ರೇಢಿ"}
+subtitle: {en: "Adding forever, correcting at the end", kn: "ಕೊನೆಯಿಲ್ಲದೆ ಕೂಡಿಸುವುದು, ಕೊನೆಯಲ್ಲಿ ತಿದ್ದುವುದು"}
+area: area.series
+concepts: [concept.madhava-series, concept.circle-circumference]
+curriculum: [ncert.11.math.sequences-series]
+minutes: 8
+author: A
+review: {maths: draft, sanskrit: unreviewed, kannada: draft}
+claims:
+  attribution: [{source: source.plofker-2009, note: "ch. 7"}, {source: source.sarma-1972}]
+cards:
+  - id: scene
+    type: scene
+    art: art.circle-series
+    text:
+      en: "Āryabhaṭa called 3.1416 'approximate'. Nine hundred years later in Kerala, Mādhava is credited with a way to get as close as you like: start with 4, take away 4/3, add 4/5, take away 4/7, and keep going for ever."
+      kn: "ಆರ್ಯಭಟ 3.1416 ಅನ್ನು 'ಸುಮಾರು' ಎಂದ. ಒಂಬೈನೂರು ವರ್ಷಗಳ ನಂತರ ಕೇರಳದಲ್ಲಿ, ಬೇಕಾದಷ್ಟು ಹತ್ತಿರ ಹೋಗುವ ವಿಧಾನವನ್ನು ಮಾಧವನಿಗೆ ಆರೋಪಿಸಲಾಗುತ್ತದೆ: 4ರಿಂದ ಆರಂಭಿಸಿ, 4/3 ಕಳೆದು, 4/5 ಕೂಡಿಸಿ, 4/7 ಕಳೆದು, ಹೀಗೇ ಕೊನೆಯಿಲ್ಲದೆ ಮುಂದುವರಿಸಿ."
+  - id: play
+    type: explore
+    widget: series_plot
+    params: {max_terms: 50}
+    prompt: {en: "Add terms one at a time. Then switch on the end correction and compare.", kn: "ಒಂದೊಂದೇ ಪದ ಸೇರಿಸಿ. ನಂತರ ಕೊನೆಯ ತಿದ್ದುಪಡಿಯನ್ನು ಆನ್ ಮಾಡಿ ಹೋಲಿಸಿ."}
+    goal: {en: "How many terms do you need for 3.14 without the correction? With it?", kn: "ತಿದ್ದುಪಡಿ ಇಲ್ಲದೆ 3.14 ಸಿಗಲು ಎಷ್ಟು ಪದಗಳು ಬೇಕು? ತಿದ್ದುಪಡಿಯೊಂದಿಗೆ?"}
+  - id: method
+    type: method
+    algorithm: madhava_series
+    inputs: {terms: 5}
+    intro: {en: "Add the first few terms exactly, as fractions. Then add the correction n/(4n² + 1) with the next sign, where n is the number of terms.", kn: "ಮೊದಲ ಕೆಲವು ಪದಗಳನ್ನು ಭಿನ್ನರಾಶಿಗಳಾಗಿ ನಿಖರವಾಗಿ ಕೂಡಿಸಿ. ನಂತರ ಮುಂದಿನ ಚಿಹ್ನೆಯೊಂದಿಗೆ n/(4n² + 1) ತಿದ್ದುಪಡಿ ಸೇರಿಸಿ; n ಪದಗಳ ಸಂಖ್ಯೆ."}
+    modern: {en: "π/4 = 1 − 1/3 + 1/5 − 1/7 + …  (also called the Leibniz or Gregory series).", kn: "π/4 = 1 − 1/3 + 1/5 − 1/7 + …  (ಲೈಬ್ನಿಜ್ ಅಥವಾ ಗ್ರೆಗರಿ ಶ್ರೇಢಿ ಎಂದೂ ಕರೆಯುತ್ತಾರೆ)."}
+  - id: check
+    type: quiz
+    questions:
+      - prompt: {en: "Why add a correction at the end?", kn: "ಕೊನೆಯಲ್ಲಿ ತಿದ್ದುಪಡಿ ಏಕೆ ಸೇರಿಸಬೇಕು?"}
+        choices:
+          - {en: "The series creeps towards π very slowly", kn: "ಶ್ರೇಢಿ π ಕಡೆಗೆ ತುಂಬಾ ನಿಧಾನವಾಗಿ ಸಾಗುತ್ತದೆ"}
+          - {en: "The series never gets near π", kn: "ಶ್ರೇಢಿ π ಹತ್ತಿರಕ್ಕೆ ಬರುವುದೇ ಇಲ್ಲ"}
+          - {en: "To make the answer a whole number", kn: "ಉತ್ತರ ಪೂರ್ಣ ಸಂಖ್ಯೆಯಾಗಲು"}
+        answer: 0
+        why: {en: "After 50 terms the plain sum is still off in the second decimal place. The correction guesses the rest of the tail.", kn: "50 ಪದಗಳ ನಂತರವೂ ಸರಳ ಮೊತ್ತ ಎರಡನೇ ದಶಮಾಂಶ ಸ್ಥಾನದಲ್ಲಿ ತಪ್ಪಾಗಿರುತ್ತದೆ. ಉಳಿದ ಬಾಲವನ್ನು ತಿದ್ದುಪಡಿ ಅಂದಾಜಿಸುತ್ತದೆ."}
+  - id: practice
+    type: practice
+    generator: series.madhava.v1
+    count: 3
+    difficulty: [1, 2, 3]
+  - id: summary
+    type: summary
+    key_idea: {en: "π = 4 − 4/3 + 4/5 − 4/7 + … It converges slowly; the Kerala end correction makes a few terms go a long way.", kn: "π = 4 − 4/3 + 4/5 − 4/7 + … ಇದು ನಿಧಾನವಾಗಿ ಸಮೀಪಿಸುತ್ತದೆ; ಕೇರಳದ ಕೊನೆಯ ತಿದ್ದುಪಡಿಯಿಂದ ಕೆಲವೇ ಪದಗಳು ಬಹಳ ದೂರ ಒಯ್ಯುತ್ತವೆ."}
+    textbook: {en: "Class 11 · Sequences and Series.", kn: "11ನೇ ತರಗತಿ · ಅನುಕ್ರಮಗಳು ಮತ್ತು ಶ್ರೇಢಿಗಳು."}

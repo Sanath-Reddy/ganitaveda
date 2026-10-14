@@ -1,0 +1,14 @@
+repos:
+  - repo: local
+    hooks:
+      - id: content-validate
+        name: validate content
+        entry: tools/.venv/bin/python -m tools.pack validate
+        language: system
+        pass_filenames: false
+        files: ^(content|tools)/
+      - id: dart-format
+        name: dart format
+        entry: dart format -l 120
+        language: system
+        types: [dart]

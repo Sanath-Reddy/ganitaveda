@@ -1,0 +1,453 @@
+{
+  "@@locale": "en",
+  "appTitle": "GanitaVeda",
+  "tabSchool": "School",
+  "tabExplore": "Explore",
+  "tabProgress": "Progress",
+  "onboardingLanguageTitle": "Choose your language",
+  "onboardingClassTitle": "Which class are you in?",
+  "onboardingClassNote": "This only sets which chapters School shows. You can change it any time.",
+  "notInSchool": "Not in school",
+  "classN": "Class {n}",
+  "@classN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "onboardingScriptTitle": "How should verses be written?",
+  "onboardingScriptNote": "Every verse can be shown in any of these. Change it later on any verse.",
+  "scriptDevanagari": "Devanagari",
+  "scriptKannada": "Kannada script",
+  "scriptIast": "IAST (Roman letters)",
+  "next": "Next",
+  "back": "Back",
+  "start": "Start",
+  "noSignUp": "No sign-up. Nothing you do leaves this phone.",
+  "continueLesson": "Continue where you left off",
+  "reviseToday": "Revise today",
+  "reviseCount": "{count, plural, =1{1 problem is due} other{{count} problems are due}}",
+  "@reviseCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "nothingToRevise": "Nothing to revise today.",
+  "chaptersForClass": "Your chapters",
+  "chapterN": "Chapter {n}",
+  "@chapterN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "recommendedFromExplore": "Recommended from Explore",
+  "notInSchoolNote": "Pick any lesson below, or browse Explore.",
+  "allLessons": "All lessons",
+  "noChapters": "No lessons for this class yet. They arrive in content updates.",
+  "lessons": "Lessons",
+  "watchShelf": "Watch",
+  "minutes": "{n} min",
+  "@minutes": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "done": "Done",
+  "searchHint": "Search in any script: kuṭṭaka, ಕುಟ್ಟಕ, Pythagoras",
+  "areas": "Areas",
+  "texts": "Texts",
+  "mathematicians": "Mathematicians",
+  "timeline": "Timeline",
+  "lineage": "Teachers and students",
+  "noResults": "Nothing found. Try another spelling or script.",
+  "resultsConcepts": "Concepts",
+  "resultsLessons": "Lessons",
+  "resultsVerses": "Verses",
+  "resultsPeople": "People",
+  "resultsTerms": "Sanskrit terms",
+  "resultsOther": "More",
+  "classicalName": "Classical name",
+  "modernName": "Modern name",
+  "versesInOrder": "Where it appears (in date order)",
+  "relatedConcepts": "Related ideas",
+  "people": "People",
+  "sources": "Sources",
+  "roleRule": "rule",
+  "roleExample": "example",
+  "roleMention": "mention",
+  "works": "Works",
+  "teachers": "Teachers",
+  "students": "Students",
+  "place": "Place of work",
+  "noPortraitNote": "No portrait of this mathematician survives from their own time, so we show their name as a seal instead of an invented face.",
+  "readingRoom": "Reading room",
+  "versesCount": "{n} verses",
+  "@versesCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "translation": "Translation",
+  "compare": "Compare translations",
+  "aboutTranslation": "About this translation",
+  "noTranslationYet": "No translation of this verse yet. More arrive in content updates.",
+  "fallbackTranslation": "Your first choice of translation doesn't cover this verse, so the next one is shown.",
+  "englishLabel": "English",
+  "kannadaTranslationsComing": "Verse translations are in English until Kannada translations exist. Everything else is in Kannada.",
+  "ocrDraft": "Not yet proofread against the printed page",
+  "verseUnreviewed": "Sanskrit text awaiting review",
+  "sourceLine": "{work} {ref} · {licence}",
+  "@sourceLine": {
+    "placeholders": {
+      "work": {
+        "type": "String"
+      },
+      "ref": {
+        "type": "String"
+      },
+      "licence": {
+        "type": "String"
+      }
+    }
+  },
+  "pageN": "page {page}",
+  "@pageN": {
+    "placeholders": {
+      "page": {
+        "type": "String"
+      }
+    }
+  },
+  "openConcept": "Open the concept page",
+  "listen": "Listen",
+  "bookmark": "Bookmark",
+  "removeBookmark": "Remove bookmark",
+  "updateAppToSee": "Update the app to see this part.",
+  "cardOf": "Card {i} of {n}",
+  "@cardOf": {
+    "placeholders": {
+      "i": {
+        "type": "int"
+      },
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "closeLesson": "Close lesson",
+  "nextStep": "Next step",
+  "showAllSteps": "Show all steps",
+  "classicalMethod": "The classical method",
+  "modernWorking": "The modern working",
+  "problemN": "Problem {i} of {n}",
+  "@problemN": {
+    "placeholders": {
+      "i": {
+        "type": "int"
+      },
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "yourAnswer": "Your answer",
+  "check": "Check",
+  "hint": "Hint",
+  "anotherHint": "Another hint",
+  "correct": "Correct!",
+  "correctApprox": "Correct. The exact answer is {exact}.",
+  "@correctApprox": {
+    "placeholders": {
+      "exact": {
+        "type": "String"
+      }
+    }
+  },
+  "notQuite": "Not quite. Try again, or take a hint.",
+  "unreadable": "Type a number, a fraction like 7/2 or a mixed number like 3 1/2.",
+  "nextProblem": "Next problem",
+  "practiceDone": "Practice done: {right} of {n} right first time.",
+  "@practiceDone": {
+    "placeholders": {
+      "right": {
+        "type": "int"
+      },
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "keyIdea": "The key idea",
+  "inYourTextbook": "In your textbook",
+  "comesBackOn": "This comes back for review on {date}.",
+  "@comesBackOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "finishLesson": "Finish lesson",
+  "nextLesson": "Next lesson",
+  "watchOptional": "Optional · opens YouTube at the right minute",
+  "openVideo": "Open video",
+  "videoUnavailable": "This video is not available in this version of the content.",
+  "kolamTitle": "Your kolam",
+  "kolamCaption": "{count, plural, =0{Finish a lesson to draw your first loop.} =1{1 lesson finished, 1 loop drawn.} other{{count} lessons finished, {count} loops drawn.}}",
+  "@kolamCaption": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reviewQueue": "Review queue",
+  "dueToday": "Due today",
+  "dueOn": "Due {date}",
+  "@dueOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "startReview": "Start review",
+  "reviewDone": "Review done. See you next time.",
+  "bookmarks": "Bookmarks",
+  "noBookmarks": "Bookmark verses and concepts to find them here.",
+  "settings": "Settings",
+  "language": "Language",
+  "verseScript": "Verse script",
+  "translationOrder": "Translation order",
+  "translationOrderNote": "Drag to reorder. Verses show the first translation in this list that covers them.",
+  "coverage": "{covered} of {total} verses so far",
+  "@coverage": {
+    "placeholders": {
+      "covered": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "moveUp": "Move up",
+  "moveDown": "Move down",
+  "textSize": "Text size",
+  "theme": "Theme",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "reduceMotion": "Reduce motion",
+  "audioAutoplay": "Play recitation automatically",
+  "wifiOnly": "Download content on Wi-Fi only",
+  "contentVersion": "Content version",
+  "betaContentOn": "Beta content is on.",
+  "betaContentOff": "Beta content is off.",
+  "checkForUpdates": "Check for content updates",
+  "updateReady": "New content is ready. It will be used the next time you open the app.",
+  "upToDate": "Content is up to date.",
+  "updateFailed": "Couldn't check for updates. Your current content still works.",
+  "updatesNotConfigured": "Content updates are not set up in this build.",
+  "updateTheApp": "Update the app to get the newest content.",
+  "sourcesAndLicences": "Sources and licences",
+  "reportProblem": "Report a problem",
+  "privacyPolicy": "Privacy policy",
+  "privacyText": "GanitaVeda collects no personal data. There are no accounts, ads, analytics or crash-reporting libraries. Your progress, settings and bookmarks stay in a database on this phone and never leave it. The app connects to the internet only to download signed content updates and to open videos and links you choose. Report a problem opens your own email app with the app and content versions filled in, and nothing else.",
+  "licenceNote": "The Sanskrit texts are shared under CC BY-NC-SA, so GanitaVeda stays free, with no ads or payments.",
+  "licences": "Licences",
+  "fontsLicence": "Fonts: Anek and Tiro, SIL Open Font License 1.1.",
+  "openSourceLicences": "Open-source software licences",
+  "debugTools": "Developer tools",
+  "loading": "Loading…",
+  "somethingWrong": "Something went wrong opening this. Please report it.",
+  "notFound": "This item is not in the current content.",
+  "decrease": "Decrease",
+  "increase": "Increase",
+  "reset": "Reset",
+  "swarmSize": "Swarm size: {n}",
+  "@swarmSize": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "swarmGroups": "{a} + {b} + {c} fly off; {left} left",
+  "@swarmGroups": {
+    "placeholders": {
+      "a": {
+        "type": "String"
+      },
+      "b": {
+        "type": "String"
+      },
+      "c": {
+        "type": "String"
+      },
+      "left": {
+        "type": "String"
+      }
+    }
+  },
+  "swarmUneven": "{n} does not split into these fractions evenly.",
+  "@swarmUneven": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "swarmFound": "Exactly {r} left. You found it!",
+  "@swarmFound": {
+    "placeholders": {
+      "r": {
+        "type": "String"
+      }
+    }
+  },
+  "fortune": "Fortune",
+  "debt": "Debt",
+  "operation": "Operation",
+  "result": "Result: {value}",
+  "@result": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "side": "Side (bhuja)",
+  "upright": "Upright (koṭi)",
+  "hypotenuse": "Hypotenuse (karṇa)",
+  "wholeNumberTriangle": "All three sides are whole numbers.",
+  "measure": "Measure (pramāṇa)",
+  "fruit": "Fruit (phala)",
+  "desire": "Desire (icchā)",
+  "fruitOfDesire": "Fruit of the desire",
+  "firstTerm": "First term",
+  "increaseBy": "Increase",
+  "sumIs": "Sum {sum}; each pair adds to {pair}",
+  "@sumIs": {
+    "placeholders": {
+      "sum": {
+        "type": "String"
+      },
+      "pair": {
+        "type": "String"
+      }
+    }
+  },
+  "arcStep": "Arc {k} × 225′ = {deg}°",
+  "@arcStep": {
+    "placeholders": {
+      "k": {
+        "type": "int"
+      },
+      "deg": {
+        "type": "String"
+      }
+    }
+  },
+  "halfChordValues": "Rule {rule} · modern {modern}",
+  "@halfChordValues": {
+    "placeholders": {
+      "rule": {
+        "type": "String"
+      },
+      "modern": {
+        "type": "String"
+      }
+    }
+  },
+  "termsShown": "{n} terms",
+  "@termsShown": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "endCorrection": "End correction",
+  "piEstimate": "π ≈ {value}",
+  "@piEstimate": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "divideStep": "Divide",
+  "lastRemainder": "The last non-zero remainder is {g}: it divides both numbers.",
+  "@lastRemainder": {
+    "placeholders": {
+      "g": {
+        "type": "int"
+      }
+    }
+  },
+  "corner": "Corner {n}",
+  "@corner": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "trueArea": "True area {value}",
+  "@trueArea": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "brahmaguptaArea": "Brahmagupta's rule {value}",
+  "@brahmaguptaArea": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "grossArea": "Gross rule {value}",
+  "@grossArea": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "numbersFound": "{found} of {total} numbers found",
+  "@numbersFound": {
+    "placeholders": {
+      "found": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "clear": "Clear",
+  "reportSubject": "GanitaVeda problem report",
+  "termCount": "Number of terms",
+  "verseTerms": "Sanskrit terms",
+  "lessonCount": "{n, plural, =1{1 lesson} other{{n} lessons}}",
+  "@lessonCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  }
+}

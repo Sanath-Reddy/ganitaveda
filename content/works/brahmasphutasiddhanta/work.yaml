@@ -1,0 +1,31 @@
+id: work.brahmasphutasiddhanta
+title:
+  en: Brāhmasphuṭasiddhānta
+  kn: ಬ್ರಾಹ್ಮಸ್ಫುಟಸಿದ್ಧಾಂತ
+title_iast: Brāhmasphuṭasiddhānta
+author: person.brahmagupta
+year_from: 628
+year_to: 628
+source: source.gretil-bss
+licence: licence.cc-by-nc-sa-4
+text_form: analytic
+about:
+  en: Brahmagupta's treatise on astronomy, completed in 628 CE. Chapter 12 covers arithmetic and geometry; chapter 18 covers algebra, including rules for zero and negative numbers and the pulveriser. Version 1 includes chapters 12 and 18.
+  kn: ಕ್ರಿ.ಶ. 628ರಲ್ಲಿ ಪೂರ್ಣಗೊಂಡ ಬ್ರಹ್ಮಗುಪ್ತನ ಖಗೋಳಶಾಸ್ತ್ರ ಗ್ರಂಥ. 12ನೇ ಅಧ್ಯಾಯ ಅಂಕಗಣಿತ ಮತ್ತು ರೇಖಾಗಣಿತವನ್ನು, 18ನೇ ಅಧ್ಯಾಯ ಬೀಜಗಣಿತವನ್ನು (ಸೊನ್ನೆ ಮತ್ತು ಋಣ ಸಂಖ್ಯೆಗಳ ನಿಯಮಗಳು, ಕುಟ್ಟಕ ಸಹಿತ) ಒಳಗೊಂಡಿದೆ. ಮೊದಲ ಆವೃತ್ತಿಯಲ್ಲಿ 12 ಮತ್ತು 18ನೇ ಅಧ್ಯಾಯಗಳಿವೆ.
+sections:
+- id: section.bss.12
+  ordinal: 12
+  label:
+    en: Chapter 12 · Gaṇita (arithmetic and geometry)
+    kn: ಅಧ್ಯಾಯ 12 · ಗಣಿತ (ಅಂಕಗಣಿತ ಮತ್ತು ರೇಖಾಗಣಿತ)
+- id: section.bss.18
+  ordinal: 18
+  label:
+    en: Chapter 18 · Kuṭṭaka (algebra)
+    kn: ಅಧ್ಯಾಯ 18 · ಕುಟ್ಟಕ (ಬೀಜಗಣಿತ)
+claims:
+  dates:
+  - source: source.plofker-2009
+    note: 628 CE, stated by Brahmagupta in BSS 24; page to pin
+  author:
+  - source: source.plofker-2009

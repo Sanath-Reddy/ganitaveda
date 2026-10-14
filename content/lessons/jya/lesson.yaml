@@ -1,0 +1,47 @@
+id: lesson.jya
+version: 1
+title: {en: "Jyā", kn: "ಜ್ಯಾ"}
+subtitle: {en: "Āryabhaṭa's half-chords", kn: "ಆರ್ಯಭಟನ ಅರ್ಧಜ್ಯಾಗಳು"}
+area: area.trigonometry
+concepts: [concept.jya]
+curriculum: [ncert.10.math.trigonometry]
+minutes: 8
+author: A
+review: {maths: draft, sanskrit: unreviewed, kannada: draft}
+claims:
+  verse: [{source: source.clark-1930, note: "Gaṇitapāda 9, 11, 12"}]
+  history: [{source: source.plofker-2009}]
+cards:
+  - id: scene
+    type: scene
+    art: art.bow
+    text:
+      en: "Draw a bow: the curved wood is an arc of a circle, and the string is a chord. Astronomers needed the length of half that string for every arc, in a circle of radius 3438. Āryabhaṭa made a table of 24 of them."
+      kn: "ಬಿಲ್ಲನ್ನು ಬಿಡಿಸಿ: ಬಾಗಿದ ಮರ ವೃತ್ತದ ಒಂದು ಚಾಪ, ಹಗ್ಗ ಒಂದು ಜ್ಯಾ. ಖಗೋಳಶಾಸ್ತ್ರಜ್ಞರಿಗೆ 3438 ತ್ರಿಜ್ಯದ ವೃತ್ತದಲ್ಲಿ ಪ್ರತಿಯೊಂದು ಚಾಪಕ್ಕೂ ಆ ಹಗ್ಗದ ಅರ್ಧದ ಉದ್ದ ಬೇಕಿತ್ತು. ಆರ್ಯಭಟ ಅಂತಹ 24ರ ಕೋಷ್ಟಕ ಮಾಡಿದ."
+  - id: play
+    type: explore
+    widget: chord
+    params: {radius: 3438, steps: 24}
+    prompt: {en: "Step the arc around a quarter circle. Watch the half-chord grow, and the steps between them shrink.", kn: "ಕಾಲು ವೃತ್ತದಲ್ಲಿ ಚಾಪವನ್ನು ಹೆಜ್ಜೆಹೆಜ್ಜೆಯಾಗಿ ಸರಿಸಿ. ಅರ್ಧಜ್ಯಾ ಬೆಳೆಯುವುದನ್ನೂ, ಅವುಗಳ ನಡುವಿನ ಹೆಜ್ಜೆಗಳು ಕುಗ್ಗುವುದನ್ನೂ ನೋಡಿ."}
+    goal: {en: "Where is the half-chord exactly half the radius?", kn: "ಅರ್ಧಜ್ಯಾ ಸರಿಯಾಗಿ ತ್ರಿಜ್ಯದ ಅರ್ಧ ಎಲ್ಲಿ ಆಗುತ್ತದೆ?"}
+  - id: verse
+    type: verse
+    verse: verse.aryabhatiya.2.12
+    highlight: [term.jya]
+    intro: {en: "Āryabhaṭa's rule for the table: each step is the first step, less a share of all the half-chords so far.", kn: "ಕೋಷ್ಟಕಕ್ಕೆ ಆರ್ಯಭಟನ ನಿಯಮ: ಪ್ರತಿ ಹೆಜ್ಜೆ ಮೊದಲ ಹೆಜ್ಜೆಗಿಂತ, ಇಲ್ಲಿಯವರೆಗಿನ ಎಲ್ಲ ಅರ್ಧಜ್ಯಾಗಳ ಒಂದು ಪಾಲು ಕಡಿಮೆ."}
+  - id: method
+    type: method
+    algorithm: jya_table
+    inputs: {radius: 3438, steps: 24}
+    intro: {en: "Start with 225. Each new difference is 225 minus the sum of the half-chords so far divided by 225.", kn: "225ರಿಂದ ಆರಂಭಿಸಿ. ಪ್ರತಿ ಹೊಸ ವ್ಯತ್ಯಾಸ = 225 − (ಇಲ್ಲಿಯವರೆಗಿನ ಅರ್ಧಜ್ಯಾಗಳ ಮೊತ್ತ ÷ 225)."}
+    modern: {en: "The half-chord of an arc θ in a circle of radius R is R·sin θ. With R = 3438, R·sin 30° = 1719.", kn: "R ತ್ರಿಜ್ಯದ ವೃತ್ತದಲ್ಲಿ θ ಚಾಪದ ಅರ್ಧಜ್ಯಾ R·sin θ. R = 3438 ಆದರೆ R·sin 30° = 1719."}
+  - id: practice
+    type: practice
+    generator: trig.half_chord.v1
+    count: 4
+    difficulty: [1, 2, 2, 3]
+  - id: summary
+    type: summary
+    key_idea: {en: "Āryabhaṭa's half-chord is R·sin θ. The word jyā became Arabic jība and Latin sinus: our 'sine'.", kn: "ಆರ್ಯಭಟನ ಅರ್ಧಜ್ಯಾ R·sin θ. 'ಜ್ಯಾ' ಪದ ಅರಬ್ಬಿಯಲ್ಲಿ 'ಜೀಬಾ', ಲ್ಯಾಟಿನ್‌ನಲ್ಲಿ 'ಸೈನಸ್' ಆಗಿ ನಮ್ಮ 'ಸೈನ್' ಆಯಿತು."}
+    textbook: {en: "Class 10 · Introduction to Trigonometry.", kn: "10ನೇ ತರಗತಿ · ತ್ರಿಕೋಣಮಿತಿಯ ಪರಿಚಯ."}
+    next: lesson.madhava-pi
