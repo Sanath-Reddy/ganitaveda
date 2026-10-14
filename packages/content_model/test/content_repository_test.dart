@@ -46,7 +46,11 @@ void main() {
 
   test('translation coverage is reported honestly', () {
     final t = {for (final x in repo.translations()) x.id: x};
-    expect(t['translation.clark-1930']!.covered, t['translation.clark-1930']!.total, reason: 'all 33 Gaṇitapāda verses');
+    expect(
+      t['translation.clark-1930']!.covered,
+      t['translation.clark-1930']!.total,
+      reason: 'all 33 Gaṇitapāda verses',
+    );
     expect(t['translation.taylor-1816']!.covered, greaterThan(0));
     expect(t['translation.taylor-1816']!.covered, lessThan(t['translation.taylor-1816']!.total));
     expect(t['translation.colebrooke-1817']!.covered, greaterThan(0));
