@@ -36,6 +36,22 @@ emulator, real CDN).
   inside the 30 MB budget.
 - Release builds are signed with the debug key until `android/key.properties` exists.
 
+## Emulator run (this machine, KVM, headless)
+
+Android 15 (API 35) x86_64 **16 KB page size** image, software GPU. Not a phone, but a real Android runtime:
+
+| Check | Result |
+|---|---|
+| Release APK installs and runs on a 16 KB-page system | yes, no crash, edge-to-edge layout correct |
+| Cold start (`am start -W`, 5 runs) | 1.17, 0.96, 0.98, 0.96, 1.01 s; budget 2.0 s |
+| Integration test: first launch, full lesson, kill-and-resume, review queue | passes |
+| Integration test: every lesson's cards, no exceptions | passes |
+| Frame timings | **not meaningful**: measured in a debug build on a software-rendered emulator (p95 build 43 ms, 65% of frames over 16.7 ms). The 60 fps budget needs a profile build on the reference phone |
+
+The Android 16.1 (API 36.1) 16 KB image crash-loops surfaceflinger in headless mode here
+(`mapper.ranchu: Assertion failed: !hasReadColorBufferDma`), an emulator/image bug unrelated to the app,
+so the API 35 image was used. Run the same test with `flutter test integration_test -d <device>`.
+
 ## Not done, and why
 
 | Item | Needs |
@@ -49,7 +65,7 @@ emulator, real CDN).
 | Verse recitation audio | Reciter (the app shows a play button once files are bundled) |
 | Final illustrations (code-drawn placeholders now, ADR 4) | Designer |
 | Release signing key, CDN host, application ID, Play account | Team decisions (plan §14) |
-| Performance on the reference phone, TalkBack walkthrough, usability rounds | Devices and students |
+| Frame timings in a profile build, memory and battery on the reference phone, TalkBack walkthrough, usability rounds | Real device and students |
 | Review of the 40 concept pages (all have sources; Kannada is draft) | Maths teacher, Kannada reviewer |
 
 ## Tools added after the first pass

@@ -66,3 +66,16 @@ release builds fall back to the debug key so `flutter run --release` works local
 | design_system | `cd packages/design_system && flutter test` |
 | App (unit, widget, flows, goldens) | `cd apps/mobile && flutter test` |
 | Regenerate goldens after an intended visual change | `flutter test test/goldens_test.dart --update-goldens` |
+
+## Running on an emulator
+
+```bash
+sdkmanager "emulator" "system-images;android-35;google_apis_ps16k;x86_64"
+avdmanager create avd -n gv35 -k "system-images;android-35;google_apis_ps16k;x86_64" -d pixel_6
+emulator -avd gv35 -no-window -no-audio -gpu swiftshader_indirect -memory 3072 &
+cd apps/mobile && flutter test integration_test/app_test.dart -d emulator-5554
+```
+
+The 16 KB image is the one that matters for plan §6.12. Close other heavy programs and stop Gradle
+daemons first; with under about 4 GB free the emulator's system server dies. The API 36.1 image
+crash-loops surfaceflinger in headless mode; use API 35.
